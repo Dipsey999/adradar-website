@@ -1,0 +1,206 @@
+import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
+
+interface NavAgent {
+  name: string;
+  image: string;
+  avatarBg: string;
+  accentColor: string;
+  route: string;
+}
+
+@Component({
+  selector: 'app-navbar',
+  standalone: true,
+  imports: [RouterLink],
+  template: `
+    <header class="sticky top-0 z-50 bg-white border-b border-border">
+      <div class="max-w-[1480px] mx-auto px-6 flex items-center justify-between h-[70px]">
+        <!-- Logo -->
+        <a routerLink="/" class="flex items-center">
+          <img
+            src="/logo/adradar-logo.svg"
+            alt="AdRadar"
+            width="140"
+            height="34"
+            class="h-[34px] w-auto"
+          />
+        </a>
+
+        <!-- Nav Links -->
+        <nav class="hidden md:flex items-center gap-1">
+          <a
+            routerLink="/"
+            fragment="how-it-works"
+            class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors"
+          >
+            How it works
+          </a>
+
+          <!-- Copilots with dropdown -->
+          <div class="relative group/nav">
+            <a
+              routerLink="/"
+              fragment="copilots"
+              class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors inline-flex items-center gap-1"
+            >
+              Copilots
+              <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/nav:rotate-180" viewBox="0 0 12 12" fill="none">
+                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <!-- Dropdown backdrop + panel -->
+            <div class="absolute top-full left-1/2 -translate-x-1/2 pt-3 opacity-0 invisible group-hover/nav:opacity-100 group-hover/nav:visible transition-all duration-300 ease-out">
+              <!-- Pointer arrow -->
+              <div class="absolute top-[6px] left-1/2 -translate-x-1/2 w-3 h-3 bg-white rotate-45 border-l border-t border-[#e5e7eb] z-10"></div>
+
+              <div class="nav-dropdown relative bg-white rounded-2xl border border-[#e8e8e8] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.12),0_4px_20px_-2px_rgba(0,0,0,0.06)] p-5 w-[620px]">
+                <!-- Header -->
+                <div class="flex items-center justify-between mb-4 px-1">
+                  <div>
+                    <h3 class="text-[15px] font-semibold text-[#111827]">AI Agents</h3>
+                    <p class="text-[12px] text-[#9ca3af] mt-0.5">Seven specialized copilots for your LinkedIn Ads</p>
+                  </div>
+                  <a routerLink="/" fragment="copilots" class="text-[12px] font-medium text-primary hover:text-primary-dark transition-colors">
+                    View all &rarr;
+                  </a>
+                </div>
+
+                <!-- Agents grid -->
+                <div class="grid grid-cols-2 gap-2">
+                  @for (agent of agents; track agent.name) {
+                    <a
+                      [routerLink]="agent.route"
+                      class="group/item flex items-center gap-3.5 p-3 rounded-xl transition-all duration-200 hover:bg-[#fafafa]"
+                    >
+                      <!-- Avatar -->
+                      <div
+                        class="w-10 h-10 shrink-0 rounded-full overflow-hidden"
+                        [style.backgroundColor]="agent.avatarBg"
+                      >
+                        <img
+                          [src]="agent.image"
+                          [alt]="agent.name"
+                          class="w-full h-full object-cover"
+                        />
+                      </div>
+
+                      <!-- Name -->
+                      <span class="text-[13.5px] font-medium text-[#374151] group-hover/item:text-[#111827] transition-colors flex-1 leading-tight">
+                        {{ agent.name }}
+                      </span>
+
+                      <!-- Arrow -->
+                      <div
+                        class="w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/item:opacity-100 transition-all duration-200 shrink-0 translate-x-[-4px] group-hover/item:translate-x-0"
+                        [style.backgroundColor]="agent.accentColor + '22'"
+                      >
+                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                          <path d="M4.5 2.5L8 6L4.5 9.5" [attr.stroke]="agent.accentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </div>
+                    </a>
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a
+            routerLink="/"
+            fragment="pricing"
+            class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors"
+          >
+            Pricing
+          </a>
+        </nav>
+
+        <!-- CTA -->
+        <a
+          routerLink="/"
+          fragment="pricing"
+          class="group flex items-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-5 pr-1 py-1 transition-colors"
+        >
+          <span class="text-[15px] font-medium ml-1">Start free trial</span>
+          <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+            <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
+              <path
+                d="M5 3l4 4-4 4"
+                stroke="var(--color-primary)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </a>
+      </div>
+    </header>
+  `,
+  styles: [`
+    :host { display: block; }
+
+    .nav-dropdown {
+      transform: translateY(4px);
+      transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    }
+
+    .group\\/nav:hover .nav-dropdown {
+      transform: translateY(0);
+    }
+  `],
+})
+export class NavbarComponent {
+  agents: NavAgent[] = [
+    {
+      name: 'Company Blocking Agent',
+      image: '/agents/Company Blocking Agent.png',
+      avatarBg: '#b8dff0',
+      accentColor: '#4a9cc5',
+      route: '/agents/impression-capping',
+    },
+    {
+      name: 'Impression Capping Agent',
+      image: '/agents/Impression Capping Agent.png',
+      avatarBg: '#a8d1dc',
+      accentColor: '#3a97ab',
+      route: '/agents/impression-capping',
+    },
+    {
+      name: 'Title Blocking Agent',
+      image: '/agents/Title Blocking Agent.png',
+      avatarBg: '#ee95a0',
+      accentColor: '#d4606f',
+      route: '/agents/impression-capping',
+    },
+    {
+      name: 'Bidding Optimization Agent',
+      image: '/agents/Bidding Optimization Agent.png',
+      avatarBg: '#acdfa4',
+      accentColor: '#4a9a42',
+      route: '/agents/impression-capping',
+    },
+    {
+      name: 'Campaign Scheduling Agent',
+      image: '/agents/Campaign Scheduling Agent.png',
+      avatarBg: '#fbf5df',
+      accentColor: '#c5a030',
+      route: '/agents/impression-capping',
+    },
+    {
+      name: 'Ad Rotation Agent',
+      image: '/agents/Ad Rotation Agent.png',
+      avatarBg: '#d9e1fb',
+      accentColor: '#6b5ea0',
+      route: '/agents/impression-capping',
+    },
+    {
+      name: 'Analyse Competitors',
+      image: '/agents/Analyse competitors LinkedIn Ads.png',
+      avatarBg: '#acdfa4',
+      accentColor: '#4a9a42',
+      route: '/agents/impression-capping',
+    },
+  ];
+}

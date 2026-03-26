@@ -1,0 +1,118 @@
+@import "tailwindcss";
+@source "./**/*.ts";
+@source "./**/*.html";
+
+/*
+ * ── Font Setup ──
+ * Primary: Graphik (commercial) → DM Sans (free fallback, closest match)
+ * Logo/Brand: Helvetica
+ *
+ * To use real Graphik: place .woff2 files in public/fonts/graphik/
+ * and uncomment the @font-face block below.
+ */
+
+/*
+@font-face { font-family: "Graphik"; src: url("/fonts/graphik/Graphik-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Graphik"; src: url("/fonts/graphik/Graphik-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Graphik"; src: url("/fonts/graphik/Graphik-Semibold.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Graphik"; src: url("/fonts/graphik/Graphik-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+*/
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #1a1a2e;
+  --color-primary: #e8573a;
+  --color-primary-dark: #d14a30;
+  --color-accent: #ff6b35;
+  --color-section-bg: #fef6f3;
+  --color-dark-bg: #1a1a2e;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  /* Graphik → DM Sans fallback. Swap "DM Sans" for "Graphik" when font files are added */
+  --font-sans: "DM Sans", "Graphik", system-ui, sans-serif;
+  --font-brand: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * ── Typography Tokens ──
+ *
+ * Display:    48/64/76px  · Bold · -0.02em   (Hero h1)
+ * H1:         32/44/52px  · Bold · -0.025em  (Section headings)
+ * H2:         24/32/36px  · Bold · -0.02em   (Sub-section)
+ * H3:         18/20px     · Semibold · -0.01em (Card titles)
+ * H4:         16/17px     · Semibold          (Small headings)
+ * Body LG:    16/17px     · Regular · 1.65    (Subheadings)
+ * Body:       15px        · Regular · 1.65    (Default text)
+ * Body SM:    14px        · Regular · 1.6     (Cards, features)
+ * Caption:    13px        · Semibold · 0.06em · uppercase (Badges)
+ * Small:      12px        · Medium            (Labels)
+ * Overline:   11px        · Bold · 0.08em · uppercase (Hero badge)
+ */
+
+/* Infinite scroll animation for testimonials */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 25s linear infinite;
+  will-change: transform;
+}
+
+/* Shimmer sweep across card on hover */
+@keyframes shimmer-sweep {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    left: 200%;
+    opacity: 0;
+  }
+}
+
+/* Soft pulsing glow ring on hover */
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.04);
+  }
+}
+
+/* Border gradient rotation */
+@keyframes border-rotate {
+  0% {
+    --border-angle: 0deg;
+  }
+  100% {
+    --border-angle: 360deg;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}

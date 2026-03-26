@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84e89e"/>
+      <stop offset="100%" stop-color="#3bb55e"/>
+    </linearGradient>
+    <clipPath id="clip4">
+      <circle cx="24" cy="24" r="24"/>
+    </clipPath>
+  </defs>
+  <circle cx="24" cy="24" r="24" fill="url(#bg4)"/>
+  <g clip-path="url(#clip4)">
+    <!-- Head -->
+    <circle cx="24" cy="17" r="7" fill="#fff" opacity="0.85"/>
+    <!-- Body -->
+    <ellipse cx="24" cy="42" rx="12" ry="12" fill="#fff" opacity="0.85"/>
+    <!-- Male: no extra hair path, slightly wider shoulders implied -->
+    <rect x="14" y="32" width="20" height="4" rx="2" fill="#fff" opacity="0.5"/>
+  </g>
+</svg>
