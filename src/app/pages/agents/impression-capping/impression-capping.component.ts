@@ -25,7 +25,7 @@ interface RelatedAgent {
     <!-- ═══════════════════════════════════════════
          SECTION 1: HERO
          ═══════════════════════════════════════════ -->
-    <section class="relative pt-16 lg:pt-24 pb-24 lg:pb-32 overflow-hidden">
+    <section class="relative pt-12 lg:pt-20 pb-16 lg:pb-20 overflow-hidden">
       <!-- Background -->
       <div class="absolute inset-0 bg-gradient-to-b from-[#eaf7fa] via-[#f5fbfc] to-white pointer-events-none -z-10"></div>
       <!-- Large ambient glows -->
@@ -39,15 +39,6 @@ interface RelatedAgent {
         <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <!-- Left: Text content -->
           <div class="flex-1 text-left">
-            <!-- Breadcrumb -->
-            <div class="flex items-center gap-2 mb-6">
-              <a routerLink="/" class="text-[13px] text-[#6b7280] hover:text-[#111827] transition-colors">Home</a>
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <a routerLink="/" fragment="copilots" class="text-[13px] text-[#6b7280] hover:text-[#111827] transition-colors">AI Agents</a>
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="#9ca3af" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <span class="text-[13px] text-[#1a5a6a] font-medium">Impression Capping</span>
-            </div>
-
             <!-- Badge -->
             <div class="inline-flex items-center gap-2.5 bg-[#e5f7fa]/80 backdrop-blur-sm border border-[#a8d1dc]/40 rounded-full px-4 py-1.5 mb-6 shadow-[0_2px_12px_-4px_rgba(58,151,171,0.1)]">
               <div class="w-6 h-6 rounded-full overflow-hidden bg-[#a8d1dc] ring-2 ring-white/60">
@@ -204,18 +195,14 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 2: PROBLEM STATS
+         SECTION 2: PROBLEM STATS — Minimal
          ═══════════════════════════════════════════ -->
-    <section class="relative py-20 lg:py-28 overflow-hidden">
-      <!-- Background -->
+    <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-white via-[#f6fbfc] to-[#eef7f9] pointer-events-none -z-10"></div>
-      <!-- Ambient glows -->
-      <div class="absolute top-[20%] left-[-5%] w-[35%] h-[50%] bg-radial-[closest-side] from-[#3a97ab]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
-      <div class="absolute bottom-[10%] right-[-5%] w-[35%] h-[50%] bg-radial-[closest-side] from-[#1a5a6a]/6 to-transparent blur-[80px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
         <!-- Heading -->
-        <div class="text-left md:text-center mb-16">
+        <div class="text-left md:text-center mb-10">
           <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#3a97ab] mb-4 block">The Problem</span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
             Did you know 80% of your LinkedIn budget goes to
@@ -228,245 +215,80 @@ interface RelatedAgent {
           </p>
         </div>
 
-        <!-- Stats Grid -->
-        <div class="grid md:grid-cols-3 gap-6 lg:gap-7">
+        <!-- Stats -->
+        <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
 
-          <!-- ═══ CARD 1: High Concentration (80%) ═══ -->
-          <div class="stat-card group relative rounded-[20px] overflow-hidden flex flex-col">
-            <!-- Outer glow on hover -->
-            <div class="absolute -inset-[1px] rounded-[20px] opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#3a97ab]/20 via-[#a8d1dc]/15 to-[#3a97ab]/20 blur-[2px] transition-opacity duration-500 animate-[glow-pulse_2s_ease-in-out_infinite]"></div>
-            <!-- Card body -->
-            <div class="relative bg-white rounded-[20px] border border-[#c4e4ed] shadow-[0_2px_16px_-4px_rgba(26,90,106,0.08)] flex flex-col flex-1 overflow-hidden">
-              <!-- Top accent bar -->
-              <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#3a97ab] via-[#a8d1dc] to-[#3a97ab]"></div>
-              <!-- Shimmer sweep -->
-              <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10"></div>
-
-              <!-- Header -->
-              <div class="flex items-center gap-3 px-7 pt-7 pb-0">
-                <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-[#e5f7fa] to-[#d6f0f4] flex items-center justify-center shrink-0 shadow-[0_2px_8px_-2px_rgba(58,151,171,0.12)]">
+          <!-- Card 1: 80% -->
+          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_-10px_rgba(26,90,106,0.2)]">
+            <div class="absolute inset-0 bg-gradient-to-br from-[#1a5a6a] to-[#245f6f]"></div>
+            <div class="absolute top-[-30%] right-[-20%] w-[60%] h-[80%] bg-radial-[closest-side] from-[#3a97ab]/30 to-transparent blur-[40px] pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#5bb5c5]/40 to-transparent"></div>
+            <div class="relative p-7 lg:p-8">
+              <div class="flex items-start justify-between mb-5">
+                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-white">80%</span>
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mt-1">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <circle cx="10" cy="10" r="7" stroke="#1a5a6a" stroke-width="2" fill="none"/>
-                    <path d="M10 5v5h4" stroke="#1a5a6a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M10 2L2 18h16L10 2z" stroke="#5bb5c5" stroke-width="1.5" fill="none"/>
+                    <path d="M10 8v4" stroke="#5bb5c5" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="10" cy="14.5" r="0.75" fill="#5bb5c5"/>
                   </svg>
                 </div>
-                <span class="text-[12px] font-bold tracking-[0.04em] text-[#1a5a6a] bg-gradient-to-r from-[#e5f7fa] to-[#d6f0f4] rounded-full px-3.5 py-1 uppercase">High Concentration</span>
               </div>
-
-              <h3 class="text-[22px] font-bold text-[#111827] leading-[1.2] tracking-[-0.01em] px-7 pt-5 pb-1">
-                Budget Concentration
-              </h3>
-              <p class="text-[14px] text-[#6b7280] leading-[1.55] px-7 pb-5">
-                Accounts receiving <span class="text-[#1a5a6a] font-medium">80% of total spend</span>.
+              <p class="text-[15px] font-semibold text-white/95 leading-[1.4] mb-2">
+                of impressions go to just 10% of your target accounts
               </p>
-
-              <!-- Donut Chart -->
-              <div class="flex-1 flex items-center justify-center px-7 pb-2">
-                <div class="relative w-[180px] h-[180px]">
-                  <svg viewBox="0 0 180 180" class="w-full h-full -rotate-90">
-                    <circle cx="90" cy="90" r="68" fill="none" stroke="#f0fafb" stroke-width="20"/>
-                    <circle cx="90" cy="90" r="68" fill="none" stroke="#e0f2f5" stroke-width="18"/>
-                    <circle cx="90" cy="90" r="68" fill="none" stroke="url(#donut-grad-1)" stroke-width="18"
-                      stroke-dasharray="427.3" stroke-dashoffset="85.5" stroke-linecap="round"
-                      class="donut-fill"/>
-                    <defs>
-                      <linearGradient id="donut-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" stop-color="#1a5a6a"/>
-                        <stop offset="100%" stop-color="#3a97ab"/>
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <div class="absolute inset-0 flex flex-col items-center justify-center">
-                    <span class="text-[42px] font-bold text-[#1a5a6a] tracking-[-0.03em] leading-none">80%</span>
-                    <span class="text-[11px] font-semibold text-[#6b7280] uppercase tracking-[0.06em] mt-1">Budget Usage</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Bottom summary -->
-              <div class="bg-gradient-to-br from-[#f6fbfc] to-[#eef7f9] border-t border-[#e0f2f5] px-7 py-4 mt-2">
-                <div class="flex items-center justify-between mb-2">
-                  <span class="text-[13px] font-medium text-[#374151]">Target Accounts</span>
-                  <span class="text-[16px] font-bold text-[#1a5a6a]">10%</span>
-                </div>
-                <div class="h-[6px] rounded-full bg-[#e0f2f5] overflow-hidden mb-3">
-                  <div class="h-full rounded-full bg-gradient-to-r from-[#1a5a6a] to-[#3a97ab] w-[10%]"></div>
-                </div>
-                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  A massive <strong class="text-[#111827]">80% of budget</strong> is being funneled into only <strong class="text-[#111827]">10% of target accounts</strong>.
-                </p>
-              </div>
+              <p class="text-[13px] text-[#a8d1dc] leading-[1.55]">
+                Documented across hundreds of ABM campaigns analysed.
+              </p>
             </div>
           </div>
 
-          <!-- ═══ CARD 2: Impression Gap (50-60%) ═══ -->
-          <div class="stat-card group relative rounded-[20px] overflow-hidden flex flex-col">
-            <div class="absolute -inset-[1px] rounded-[20px] opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#a8d1dc]/20 via-[#3a97ab]/15 to-[#a8d1dc]/20 blur-[2px] transition-opacity duration-500 animate-[glow-pulse_2s_ease-in-out_infinite]"></div>
-            <div class="relative bg-white rounded-[20px] border border-[#c4e4ed] shadow-[0_2px_16px_-4px_rgba(26,90,106,0.08)] flex flex-col flex-1 overflow-hidden">
-              <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#a8d1dc] via-[#3a97ab] to-[#a8d1dc]"></div>
-              <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10"></div>
-
-              <div class="flex items-center gap-3 px-7 pt-7 pb-0">
-                <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-[#e5f7fa] to-[#d6f0f4] flex items-center justify-center shrink-0 shadow-[0_2px_8px_-2px_rgba(58,151,171,0.12)]">
+          <!-- Card 2: 50-60% -->
+          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_-10px_rgba(26,90,106,0.2)]">
+            <div class="absolute inset-0 bg-gradient-to-br from-[#1e6478] to-[#1a5a6a]"></div>
+            <div class="absolute top-[-30%] right-[-20%] w-[60%] h-[80%] bg-radial-[closest-side] from-[#5bb5c5]/25 to-transparent blur-[40px] pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#5bb5c5]/40 to-transparent"></div>
+            <div class="relative p-7 lg:p-8">
+              <div class="flex items-start justify-between mb-5">
+                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-white">50–60%</span>
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mt-1">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <rect x="3" y="3" width="5" height="5" rx="1" fill="#1a5a6a"/>
-                    <rect x="10" y="3" width="5" height="5" rx="1" fill="#1a5a6a" opacity="0.4"/>
-                    <rect x="3" y="10" width="5" height="5" rx="1" fill="#1a5a6a" opacity="0.4"/>
-                    <rect x="10" y="10" width="5" height="5" rx="1" fill="#1a5a6a" opacity="0.15"/>
+                    <circle cx="10" cy="10" r="7" stroke="#5bb5c5" stroke-width="1.5" fill="none"/>
+                    <path d="M10 6v4h3" stroke="#5bb5c5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
-                <span class="text-[12px] font-bold tracking-[0.04em] text-[#1a5a6a] bg-gradient-to-r from-[#e5f7fa] to-[#d6f0f4] rounded-full px-3.5 py-1 uppercase">Impression Gap</span>
               </div>
-
-              <h3 class="text-[22px] font-bold text-[#111827] leading-[1.2] tracking-[-0.01em] px-7 pt-5 pb-1">
-                Under-served Accounts
-              </h3>
-              <p class="text-[14px] text-[#6b7280] leading-[1.55] px-7 pb-5">
-                Accounts receiving <span class="text-[#1a5a6a] font-medium">&lt;3 impressions</span> per day.
+              <p class="text-[15px] font-semibold text-white/95 leading-[1.4] mb-2">
+                of target accounts receive fewer than 3 impressions per day
               </p>
-
-              <!-- Dot Grid -->
-              <div class="flex-1 flex items-center px-7 pb-2">
-                <div class="w-full">
-                  <div class="grid grid-cols-10 gap-[7px] justify-items-center">
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#1a5a6a] to-[#3a97ab] shadow-[0_2px_6px_-1px_rgba(26,90,106,0.3)]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#1a5a6a] to-[#3a97ab] shadow-[0_2px_6px_-1px_rgba(26,90,106,0.3)]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#1a5a6a] to-[#3a97ab] shadow-[0_2px_6px_-1px_rgba(26,90,106,0.25)]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#3a97ab] to-[#5bb5c5]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#3a97ab] to-[#5bb5c5]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#3a97ab] to-[#5bb5c5]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#5bb5c5] to-[#8ed0d8]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#5bb5c5] to-[#8ed0d8]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#5bb5c5] to-[#8ed0d8]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#5bb5c5] to-[#8ed0d8]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-gradient-to-br from-[#5bb5c5] to-[#8ed0d8]"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#d6eff4] border border-[#a8d1dc]/40"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#d6eff4] border border-[#a8d1dc]/40"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#d6eff4] border border-[#a8d1dc]/40"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#d6eff4] border border-[#a8d1dc]/40"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#d6eff4] border border-[#a8d1dc]/40"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#d6eff4] border border-[#a8d1dc]/40"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/25"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#e5f7fa] border border-[#a8d1dc]/20"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                    <div class="w-[16px] h-[16px] rounded-full bg-[#eef8fa] border border-[#a8d1dc]/15"></div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Bottom summary -->
-              <div class="bg-gradient-to-br from-[#f6fbfc] to-[#eef7f9] border-t border-[#e0f2f5] px-7 py-4 mt-2">
-                <div class="flex items-center gap-3 mb-2">
-                  <div class="flex items-center gap-3">
-                    <span class="text-[32px] font-bold text-[#1a5a6a] tracking-[-0.03em] leading-none">60%</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="text-[#a8d1dc]">
-                      <path d="M7 17l5-5 4 4 5-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                  <span class="text-[11px] font-bold text-[#6b7280] uppercase tracking-[0.06em]">Neglected Reach</span>
-                </div>
-                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Strategic accounts get <strong class="text-[#111827]">zero buying signal</strong> from your ad spends.
-                </p>
-              </div>
+              <p class="text-[13px] text-[#a8d1dc] leading-[1.55]">
+                Strategic accounts get zero buying signal from your ad spends.
+              </p>
             </div>
           </div>
 
-          <!-- ═══ CARD 3: Entropy Risk (20-40%) ═══ -->
-          <div class="stat-card group relative rounded-[20px] overflow-hidden flex flex-col">
-            <div class="absolute -inset-[1px] rounded-[20px] opacity-0 group-hover:opacity-100 bg-gradient-to-br from-[#3a97ab]/20 via-[#a8d1dc]/15 to-[#3a97ab]/20 blur-[2px] transition-opacity duration-500 animate-[glow-pulse_2s_ease-in-out_infinite]"></div>
-            <div class="relative bg-white rounded-[20px] border border-[#c4e4ed] shadow-[0_2px_16px_-4px_rgba(26,90,106,0.08)] flex flex-col flex-1 overflow-hidden">
-              <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-[#3a97ab] via-[#a8d1dc] to-[#3a97ab]"></div>
-              <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10"></div>
-
-              <div class="flex items-center gap-3 px-7 pt-7 pb-0">
-                <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-[#e5f7fa] to-[#d6f0f4] flex items-center justify-center shrink-0 shadow-[0_2px_8px_-2px_rgba(58,151,171,0.12)]">
+          <!-- Card 3: 20-40% -->
+          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_-10px_rgba(26,90,106,0.2)]">
+            <div class="absolute inset-0 bg-gradient-to-br from-[#245f6f] to-[#1e6478]"></div>
+            <div class="absolute top-[-30%] right-[-20%] w-[60%] h-[80%] bg-radial-[closest-side] from-[#3a97ab]/25 to-transparent blur-[40px] pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#5bb5c5]/40 to-transparent"></div>
+            <div class="relative p-7 lg:p-8">
+              <div class="flex items-start justify-between mb-5">
+                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-white">20–40%</span>
+                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mt-1">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <rect x="3" y="10" width="3" height="7" rx="1" fill="#1a5a6a"/>
-                    <rect x="8" y="6" width="3" height="11" rx="1" fill="#1a5a6a" opacity="0.6"/>
-                    <rect x="13" y="3" width="3" height="14" rx="1" fill="#1a5a6a" opacity="0.35"/>
+                    <rect x="3" y="11" width="3.5" height="6" rx="1" fill="#5bb5c5"/>
+                    <rect x="8.25" y="7" width="3.5" height="10" rx="1" fill="#5bb5c5" opacity="0.6"/>
+                    <rect x="13.5" y="3" width="3.5" height="14" rx="1" fill="#5bb5c5" opacity="0.35"/>
                   </svg>
                 </div>
-                <span class="text-[12px] font-bold tracking-[0.04em] text-[#1a5a6a] bg-gradient-to-r from-[#e5f7fa] to-[#d6f0f4] rounded-full px-3.5 py-1 uppercase">Entropy Risk</span>
               </div>
-
-              <h3 class="text-[22px] font-bold text-[#111827] leading-[1.2] tracking-[-0.01em] px-7 pt-5 pb-1">
-                Budget Split Analysis
-              </h3>
-
-              <div class="flex-1 px-7 pt-4 pb-2 space-y-5">
-                <div>
-                  <div class="flex items-center justify-between mb-2">
-                    <span class="text-[14px] font-semibold text-[#111827]">Enterprise Alpha</span>
-                    <span class="text-[24px] font-bold text-[#1a5a6a] tracking-[-0.02em]">38%</span>
-                  </div>
-                  <div class="h-[10px] rounded-full bg-[#e0f2f5] overflow-hidden">
-                    <div class="h-full rounded-full bg-gradient-to-r from-[#1a5a6a] to-[#3a97ab] budget-bar" style="width: 80%"></div>
-                  </div>
-                  <p class="text-[12px] text-[#6b7280] italic mt-1.5 leading-[1.45]">
-                    A single entity consuming near half the quarterly allocation.
-                  </p>
-                </div>
-                <div>
-                  <div class="flex items-center justify-between mb-2">
-                    <span class="text-[14px] font-semibold text-[#111827]">Rest of Portfolio</span>
-                    <span class="text-[24px] font-bold text-[#3a97ab] tracking-[-0.02em]">62%</span>
-                  </div>
-                  <div class="h-[10px] rounded-full bg-[#e0f2f5] overflow-hidden">
-                    <div class="h-full rounded-full bg-gradient-to-r from-[#5bb5c5] to-[#a8d1dc]" style="width: 62%"></div>
-                  </div>
-                  <p class="text-[12px] text-[#6b7280] italic mt-1.5 leading-[1.45]">
-                    Distributed across 450+ other mid-tier accounts.
-                  </p>
-                </div>
-              </div>
-
-              <div class="bg-gradient-to-br from-[#f6fbfc] to-[#eef7f9] border-t border-[#e0f2f5] px-7 py-4 mt-2">
-                <div class="flex items-start gap-3">
-                  <div class="w-9 h-9 rounded-lg bg-gradient-to-br from-[#fef3ec] to-[#fde8d8] flex items-center justify-center shrink-0 mt-0.5 shadow-[0_2px_8px_-2px_rgba(232,87,58,0.15)]">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                      <path d="M8 2l6 10H2L8 2z" fill="#e8573a" opacity="0.8"/>
-                      <path d="M8 6v3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-                      <circle cx="8" cy="11" r="0.75" fill="white"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <p class="text-[13px] font-semibold text-[#111827] mb-0.5">Critical Imbalance</p>
-                    <p class="text-[12px] text-[#6b7280] leading-[1.5]">
-                      Diversification index is 4.2 points below the safety benchmark.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <p class="text-[15px] font-semibold text-white/95 leading-[1.4] mb-2">
+                of monthly budget consumed by a single large enterprise account
+              </p>
+              <p class="text-[13px] text-[#a8d1dc] leading-[1.55]">
+                Because they have more employees on LinkedIn — not because they're a priority.
+              </p>
             </div>
           </div>
         </div>
@@ -477,7 +299,7 @@ interface RelatedAgent {
          SECTION 3: LINKEDIN VS ADRADAR COMPARISON
          Asymmetric layout: left heading + right stacked cards
          ═══════════════════════════════════════════ -->
-    <section class="relative py-20 lg:py-28 overflow-hidden">
+    <section class="relative py-14 lg:py-20 overflow-hidden">
       <!-- Background -->
       <div class="absolute inset-0 bg-gradient-to-b from-[#eef7f9] via-[#f5f8fa] to-white pointer-events-none -z-10"></div>
       <!-- Ambient glows -->
@@ -1124,7 +946,7 @@ interface RelatedAgent {
          SECTION 5: COMPARISON TABLE
          Visual side-by-side with agent branding
          ═══════════════════════════════════════════ -->
-    <section class="relative py-20 lg:py-28 overflow-hidden">
+    <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-[#eaf6f8] via-[#f0fafb] to-[#eaf6f8] pointer-events-none -z-10"></div>
       <div class="absolute top-[30%] left-[50%] -translate-x-1/2 w-[50%] h-[50%] bg-radial-[closest-side] from-[#3a97ab]/5 to-transparent blur-[100px] pointer-events-none -z-10"></div>
 
@@ -1274,7 +1096,7 @@ interface RelatedAgent {
     <!-- ═══════════════════════════════════════════
          SECTION 6: RESULTS — Dark immersive showcase
          ═══════════════════════════════════════════ -->
-    <section class="relative py-24 lg:py-32 overflow-hidden">
+    <section class="relative py-16 lg:py-22 overflow-hidden">
       <!-- Dark background -->
       <div class="absolute inset-0 bg-gradient-to-br from-[#0f2e36] via-[#1a5a6a] to-[#122d35] pointer-events-none -z-10"></div>
       <!-- Ambient glows -->
@@ -1287,7 +1109,7 @@ interface RelatedAgent {
       <div class="max-w-[1200px] mx-auto px-6">
 
         <!-- Top: Badge + Heading row -->
-        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-14 lg:mb-20">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10 lg:mb-14">
           <div class="max-w-[600px]">
             <div class="flex items-center gap-2.5 mb-4">
               <div class="w-8 h-8 rounded-full bg-[#a8d1dc] p-[2px] overflow-hidden">
@@ -1478,13 +1300,13 @@ interface RelatedAgent {
     <!-- ═══════════════════════════════════════════
          SECTION 7: RELATED AGENTS — 6 agents, themed cards
          ═══════════════════════════════════════════ -->
-    <section class="relative py-20 lg:py-28 overflow-hidden">
+    <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-[#f6fbfc] via-[#f8fafb] to-white pointer-events-none -z-10"></div>
       <div class="absolute top-[40%] left-[50%] -translate-x-1/2 w-[60%] h-[50%] bg-radial-[closest-side] from-[#a8d1dc]/8 to-transparent blur-[100px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1100px] mx-auto px-6">
         <!-- Heading -->
-        <div class="text-left md:text-center mb-14">
+        <div class="text-left md:text-center mb-10">
           <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#3a97ab] mb-4 block">
             Connected Intelligence
           </span>
@@ -1597,7 +1419,7 @@ interface RelatedAgent {
     <!-- ═══════════════════════════════════════════
          SECTION 8: FINAL CTA
          ═══════════════════════════════════════════ -->
-    <section class="relative py-20 lg:py-28 overflow-hidden">
+    <section class="relative py-14 lg:py-20 overflow-hidden">
       <!-- Full-bleed ambient background image -->
       <div class="absolute inset-0 pointer-events-none">
         <img

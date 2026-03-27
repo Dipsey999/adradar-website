@@ -9,6 +9,7 @@ interface Agent {
   cardBg: string;
   cardBorder: string;
   avatarBg: string;
+  accentColor: string;
   btnBg: string;
   btnText: string;
 }
@@ -22,7 +23,8 @@ const agents: Agent[] = [
     benefit: 'Higher ICP signal, lower wasted CPM',
     cardBg: 'bg-[#e3f3fa]',
     cardBorder: 'border-[#9dcce7]',
-    avatarBg: 'bg-[#b8dff0]',
+    avatarBg: '#b8dff0',
+    accentColor: '#9dcce7',
     btnBg: '#9dcce7',
     btnText: '#1a5a78',
   },
@@ -34,7 +36,8 @@ const agents: Agent[] = [
     benefit: 'Clear, scalable campaign design',
     cardBg: 'bg-[#e5f7fa]',
     cardBorder: 'border-[#a8d1dc]',
-    avatarBg: 'bg-[#a8d1dc]',
+    avatarBg: '#a8d1dc',
+    accentColor: '#a8d1dc',
     btnBg: '#a8d1dc',
     btnText: '#1a5a6a',
   },
@@ -46,7 +49,8 @@ const agents: Agent[] = [
     benefit: 'Systematic creative learning',
     cardBg: 'bg-[#fbf2f5]',
     cardBorder: 'border-[#f4e0e9]',
-    avatarBg: 'bg-[#ee95a0]',
+    avatarBg: '#ee95a0',
+    accentColor: '#ee95a0',
     btnBg: '#ee95a0',
     btnText: '#5e1a24',
   },
@@ -58,7 +62,8 @@ const agents: Agent[] = [
     benefit: 'Controlled spend, measurable ROI',
     cardBg: 'bg-[rgba(38,216,98,0.12)]',
     cardBorder: 'border-[#acdfa4]',
-    avatarBg: 'bg-[#acdfa4]',
+    avatarBg: '#acdfa4',
+    accentColor: '#82c97a',
     btnBg: '#82c97a',
     btnText: '#1a4a18',
   },
@@ -70,7 +75,8 @@ const agents: Agent[] = [
     benefit: 'Sustained performance, no sudden drops',
     cardBg: 'bg-[#fffbe3]',
     cardBorder: 'border-[#fdecc8]',
-    avatarBg: 'bg-[#fbf5df]',
+    avatarBg: '#fbf5df',
+    accentColor: '#f0d48a',
     btnBg: '#f0d48a',
     btnText: '#5e4a0e',
   },
@@ -82,7 +88,8 @@ const agents: Agent[] = [
     benefit: 'Proactive competitive advantage',
     cardBg: 'bg-[#f7f3f8]',
     cardBorder: 'border-[#e8deee]',
-    avatarBg: 'bg-[#d9e1fb]',
+    avatarBg: '#d9e1fb',
+    accentColor: '#c8b4e0',
     btnBg: '#c8b4e0',
     btnText: '#3e2460',
   },
@@ -94,7 +101,8 @@ const agents: Agent[] = [
     benefit: 'Proactive competitive advantage',
     cardBg: 'bg-[#edf3ec]',
     cardBorder: 'border-[#dbeddb]',
-    avatarBg: 'bg-[#acdfa4]',
+    avatarBg: '#acdfa4',
+    accentColor: '#82c97a',
     btnBg: '#82c97a',
     btnText: '#1a4a18',
   },
@@ -131,45 +139,45 @@ const col3 = [agents[2], agents[5]];
           compounding intelligence with every campaign.
         </p>
 
-        <!-- Desktop: 3-column layout with center alignment -->
-        <div class="hidden md:flex items-center gap-[24px] max-w-[1100px] mx-auto">
+        <!-- Desktop: 3-column layout -->
+        <div class="hidden md:flex items-start gap-5 max-w-[1100px] mx-auto">
           <!-- Column 1: 2 cards -->
-          <div class="flex-1 flex flex-col gap-[24px]">
-            @for (agent of col1; track agent.name) {
+          <div class="flex-1 flex flex-col gap-5">
+            @for (agent of col1; track agent.name; let i = $index) {
               <ng-container
                 [ngTemplateOutlet]="agentCard"
-                [ngTemplateOutletContext]="{ $implicit: agent }"
+                [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
               ></ng-container>
             }
           </div>
 
           <!-- Column 2: 3 cards -->
-          <div class="flex-1 flex flex-col gap-[24px]">
-            @for (agent of col2; track agent.name) {
+          <div class="flex-1 flex flex-col gap-5">
+            @for (agent of col2; track agent.name; let i = $index) {
               <ng-container
                 [ngTemplateOutlet]="agentCard"
-                [ngTemplateOutletContext]="{ $implicit: agent }"
+                [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
               ></ng-container>
             }
           </div>
 
           <!-- Column 3: 2 cards -->
-          <div class="flex-1 flex flex-col gap-[24px]">
-            @for (agent of col3; track agent.name) {
+          <div class="flex-1 flex flex-col gap-5">
+            @for (agent of col3; track agent.name; let i = $index) {
               <ng-container
                 [ngTemplateOutlet]="agentCard"
-                [ngTemplateOutletContext]="{ $implicit: agent }"
+                [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
               ></ng-container>
             }
           </div>
         </div>
 
         <!-- Mobile: Simple stack -->
-        <div class="md:hidden space-y-6">
-          @for (agent of agents; track agent.name) {
+        <div class="md:hidden space-y-5">
+          @for (agent of agents; track agent.name; let i = $index) {
             <ng-container
               [ngTemplateOutlet]="agentCard"
-              [ngTemplateOutletContext]="{ $implicit: agent }"
+              [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
             ></ng-container>
           }
         </div>
@@ -177,70 +185,116 @@ const col3 = [agents[2], agents[5]];
     </section>
 
     <!-- Agent Card Template -->
-    <ng-template #agentCard let-agent>
-      <div
-        [class]="agent.cardBg + ' ' + agent.cardBorder + ' border-2 rounded-[24px] p-8 shadow-[0_0_10px_0_rgba(0,0,0,0.1)] flex flex-col'"
+    <ng-template #agentCard let-agent let-i="index">
+      <a
+        href="#"
+        class="copilot-card group relative rounded-2xl transition-all duration-500 hover:-translate-y-1.5 block"
       >
-        <!-- Avatar -->
-        <div
-          [class]="agent.avatarBg + ' w-[112px] h-[112px] shrink-0 rounded-full overflow-hidden mb-5 shadow-[0_8px_14px_0_rgba(15,42,81,0.04)]'"
-        >
-          <img
-            [src]="agent.image"
-            [alt]="agent.name"
-            class="w-full h-full object-cover"
-          />
+        <!-- Outer glow on hover -->
+        <div class="absolute -inset-[1px] rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-[3px]"
+          [style.background]="'linear-gradient(135deg, ' + agent.accentColor + '35, transparent, ' + agent.accentColor + '35)'">
         </div>
 
-        <!-- Content -->
-        <div class="flex-1 flex flex-col">
-          <!-- Title -->
-          <h3 class="text-[17px] font-semibold text-[#111827] mb-2 leading-snug tracking-[-0.01em]">
+        <!-- Card body -->
+        <div class="relative rounded-2xl border p-6 h-full flex flex-col transition-all duration-500 group-hover:shadow-[0_16px_50px_-12px_rgba(0,0,0,0.12)] overflow-hidden"
+          [style.backgroundColor]="agent.avatarBg + '25'"
+          [style.borderColor]="agent.accentColor + '30'"
+        >
+          <!-- Shimmer sweep -->
+          <div class="copilot-shimmer absolute inset-0 pointer-events-none z-10 rounded-2xl"></div>
+
+          <!-- Top: Avatar + status -->
+          <div class="flex items-center justify-between mb-4">
+            <div class="relative">
+              <!-- Pulse ring animation -->
+              <div class="absolute -inset-1.5 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                [style.background]="'radial-gradient(circle, ' + agent.accentColor + '20, transparent 70%)'"
+                style="animation: copilot-pulse 2.5s ease-in-out infinite;">
+              </div>
+              <div
+                class="relative w-14 h-14 rounded-full overflow-hidden ring-2 ring-white/80 shadow-[0_4px_12px_-2px_rgba(0,0,0,0.1)] transition-transform duration-500 group-hover:scale-110"
+                [style.backgroundColor]="agent.avatarBg"
+              >
+                <img [src]="agent.image" [alt]="agent.name" class="w-full h-full object-cover" />
+              </div>
+            </div>
+
+            <!-- Status indicator (shows on hover) -->
+            <div class="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-1 group-hover:translate-y-0">
+              <div class="w-1.5 h-1.5 rounded-full animate-pulse"
+                [style.backgroundColor]="agent.accentColor">
+              </div>
+              <span class="text-[10px] font-semibold uppercase tracking-[0.04em]"
+                [style.color]="agent.accentColor">
+                Ready
+              </span>
+            </div>
+          </div>
+
+          <!-- Name -->
+          <h3 class="text-[16px] font-bold text-[#111827] mb-2 leading-tight">
             {{ agent.name }}
           </h3>
 
           <!-- Description -->
-          <p class="text-[14px] text-[#4b5563] leading-[1.6]">
+          <p class="text-[13px] text-[#6b7280] leading-[1.6] mb-5 flex-1">
             {{ agent.description }}
           </p>
-        </div>
 
-        <!-- Divider + Benefit + Button -->
-        <div class="border-t border-black/[0.06] pt-4 mt-5">
-          <div class="flex items-center justify-between">
+          <!-- Bottom: Benefit + Arrow -->
+          <div class="flex items-center justify-between pt-3 border-t"
+            [style.borderColor]="agent.accentColor + '20'">
             <div class="flex items-center gap-2">
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path
-                  d="M1 7h12M8 2l5 5-5 5"
-                  stroke="#ff4829"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
+              <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
+                <path d="M1 7h12M8 2l5 5-5 5" [attr.stroke]="agent.accentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-              <span class="text-[13px] font-semibold text-[#ff4829]">
+              <span class="text-[12px] font-semibold"
+                [style.color]="agent.accentColor">
                 {{ agent.benefit }}
               </span>
             </div>
-            <a
-              href="#"
-              class="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full text-[13px] font-semibold transition-all duration-300 hover:opacity-80"
-              [style.backgroundColor]="agent.btnBg"
-              [style.color]="agent.btnText"
+
+            <!-- Arrow -->
+            <div
+              class="w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-[-4px] group-hover:translate-x-0"
+              [style.backgroundColor]="agent.accentColor + '20'"
             >
-              View
-              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                <path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
+                <path d="M5 3l4 4-4 4" [attr.stroke]="agent.accentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </a>
+            </div>
           </div>
         </div>
-      </div>
+      </a>
     </ng-template>
   `,
   styles: `
     :host {
       display: block;
+    }
+
+    .copilot-shimmer::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 60%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.25), transparent);
+      transition: none;
+    }
+    .copilot-card:hover .copilot-shimmer::after {
+      animation: copilot-shimmer-sweep 1.2s ease-in-out;
+    }
+
+    @keyframes copilot-shimmer-sweep {
+      0% { left: -100%; }
+      100% { left: 150%; }
+    }
+
+    @keyframes copilot-pulse {
+      0%, 100% { transform: scale(1); opacity: 0.5; }
+      50% { transform: scale(1.3); opacity: 0; }
     }
   `,
 })

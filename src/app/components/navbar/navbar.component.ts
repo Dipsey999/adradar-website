@@ -172,14 +172,14 @@ export class NavbarComponent {
       image: '/agents/Title Blocking Agent.png',
       avatarBg: '#ee95a0',
       accentColor: '#d4606f',
-      route: '/agents/impression-capping',
+      route: '/agents/title-blocking',
     },
     {
       name: 'Bidding Optimization Agent',
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       accentColor: '#4a9a42',
-      route: '/agents/impression-capping',
+      route: '/agents/bidding-optimization',
     },
     {
       name: 'Campaign Scheduling Agent',
@@ -200,7 +200,7 @@ export class NavbarComponent {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       accentColor: '#4a9a42',
-      route: '/agents/impression-capping',
+      route: '/agents/analyse-competitors',
     },
   ];
 }
