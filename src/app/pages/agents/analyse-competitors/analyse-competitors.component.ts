@@ -543,7 +543,7 @@ interface RelatedAgent {
       class="relative bg-white"
       style="height: 500vh"
     >
-      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
+      <div class="sticky top-0 h-full overflow-hidden">
         <div class="h-full flex flex-col justify-center">
           <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full">
             <!-- Header -->

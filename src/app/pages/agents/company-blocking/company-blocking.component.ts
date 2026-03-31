@@ -545,7 +545,7 @@ interface RelatedAgent {
       class="relative bg-white"
       style="height: 500vh"
     >
-      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
+      <div class="sticky top-0 h-full overflow-hidden">
         <!-- Subtle side accents -->
         <div class="absolute top-[20%] left-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#9dcce7]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
         <div class="absolute bottom-[20%] right-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#4a9cc5]/6 to-transparent blur-[80px] pointer-events-none -z-10"></div>
