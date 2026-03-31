@@ -144,7 +144,7 @@ export class TestimonialCardComponent {
 
         <!-- Subheading -->
         <p class="text-left md:text-center text-[#6b7280] text-[17px] max-w-none md:max-w-[620px] mx-0 md:mx-auto leading-[1.65]">
-          Teams using AdRadar see results from day one. Here&apos;s what early
+          Teams using adRadar see results from day one. Here&apos;s what early
           users are saying.
         </p>
       </div>
@@ -210,7 +210,7 @@ export class TestimonialsComponent {
     },
     {
       quote:
-        'We had no visibility into whether we were overbidding or leaving reach on the table. AdRadar\u2019s bidding agent tightened our CPCs without sacrificing delivery. We recovered about 20% of monthly spend and redeployed it into better-performing campaigns.',
+        'We had no visibility into whether we were overbidding or leaving reach on the table. adRadar\u2019s bidding agent tightened our CPCs without sacrificing delivery. We recovered about 20% of monthly spend and redeployed it into better-performing campaigns.',
       name: 'Arpana K',
       role: 'Sr. HubSpot Strategist at Inode',
       avatar: '/testimonials/avatar-4.svg',

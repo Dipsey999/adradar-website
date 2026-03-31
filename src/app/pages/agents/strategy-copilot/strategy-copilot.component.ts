@@ -458,7 +458,7 @@ interface RelatedAgent {
               </div>
             </div>
 
-            <!-- AdRadar Card -->
+            <!-- adRadar Card -->
             <div class="group relative rounded-2xl flex-1 transition-all duration-300">
               <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#e8573a]/25 via-[#f5a896]/15 to-[#e8573a]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
               <div class="relative bg-gradient-to-br from-[#fef6f3] via-[#fef2ec] to-[#ffe8df] rounded-2xl border-2 border-[#f5a896] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(232,87,58,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(232,87,58,0.22)] flex flex-col h-full">
@@ -476,7 +476,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Strategy Copilot</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Strategy Copilot</h3>
                       <p class="text-[11px] text-[#e8573a] mt-0.5">Data-driven architecture</p>
                     </div>
                   </div>
@@ -551,7 +551,7 @@ interface RelatedAgent {
       class="relative bg-white"
       style="height: 500vh"
     >
-      <div class="sticky top-0 h-full overflow-hidden">
+      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
         <!-- Subtle side accents -->
         <div class="absolute top-[20%] left-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#f5a896]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
         <div class="absolute bottom-[20%] right-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#e8573a]/6 to-transparent blur-[80px] pointer-events-none -z-10"></div>
@@ -979,7 +979,7 @@ interface RelatedAgent {
                   <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without Strategy Copilot</span>
                 </div>
               </div>
-              <!-- With AdRadar header -->
+              <!-- With adRadar header -->
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#2a1a30] p-5 border-b border-[#1a1a2e]">
                 <div class="flex items-center gap-3">
                   <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#f5a896] to-[#e8573a] p-[2px] ring-2 ring-white/20 overflow-hidden shrink-0 flex items-center justify-center">
@@ -990,7 +990,7 @@ interface RelatedAgent {
                   </div>
                   <div class="flex flex-col">
                     <span class="text-[13px] font-semibold text-white leading-tight">With Strategy Copilot</span>
-                    <span class="text-[10px] text-white/50 leading-tight">AdRadar Strategy Copilot</span>
+                    <span class="text-[10px] text-white/50 leading-tight">adRadar Strategy Copilot</span>
                   </div>
                 </div>
               </div>
@@ -1036,7 +1036,7 @@ interface RelatedAgent {
                   <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
                 </div>
 
-                <!-- With AdRadar value -->
+                <!-- With adRadar value -->
                 <div class="p-5 flex items-center gap-2.5 bg-[#fef6f3]/70 group-hover:bg-[#fef2ec]/60 transition-colors border-l-2 border-l-[#e8573a]/20">
                   <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(26,26,46,0.3)]">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1060,7 +1060,7 @@ interface RelatedAgent {
               </svg>
             </div>
             <div>
-              <span class="text-[13px] font-semibold text-white block leading-tight">AdRadar Strategy Copilot</span>
+              <span class="text-[13px] font-semibold text-white block leading-tight">adRadar Strategy Copilot</span>
               <span class="text-[10px] text-white/50 block leading-tight">See the difference the copilot makes</span>
             </div>
           </div>
@@ -1299,7 +1299,7 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">execute the plan.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Strategy Copilot shares context and memory with every other AdRadar agent —
+            The Strategy Copilot shares context and memory with every other adRadar agent —
             so structural insights inform impression capping, audience targeting, creative rotation,
             spend pacing, and competitor intelligence simultaneously.
           </p>
@@ -1771,7 +1771,7 @@ export class StrategyCopilotComponent implements OnInit, OnDestroy {
       label: 'Benchmark',
       title: 'ACV and industry benchmarking',
       description:
-        'Compare campaign KPIs against AdRadar\u2019s B2B benchmarks, segmented by ACV, industry vertical, company size. See where you sit \u2014 and what top-quartile looks like.',
+        'Compare campaign KPIs against adRadar\u2019s B2B benchmarks, segmented by ACV, industry vertical, company size. See where you sit \u2014 and what top-quartile looks like.',
     },
     {
       number: '04',

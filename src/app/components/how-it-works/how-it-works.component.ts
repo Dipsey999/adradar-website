@@ -21,7 +21,7 @@ interface Step {
       [style.height]="sectionHeight()"
     >
       <!-- Sticky container — offset for 70px navbar -->
-      <div class="sticky top-0 h-full overflow-hidden">
+      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
         <div class="h-full flex flex-col">
           <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full flex-1 flex flex-col pt-8 lg:pt-10">
 
@@ -156,7 +156,7 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
       label: 'Pre-flight',
       title: 'Connect LinkedIn Ads & CRM in 2 minutes',
       description:
-        'OAuth in seconds. AdRadar ingests campaigns, creative history, and audience data \u2014 then syncs with HubSpot, Salesforce, or Pipedrive. No CSV. No manual wiring.',
+        'OAuth in seconds. adRadar ingests campaigns, creative history, and audience data \u2014 then syncs with HubSpot, Salesforce, or Pipedrive. No CSV. No manual wiring.',
       image: '/images/how-it-works/Container-1.png',
     },
     {
@@ -172,7 +172,7 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
       label: 'Cruise',
       title: 'Daily briefings replace dashboard-checking',
       description:
-        'Every morning: what shifted overnight, what needs attention, what to do first. AdRadar becomes the voice in your headset \u2014 not another tab you forget to check.',
+        'Every morning: what shifted overnight, what needs attention, what to do first. adRadar becomes the voice in your headset \u2014 not another tab you forget to check.',
       image: '/images/how-it-works/Container-3.png',
     },
     {

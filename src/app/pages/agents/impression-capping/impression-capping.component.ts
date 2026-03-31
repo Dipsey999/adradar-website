@@ -360,7 +360,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#ffe8df] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#1a1a2e] uppercase tracking-[0.04em]">With AdRadar capping</span>
+                  <span class="text-[12px] font-semibold text-[#1a1a2e] uppercase tracking-[0.04em]">With adRadar capping</span>
                 </div>
                 <!-- Bar visualization: even distribution -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -450,7 +450,7 @@ interface RelatedAgent {
               </div>
             </div>
 
-            <!-- AdRadar Card — premium, elevated, "new way" feel -->
+            <!-- adRadar Card — premium, elevated, "new way" feel -->
             <div class="group relative rounded-2xl flex-1 transition-all duration-300">
               <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#e8573a]/25 via-[#f5a896]/15 to-[#e8573a]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
               <div class="relative bg-gradient-to-br from-[#fef9f7] via-[#fdeee9] to-[#fde3da] rounded-2xl border-2 border-[#f5a896] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(232,87,58,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(232,87,58,0.22)] flex flex-col h-full">
@@ -465,7 +465,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Impression Capping</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Impression Capping</h3>
                       <p class="text-[11px] text-[#e8573a] mt-0.5">Account-level control</p>
                     </div>
                   </div>
@@ -540,7 +540,7 @@ interface RelatedAgent {
       class="relative bg-white"
       style="height: 500vh"
     >
-      <div class="sticky top-0 h-full overflow-hidden">
+      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
         <!-- Subtle side accents -->
         <div class="absolute top-[20%] left-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#f5a896]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
         <div class="absolute bottom-[20%] right-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#e8573a]/6 to-transparent blur-[80px] pointer-events-none -z-10"></div>
@@ -852,7 +852,7 @@ interface RelatedAgent {
                   <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without capping</span>
                 </div>
               </div>
-              <!-- With AdRadar header — branded, highlighted -->
+              <!-- With adRadar header — branded, highlighted -->
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#1e1e36] p-5 border-b border-[#1a1a2e]">
                 <div class="flex items-center gap-3">
                   <!-- Agent avatar with adRadar ring -->
@@ -860,7 +860,7 @@ interface RelatedAgent {
                     <img src="/agents/Impression Capping Agent.png" alt="Impression Capping Agent" class="w-full h-full object-cover rounded-full" />
                   </div>
                   <div class="flex flex-col">
-                    <span class="text-[13px] font-semibold text-white leading-tight">With AdRadar Capping</span>
+                    <span class="text-[13px] font-semibold text-white leading-tight">With adRadar Capping</span>
                     <span class="text-[10px] text-white/50 leading-tight">Impression Capping Agent</span>
                   </div>
                 </div>
@@ -908,7 +908,7 @@ interface RelatedAgent {
                   <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
                 </div>
 
-                <!-- With AdRadar value — highlighted column -->
+                <!-- With adRadar value — highlighted column -->
                 <div class="p-5 flex items-center gap-2.5 bg-[#fef9f7]/70 group-hover:bg-[#fdeee9]/60 transition-colors border-l-2 border-l-[#e8573a]/20">
                   <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(26,26,46,0.3)]">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -929,7 +929,7 @@ interface RelatedAgent {
               <img src="/agents/Impression Capping Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
             </div>
             <div>
-              <span class="text-[13px] font-semibold text-white block leading-tight">AdRadar Impression Capping</span>
+              <span class="text-[13px] font-semibold text-white block leading-tight">adRadar Impression Capping</span>
               <span class="text-[10px] text-white/50 block leading-tight">See the difference the agent makes</span>
             </div>
           </div>
@@ -954,7 +954,7 @@ interface RelatedAgent {
                     <div class="w-[14px] h-[14px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center">
                       <svg width="6" height="6" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
                     </div>
-                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#e8573a]">With AdRadar</p>
+                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#e8573a]">With adRadar</p>
                   </div>
                   <p class="text-[13px] text-[#1a1a2e] font-semibold">{{ row.withCapping }}</p>
                 </div>
@@ -1181,7 +1181,7 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Impression Capping Agent shares context and memory with every other AdRadar agent —
+            The Impression Capping Agent shares context and memory with every other adRadar agent —
             so capping decisions inform audience quality, creative rotation, spend pacing, and competitor
             intelligence simultaneously.
           </p>

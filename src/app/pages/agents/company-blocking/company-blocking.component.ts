@@ -365,7 +365,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#e3f3fa] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#1a1a2e] uppercase tracking-[0.04em]">With AdRadar blocking</span>
+                  <span class="text-[12px] font-semibold text-[#1a1a2e] uppercase tracking-[0.04em]">With adRadar blocking</span>
                 </div>
                 <!-- Bar visualization: mostly ICP companies -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -455,7 +455,7 @@ interface RelatedAgent {
               </div>
             </div>
 
-            <!-- AdRadar Card -->
+            <!-- adRadar Card -->
             <div class="group relative rounded-2xl flex-1 transition-all duration-300">
               <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#4a9cc5]/25 via-[#9dcce7]/15 to-[#4a9cc5]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
               <div class="relative bg-gradient-to-br from-[#f0f9fd] via-[#e3f3fa] to-[#d4eef8] rounded-2xl border-2 border-[#9dcce7] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(74,156,197,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(74,156,197,0.22)] flex flex-col h-full">
@@ -470,7 +470,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Company Blocking</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Company Blocking</h3>
                       <p class="text-[11px] text-[#4a9cc5] mt-0.5">Account-level enforcement</p>
                     </div>
                   </div>
@@ -545,7 +545,7 @@ interface RelatedAgent {
       class="relative bg-white"
       style="height: 500vh"
     >
-      <div class="sticky top-0 h-full overflow-hidden">
+      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
         <!-- Subtle side accents -->
         <div class="absolute top-[20%] left-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#9dcce7]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
         <div class="absolute bottom-[20%] right-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#4a9cc5]/6 to-transparent blur-[80px] pointer-events-none -z-10"></div>
@@ -953,7 +953,7 @@ interface RelatedAgent {
                     <img src="/agents/Company Blocking Agent.png" alt="Company Blocking Agent" class="w-full h-full object-cover rounded-full" />
                   </div>
                   <div class="flex flex-col">
-                    <span class="text-[13px] font-semibold text-white leading-tight">With AdRadar Blocking</span>
+                    <span class="text-[13px] font-semibold text-white leading-tight">With adRadar Blocking</span>
                     <span class="text-[10px] text-white/50 leading-tight">Company Blocking Agent</span>
                   </div>
                 </div>
@@ -1000,7 +1000,7 @@ interface RelatedAgent {
                   <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
                 </div>
 
-                <!-- With AdRadar value -->
+                <!-- With adRadar value -->
                 <div class="p-5 flex items-center gap-2.5 bg-[#e3f3fa]/20 group-hover:bg-[#e3f3fa]/40 transition-colors border-l-2 border-l-[#4a9cc5]/20">
                   <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(26,26,46,0.3)]">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1020,7 +1020,7 @@ interface RelatedAgent {
               <img src="/agents/Company Blocking Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
             </div>
             <div>
-              <span class="text-[13px] font-semibold text-white block leading-tight">AdRadar Company Blocking</span>
+              <span class="text-[13px] font-semibold text-white block leading-tight">adRadar Company Blocking</span>
               <span class="text-[10px] text-white/50 block leading-tight">See the difference the agent makes</span>
             </div>
           </div>
@@ -1045,7 +1045,7 @@ interface RelatedAgent {
                     <div class="w-[14px] h-[14px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center">
                       <svg width="6" height="6" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
                     </div>
-                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#4a9cc5]">With AdRadar</p>
+                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#4a9cc5]">With adRadar</p>
                   </div>
                   <p class="text-[13px] text-[#1a1a2e] font-semibold">{{ row.withBlocking }}</p>
                 </div>
@@ -1254,7 +1254,7 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Company Blocking Agent shares context and memory with every other AdRadar agent —
+            The Company Blocking Agent shares context and memory with every other adRadar agent —
             so ICP enforcement decisions inform impression distribution, creative rotation, spend pacing,
             and competitor intelligence simultaneously.
           </p>

@@ -20,7 +20,7 @@ interface NavAgent {
         <a routerLink="/" class="flex items-center">
           <img
             src="/logo/adradar-logo.svg"
-            alt="AdRadar"
+            alt="adRadar"
             width="140"
             height="34"
             class="h-[34px] w-auto"

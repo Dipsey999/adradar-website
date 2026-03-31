@@ -235,7 +235,7 @@ interface FaqItem {
           </span>
         </div>
         <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-          Real Results from AdRadar Customers.
+          Real Results from adRadar Customers.
           <br class="hidden md:block" />
           <span class="italic bg-clip-text text-transparent" [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'">Try now for FREE</span>
         </h2>
@@ -274,7 +274,7 @@ interface FaqItem {
           No features hidden behind a sales call.
         </h2>
         <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-16">
-          Every AdRadar plan comes with the same foundation &mdash; full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
+          Every adRadar plan comes with the same foundation &mdash; full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
         </p>
 
         <!-- Features Grid — accordion style matching landing page -->
@@ -366,7 +366,7 @@ interface FaqItem {
           </span>
         </div>
         <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-12">
-          What teams find when they start using AdRadar.
+          What teams find when they start using adRadar.
         </h2>
 
         <!-- FAQ Items -->
@@ -632,8 +632,8 @@ export class PricingPageComponent {
       answer: 'Yes. You can upgrade or downgrade at any time. Upgrades take effect immediately. If you downgrade, you retain access to higher-tier features until the end of your current billing period.',
     },
     {
-      question: 'What CRMs does AdRadar integrate with?',
-      answer: 'AdRadar integrates with HubSpot, Salesforce, and Pipedrive on all plans (inbound sync). Pro and Agency plans additionally include outbound CRM sync \u2014 writing account scores and journey stage data back to your CRM fields.',
+      question: 'What CRMs does adRadar integrate with?',
+      answer: 'adRadar integrates with HubSpot, Salesforce, and Pipedrive on all plans (inbound sync). Pro and Agency plans additionally include outbound CRM sync \u2014 writing account scores and journey stage data back to your CRM fields.',
     },
     {
       question: 'How does the Agency plan work for managing multiple clients?',

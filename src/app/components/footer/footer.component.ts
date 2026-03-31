@@ -31,7 +31,7 @@ interface SocialLink {
             <div class="mb-5">
               <img
                 src="/logo/adradar-logo-lite.svg"
-                alt="AdRadar"
+                alt="adRadar"
                 width="140"
                 height="34"
                 class="h-8 w-auto"

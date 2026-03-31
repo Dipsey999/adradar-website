@@ -34,7 +34,7 @@ import { Component } from '@angular/core';
         <h1
           class="text-[48px] md:text-[64px] lg:text-[76px] font-bold leading-[1.05] tracking-[-0.02em] text-[#1A1A1A] mb-6"
         >
-          Never fly blind. AdRadar sees
+          Never fly blind. adRadar sees
           <br />
           everything.
         </h1>
@@ -43,7 +43,7 @@ import { Component } from '@angular/core';
         <p
           class="max-w-[640px] mx-auto text-[17px] text-[#6b7280] leading-[1.65] mb-10"
         >
-          AdRadar is the AI Copilot for B2B teams running LinkedIn Ads.
+          adRadar is the AI Copilot for B2B teams running LinkedIn Ads.
           Specialized agents watch your campaigns 24/7 — flagging waste,
           predicting fatigue, and telling you exactly what to do next.
         </p>
@@ -123,7 +123,7 @@ import { Component } from '@angular/core';
           >
             <img
               src="/images/Dashboard.png"
-              alt="AdRadar Dashboard Preview"
+              alt="adRadar Dashboard Preview"
               width="2200"
               height="1400"
               class="w-full h-auto object-cover"
