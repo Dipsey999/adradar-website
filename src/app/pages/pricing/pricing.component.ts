@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { NgClass } from '@angular/common';
+import { CtaSectionComponent } from '../../components/cta-section/cta-section.component';
 
 interface Plan {
   name: string;
   price: string;
+  annualPrice: string;
   period: string;
   features: string[];
   cta: string;
@@ -32,34 +34,84 @@ interface FaqItem {
 @Component({
   selector: 'app-pricing-page',
   standalone: true,
-  imports: [NgClass],
+  imports: [NgClass, CtaSectionComponent],
   template: `
     <!-- ═══════════════════════════════════════════
          SECTION 1: HERO + PRICING CARDS
          ═══════════════════════════════════════════ -->
-    <section class="relative pt-32 lg:pt-40 pb-16 lg:pb-24 overflow-hidden">
-      <!-- Background -->
-      <div class="absolute inset-0 bg-gradient-to-b from-[#fef6f3] via-white to-white pointer-events-none -z-10"></div>
-      <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-radial-[closest-side] from-[#e8573a]/5 to-transparent pointer-events-none -z-10"></div>
+    <section class="relative pt-28 lg:pt-36 pb-16 lg:pb-24 overflow-hidden">
+      <!-- Light warm gradient background — matches landing page -->
+      <div class="absolute inset-0 bg-gradient-to-b from-white via-white to-[#fff0e6] pointer-events-none -z-20"></div>
+
+      <!-- Decorative warm glows -->
+      <div class="absolute top-[15%] left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-radial-[closest-side] from-[#e8573a]/[0.06] via-[#ff6b35]/[0.03] to-transparent pointer-events-none -z-10"></div>
+      <div class="absolute top-[5%] right-[-5%] w-[400px] h-[400px] bg-radial-[closest-side] from-[#f5a855]/[0.08] to-transparent blur-[60px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[10%] left-[-5%] w-[350px] h-[350px] bg-radial-[closest-side] from-[#f09030]/[0.06] to-transparent blur-[60px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
-        <!-- Badge -->
-        <div class="text-left md:text-center mb-4">
-          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#c94a32]">
-            Pricing
-          </span>
+        <!-- Badge pill — same style as landing hero -->
+        <div class="text-left md:text-center mb-8">
+          <div class="inline-flex items-center gap-2.5 bg-primary/10 rounded-full px-4 py-1.5">
+            <span class="w-2 h-2 rounded-full bg-primary"></span>
+            <span class="text-[11px] font-bold tracking-[0.08em] text-primary uppercase">
+              Pricing
+            </span>
+            <span class="w-2 h-2 rounded-full bg-primary"></span>
+            <span class="text-[11px] font-bold tracking-[0.08em] text-primary uppercase">
+              Start Free
+            </span>
+            <span class="w-2 h-2 rounded-full bg-primary"></span>
+          </div>
         </div>
 
         <!-- Heading -->
-        <h1 class="text-[32px] md:text-[44px] lg:text-[52px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-          Start free. Scale as you grow.
+        <h1 class="text-[40px] md:text-[56px] lg:text-[68px] font-bold text-left md:text-center leading-[1.05] tracking-[-0.03em] text-[#1A1A1A] mb-5">
+          Simple pricing that
+          <br class="hidden md:block" />
+          <span class="italic bg-clip-text text-transparent" style="background-image: linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%);">scales with you.</span>
         </h1>
 
         <!-- Subheading -->
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-14">
+        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-8">
           No lock-in. No sales calls needed. Connect your LinkedIn Ads account
           and get your first insights in minutes.
         </p>
+
+        <!-- Trust badges -->
+        <div class="flex flex-wrap items-center justify-start md:justify-center gap-2 text-[13px] font-medium text-gray-500 mb-10">
+          <span>No credit card required</span>
+          <span class="text-gray-300 font-bold px-1">&bull;</span>
+          <span>Cancel anytime</span>
+          <span class="text-gray-300 font-bold px-1">&bull;</span>
+          <span>Setup in under 2 minutes</span>
+        </div>
+
+        <!-- Billing toggle -->
+        <div class="flex items-center justify-start md:justify-center mb-14">
+          <div class="inline-flex items-center bg-[#f3f4f6] rounded-full p-1">
+            <button
+              (click)="setBillingPeriod('monthly')"
+              class="text-[14px] font-medium px-5 py-2 rounded-full transition-all duration-300"
+              [ngClass]="billingPeriod() === 'monthly'
+                ? 'bg-white text-[#111827] shadow-sm'
+                : 'text-[#6b7280] hover:text-[#374151]'"
+            >
+              Monthly
+            </button>
+            <button
+              (click)="setBillingPeriod('annual')"
+              class="text-[14px] font-medium px-5 py-2 rounded-full transition-all duration-300 flex items-center gap-2"
+              [ngClass]="billingPeriod() === 'annual'
+                ? 'bg-white text-[#111827] shadow-sm'
+                : 'text-[#6b7280] hover:text-[#374151]'"
+            >
+              Annual
+              <span class="text-[11px] font-bold tracking-[0.04em] bg-[#22c55e] text-white px-2 py-0.5 rounded-full">
+                SAVE 20%
+              </span>
+            </button>
+          </div>
+        </div>
 
         <!-- Pricing Cards -->
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6">
@@ -86,8 +138,11 @@ interface FaqItem {
 
                 <!-- Price -->
                 <div class="mb-6">
-                  <span class="text-[40px] font-bold tracking-[-0.03em] leading-none text-[#111827]">{{ plan.price }}</span>
+                  <span class="text-[40px] font-bold tracking-[-0.03em] leading-none text-[#111827]">{{ billingPeriod() === 'annual' ? plan.annualPrice : plan.price }}</span>
                   <span class="text-[14px] text-[#6b7280] ml-1">/ month</span>
+                  @if (billingPeriod() === 'annual') {
+                    <span class="block text-[12px] text-[#22c55e] font-medium mt-1">Billed annually</span>
+                  }
                 </div>
 
                 <!-- Features -->
@@ -121,7 +176,43 @@ interface FaqItem {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 2: FEATURE COMPARISON TABLE
+         SECTION 2: SOCIAL PROOF / RESULTS
+         ═══════════════════════════════════════════ -->
+    <section class="relative py-16 lg:py-24 overflow-hidden">
+      <div class="absolute inset-0 bg-[#fef6f3] pointer-events-none -z-10"></div>
+
+      <div class="max-w-[1200px] mx-auto px-6">
+        <div class="text-left md:text-center mb-4">
+          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#c94a32]">
+            Proven Results
+          </span>
+        </div>
+        <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
+          Real Results from adRadar Customers.
+          <br class="hidden md:block" />
+          <span class="italic bg-clip-text text-transparent" [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'">Try now for FREE</span>
+        </h2>
+        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-12">
+          Numbers from real teams managing LinkedIn Ads with adRadar.
+        </p>
+
+        <!-- Stats Grid -->
+        <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
+          @for (stat of stats; track stat.value) {
+            <div class="bg-white rounded-2xl border border-[#e5e7eb] p-8 lg:p-10 text-center shadow-sm hover:-translate-y-1 transition-all duration-300 hover:shadow-md">
+              <!-- Progress bar accent -->
+              <div class="w-20 h-1 rounded-full bg-gradient-to-r from-[#e8573a] to-[#ff6b35] mx-auto mb-6"></div>
+              <span class="block text-[48px] lg:text-[56px] font-bold tracking-[-0.04em] leading-none text-[#e8573a] mb-3">{{ stat.value }}</span>
+              <p class="text-[15px] font-semibold text-[#111827] mb-2">{{ stat.label }}</p>
+              <p class="text-[13px] text-[#6b7280] leading-[1.55]">{{ stat.description }}</p>
+            </div>
+          }
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 3: FEATURE COMPARISON TABLE
          ═══════════════════════════════════════════ -->
     <section class="relative py-16 lg:py-24 overflow-hidden">
       <div class="absolute inset-0 bg-white pointer-events-none -z-10"></div>
@@ -218,42 +309,6 @@ interface FaqItem {
               }
             </tbody>
           </table>
-        </div>
-      </div>
-    </section>
-
-    <!-- ═══════════════════════════════════════════
-         SECTION 3: SOCIAL PROOF / RESULTS
-         ═══════════════════════════════════════════ -->
-    <section class="relative py-16 lg:py-24 overflow-hidden">
-      <div class="absolute inset-0 bg-[#fef6f3] pointer-events-none -z-10"></div>
-
-      <div class="max-w-[1200px] mx-auto px-6">
-        <div class="text-left md:text-center mb-4">
-          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#c94a32]">
-            Proven Results
-          </span>
-        </div>
-        <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-          Real Results from adRadar Customers.
-          <br class="hidden md:block" />
-          <span class="italic bg-clip-text text-transparent" [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'">Try now for FREE</span>
-        </h2>
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-12">
-          Numbers from real teams managing LinkedIn Ads with adRadar.
-        </p>
-
-        <!-- Stats Grid -->
-        <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
-          @for (stat of stats; track stat.value) {
-            <div class="bg-white rounded-2xl border border-[#e5e7eb] p-8 lg:p-10 text-center shadow-sm hover:-translate-y-1 transition-all duration-300 hover:shadow-md">
-              <!-- Progress bar accent -->
-              <div class="w-20 h-1 rounded-full bg-gradient-to-r from-[#e8573a] to-[#ff6b35] mx-auto mb-6"></div>
-              <span class="block text-[48px] lg:text-[56px] font-bold tracking-[-0.04em] leading-none text-[#e8573a] mb-3">{{ stat.value }}</span>
-              <p class="text-[15px] font-semibold text-[#111827] mb-2">{{ stat.label }}</p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">{{ stat.description }}</p>
-            </div>
-          }
         </div>
       </div>
     </section>
@@ -400,47 +455,7 @@ interface FaqItem {
     <!-- ═══════════════════════════════════════════
          SECTION 6: BOTTOM CTA
          ═══════════════════════════════════════════ -->
-    <section class="relative py-12 lg:py-20 overflow-hidden">
-      <div class="absolute inset-0 pointer-events-none">
-        <img src="/images/cta-bg-2.png" alt="" class="object-cover scale-125 absolute inset-0 w-full h-full" aria-hidden="true" />
-      </div>
-      <div class="relative max-w-[1200px] mx-auto px-6">
-        <div class="relative rounded-[28px] lg:rounded-[32px] bg-white overflow-clip shadow-[0_0_24px_4px_rgba(0,0,0,0.12)] pt-12 lg:pt-16 pb-[120px] lg:pb-[160px] px-8 md:px-12 lg:px-16">
-          <div class="relative z-10 text-left md:text-center max-w-[700px] mx-auto">
-            <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-3">
-              Your LinkedIn spend deserves
-              <br class="hidden md:block" />
-              better than{{ ' ' }}
-              <span
-                class="italic font-bold bg-clip-text text-transparent"
-                [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'"
-              >
-                gut feel.
-              </span>
-            </h2>
-            <p class="text-[15px] md:text-[17px] text-[#4b5563] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
-              Connect your LinkedIn Ads account in 2 minutes. Your first Copilot
-              briefing is ready instantly. No credit card required.
-            </p>
-            <a
-              href="#"
-              class="inline-flex items-center gap-3.5 bg-[#ff6500] hover:bg-[#e85a00] text-white rounded-full pl-9 pr-1 py-1 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(255,101,0,0.4)] hover:scale-[1.03]"
-            >
-              <span class="text-[15px] lg:text-[17px] font-medium">Start free trial</span>
-              <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M5 3l4 4-4 4" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-            </a>
-          </div>
-          <!-- Avatar wave -->
-          <div class="absolute bottom-6 left-1/2 -translate-x-1/2 w-[110%] max-w-[1310px]">
-            <img src="/images/cta-avatar.svg" alt="AI Copilot agents" width="1310" height="310" class="w-full h-auto" />
-          </div>
-        </div>
-      </div>
-    </section>
+    <app-cta-section />
   `,
   styles: [`
     :host { display: block; }
@@ -449,6 +464,11 @@ interface FaqItem {
 export class PricingPageComponent {
   openFaq = signal<number | null>(null);
   expandedPlanFeature = signal<number | null>(null);
+  billingPeriod = signal<'monthly' | 'annual'>('monthly');
+
+  setBillingPeriod(period: 'monthly' | 'annual'): void {
+    this.billingPeriod.set(period);
+  }
 
   togglePlanFeature(index: number): void {
     this.expandedPlanFeature.set(this.expandedPlanFeature() === index ? null : index);
@@ -458,6 +478,7 @@ export class PricingPageComponent {
     {
       name: 'Starter',
       price: '$29',
+      annualPrice: '$23',
       period: 'per month',
       features: [
         'Revenue Attribution',
@@ -478,6 +499,7 @@ export class PricingPageComponent {
     {
       name: 'Growth',
       price: '$59',
+      annualPrice: '$47',
       period: 'per month',
       features: [
         'Everything in Starter +',
@@ -497,6 +519,7 @@ export class PricingPageComponent {
     {
       name: 'Pro',
       price: '$99',
+      annualPrice: '$79',
       period: 'per month',
       features: [
         'Everything in Growth +',
@@ -512,6 +535,7 @@ export class PricingPageComponent {
     {
       name: 'Agency',
       price: '$149',
+      annualPrice: '$119',
       period: 'per month',
       features: [
         'Everything in Pro +',

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cta-section',
@@ -21,20 +21,18 @@ import { Component } from '@angular/core';
           <!-- Text content — centered -->
           <div class="relative z-10 text-left md:text-center max-w-[700px] mx-auto">
             <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-3">
-              Your LinkedIn spend deserves
-              <br />
-              better than{{ ' ' }}
+              {{ headingStart }}
+              <br class="hidden md:block" />
               <span
                 class="italic font-bold bg-clip-text text-transparent"
                 [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'"
               >
-                gut feel.
+                {{ headingGradient }}
               </span>
             </h2>
 
             <p class="text-[15px] md:text-[17px] text-[#4b5563] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
-              Connect your LinkedIn Ads account in 2 minutes. Your first Copilot
-              briefing is ready instantly. No credit card required.
+              {{ description }}
             </p>
 
             <!-- CTA Button -->
@@ -74,4 +72,8 @@ import { Component } from '@angular/core';
     </section>
   `,
 })
-export class CtaSectionComponent {}
+export class CtaSectionComponent {
+  @Input() headingStart = 'Your LinkedIn spend deserves better than';
+  @Input() headingGradient = 'gut feel.';
+  @Input() description = 'Connect your LinkedIn Ads account in 2 minutes. Your first Copilot briefing is ready instantly. No credit card required.';
+}

@@ -1,6 +1,7 @@
 import { Component, ChangeDetectorRef, ElementRef, OnDestroy, OnInit, ViewChild, signal, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { NgClass } from '@angular/common';
+import { CtaSectionComponent } from '../../../components/cta-section/cta-section.component';
 
 interface ComparisonRow {
   capability: string;
@@ -20,7 +21,7 @@ interface RelatedAgent {
 @Component({
   selector: 'app-strategy-copilot',
   standalone: true,
-  imports: [RouterLink, NgClass],
+  imports: [RouterLink, NgClass, CtaSectionComponent],
   template: `
     <!-- ═══════════════════════════════════════════
          SECTION 1: HERO
@@ -1296,7 +1297,7 @@ interface RelatedAgent {
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
             Strategy is the foundation.
             <br class="hidden md:block" />
-            Six agents <span class="section-gradient-text">execute the plan.</span>
+            Seven agents <span class="section-gradient-text">execute the plan.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
             The Strategy Copilot shares context and memory with every other adRadar agent —
@@ -1401,118 +1402,11 @@ interface RelatedAgent {
       </div>
     </section>
 
-    <!-- ═══════════════════════════════════════════
-         SECTION 8: FINAL CTA
-         ═══════════════════════════════════════════ -->
-    <section class="relative py-12 lg:py-20 overflow-hidden">
-      <div class="absolute inset-0 pointer-events-none">
-        <img src="/images/cta-bg-2.png" alt="" class="object-cover scale-125 absolute inset-0 w-full h-full" aria-hidden="true" />
-      </div>
-
-      <div class="relative max-w-[1200px] mx-auto px-6">
-        <div class="relative rounded-[28px] lg:rounded-[32px] bg-white overflow-clip shadow-[0_0_24px_4px_rgba(0,0,0,0.12)] pt-12 lg:pt-16 pb-[120px] lg:pb-[160px] px-8 md:px-12 lg:px-16">
-          <div class="relative z-10 text-left md:text-center max-w-[700px] mx-auto">
-            <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-3">
-              Stop guessing campaign structure.
-              <br class="hidden md:block" />
-              <span
-                class="italic font-bold bg-clip-text text-transparent"
-                [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'"
-              >
-                Let data design it.
-              </span>
-            </h2>
-            <p class="text-[15px] md:text-[17px] text-[#4b5563] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
-              Connect your LinkedIn Ads account in 2 minutes. The Strategy Copilot
-              runs its first audit immediately. No credit card required.
-            </p>
-            <a href="#" class="inline-flex items-center gap-3.5 bg-[#ff6500] hover:bg-[#e85a00] text-white rounded-full pl-9 pr-1 py-1 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(255,101,0,0.4)] hover:scale-[1.03]">
-              <span class="text-[15px] lg:text-[17px] font-medium">Start free trial</span>
-              <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                  <path d="M5 3l4 4-4 4" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-            </a>
-          </div>
-
-          <div class="absolute bottom-6 left-1/2 -translate-x-1/2 w-[110%] max-w-[1310px] h-[200px] hidden md:block">
-            <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1310 200" fill="none" preserveAspectRatio="xMidYMid meet">
-              <path d="M 30 55 Q 200 95 400 135 Q 550 165 655 175 Q 760 165 910 135 Q 1110 95 1280 55" stroke="#f5a896" stroke-width="2" fill="none" opacity="0.4"/>
-            </svg>
-
-            <div class="absolute" style="left: 2%; bottom: 110px">
-              <div class="relative">
-                <div class="w-[52px] h-[52px] rounded-full bg-[#acdfa4] p-[2px] shadow-md">
-                  <img src="/agents/Analyse competitors LinkedIn Ads.png" alt="" class="w-full h-full rounded-full object-cover bg-[#acdfa4]"/>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-
-            <div class="absolute" style="left: 15%; bottom: 80px">
-              <div class="relative">
-                <div class="w-[60px] h-[60px] rounded-full bg-[#fbf5df] p-[2px] shadow-md">
-                  <img src="/agents/Campaign Scheduling Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#fbf5df]"/>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-
-            <div class="absolute" style="left: 30%; bottom: 45px">
-              <div class="relative">
-                <div class="w-[68px] h-[68px] rounded-full bg-[#ee95a0] p-[2px] shadow-md">
-                  <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#ee95a0]"/>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-
-            <!-- CENTER: Strategy Copilot (SVG icon — no image) -->
-            <div class="absolute" style="left: 46%; bottom: 15px">
-              <div class="relative">
-                <div class="w-[84px] h-[84px] rounded-full bg-gradient-to-br from-[#f5a896] to-[#e8573a] p-[2px] shadow-lg ring-4 ring-[#f5a896]/30">
-                  <div class="w-full h-full rounded-full bg-gradient-to-br from-[#f5a896] to-[#e8573a] flex items-center justify-center">
-                    <svg width="60%" height="60%" viewBox="0 0 24 24" fill="none">
-                      <path d="M3 3v18h18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M7 14l4-4 4 4 6-6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                  </div>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-
-            <div class="absolute" style="left: 62%; bottom: 45px">
-              <div class="relative">
-                <div class="w-[68px] h-[68px] rounded-full bg-[#a8d1dc] p-[2px] shadow-md">
-                  <img src="/agents/Impression Capping Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#a8d1dc]"/>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-
-            <div class="absolute" style="left: 77%; bottom: 80px">
-              <div class="relative">
-                <div class="w-[60px] h-[60px] rounded-full bg-[#acdfa4] p-[2px] shadow-md">
-                  <img src="/agents/Bidding Optimization Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#acdfa4]"/>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-
-            <div class="absolute" style="left: 90%; bottom: 110px">
-              <div class="relative">
-                <div class="w-[52px] h-[52px] rounded-full bg-[#b8dff0] p-[2px] shadow-md">
-                  <img src="/agents/Company Blocking Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#b8dff0]"/>
-                </div>
-                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <app-cta-section
+      headingStart="Stop guessing campaign structure."
+      headingGradient="Let data design it."
+      description="Connect your LinkedIn Ads account in 2 minutes. The Strategy Copilot starts monitoring immediately. No credit card required."
+    />
   `,
   styles: [`
     :host { display: block; }
@@ -1876,6 +1770,15 @@ export class StrategyCopilotComponent implements OnInit, OnDestroy {
         'Pauses campaigns during low-conversion windows \u2014 ACV benchmarks determine optimal scheduling.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
+    },
+    {
+      name: 'Analyse Competitors',
+      image: '/agents/Analyse competitors LinkedIn Ads.png',
+      avatarBg: '#acdfa4',
+      description:
+        'Monitors competitor LinkedIn Ads activity \u2014 Strategy Copilot uses competitor positioning data to refine your campaign structure and messaging angles.',
+      accentColor: '#4a9a42',
+      route: '/agents/analyse-competitors',
     },
   ];
 }

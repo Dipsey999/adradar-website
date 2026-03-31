@@ -110,7 +110,8 @@ interface Step {
                           <img
                             [src]="step.image"
                             [alt]="step.title"
-                            class="object-contain absolute inset-0 w-full h-full p-4 lg:p-5"
+                            class="absolute inset-0 w-full h-full"
+                            [ngClass]="i === 1 ? 'object-cover' : 'object-contain p-4 lg:p-5'"
                           />
                         </div>
                       </div>
