@@ -22,11 +22,11 @@ interface Step {
     >
       <!-- Sticky container — offset for 70px navbar -->
       <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
-        <div class="h-full flex flex-col justify-center">
-          <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full">
+        <div class="h-full flex flex-col">
+          <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full flex-1 flex flex-col pt-8 lg:pt-10">
 
             <!-- Header -->
-            <div class="mb-8 lg:mb-10">
+            <div class="mb-6 lg:mb-8">
               <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#ff4829]">
                 HOW IT WORKS
               </span>
@@ -37,7 +37,7 @@ interface Step {
             </div>
 
             <!-- Progress bar -->
-            <div class="hidden md:flex items-center gap-3 mb-8 lg:mb-10">
+            <div class="hidden md:flex items-center gap-3 mb-6 lg:mb-8">
               @for (step of steps; track step.number; let i = $index) {
                 <button
                   class="group flex items-center gap-2 cursor-pointer"
@@ -70,14 +70,14 @@ interface Step {
             </div>
 
             <!-- Horizontal scrolling cards container -->
-            <div class="relative overflow-hidden">
+            <div class="relative overflow-hidden flex-1 pb-6 lg:pb-8">
               <div
-                class="flex transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)]"
+                class="flex transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)] h-full"
                 [style.transform]="'translateX(-' + (activeStep() * 100) + '%)'"
               >
                 @for (step of steps; track step.number; let i = $index) {
-                  <div class="w-full shrink-0 pr-0">
-                    <div class="flex flex-col md:flex-row gap-6 lg:gap-10 items-center">
+                  <div class="w-full shrink-0 pr-0 h-full">
+                    <div class="flex flex-col md:flex-row gap-6 lg:gap-10 items-center h-full">
 
                       <!-- Left: Text content -->
                       <div class="flex-1 flex flex-col justify-center min-w-0">
@@ -105,12 +105,12 @@ interface Step {
                       </div>
 
                       <!-- Right: Image -->
-                      <div class="md:w-[340px] lg:w-[440px] xl:w-[520px] shrink-0">
-                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden relative min-h-[320px] md:min-h-[440px] lg:min-h-[520px]">
+                      <div class="md:w-[340px] lg:w-[440px] xl:w-[520px] shrink-0 self-stretch">
+                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden relative h-full min-h-[280px]">
                           <img
                             [src]="step.image"
                             [alt]="step.title"
-                            class="object-contain absolute inset-0 w-full h-full p-5 lg:p-6"
+                            class="object-contain absolute inset-0 w-full h-full p-4 lg:p-5"
                           />
                         </div>
                       </div>
