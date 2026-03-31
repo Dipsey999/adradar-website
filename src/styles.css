@@ -330,6 +330,9 @@
   .top-\[40\%\] {
     top: 40%;
   }
+  .top-\[70px\] {
+    top: 70px;
+  }
   .top-\[98px\] {
     top: 98px;
   }
@@ -923,6 +926,9 @@
   }
   .h-\[500px\] {
     height: 500px;
+  }
+  .h-\[calc\(100vh-70px\)\] {
+    height: calc(100vh - 70px);
   }
   .h-auto {
     height: auto;
@@ -1776,9 +1782,6 @@
   }
   .border-\[\#f5a896\]\/40 {
     border-color: color-mix(in oklab, #f5a896 40%, transparent);
-  }
-  .border-\[\#f5e6e0\] {
-    border-color: #f5e6e0;
   }
   .border-\[\#f59e0b\]\/30 {
     border-color: color-mix(in oklab, #f59e0b 30%, transparent);
@@ -3534,9 +3537,6 @@
   .py-24 {
     padding-block: calc(var(--spacing) * 24);
   }
-  .pt-1\.5 {
-    padding-top: calc(var(--spacing) * 1.5);
-  }
   .pt-3 {
     padding-top: calc(var(--spacing) * 3);
   }
@@ -3557,9 +3557,6 @@
   }
   .pt-32 {
     padding-top: calc(var(--spacing) * 32);
-  }
-  .pt-\[70px\] {
-    padding-top: 70px;
   }
   .pr-0 {
     padding-right: calc(var(--spacing) * 0);
@@ -3602,9 +3599,6 @@
   }
   .pl-9 {
     padding-left: calc(var(--spacing) * 9);
-  }
-  .pl-\[50px\] {
-    padding-left: 50px;
   }
   .text-center {
     text-align: center;
@@ -5213,6 +5207,11 @@
   .md\:text-\[17px\] {
     @media (width >= 48rem) {
       font-size: 17px;
+    }
+  }
+  .md\:text-\[20px\] {
+    @media (width >= 48rem) {
+      font-size: 20px;
     }
   }
   .md\:text-\[22px\] {

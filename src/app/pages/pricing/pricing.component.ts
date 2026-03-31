@@ -1,4 +1,5 @@
 import { Component, signal } from '@angular/core';
+import { NgClass } from '@angular/common';
 
 interface Plan {
   name: string;
@@ -31,6 +32,7 @@ interface FaqItem {
 @Component({
   selector: 'app-pricing-page',
   standalone: true,
+  imports: [NgClass],
   template: `
     <!-- ═══════════════════════════════════════════
          SECTION 1: HERO + PRICING CARDS
@@ -263,32 +265,89 @@ interface FaqItem {
       <div class="absolute inset-0 bg-white pointer-events-none -z-10"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
-        <div class="text-left md:text-center mb-4">
+        <div class="text-left md:text-center mb-6">
           <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#c94a32]">
             Every Plan Includes
           </span>
         </div>
-        <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
+        <h2 class="text-[32px] md:text-[44px] lg:text-[52px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-6">
           No features hidden behind a sales call.
         </h2>
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-12">
+        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-16">
           Every AdRadar plan comes with the same foundation &mdash; full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
         </p>
 
-        <!-- Features Grid -->
-        <div class="grid md:grid-cols-2 gap-5 lg:gap-6">
-          @for (item of everyPlanFeatures; track item.title) {
-            <div class="bg-[#fef6f3] rounded-2xl p-7 lg:p-8 border border-[#f5e6e0]">
-              <div class="flex items-start gap-3.5 mb-3">
-                <div class="w-9 h-9 rounded-xl bg-white flex items-center justify-center flex-shrink-0 shadow-sm">
-                  <svg class="w-5 h-5 text-[#e8573a]" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                  </svg>
+        <!-- Features Grid — accordion style matching landing page -->
+        <div class="grid md:grid-cols-2 gap-4 items-start">
+          @for (item of everyPlanFeatures; track item.title; let i = $index) {
+            <button
+              (click)="togglePlanFeature(i)"
+              [ngClass]="{
+                'border border-[#eca65b] space-y-5': expandedPlanFeature() === i,
+                'border border-transparent hover:shadow-md': expandedPlanFeature() !== i
+              }"
+              class="text-left bg-[#f8f5f0] rounded-xl p-6 transition-all duration-300"
+            >
+              <!-- Header Row -->
+              <div class="flex items-center gap-5 w-full">
+                <!-- Icon -->
+                <div class="w-[52px] h-[52px] flex-shrink-0 rounded-xl bg-[#e8573a] flex items-center justify-center">
+                  @switch (i) {
+                    @case (0) {
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.172 13.828a4 4 0 005.656 0l4-4a4 4 0 10-5.656-5.656l-1.1 1.1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    }
+                    @case (1) {
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 17a3 3 0 106 0 3 3 0 00-6 0z" stroke="white" stroke-width="2"/></svg>
+                    }
+                    @case (2) {
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>
+                    }
+                    @case (3) {
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 20V10M12 20V4M6 20v-6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    }
+                    @case (4) {
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="7" r="4" stroke="white" stroke-width="2"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    }
+                    @case (5) {
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="white" stroke-width="2"/><path d="M12 6v6l4 2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    }
+                  }
                 </div>
-                <h3 class="text-[16px] font-bold text-[#111827] leading-[1.3] pt-1.5">{{ item.title }}</h3>
+
+                <!-- Title -->
+                <h3 class="flex-1 text-[18px] md:text-[20px] font-semibold leading-[1.3] tracking-[-0.01em] text-black">
+                  {{ item.title }}
+                </h3>
+
+                <!-- Chevron -->
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                  class="flex-shrink-0 transition-transform duration-300"
+                  [ngClass]="{ 'rotate-180': expandedPlanFeature() === i }"
+                >
+                  <path
+                    d="M8 11l6 6 6-6"
+                    [attr.stroke]="expandedPlanFeature() === i ? '#e8573a' : '#666'"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    fill="none"
+                  />
+                </svg>
               </div>
-              <p class="text-[14px] text-[#6b7280] leading-[1.6] pl-[50px]">{{ item.description }}</p>
-            </div>
+
+              <!-- Expanded Content -->
+              @if (expandedPlanFeature() === i) {
+                <div class="animate-in fade-in duration-300">
+                  <p class="text-[15px] text-black/60 leading-[1.6]">
+                    {{ item.description }}
+                  </p>
+                </div>
+              }
+            </button>
           }
         </div>
       </div>
@@ -389,6 +448,11 @@ interface FaqItem {
 })
 export class PricingPageComponent {
   openFaq = signal<number | null>(null);
+  expandedPlanFeature = signal<number | null>(null);
+
+  togglePlanFeature(index: number): void {
+    this.expandedPlanFeature.set(this.expandedPlanFeature() === index ? null : index);
+  }
 
   plans: Plan[] = [
     {
