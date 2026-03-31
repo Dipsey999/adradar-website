@@ -77,7 +77,7 @@ interface Step {
               >
                 @for (step of steps; track step.number; let i = $index) {
                   <div class="w-full shrink-0 pr-0">
-                    <div class="flex flex-col md:flex-row gap-6 lg:gap-10 items-stretch">
+                    <div class="flex flex-col md:flex-row gap-6 lg:gap-10 items-center">
 
                       <!-- Left: Text content -->
                       <div class="flex-1 flex flex-col justify-center min-w-0">
@@ -106,11 +106,11 @@ interface Step {
 
                       <!-- Right: Image -->
                       <div class="md:w-[340px] lg:w-[440px] xl:w-[520px] shrink-0">
-                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden aspect-[4/3] md:aspect-auto md:h-full relative">
+                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden relative min-h-[300px] md:min-h-[400px] lg:min-h-[460px]">
                           <img
                             [src]="step.image"
                             [alt]="step.title"
-                            class="object-contain absolute inset-0 w-full h-full"
+                            class="object-contain absolute inset-0 w-full h-full p-5 lg:p-6"
                           />
                         </div>
                       </div>
