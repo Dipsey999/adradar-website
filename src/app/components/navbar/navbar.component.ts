@@ -13,6 +13,9 @@ interface NavAgent {
   selector: 'app-navbar',
   standalone: true,
   imports: [RouterLink],
+  host: {
+    style: 'display:block;position:fixed;top:0;left:0;width:100%;z-index:9999;',
+  },
   template: `
     <header class="bg-white border-b border-border">
       <div class="max-w-[1480px] mx-auto px-6 flex items-center justify-between h-[70px]">
@@ -137,8 +140,6 @@ interface NavAgent {
     </header>
   `,
   styles: [`
-    :host { display: block; }
-
     .nav-dropdown {
       transform: translateY(4px);
       transition: transform 0.3s ease-out, opacity 0.3s ease-out;
