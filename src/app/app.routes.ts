@@ -32,10 +32,38 @@ export const routes: Routes = [
       ),
   },
   {
+    path: 'agents/campaign-scheduling',
+    loadComponent: () =>
+      import('./pages/agents/campaign-scheduling/campaign-scheduling.component').then(
+        (m) => m.CampaignSchedulingComponent
+      ),
+  },
+  {
+    path: 'agents/company-blocking',
+    loadComponent: () =>
+      import('./pages/agents/company-blocking/company-blocking.component').then(
+        (m) => m.CompanyBlockingComponent
+      ),
+  },
+  {
     path: 'agents/analyse-competitors',
     loadComponent: () =>
       import('./pages/agents/analyse-competitors/analyse-competitors.component').then(
         (m) => m.AnalyseCompetitorsComponent
+      ),
+  },
+  {
+    path: 'agents/ad-rotation',
+    loadComponent: () =>
+      import('./pages/agents/ad-rotation/ad-rotation.component').then(
+        (m) => m.AdRotationComponent
+      ),
+  },
+  {
+    path: 'pricing',
+    loadComponent: () =>
+      import('./pages/pricing/pricing.component').then(
+        (m) => m.PricingPageComponent
       ),
   },
   { path: '**', redirectTo: '' },

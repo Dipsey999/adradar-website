@@ -27,24 +27,24 @@ interface RelatedAgent {
          ═══════════════════════════════════════════ -->
     <section class="relative pt-12 lg:pt-20 pb-16 lg:pb-20 overflow-hidden">
       <!-- Background -->
-      <div class="absolute inset-0 bg-gradient-to-b from-[#fdf5f7] via-[#fef9fa] to-white pointer-events-none -z-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-[#fef9f7] via-[#fef9fa] to-white pointer-events-none -z-10"></div>
       <!-- Large ambient glows -->
-      <div class="absolute top-[-15%] right-[-10%] w-[60%] h-[70%] bg-radial-[closest-side] from-[#d4606f]/15 to-transparent blur-[100px] pointer-events-none -z-10"></div>
-      <div class="absolute bottom-[0%] left-[-15%] w-[50%] h-[60%] bg-radial-[closest-side] from-[#ee95a0]/20 to-transparent blur-[80px] pointer-events-none -z-10"></div>
-      <div class="absolute top-[30%] left-[30%] w-[40%] h-[40%] bg-radial-[closest-side] from-[#5e1a24]/5 to-transparent blur-[120px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[-15%] right-[-10%] w-[60%] h-[70%] bg-radial-[closest-side] from-[#e8573a]/15 to-transparent blur-[100px] pointer-events-none -z-10"></div>
+      <div class="absolute bottom-[0%] left-[-15%] w-[50%] h-[60%] bg-radial-[closest-side] from-[#f5a896]/20 to-transparent blur-[80px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[30%] left-[30%] w-[40%] h-[40%] bg-radial-[closest-side] from-[#1a1a2e]/5 to-transparent blur-[120px] pointer-events-none -z-10"></div>
       <!-- Subtle dot pattern overlay -->
-      <div class="absolute inset-0 opacity-[0.03] pointer-events-none -z-10" style="background-image: radial-gradient(circle, #5e1a24 1px, transparent 1px); background-size: 32px 32px;"></div>
+      <div class="absolute inset-0 opacity-[0.03] pointer-events-none -z-10" style="background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px); background-size: 32px 32px;"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
         <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
           <!-- Left: Text content -->
           <div class="flex-1 text-left">
             <!-- Badge -->
-            <div class="inline-flex items-center gap-2.5 bg-[#fbf2f5]/80 backdrop-blur-sm border border-[#f4e0e9]/40 rounded-full px-4 py-1.5 mb-6 shadow-[0_2px_12px_-4px_rgba(212,96,111,0.1)]">
-              <div class="w-6 h-6 rounded-full overflow-hidden bg-[#ee95a0] ring-2 ring-white/60">
+            <div class="inline-flex items-center gap-2.5 bg-[#fef6f3]/80 backdrop-blur-sm border border-[#ffe8df]/40 rounded-full px-4 py-1.5 mb-6 shadow-[0_2px_12px_-4px_rgba(232,87,58,0.1)]">
+              <div class="w-6 h-6 rounded-full overflow-hidden bg-[#f5a896] ring-2 ring-white/60">
                 <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover" />
               </div>
-              <span class="text-[11px] font-bold tracking-[0.08em] text-[#5e1a24] uppercase">
+              <span class="text-[11px] font-bold tracking-[0.08em] text-[#1a1a2e] uppercase">
                 Title Blocking Agent
               </span>
             </div>
@@ -65,18 +65,18 @@ interface RelatedAgent {
             <div class="flex items-center gap-4 flex-wrap">
               <a
                 href="#"
-                class="group inline-flex items-center gap-3 bg-[#5e1a24] hover:bg-[#4a1520] text-white rounded-full pl-6 pr-1.5 py-1.5 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(94,26,36,0.4)] hover:scale-[1.02]"
+                class="group inline-flex items-center gap-3 bg-[#e8573a] hover:bg-[#d14a30] text-white rounded-full pl-6 pr-1.5 py-1.5 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.4)] hover:scale-[1.02]"
               >
                 <span class="text-[15px] font-medium">Start free trial</span>
                 <div class="w-9 h-9 bg-white rounded-full flex items-center justify-center transition-transform duration-300 group-hover:rotate-[-15deg]">
                   <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M5 3l4 4-4 4" stroke="#5e1a24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M5 3l4 4-4 4" stroke="#e8573a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </div>
               </a>
               <a
                 href="#"
-                class="h-12 px-8 flex items-center justify-center border border-[#f4e0e9] rounded-full text-[15px] font-medium text-[#5e1a24] hover:bg-[#fbf2f5]/50 hover:border-[#d4606f]/50 transition-all duration-300"
+                class="h-12 px-8 flex items-center justify-center border border-[#ffe8df] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fef6f3]/50 hover:border-[#e8573a]/50 transition-all duration-300"
               >
                 Book a Demo
               </a>
@@ -85,12 +85,12 @@ interface RelatedAgent {
             <!-- Trust indicators -->
             <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
               <span class="flex items-center gap-1.5">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#d4606f" stroke-width="1" opacity="0.3"/></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
               </span>
               <span class="text-[#d1d5db]">&bull;</span>
               <span class="flex items-center gap-1.5">
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v6l3 2" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#d4606f" stroke-width="1" opacity="0.3"/></svg>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 1v6l3 2" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 Setup in under 2 minutes
               </span>
             </div>
@@ -131,12 +131,12 @@ interface RelatedAgent {
                 <div class="absolute inset-[-32px] rounded-full bg-[#ee95a0]/6 animate-[pulse-ring_3s_ease-in-out_infinite]"></div>
                 <div class="absolute inset-[-22px] rounded-full bg-[#ee95a0]/10 animate-[pulse-ring_3s_ease-in-out_infinite_0.5s]"></div>
                 <div class="absolute inset-[-12px] rounded-full bg-gradient-to-br from-[#ee95a0]/20 to-[#d4606f]/12"></div>
-                <div class="relative w-[110px] h-[110px] rounded-full bg-gradient-to-br from-[#f4c4ca] to-[#ee95a0] p-[3px] shadow-[0_8px_40px_-4px_rgba(212,96,111,0.35)]">
-                  <div class="w-full h-full rounded-full bg-gradient-to-br from-[#fbf2f5] to-[#f4d0d6] overflow-hidden">
+                <div class="relative w-[110px] h-[110px] rounded-full bg-gradient-to-br from-[#f4c8ce] to-[#ee95a0] p-[3px] shadow-[0_8px_40px_-4px_rgba(212,96,111,0.35)]">
+                  <div class="w-full h-full rounded-full bg-gradient-to-br from-[#fdf2f4] to-[#f4c8ce] overflow-hidden">
                     <img src="/agents/Title Blocking Agent.png" alt="Title Blocking Agent" class="w-full h-full object-cover" />
                   </div>
                 </div>
-                <div class="absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#5e1a24] text-white text-[10px] font-bold tracking-[0.05em] uppercase px-3 py-1 rounded-full shadow-[0_4px_12px_-2px_rgba(94,26,36,0.3)]">
+                <div class="absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#1a1a2e] text-white text-[10px] font-bold tracking-[0.05em] uppercase px-3 py-1 rounded-full shadow-[0_4px_12px_-2px_rgba(26,26,46,0.3)]">
                   Title Blocking
                 </div>
               </div>
@@ -204,12 +204,12 @@ interface RelatedAgent {
          SECTION 2: PROBLEM STATS
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-b from-white via-[#fef9fa] to-[#fdf5f7] pointer-events-none -z-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-white via-[#fef9fa] to-[#fef9f7] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
         <!-- Heading -->
         <div class="text-left md:text-center mb-10">
-          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#d4606f] mb-4 block">The Problem</span>
+          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">The Problem</span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
             LinkedIn job title targeting is set once at launch.
             <br class="hidden md:block" />
@@ -225,76 +225,67 @@ interface RelatedAgent {
         <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
 
           <!-- Card 1: 55% -->
-          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_-10px_rgba(94,26,36,0.2)]">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#5e1a24] to-[#6e2a34]"></div>
-            <div class="absolute top-[-30%] right-[-20%] w-[60%] h-[80%] bg-radial-[closest-side] from-[#d4606f]/30 to-transparent blur-[40px] pointer-events-none"></div>
-            <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#ee95a0]/40 to-transparent"></div>
+          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 bg-white border border-[#e5e7eb] shadow-sm hover:shadow-[0_12px_40px_-10px_rgba(0,0,0,0.08)]">
             <div class="relative p-7 lg:p-8">
               <div class="flex items-start justify-between mb-5">
-                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-white">55%</span>
-                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mt-1">
+                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-[#111827]">55%</span>
+                <div class="w-10 h-10 rounded-xl bg-[#fef6f3] flex items-center justify-center mt-1">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <circle cx="10" cy="8" r="3.5" stroke="#ee95a0" stroke-width="1.5" fill="none"/>
-                    <path d="M4 17c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#ee95a0" stroke-width="1.5" stroke-linecap="round"/>
-                    <path d="M14 5l2 2-2 2" stroke="#ee95a0" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-                    <line x1="10" y1="7" x2="16" y2="7" stroke="#ee95a0" stroke-width="1.3" stroke-linecap="round"/>
+                    <circle cx="10" cy="8" r="3.5" stroke="#f5a896" stroke-width="1.5" fill="none"/>
+                    <path d="M4 17c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="#f5a896" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M14 5l2 2-2 2" stroke="#f5a896" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                    <line x1="10" y1="7" x2="16" y2="7" stroke="#f5a896" stroke-width="1.3" stroke-linecap="round"/>
                   </svg>
                 </div>
               </div>
-              <p class="text-[15px] font-semibold text-white/95 leading-[1.4] mb-2">
+              <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 LinkedIn job title data accuracy — nearly half of title targeting is based on incorrect information
               </p>
-              <p class="text-[13px] text-[#ee95a0] leading-[1.55]">
+              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
                 The persona you set at launch is not the audience you're actually reaching.
               </p>
             </div>
           </div>
 
           <!-- Card 2: 35% -->
-          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_-10px_rgba(94,26,36,0.2)]">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#6e2a34] to-[#5e1a24]"></div>
-            <div class="absolute top-[-30%] right-[-20%] w-[60%] h-[80%] bg-radial-[closest-side] from-[#ee95a0]/25 to-transparent blur-[40px] pointer-events-none"></div>
-            <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#ee95a0]/40 to-transparent"></div>
+          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 bg-white border border-[#e5e7eb] shadow-sm hover:shadow-[0_12px_40px_-10px_rgba(0,0,0,0.08)]">
             <div class="relative p-7 lg:p-8">
               <div class="flex items-start justify-between mb-5">
-                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-white">35%</span>
-                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mt-1">
+                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-[#111827]">35%</span>
+                <div class="w-10 h-10 rounded-xl bg-[#fef6f3] flex items-center justify-center mt-1">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <rect x="3" y="11" width="3.5" height="6" rx="1" fill="#ee95a0"/>
-                    <rect x="8.25" y="7" width="3.5" height="10" rx="1" fill="#ee95a0" opacity="0.7"/>
-                    <rect x="13.5" y="3" width="3.5" height="14" rx="1" fill="#ee95a0" opacity="0.4"/>
+                    <rect x="3" y="11" width="3.5" height="6" rx="1" fill="#f5a896"/>
+                    <rect x="8.25" y="7" width="3.5" height="10" rx="1" fill="#f5a896" opacity="0.7"/>
+                    <rect x="13.5" y="3" width="3.5" height="14" rx="1" fill="#f5a896" opacity="0.4"/>
                   </svg>
                 </div>
               </div>
-              <p class="text-[15px] font-semibold text-white/95 leading-[1.4] mb-2">
+              <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Average improvement in MQL quality when off-persona titles are systematically blocked
               </p>
-              <p class="text-[13px] text-[#ee95a0] leading-[1.55]">
+              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
                 Same budget. Same targeting intent. Tighter persona enforcement.
               </p>
             </div>
           </div>
 
           <!-- Card 3: 0 -->
-          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_-10px_rgba(94,26,36,0.2)]">
-            <div class="absolute inset-0 bg-gradient-to-br from-[#5e1a24] to-[#6e2a34]"></div>
-            <div class="absolute top-[-30%] right-[-20%] w-[60%] h-[80%] bg-radial-[closest-side] from-[#d4606f]/25 to-transparent blur-[40px] pointer-events-none"></div>
-            <div class="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-[#ee95a0]/40 to-transparent"></div>
+          <div class="group relative rounded-2xl overflow-hidden transition-all duration-300 hover:-translate-y-1 bg-white border border-[#e5e7eb] shadow-sm hover:shadow-[0_12px_40px_-10px_rgba(0,0,0,0.08)]">
             <div class="relative p-7 lg:p-8">
               <div class="flex items-start justify-between mb-5">
-                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-white">0</span>
-                <div class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center mt-1">
+                <span class="text-[52px] lg:text-[60px] font-bold tracking-[-0.04em] leading-none text-[#111827]">0</span>
+                <div class="w-10 h-10 rounded-xl bg-[#fef6f3] flex items-center justify-center mt-1">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <rect x="3" y="3" width="14" height="14" rx="3" stroke="#ee95a0" stroke-width="1.5" fill="none"/>
-                    <path d="M7 10h6" stroke="#ee95a0" stroke-width="1.5" stroke-linecap="round"/>
-                    <circle cx="10" cy="10" r="1" fill="#ee95a0" opacity="0.5"/>
+                    <rect x="3" y="3" width="14" height="14" rx="3" stroke="#f5a896" stroke-width="1.5" fill="none"/>
+                    <path d="M7 10h6" stroke="#f5a896" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="10" cy="10" r="1" fill="#f5a896" opacity="0.5"/>
                   </svg>
                 </div>
               </div>
-              <p class="text-[15px] font-semibold text-white/95 leading-[1.4] mb-2">
+              <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native LinkedIn tools to detect and automatically block off-persona title drift as it happens
               </p>
-              <p class="text-[13px] text-[#ee95a0] leading-[1.55]">
+              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
                 LinkedIn Campaign Manager reports title delivery — it doesn't block drift automatically.
               </p>
             </div>
@@ -308,17 +299,17 @@ interface RelatedAgent {
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
       <!-- Background -->
-      <div class="absolute inset-0 bg-gradient-to-b from-[#fdf5f7] via-[#fef8f9] to-white pointer-events-none -z-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-[#fef9f7] via-[#fef8f9] to-white pointer-events-none -z-10"></div>
       <!-- Ambient glows -->
-      <div class="absolute top-[20%] right-[5%] w-[35%] h-[50%] bg-radial-[closest-side] from-[#d4606f]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
-      <div class="absolute bottom-[10%] left-[10%] w-[30%] h-[40%] bg-radial-[closest-side] from-[#5e1a24]/5 to-transparent blur-[80px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[20%] right-[5%] w-[35%] h-[50%] bg-radial-[closest-side] from-[#e8573a]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
+      <div class="absolute bottom-[10%] left-[10%] w-[30%] h-[40%] bg-radial-[closest-side] from-[#1a1a2e]/5 to-transparent blur-[80px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
         <div class="flex flex-col lg:flex-row gap-10 lg:gap-14 items-stretch">
 
           <!-- ══ LEFT COLUMN (60%): Heading + description + stats ══ -->
           <div class="lg:w-[58%] flex flex-col">
-            <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#d4606f] mb-4 block">
+            <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">
               The Gap
             </span>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827] mb-5">
@@ -331,7 +322,7 @@ interface RelatedAgent {
             </p>
 
             <!-- Before / After transformation card -->
-            <div class="hidden lg:flex flex-col flex-1 bg-gradient-to-br from-[#fdf5f7] to-[#fbf2f5]/80 rounded-2xl border border-[#f4e0e9]/25 p-6 mt-2">
+            <div class="hidden lg:flex flex-col flex-1 bg-gradient-to-br from-[#fef9f7] to-[#fef6f3]/80 rounded-2xl border border-[#ffe8df]/25 p-6 mt-2">
 
               <!-- Before: Without blocking -->
               <div class="mb-4">
@@ -362,37 +353,37 @@ interface RelatedAgent {
 
               <!-- Divider with arrow -->
               <div class="flex items-center gap-3 my-3">
-                <div class="flex-1 h-[1px] bg-gradient-to-r from-transparent to-[#ee95a0]/40"></div>
-                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-[#d4606f] to-[#5e1a24] flex items-center justify-center shadow-[0_2px_8px_-2px_rgba(94,26,36,0.3)]">
+                <div class="flex-1 h-[1px] bg-gradient-to-r from-transparent to-[#f5a896]/40"></div>
+                <div class="w-7 h-7 rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shadow-[0_2px_8px_-2px_rgba(26,26,46,0.3)]">
                   <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M7 3v8M4 8l3 3 3-3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </div>
-                <div class="flex-1 h-[1px] bg-gradient-to-l from-transparent to-[#ee95a0]/40"></div>
+                <div class="flex-1 h-[1px] bg-gradient-to-l from-transparent to-[#f5a896]/40"></div>
               </div>
 
               <!-- After: With blocking -->
               <div class="mb-4">
                 <div class="flex items-center gap-2 mb-3">
                   <div class="w-6 h-6 rounded-full bg-[#fce4e8] flex items-center justify-center">
-                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="#5e1a24" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#5e1a24] uppercase tracking-[0.04em]">With AdRadar blocking</span>
+                  <span class="text-[12px] font-semibold text-[#1a1a2e] uppercase tracking-[0.04em]">With AdRadar blocking</span>
                 </div>
                 <!-- Bar visualization: even distribution to right personas -->
                 <div class="flex gap-[3px] items-end h-[44px]">
-                  <div class="flex-1 bg-gradient-to-t from-[#5e1a24] to-[#d4606f] rounded-[3px] h-[78%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#5e1a24] to-[#d4606f] rounded-[3px] h-[74%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#5e1a24]/90 to-[#d4606f] rounded-[3px] h-[70%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#d4606f] to-[#ee95a0] rounded-[3px] h-[66%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#d4606f] to-[#ee95a0] rounded-[3px] h-[63%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#d4606f] to-[#ee95a0] rounded-[3px] h-[60%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#ee95a0] to-[#f4c4ca] rounded-[3px] h-[56%]"></div>
-                  <div class="flex-1 bg-gradient-to-t from-[#ee95a0] to-[#f4c4ca] rounded-[3px] h-[52%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#1a1a2e] to-[#e8573a] rounded-[3px] h-[78%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#1a1a2e] to-[#e8573a] rounded-[3px] h-[74%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#1a1a2e]/90 to-[#e8573a] rounded-[3px] h-[70%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#e8573a] to-[#f5a896] rounded-[3px] h-[66%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#e8573a] to-[#f5a896] rounded-[3px] h-[63%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#e8573a] to-[#f5a896] rounded-[3px] h-[60%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#f5a896] to-[#f4c4ca] rounded-[3px] h-[56%]"></div>
+                  <div class="flex-1 bg-gradient-to-t from-[#f5a896] to-[#f4c4ca] rounded-[3px] h-[52%]"></div>
                   <div class="flex-1 bg-gradient-to-t from-[#f4c4ca] to-[#fce4e8] rounded-[3px] h-[48%]"></div>
                   <div class="flex-1 bg-gradient-to-t from-[#f4c4ca] to-[#fce4e8] rounded-[3px] h-[44%]"></div>
                 </div>
                 <div class="flex items-center justify-between mt-1.5">
-                  <span class="text-[10px] text-[#d4606f] font-medium">Persona-matched</span>
-                  <span class="text-[10px] text-[#d4606f]">Even distribution</span>
+                  <span class="text-[10px] text-[#e8573a] font-medium">Persona-matched</span>
+                  <span class="text-[10px] text-[#e8573a]">Even distribution</span>
                 </div>
               </div>
 
@@ -400,17 +391,17 @@ interface RelatedAgent {
               <div class="flex-1"></div>
 
               <!-- Stats row -->
-              <div class="grid grid-cols-3 gap-3 pt-4 border-t border-[#f4e0e9]/20">
+              <div class="grid grid-cols-3 gap-3 pt-4 border-t border-[#ffe8df]/20">
                 <div>
-                  <p class="text-[24px] font-bold text-[#5e1a24] tracking-[-0.03em] leading-none">3x</p>
+                  <p class="text-[24px] font-bold text-[#1a1a2e] tracking-[-0.03em] leading-none">3x</p>
                   <p class="text-[11px] font-medium text-[#374151] mt-1">Persona accuracy</p>
                 </div>
                 <div class="text-center">
-                  <p class="text-[24px] font-bold text-[#5e1a24] tracking-[-0.03em] leading-none">100%</p>
+                  <p class="text-[24px] font-bold text-[#1a1a2e] tracking-[-0.03em] leading-none">100%</p>
                   <p class="text-[11px] font-medium text-[#374151] mt-1">Title coverage</p>
                 </div>
                 <div class="text-right">
-                  <p class="text-[24px] font-bold text-[#5e1a24] tracking-[-0.03em] leading-none">35%</p>
+                  <p class="text-[24px] font-bold text-[#1a1a2e] tracking-[-0.03em] leading-none">35%</p>
                   <p class="text-[11px] font-medium text-[#374151] mt-1">MQL uplift</p>
                 </div>
               </div>
@@ -457,8 +448,8 @@ interface RelatedAgent {
 
             <!-- Transformation bridge -->
             <div class="relative flex items-center justify-center py-2.5 z-10">
-              <div class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[2px] bg-gradient-to-b from-[#e5e7eb] via-[#ee95a0] to-[#d4606f]"></div>
-              <div class="relative bg-gradient-to-br from-[#5e1a24] to-[#d4606f] text-white text-[10px] font-bold tracking-[0.06em] uppercase px-4 py-2 rounded-full shadow-[0_4px_20px_-4px_rgba(94,26,36,0.35)] flex items-center gap-1.5">
+              <div class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[2px] bg-gradient-to-b from-[#e5e7eb] via-[#f5a896] to-[#e8573a]"></div>
+              <div class="relative bg-gradient-to-br from-[#1a1a2e] to-[#e8573a] text-white text-[10px] font-bold tracking-[0.06em] uppercase px-4 py-2 rounded-full shadow-[0_4px_20px_-4px_rgba(26,26,46,0.35)] flex items-center gap-1.5">
                 <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
                   <path d="M7 2v10M4 9l3 3 3-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
@@ -468,36 +459,36 @@ interface RelatedAgent {
 
             <!-- AdRadar Card -->
             <div class="group relative rounded-2xl flex-1 transition-all duration-300">
-              <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#d4606f]/25 via-[#ee95a0]/15 to-[#d4606f]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
-              <div class="relative bg-gradient-to-br from-[#fdf5f7] via-[#fbf0f3] to-[#f8e8ed] rounded-2xl border-2 border-[#ee95a0] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(212,96,111,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(212,96,111,0.22)] flex flex-col h-full">
+              <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#e8573a]/25 via-[#f5a896]/15 to-[#e8573a]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
+              <div class="relative bg-gradient-to-br from-[#fef9f7] via-[#fbf0f3] to-[#f8e8ed] rounded-2xl border-2 border-[#f5a896] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(232,87,58,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(232,87,58,0.22)] flex flex-col h-full">
                 <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10 rounded-2xl"></div>
 
                 <!-- Header -->
                 <div class="flex items-center justify-between mb-4">
                   <div class="flex items-center gap-2.5">
-                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-[#f4c4ca] to-[#ee95a0] p-[2px] shadow-[0_4px_12px_-2px_rgba(212,96,111,0.3)]">
-                      <div class="w-full h-full rounded-full bg-[#ee95a0] overflow-hidden">
+                    <div class="w-9 h-9 rounded-full bg-gradient-to-br from-[#f4c4ca] to-[#f5a896] p-[2px] shadow-[0_4px_12px_-2px_rgba(232,87,58,0.3)]">
+                      <div class="w-full h-full rounded-full bg-[#f5a896] overflow-hidden">
                         <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover" />
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#5e1a24] leading-tight">AdRadar Title Blocking</h3>
-                      <p class="text-[11px] text-[#d4606f] mt-0.5">Persona-level control</p>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Title Blocking</h3>
+                      <p class="text-[11px] text-[#e8573a] mt-0.5">Persona-level control</p>
                     </div>
                   </div>
-                  <span class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#5e1a24] bg-[#fce4e8] rounded-full px-2.5 py-0.5">Full Control</span>
+                  <span class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#1a1a2e] bg-[#fce4e8] rounded-full px-2.5 py-0.5">Full Control</span>
                 </div>
 
                 <!-- Advantages list -->
                 <ul class="space-y-2.5 mb-5">
                   @for (item of adradarAdvantages; track item) {
                     <li class="flex items-start gap-2.5">
-                      <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#d4606f] to-[#5e1a24] flex items-center justify-center shrink-0 mt-0.5 shadow-[0_2px_6px_-1px_rgba(94,26,36,0.25)]">
+                      <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 mt-0.5 shadow-[0_2px_6px_-1px_rgba(26,26,46,0.25)]">
                         <svg width="9" height="9" viewBox="0 0 10 10" fill="none">
                           <path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                       </div>
-                      <span class="text-[13px] text-[#5e1a24] leading-[1.5] font-medium">{{ item }}</span>
+                      <span class="text-[13px] text-[#1a1a2e] leading-[1.5] font-medium">{{ item }}</span>
                     </li>
                   }
                 </ul>
@@ -506,35 +497,35 @@ interface RelatedAgent {
                 <div class="flex-1"></div>
 
                 <!-- Impact metrics strip -->
-                <div class="bg-white/60 backdrop-blur-sm rounded-xl border border-[#f4e0e9]/20 p-3.5 mb-4">
-                  <p class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#d4606f] mb-2.5">Impact when enabled</p>
+                <div class="bg-white/60 backdrop-blur-sm rounded-xl border border-[#ffe8df]/20 p-3.5 mb-4">
+                  <p class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#e8573a] mb-2.5">Impact when enabled</p>
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
-                      <p class="text-[20px] font-bold text-[#5e1a24] tracking-[-0.02em] leading-none">3x</p>
+                      <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">3x</p>
                       <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Persona<br/>accuracy</p>
                     </div>
-                    <div class="text-center border-l border-r border-[#f4e0e9]/20">
-                      <p class="text-[20px] font-bold text-[#5e1a24] tracking-[-0.02em] leading-none">100%</p>
+                    <div class="text-center border-l border-r border-[#ffe8df]/20">
+                      <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">100%</p>
                       <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Title<br/>coverage</p>
                     </div>
                     <div class="text-center">
-                      <p class="text-[20px] font-bold text-[#5e1a24] tracking-[-0.02em] leading-none">35%</p>
+                      <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">35%</p>
                       <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">MQL<br/>uplift</p>
                     </div>
                   </div>
                 </div>
 
                 <!-- Bottom highlight strip -->
-                <div class="flex items-center justify-between pt-3.5 border-t border-[#f4e0e9]/15">
+                <div class="flex items-center justify-between pt-3.5 border-t border-[#ffe8df]/15">
                   <div class="flex items-center gap-2.5">
                     <div class="flex -space-x-1.5">
-                      <div class="w-5 h-5 rounded-full bg-[#b8dff0] ring-2 ring-[#fbf2f5] overflow-hidden"><img src="/agents/Company Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
-                      <div class="w-5 h-5 rounded-full bg-[#acdfa4] ring-2 ring-[#fbf2f5] overflow-hidden"><img src="/agents/Bidding Optimization Agent.png" alt="" class="w-full h-full object-cover"/></div>
-                      <div class="w-5 h-5 rounded-full bg-[#a8d1dc] ring-2 ring-[#fbf2f5] overflow-hidden"><img src="/agents/Impression Capping Agent.png" alt="" class="w-full h-full object-cover"/></div>
+                      <div class="w-5 h-5 rounded-full bg-[#b8dff0] ring-2 ring-[#fef6f3] overflow-hidden"><img src="/agents/Company Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
+                      <div class="w-5 h-5 rounded-full bg-[#acdfa4] ring-2 ring-[#fef6f3] overflow-hidden"><img src="/agents/Bidding Optimization Agent.png" alt="" class="w-full h-full object-cover"/></div>
+                      <div class="w-5 h-5 rounded-full bg-[#a8d1dc] ring-2 ring-[#fef6f3] overflow-hidden"><img src="/agents/Impression Capping Agent.png" alt="" class="w-full h-full object-cover"/></div>
                     </div>
-                    <span class="text-[11px] text-[#d4606f] font-medium">+6 agents</span>
+                    <span class="text-[11px] text-[#e8573a] font-medium">+6 agents</span>
                   </div>
-                  <a href="#" class="text-[11px] font-semibold text-[#5e1a24] hover:text-[#d4606f] transition-colors flex items-center gap-1">
+                  <a href="#" class="text-[11px] font-semibold text-[#1a1a2e] hover:text-[#e8573a] transition-colors flex items-center gap-1">
                     Learn more
                     <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M4.5 2.5L8 6L4.5 9.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                   </a>
@@ -549,437 +540,389 @@ interface RelatedAgent {
 
     <!-- ═══════════════════════════════════════════
          SECTION 4: HOW IT WORKS (5 Steps)
-         Scroll-driven sticky layout
+         Horizontal scroll-driven design
          ═══════════════════════════════════════════ -->
     <section
       #howItWorksRef
       class="relative bg-white"
-      style="height: 350vh"
+      style="height: 500vh"
     >
-      <!-- Sticky container -->
-      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden flex items-center">
-        <!-- Subtle side accents -->
-        <div class="absolute top-[20%] left-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#ee95a0]/8 to-transparent blur-[80px] pointer-events-none -z-10"></div>
-        <div class="absolute bottom-[20%] right-[-8%] w-[25%] h-[60%] bg-radial-[closest-side] from-[#d4606f]/6 to-transparent blur-[80px] pointer-events-none -z-10"></div>
+      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
+        <div class="h-full flex flex-col justify-center">
+          <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full">
+            <!-- Header -->
+            <div class="mb-6 lg:mb-8">
+              <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a]">How It Works</span>
+              <h2 class="text-[24px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
+                Define your persona once.<br class="hidden lg:block" />
+                <span class="section-gradient-text">The agent enforces it continuously.</span>
+              </h2>
+            </div>
 
-        <div class="w-full py-4 lg:py-6">
-          <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-20 w-full">
-            <div class="flex gap-8 lg:gap-16 items-stretch">
-              <!-- Left side: Badge + Heading + Steps timeline -->
-              <div class="flex-1 min-w-0">
-                <!-- Badge + Heading -->
-                <div class="mb-4 lg:mb-8">
-                  <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#d4606f]">
-                    How It Works
+            <!-- Progress bar with step numbers, labels, connecting lines -->
+            <div class="hidden md:flex items-center gap-3 mb-8 lg:mb-10">
+              @for (step of steps; track step.number; let i = $index) {
+                <button class="group flex items-center gap-2 cursor-pointer" (click)="scrollToStep(i)">
+                  <div class="w-8 h-8 rounded-full flex items-center justify-center transition-all duration-500 text-[12px] font-bold"
+                    [ngClass]="isStepActive(i) ? 'bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] text-white shadow-[0_4px_14px_0_rgba(232,87,58,0.25)]' : 'bg-[#e5e7eb] text-[#9ca3af] group-hover:bg-[#d1d5db]'">
+                    {{ step.number }}
+                  </div>
+                  <span class="text-[12px] font-semibold uppercase tracking-[0.04em] transition-all duration-500 hidden lg:block"
+                    [ngClass]="isStepActive(i) ? 'text-[#e8573a]' : 'text-[#9ca3af]'">
+                    {{ step.label }}
                   </span>
-                  <h2 class="text-[24px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
-                    Define your persona once.<br class="hidden lg:block" />
-                    <span class="section-gradient-text">The agent enforces it continuously.</span>
-                  </h2>
-                </div>
+                </button>
+                @if (i < steps.length - 1) {
+                  <div class="flex-1 h-[2px] rounded-full overflow-hidden bg-[#e5e7eb]">
+                    <div class="h-full bg-gradient-to-r from-[#e8573a] to-[#ff6b35] rounded-full transition-all duration-700 ease-out"
+                      [style.width]="isStepActive(i) ? '100%' : '0%'"></div>
+                  </div>
+                }
+              }
+            </div>
 
-                <!-- Timeline -->
-                <div class="relative">
-                  @for (step of steps; track step.number; let i = $index) {
-                    <div class="flex gap-4 lg:gap-7">
-                      <!-- Timeline column -->
-                      <div class="flex flex-col items-center shrink-0 self-stretch">
-                        <!-- Number circle -->
-                        <div
-                          class="w-9 h-9 lg:w-[46px] lg:h-[46px] rounded-full flex items-center justify-center shrink-0 transition-all duration-500"
-                          [ngClass]="isStepActive(i)
-                            ? 'bg-gradient-to-br from-[#d4606f] to-[#5e1a24] shadow-[0_4px_14px_0_rgba(212,96,111,0.25)]'
-                            : 'bg-[#ee95a0]/50'"
-                        >
-                          <span
-                            class="text-xs lg:text-sm font-bold transition-colors duration-500"
-                            [ngClass]="isStepActive(i) ? 'text-white' : 'text-[#5e1a24]/50'"
-                          >
-                            {{ step.number }}
-                          </span>
+            <!-- Horizontal scroll container -->
+            <div class="relative overflow-hidden">
+              <div class="flex transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)]"
+                [style.transform]="'translateX(-' + (activeStep() * 100) + '%)'">
+                @for (step of steps; track step.number; let i = $index) {
+                  <div class="w-full shrink-0">
+                    <div class="flex flex-col md:flex-row gap-6 lg:gap-10 items-stretch">
+                      <!-- Left: Text -->
+                      <div class="flex-1 flex flex-col justify-center min-w-0">
+                        <div class="flex items-center gap-3 mb-4 md:hidden">
+                          <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] text-white flex items-center justify-center text-[12px] font-bold shadow-[0_4px_14px_0_rgba(232,87,58,0.25)]">{{ step.number }}</div>
+                          <span class="text-[12px] font-semibold uppercase tracking-[0.06em] text-[#e8573a]">{{ step.label }}</span>
                         </div>
-
-                        <!-- Vertical line -->
-                        @if (!isStepLast(i)) {
-                          <div
-                            class="w-[2.5px] flex-1 transition-colors duration-500"
-                            [ngClass]="isStepActive(i) ? 'bg-[#d4606f]' : 'bg-[#ee95a0]/30'"
-                          ></div>
-                        }
+                        <h3 class="text-[22px] md:text-[26px] lg:text-[30px] font-bold text-[#111827] leading-[1.15] tracking-[-0.02em] mb-3 lg:mb-4">{{ step.title }}</h3>
+                        <p class="text-[15px] md:text-[16px] text-[#4b5563] leading-[1.65] max-w-[520px]">{{ step.description }}</p>
+                        <div class="mt-6 flex items-center gap-2">
+                          <span class="text-[13px] font-medium text-[#9ca3af]">Step {{ step.number }} of 05</span>
+                        </div>
                       </div>
-
-                      <!-- Content column -->
-                      <div
-                        class="flex-1 pt-1.5 lg:pt-2 transition-all duration-500"
-                        [ngClass]="isStepLast(i) ? 'pb-0' : 'pb-2 lg:pb-4'"
-                      >
-                        <!-- Step label -->
-                        <span
-                          class="inline-block text-[11px] lg:text-[12px] font-semibold tracking-[0.06em] uppercase transition-opacity duration-500 mb-0.5 text-[#d4606f]"
-                          [ngClass]="isStepActive(i) ? 'opacity-100' : 'opacity-40'"
-                        >
-                          {{ step.label }}
-                        </span>
-
-                        <!-- Step title -->
-                        <h3
-                          class="text-[15px] lg:text-[18px] font-semibold tracking-[-0.01em] leading-snug transition-all duration-500 text-[#111827]"
-                          [ngClass]="isStepActive(i) ? 'opacity-100' : 'opacity-40'"
-                        >
-                          {{ step.title }}
-                        </h3>
-
-                        <!-- Step description -->
-                        <div
-                          class="overflow-hidden transition-all duration-500 ease-in-out"
-                          [style.maxHeight]="isStepCurrent(i) ? '160px' : '0px'"
-                          [style.opacity]="isStepCurrent(i) ? 1 : 0"
-                          [style.marginTop]="isStepCurrent(i) ? '3px' : '0px'"
-                        >
-                          <p class="text-[13px] lg:text-[15px] text-[#4b5563] leading-[1.6] lg:leading-[1.65]">
-                            {{ step.description }}
-                          </p>
+                      <!-- Right: Visualization -->
+                      <div class="md:w-[340px] lg:w-[440px] xl:w-[500px] shrink-0">
+                        <div class="bg-gradient-to-br from-[#fef6f3] to-[#ffe8df] rounded-2xl lg:rounded-3xl overflow-hidden p-5 lg:p-7 flex flex-col justify-center min-h-[300px] md:min-h-[380px]">
+                          @switch (i) {
+                            @case (0) {
+                              <!-- Step 1: Persona Configuration -->
+                              <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
+                                <div class="flex items-center gap-2 mb-4">
+                                  <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center">
+                                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                  </div>
+                                  <span class="text-[13px] font-semibold text-[#111827]">Persona Configuration</span>
+                                </div>
+                                <!-- Mode selection -->
+                                <div class="space-y-2.5 mb-4">
+                                  <div class="flex items-center justify-between bg-[#fef9f7] rounded-lg px-3 py-2.5 border-2 border-[#e8573a]/30">
+                                    <div class="flex items-center gap-2">
+                                      <div class="w-4 h-4 rounded-full bg-[#e8573a] flex items-center justify-center">
+                                        <div class="w-2 h-2 rounded-full bg-white"></div>
+                                      </div>
+                                      <div>
+                                        <p class="text-[12px] font-semibold text-[#1a1a2e]">Department & Seniority</p>
+                                        <p class="text-[10px] text-[#6b7280]">Catches all title variations</p>
+                                      </div>
+                                    </div>
+                                    <span class="text-[9px] font-bold text-[#1a1a2e] bg-[#fce4e8] px-2 py-0.5 rounded-full">SELECTED</span>
+                                  </div>
+                                  <div class="flex items-center justify-between bg-[#f8fafb] rounded-lg px-3 py-2.5">
+                                    <div class="flex items-center gap-2">
+                                      <div class="w-4 h-4 rounded-full border-2 border-[#d1d5db]"></div>
+                                      <div>
+                                        <p class="text-[12px] font-semibold text-[#374151]">Titles</p>
+                                        <p class="text-[10px] text-[#6b7280]">Explicit title list</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- Selected departments -->
+                                <div class="mb-3">
+                                  <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Departments</p>
+                                  <div class="flex flex-wrap gap-1.5">
+                                    <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Marketing</span>
+                                    <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Sales</span>
+                                    <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Revenue Ops</span>
+                                  </div>
+                                </div>
+                                <!-- Selected seniority -->
+                                <div>
+                                  <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Seniority</p>
+                                  <div class="flex flex-wrap gap-1.5">
+                                    <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Director</span>
+                                    <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">VP</span>
+                                    <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">C-Suite</span>
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                            @case (1) {
+                              <!-- Step 2: Rule Enforcement dashboard -->
+                              <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
+                                <div class="flex items-center justify-between mb-4">
+                                  <div class="flex items-center gap-2">
+                                    <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
+                                    <span class="text-[13px] font-semibold text-[#111827]">Rule Enforcement</span>
+                                  </div>
+                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Active</span>
+                                </div>
+                                <!-- Campaign rows -->
+                                <div class="space-y-2.5">
+                                  <div class="bg-[#fef9f7] border border-[#ffe8df]/40 rounded-lg px-3 py-2.5">
+                                    <div class="flex items-center justify-between mb-1">
+                                      <span class="text-[11px] text-[#374151] font-medium">ABM Campaign - Q1 2026</span>
+                                      <span class="text-[9px] font-bold text-[#22c55e] bg-[#f0fdf4] px-2 py-0.5 rounded-full">Protected</span>
+                                    </div>
+                                    <div class="flex items-center gap-1.5">
+                                      <div class="w-4 h-4 rounded-full bg-[#f5a896] overflow-hidden"><img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
+                                      <span class="text-[10px] text-[#e8573a]">Dept & Seniority mode</span>
+                                    </div>
+                                  </div>
+                                  <div class="bg-[#fef9f7] border border-[#ffe8df]/40 rounded-lg px-3 py-2.5">
+                                    <div class="flex items-center justify-between mb-1">
+                                      <span class="text-[11px] text-[#374151] font-medium">Enterprise Pipeline - NA</span>
+                                      <span class="text-[9px] font-bold text-[#22c55e] bg-[#f0fdf4] px-2 py-0.5 rounded-full">Protected</span>
+                                    </div>
+                                    <div class="flex items-center gap-1.5">
+                                      <div class="w-4 h-4 rounded-full bg-[#f5a896] overflow-hidden"><img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
+                                      <span class="text-[10px] text-[#e8573a]">Dept & Seniority mode</span>
+                                    </div>
+                                  </div>
+                                  <div class="bg-[#fef9f7] border border-[#ffe8df]/40 rounded-lg px-3 py-2.5">
+                                    <div class="flex items-center justify-between mb-1">
+                                      <span class="text-[11px] text-[#374151] font-medium">Brand Awareness - EMEA</span>
+                                      <span class="text-[9px] font-bold text-[#22c55e] bg-[#f0fdf4] px-2 py-0.5 rounded-full">Protected</span>
+                                    </div>
+                                    <div class="flex items-center gap-1.5">
+                                      <div class="w-4 h-4 rounded-full bg-[#f5a896] overflow-hidden"><img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
+                                      <span class="text-[10px] text-[#e8573a]">Titles mode</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="mt-3 pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
+                                  <span class="text-[10px] text-[#6b7280]">3 campaigns protected</span>
+                                  <span class="text-[10px] text-[#e8573a] font-medium">All rules active</span>
+                                </div>
+                              </div>
+                            }
+                            @case (2) {
+                              <!-- Step 3: Blocking Log -->
+                              <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
+                                <div class="flex items-center gap-2 mb-4">
+                                  <div class="w-7 h-7 rounded-lg bg-[#fef2f2] flex items-center justify-center">
+                                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                  </div>
+                                  <span class="text-[13px] font-semibold text-[#111827]">Blocking Log</span>
+                                </div>
+                                <!-- Blocked titles -->
+                                <div class="space-y-2 mb-3">
+                                  <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-2.5">
+                                    <div class="flex items-center justify-between mb-1">
+                                      <span class="text-[11px] font-medium text-[#374151]">Software Engineer</span>
+                                      <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                      <span class="text-[10px] text-[#6b7280]">Engineering / IC level</span>
+                                      <span class="text-[10px] text-[#22c55e] font-medium">$42 saved</span>
+                                    </div>
+                                  </div>
+                                  <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-2.5">
+                                    <div class="flex items-center justify-between mb-1">
+                                      <span class="text-[11px] font-medium text-[#374151]">HR Coordinator</span>
+                                      <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                      <span class="text-[10px] text-[#6b7280]">Human Resources / Entry</span>
+                                      <span class="text-[10px] text-[#22c55e] font-medium">$28 saved</span>
+                                    </div>
+                                  </div>
+                                  <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-2.5">
+                                    <div class="flex items-center justify-between mb-1">
+                                      <span class="text-[11px] font-medium text-[#374151]">Office Manager</span>
+                                      <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
+                                    </div>
+                                    <div class="flex items-center justify-between">
+                                      <span class="text-[10px] text-[#6b7280]">Operations / Manager</span>
+                                      <span class="text-[10px] text-[#22c55e] font-medium">$35 saved</span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="bg-[#f0fdf4] border border-[#bbf7d0]/40 rounded-lg px-3 py-2 flex items-center justify-between">
+                                  <span class="text-[10px] text-[#22c55e] font-semibold">Total spend saved today</span>
+                                  <span class="text-[13px] font-bold text-[#22c55e]">$312</span>
+                                </div>
+                              </div>
+                            }
+                            @case (3) {
+                              <!-- Step 4: Department matrix -->
+                              <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
+                                <div class="flex items-center gap-2 mb-4">
+                                  <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#fce4e8] to-[#f5a896] flex items-center justify-center">
+                                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5" height="5" rx="1" stroke="#1a1a2e" stroke-width="1.3"/><rect x="9" y="2" width="5" height="5" rx="1" stroke="#1a1a2e" stroke-width="1.3"/><rect x="2" y="9" width="5" height="5" rx="1" stroke="#1a1a2e" stroke-width="1.3"/><rect x="9" y="9" width="5" height="5" rx="1" stroke="#1a1a2e" stroke-width="1.3"/></svg>
+                                  </div>
+                                  <span class="text-[13px] font-semibold text-[#111827]">Department & Seniority Matrix</span>
+                                </div>
+                                <!-- Matrix grid -->
+                                <div class="overflow-hidden rounded-lg border border-[#e5e7eb]/60">
+                                  <!-- Header row -->
+                                  <div class="grid grid-cols-4 bg-[#f8fafb]">
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40"></div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 text-center">
+                                      <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">VP</span>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 text-center">
+                                      <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">Director</span>
+                                    </div>
+                                    <div class="p-2 border-b border-[#e5e7eb]/40 text-center">
+                                      <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">C-Suite</span>
+                                    </div>
+                                  </div>
+                                  <!-- Marketing row -->
+                                  <div class="grid grid-cols-4">
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
+                                      <span class="text-[10px] font-semibold text-[#374151]">Marketing</span>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
+                                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
+                                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-b border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
+                                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                  </div>
+                                  <!-- Sales row -->
+                                  <div class="grid grid-cols-4">
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
+                                      <span class="text-[10px] font-semibold text-[#374151]">Sales</span>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
+                                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
+                                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-b border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
+                                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                  </div>
+                                  <!-- Engineering row - blocked -->
+                                  <div class="grid grid-cols-4">
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
+                                      <span class="text-[10px] font-semibold text-[#374151]">Engineering</span>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
+                                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
+                                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-b border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
+                                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                    </div>
+                                  </div>
+                                  <!-- Finance row - blocked -->
+                                  <div class="grid grid-cols-4">
+                                    <div class="p-2 border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
+                                      <span class="text-[10px] font-semibold text-[#374151]">Finance</span>
+                                    </div>
+                                    <div class="p-2 border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
+                                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                    </div>
+                                    <div class="p-2 border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
+                                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                    </div>
+                                    <div class="p-2 flex items-center justify-center bg-[#fef2f2]">
+                                      <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="flex items-center gap-4 mt-3">
+                                  <div class="flex items-center gap-1.5">
+                                    <div class="w-3 h-3 rounded bg-[#f0fdf4] border border-[#bbf7d0]"></div>
+                                    <span class="text-[10px] text-[#6b7280]">Allowed</span>
+                                  </div>
+                                  <div class="flex items-center gap-1.5">
+                                    <div class="w-3 h-3 rounded bg-[#fef2f2] border border-[#fecaca]"></div>
+                                    <span class="text-[10px] text-[#6b7280]">Blocked</span>
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                            @case (4) {
+                              <!-- Step 5: Rule Control panel -->
+                              <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
+                                <div class="flex items-center gap-2 mb-4">
+                                  <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center">
+                                    <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 8.5l3 3 5-6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                  </div>
+                                  <span class="text-[13px] font-semibold text-[#111827]">Rule Control</span>
+                                </div>
+                                <!-- Toggle mode -->
+                                <div class="bg-[#fef9f7] rounded-lg p-3 mb-3">
+                                  <div class="flex items-center justify-between mb-2">
+                                    <span class="text-[11px] font-semibold text-[#374151]">Active Mode</span>
+                                    <div class="flex items-center gap-1">
+                                      <span class="text-[10px] text-[#e8573a] font-medium bg-[#fce4e8] px-2 py-0.5 rounded-full">Dept & Seniority</span>
+                                    </div>
+                                  </div>
+                                  <div class="flex items-center gap-2">
+                                    <div class="w-8 h-[18px] bg-[#e8573a] rounded-full relative">
+                                      <div class="absolute right-[2px] top-[2px] w-[14px] h-[14px] bg-white rounded-full shadow-sm"></div>
+                                    </div>
+                                    <span class="text-[10px] text-[#6b7280]">Switch to Titles mode</span>
+                                  </div>
+                                </div>
+                                <!-- Update history -->
+                                <div class="space-y-2 mb-3">
+                                  <div class="flex items-start gap-2 bg-[#f0fafb] rounded-lg p-2.5">
+                                    <div class="w-5 h-5 rounded-full bg-[#fce4e8] flex items-center justify-center shrink-0 mt-0.5">
+                                      <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M3 6.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round"/></svg>
+                                    </div>
+                                    <div>
+                                      <p class="text-[11px] font-medium text-[#374151]">Added "Revenue Ops" department</p>
+                                      <p class="text-[10px] text-[#6b7280]">2 hrs ago - Applied to 3 campaigns</p>
+                                    </div>
+                                  </div>
+                                  <div class="flex items-start gap-2 bg-[#f0fafb] rounded-lg p-2.5">
+                                    <div class="w-5 h-5 rounded-full bg-[#fce4e8] flex items-center justify-center shrink-0 mt-0.5">
+                                      <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M3 6.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round"/></svg>
+                                    </div>
+                                    <div>
+                                      <p class="text-[11px] font-medium text-[#374151]">Switched from Titles to Dept & Seniority</p>
+                                      <p class="text-[10px] text-[#6b7280]">Yesterday - Immediate effect</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="flex gap-2">
+                                  <button class="flex-1 h-8 bg-gradient-to-r from-[#e8573a] to-[#1a1a2e] text-white text-[11px] font-semibold rounded-lg flex items-center justify-center gap-1.5 shadow-[0_2px_8px_-2px_rgba(26,26,46,0.3)]">
+                                    <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M6 3v6M3 6h6" stroke="white" stroke-width="1.3" stroke-linecap="round"/></svg>
+                                    Edit Rule
+                                  </button>
+                                  <button class="flex-1 h-8 bg-white border border-[#e5e7eb] text-[#374151] text-[11px] font-semibold rounded-lg">
+                                    View History
+                                  </button>
+                                </div>
+                              </div>
+                            }
+                          }
                         </div>
                       </div>
                     </div>
-                  }
-                </div>
+                  </div>
+                }
               </div>
+            </div>
 
-              <!-- Right side: Visual mockups for each step -->
-              <div class="hidden md:flex md:w-[320px] lg:w-[420px] xl:w-[500px] shrink-0 items-center justify-center">
-                <div class="bg-gradient-to-br from-[#fbf2f5] to-[#f4d0d6] rounded-2xl lg:rounded-3xl overflow-hidden relative w-full h-full">
-
-                  <!-- Step 1: Persona Configuration -->
-                  <div
-                    class="absolute inset-0 p-5 lg:p-7 flex flex-col justify-center transition-all duration-700 ease-in-out"
-                    [style.opacity]="activeStep() === 0 ? 1 : 0"
-                    [style.transform]="activeStep() === 0 ? 'scale(1) translateY(0)' : activeStep() > 0 ? 'scale(0.95) translateY(-20px)' : 'scale(0.95) translateY(20px)'"
-                  >
-                    <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
-                      <div class="flex items-center gap-2 mb-4">
-                        <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#d4606f] to-[#5e1a24] flex items-center justify-center">
-                          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M8 2v12M2 8h12" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
-                        </div>
-                        <span class="text-[13px] font-semibold text-[#111827]">Persona Configuration</span>
-                      </div>
-                      <!-- Mode selection -->
-                      <div class="space-y-2.5 mb-4">
-                        <div class="flex items-center justify-between bg-[#fdf5f7] rounded-lg px-3 py-2.5 border-2 border-[#d4606f]/30">
-                          <div class="flex items-center gap-2">
-                            <div class="w-4 h-4 rounded-full bg-[#d4606f] flex items-center justify-center">
-                              <div class="w-2 h-2 rounded-full bg-white"></div>
-                            </div>
-                            <div>
-                              <p class="text-[12px] font-semibold text-[#5e1a24]">Department & Seniority</p>
-                              <p class="text-[10px] text-[#6b7280]">Catches all title variations</p>
-                            </div>
-                          </div>
-                          <span class="text-[9px] font-bold text-[#5e1a24] bg-[#fce4e8] px-2 py-0.5 rounded-full">SELECTED</span>
-                        </div>
-                        <div class="flex items-center justify-between bg-[#f8fafb] rounded-lg px-3 py-2.5">
-                          <div class="flex items-center gap-2">
-                            <div class="w-4 h-4 rounded-full border-2 border-[#d1d5db]"></div>
-                            <div>
-                              <p class="text-[12px] font-semibold text-[#374151]">Titles</p>
-                              <p class="text-[10px] text-[#6b7280]">Explicit title list</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- Selected departments -->
-                      <div class="mb-3">
-                        <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Departments</p>
-                        <div class="flex flex-wrap gap-1.5">
-                          <span class="text-[10px] font-medium text-[#5e1a24] bg-[#fce4e8] px-2 py-1 rounded-full">Marketing</span>
-                          <span class="text-[10px] font-medium text-[#5e1a24] bg-[#fce4e8] px-2 py-1 rounded-full">Sales</span>
-                          <span class="text-[10px] font-medium text-[#5e1a24] bg-[#fce4e8] px-2 py-1 rounded-full">Revenue Ops</span>
-                        </div>
-                      </div>
-                      <!-- Selected seniority -->
-                      <div>
-                        <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Seniority</p>
-                        <div class="flex flex-wrap gap-1.5">
-                          <span class="text-[10px] font-medium text-[#5e1a24] bg-[#fce4e8] px-2 py-1 rounded-full">Director</span>
-                          <span class="text-[10px] font-medium text-[#5e1a24] bg-[#fce4e8] px-2 py-1 rounded-full">VP</span>
-                          <span class="text-[10px] font-medium text-[#5e1a24] bg-[#fce4e8] px-2 py-1 rounded-full">C-Suite</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Step 2: Rule Enforcement dashboard -->
-                  <div
-                    class="absolute inset-0 p-5 lg:p-7 flex flex-col justify-center transition-all duration-700 ease-in-out"
-                    [style.opacity]="activeStep() === 1 ? 1 : 0"
-                    [style.transform]="activeStep() === 1 ? 'scale(1) translateY(0)' : activeStep() > 1 ? 'scale(0.95) translateY(-20px)' : 'scale(0.95) translateY(20px)'"
-                  >
-                    <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
-                      <div class="flex items-center justify-between mb-4">
-                        <div class="flex items-center gap-2">
-                          <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
-                          <span class="text-[13px] font-semibold text-[#111827]">Rule Enforcement</span>
-                        </div>
-                        <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Active</span>
-                      </div>
-                      <!-- Campaign rows -->
-                      <div class="space-y-2.5">
-                        <div class="bg-[#fdf5f7] border border-[#f4e0e9]/40 rounded-lg px-3 py-2.5">
-                          <div class="flex items-center justify-between mb-1">
-                            <span class="text-[11px] text-[#374151] font-medium">ABM Campaign - Q1 2026</span>
-                            <span class="text-[9px] font-bold text-[#22c55e] bg-[#f0fdf4] px-2 py-0.5 rounded-full">Protected</span>
-                          </div>
-                          <div class="flex items-center gap-1.5">
-                            <div class="w-4 h-4 rounded-full bg-[#ee95a0] overflow-hidden"><img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
-                            <span class="text-[10px] text-[#d4606f]">Dept & Seniority mode</span>
-                          </div>
-                        </div>
-                        <div class="bg-[#fdf5f7] border border-[#f4e0e9]/40 rounded-lg px-3 py-2.5">
-                          <div class="flex items-center justify-between mb-1">
-                            <span class="text-[11px] text-[#374151] font-medium">Enterprise Pipeline - NA</span>
-                            <span class="text-[9px] font-bold text-[#22c55e] bg-[#f0fdf4] px-2 py-0.5 rounded-full">Protected</span>
-                          </div>
-                          <div class="flex items-center gap-1.5">
-                            <div class="w-4 h-4 rounded-full bg-[#ee95a0] overflow-hidden"><img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
-                            <span class="text-[10px] text-[#d4606f]">Dept & Seniority mode</span>
-                          </div>
-                        </div>
-                        <div class="bg-[#fdf5f7] border border-[#f4e0e9]/40 rounded-lg px-3 py-2.5">
-                          <div class="flex items-center justify-between mb-1">
-                            <span class="text-[11px] text-[#374151] font-medium">Brand Awareness - EMEA</span>
-                            <span class="text-[9px] font-bold text-[#22c55e] bg-[#f0fdf4] px-2 py-0.5 rounded-full">Protected</span>
-                          </div>
-                          <div class="flex items-center gap-1.5">
-                            <div class="w-4 h-4 rounded-full bg-[#ee95a0] overflow-hidden"><img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover"/></div>
-                            <span class="text-[10px] text-[#d4606f]">Titles mode</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="mt-3 pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
-                        <span class="text-[10px] text-[#6b7280]">3 campaigns protected</span>
-                        <span class="text-[10px] text-[#d4606f] font-medium">All rules active</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Step 3: Blocking Log -->
-                  <div
-                    class="absolute inset-0 p-5 lg:p-7 flex flex-col justify-center transition-all duration-700 ease-in-out"
-                    [style.opacity]="activeStep() === 2 ? 1 : 0"
-                    [style.transform]="activeStep() === 2 ? 'scale(1) translateY(0)' : activeStep() > 2 ? 'scale(0.95) translateY(-20px)' : 'scale(0.95) translateY(20px)'"
-                  >
-                    <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
-                      <div class="flex items-center gap-2 mb-4">
-                        <div class="w-7 h-7 rounded-lg bg-[#fef2f2] flex items-center justify-center">
-                          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 4l8 8M12 4l-8 8" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                        </div>
-                        <span class="text-[13px] font-semibold text-[#111827]">Blocking Log</span>
-                      </div>
-                      <!-- Blocked titles -->
-                      <div class="space-y-2 mb-3">
-                        <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-2.5">
-                          <div class="flex items-center justify-between mb-1">
-                            <span class="text-[11px] font-medium text-[#374151]">Software Engineer</span>
-                            <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
-                          </div>
-                          <div class="flex items-center justify-between">
-                            <span class="text-[10px] text-[#6b7280]">Engineering / IC level</span>
-                            <span class="text-[10px] text-[#22c55e] font-medium">$42 saved</span>
-                          </div>
-                        </div>
-                        <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-2.5">
-                          <div class="flex items-center justify-between mb-1">
-                            <span class="text-[11px] font-medium text-[#374151]">HR Coordinator</span>
-                            <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
-                          </div>
-                          <div class="flex items-center justify-between">
-                            <span class="text-[10px] text-[#6b7280]">Human Resources / Entry</span>
-                            <span class="text-[10px] text-[#22c55e] font-medium">$28 saved</span>
-                          </div>
-                        </div>
-                        <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-2.5">
-                          <div class="flex items-center justify-between mb-1">
-                            <span class="text-[11px] font-medium text-[#374151]">Office Manager</span>
-                            <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
-                          </div>
-                          <div class="flex items-center justify-between">
-                            <span class="text-[10px] text-[#6b7280]">Operations / Manager</span>
-                            <span class="text-[10px] text-[#22c55e] font-medium">$35 saved</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="bg-[#f0fdf4] border border-[#bbf7d0]/40 rounded-lg px-3 py-2 flex items-center justify-between">
-                        <span class="text-[10px] text-[#22c55e] font-semibold">Total spend saved today</span>
-                        <span class="text-[13px] font-bold text-[#22c55e]">$312</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Step 4: Department matrix -->
-                  <div
-                    class="absolute inset-0 p-5 lg:p-7 flex flex-col justify-center transition-all duration-700 ease-in-out"
-                    [style.opacity]="activeStep() === 3 ? 1 : 0"
-                    [style.transform]="activeStep() === 3 ? 'scale(1) translateY(0)' : activeStep() > 3 ? 'scale(0.95) translateY(-20px)' : 'scale(0.95) translateY(20px)'"
-                  >
-                    <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
-                      <div class="flex items-center gap-2 mb-4">
-                        <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#fce4e8] to-[#ee95a0] flex items-center justify-center">
-                          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5" height="5" rx="1" stroke="#5e1a24" stroke-width="1.3"/><rect x="9" y="2" width="5" height="5" rx="1" stroke="#5e1a24" stroke-width="1.3"/><rect x="2" y="9" width="5" height="5" rx="1" stroke="#5e1a24" stroke-width="1.3"/><rect x="9" y="9" width="5" height="5" rx="1" stroke="#5e1a24" stroke-width="1.3"/></svg>
-                        </div>
-                        <span class="text-[13px] font-semibold text-[#111827]">Department & Seniority Matrix</span>
-                      </div>
-                      <!-- Matrix grid -->
-                      <div class="overflow-hidden rounded-lg border border-[#e5e7eb]/60">
-                        <!-- Header row -->
-                        <div class="grid grid-cols-4 bg-[#f8fafb]">
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40"></div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 text-center">
-                            <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">VP</span>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 text-center">
-                            <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">Director</span>
-                          </div>
-                          <div class="p-2 border-b border-[#e5e7eb]/40 text-center">
-                            <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">C-Suite</span>
-                          </div>
-                        </div>
-                        <!-- Marketing row -->
-                        <div class="grid grid-cols-4">
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
-                            <span class="text-[10px] font-semibold text-[#374151]">Marketing</span>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                          </div>
-                          <div class="p-2 border-b border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                          </div>
-                        </div>
-                        <!-- Sales row -->
-                        <div class="grid grid-cols-4">
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
-                            <span class="text-[10px] font-semibold text-[#374151]">Sales</span>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                          </div>
-                          <div class="p-2 border-b border-[#e5e7eb]/40 flex items-center justify-center bg-[#f0fdf4]">
-                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7.5l3 3 5-5.5" stroke="#22c55e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                          </div>
-                        </div>
-                        <!-- Engineering row - blocked -->
-                        <div class="grid grid-cols-4">
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
-                            <span class="text-[10px] font-semibold text-[#374151]">Engineering</span>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                          </div>
-                          <div class="p-2 border-b border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                          </div>
-                          <div class="p-2 border-b border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                          </div>
-                        </div>
-                        <!-- Finance row - blocked -->
-                        <div class="grid grid-cols-4">
-                          <div class="p-2 border-r border-[#e5e7eb]/40 bg-[#f8fafb]">
-                            <span class="text-[10px] font-semibold text-[#374151]">Finance</span>
-                          </div>
-                          <div class="p-2 border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                          </div>
-                          <div class="p-2 border-r border-[#e5e7eb]/40 flex items-center justify-center bg-[#fef2f2]">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                          </div>
-                          <div class="p-2 flex items-center justify-center bg-[#fef2f2]">
-                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 3l6 6M9 3l-6 6" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="flex items-center gap-4 mt-3">
-                        <div class="flex items-center gap-1.5">
-                          <div class="w-3 h-3 rounded bg-[#f0fdf4] border border-[#bbf7d0]"></div>
-                          <span class="text-[10px] text-[#6b7280]">Allowed</span>
-                        </div>
-                        <div class="flex items-center gap-1.5">
-                          <div class="w-3 h-3 rounded bg-[#fef2f2] border border-[#fecaca]"></div>
-                          <span class="text-[10px] text-[#6b7280]">Blocked</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- Step 5: Rule Control panel -->
-                  <div
-                    class="absolute inset-0 p-5 lg:p-7 flex flex-col justify-center transition-all duration-700 ease-in-out"
-                    [style.opacity]="activeStep() === 4 ? 1 : 0"
-                    [style.transform]="activeStep() === 4 ? 'scale(1) translateY(0)' : activeStep() > 4 ? 'scale(0.95) translateY(-20px)' : 'scale(0.95) translateY(20px)'"
-                  >
-                    <div class="bg-white rounded-xl shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-4 lg:p-5">
-                      <div class="flex items-center gap-2 mb-4">
-                        <div class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#d4606f] to-[#5e1a24] flex items-center justify-center">
-                          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 8.5l3 3 5-6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                        </div>
-                        <span class="text-[13px] font-semibold text-[#111827]">Rule Control</span>
-                      </div>
-                      <!-- Toggle mode -->
-                      <div class="bg-[#fdf5f7] rounded-lg p-3 mb-3">
-                        <div class="flex items-center justify-between mb-2">
-                          <span class="text-[11px] font-semibold text-[#374151]">Active Mode</span>
-                          <div class="flex items-center gap-1">
-                            <span class="text-[10px] text-[#d4606f] font-medium bg-[#fce4e8] px-2 py-0.5 rounded-full">Dept & Seniority</span>
-                          </div>
-                        </div>
-                        <div class="flex items-center gap-2">
-                          <div class="w-8 h-[18px] bg-[#d4606f] rounded-full relative">
-                            <div class="absolute right-[2px] top-[2px] w-[14px] h-[14px] bg-white rounded-full shadow-sm"></div>
-                          </div>
-                          <span class="text-[10px] text-[#6b7280]">Switch to Titles mode</span>
-                        </div>
-                      </div>
-                      <!-- Update history -->
-                      <div class="space-y-2 mb-3">
-                        <div class="flex items-start gap-2 bg-[#f0fafb] rounded-lg p-2.5">
-                          <div class="w-5 h-5 rounded-full bg-[#fce4e8] flex items-center justify-center shrink-0 mt-0.5">
-                            <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M3 6.5l2 2 4-4.5" stroke="#5e1a24" stroke-width="1.3" stroke-linecap="round"/></svg>
-                          </div>
-                          <div>
-                            <p class="text-[11px] font-medium text-[#374151]">Added "Revenue Ops" department</p>
-                            <p class="text-[10px] text-[#6b7280]">2 hrs ago - Applied to 3 campaigns</p>
-                          </div>
-                        </div>
-                        <div class="flex items-start gap-2 bg-[#f0fafb] rounded-lg p-2.5">
-                          <div class="w-5 h-5 rounded-full bg-[#fce4e8] flex items-center justify-center shrink-0 mt-0.5">
-                            <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M3 6.5l2 2 4-4.5" stroke="#5e1a24" stroke-width="1.3" stroke-linecap="round"/></svg>
-                          </div>
-                          <div>
-                            <p class="text-[11px] font-medium text-[#374151]">Switched from Titles to Dept & Seniority</p>
-                            <p class="text-[10px] text-[#6b7280]">Yesterday - Immediate effect</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="flex gap-2">
-                        <button class="flex-1 h-8 bg-gradient-to-r from-[#d4606f] to-[#5e1a24] text-white text-[11px] font-semibold rounded-lg flex items-center justify-center gap-1.5 shadow-[0_2px_8px_-2px_rgba(94,26,36,0.3)]">
-                          <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M6 3v6M3 6h6" stroke="white" stroke-width="1.3" stroke-linecap="round"/></svg>
-                          Edit Rule
-                        </button>
-                        <button class="flex-1 h-8 bg-white border border-[#e5e7eb] text-[#374151] text-[11px] font-semibold rounded-lg">
-                          View History
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
+            <!-- Mobile dots -->
+            <div class="flex md:hidden items-center justify-center gap-2 mt-6">
+              @for (step of steps; track step.number; let i = $index) {
+                <button class="transition-all duration-300 rounded-full cursor-pointer"
+                  [ngClass]="activeStep() === i ? 'w-6 h-2 bg-[#e8573a]' : 'w-2 h-2 bg-[#d1d5db]'"
+                  (click)="scrollToStep(i)"></button>
+              }
             </div>
           </div>
         </div>
@@ -990,13 +933,13 @@ interface RelatedAgent {
          SECTION 5: COMPARISON TABLE
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-b from-[#fdf5f7] via-[#fef9fa] to-[#fdf5f7] pointer-events-none -z-10"></div>
-      <div class="absolute top-[30%] left-[50%] -translate-x-1/2 w-[50%] h-[50%] bg-radial-[closest-side] from-[#d4606f]/5 to-transparent blur-[100px] pointer-events-none -z-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-[#fef9f7] via-[#fef9fa] to-[#fef9f7] pointer-events-none -z-10"></div>
+      <div class="absolute top-[30%] left-[50%] -translate-x-1/2 w-[50%] h-[50%] bg-radial-[closest-side] from-[#e8573a]/5 to-transparent blur-[100px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1100px] mx-auto px-6">
         <!-- Heading -->
         <div class="text-left md:text-center mb-12">
-          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#d4606f] mb-4 block">
+          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">
             The Difference
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827]">
@@ -1006,7 +949,7 @@ interface RelatedAgent {
 
         <!-- ═══ Desktop: Enhanced table ═══ -->
         <div class="hidden md:block">
-          <div class="bg-white rounded-2xl border border-[#f4e0e9]/30 overflow-hidden shadow-[0_4px_24px_-4px_rgba(212,96,111,0.1)]">
+          <div class="bg-white rounded-2xl border border-[#ffe8df]/30 overflow-hidden shadow-[0_4px_24px_-4px_rgba(232,87,58,0.1)]">
 
             <!-- Table Header -->
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
@@ -1021,9 +964,9 @@ interface RelatedAgent {
                   <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
               </div>
-              <div class="bg-gradient-to-r from-[#5e1a24] to-[#6e2a34] p-5 border-b border-[#5e1a24]">
+              <div class="bg-gradient-to-r from-[#1a1a2e] to-[#6e2a34] p-5 border-b border-[#1a1a2e]">
                 <div class="flex items-center gap-3">
-                  <div class="w-8 h-8 rounded-full bg-[#ee95a0] p-[2px] ring-2 ring-white/20 overflow-hidden shrink-0">
+                  <div class="w-8 h-8 rounded-full bg-[#f5a896] p-[2px] ring-2 ring-white/20 overflow-hidden shrink-0">
                     <img src="/agents/Title Blocking Agent.png" alt="Title Blocking Agent" class="w-full h-full object-cover rounded-full" />
                   </div>
                   <div class="flex flex-col">
@@ -1041,25 +984,25 @@ interface RelatedAgent {
               >
                 <!-- Capability -->
                 <div class="p-5 flex items-center gap-3">
-                  <div class="w-8 h-8 rounded-lg bg-[#fdf5f7] flex items-center justify-center shrink-0">
+                  <div class="w-8 h-8 rounded-lg bg-[#fef9f7] flex items-center justify-center shrink-0">
                     @switch (i) {
                       @case (0) {
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="6" r="3" stroke="#d4606f" stroke-width="1.5"/><path d="M4 14c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="6" r="3" stroke="#e8573a" stroke-width="1.5"/><path d="M4 14c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round"/></svg>
                       }
                       @case (1) {
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="10" rx="2" stroke="#d4606f" stroke-width="1.5"/><path d="M5 7h6M5 10h3" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="10" rx="2" stroke="#e8573a" stroke-width="1.5"/><path d="M5 7h6M5 10h3" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round"/></svg>
                       }
                       @case (2) {
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="5" stroke="#d4606f" stroke-width="1.5"/><path d="M8 5v3h3" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="5" stroke="#e8573a" stroke-width="1.5"/><path d="M8 5v3h3" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                       }
                       @case (3) {
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l4-8 4 8" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 9h5" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 12l4-8 4 8" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.5 9h5" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round"/></svg>
                       }
                       @case (4) {
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="3" y="3" width="10" height="10" rx="2" stroke="#d4606f" stroke-width="1.5"/><path d="M6 8h4" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round"/><path d="M8 6v4" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="3" y="3" width="10" height="10" rx="2" stroke="#e8573a" stroke-width="1.5"/><path d="M6 8h4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round"/><path d="M8 6v4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round"/></svg>
                       }
                       @case (5) {
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M10 5l3 3-3 3" stroke="#d4606f" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M10 5l3 3-3 3" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                       }
                     }
                   </div>
@@ -1075,11 +1018,11 @@ interface RelatedAgent {
                 </div>
 
                 <!-- With AdRadar value -->
-                <div class="p-5 flex items-center gap-2.5 bg-[#fdf5f7]/70 group-hover:bg-[#fbf0f3]/60 transition-colors border-l-2 border-l-[#d4606f]/20">
-                  <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#d4606f] to-[#5e1a24] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(94,26,36,0.3)]">
+                <div class="p-5 flex items-center gap-2.5 bg-[#fef9f7]/70 group-hover:bg-[#fbf0f3]/60 transition-colors border-l-2 border-l-[#e8573a]/20">
+                  <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(26,26,46,0.3)]">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
                   </div>
-                  <span class="text-[14px] text-[#5e1a24] font-semibold">{{ row.withBlocking }}</span>
+                  <span class="text-[14px] text-[#1a1a2e] font-semibold">{{ row.withBlocking }}</span>
                 </div>
               </div>
             }
@@ -1089,8 +1032,8 @@ interface RelatedAgent {
 
         <!-- ═══ Mobile: Stacked cards ═══ -->
         <div class="md:hidden space-y-3">
-          <div class="flex items-center gap-3 bg-gradient-to-r from-[#5e1a24] to-[#6e2a34] rounded-xl px-4 py-3">
-            <div class="w-8 h-8 rounded-full bg-[#ee95a0] p-[2px] ring-2 ring-white/20 overflow-hidden shrink-0">
+          <div class="flex items-center gap-3 bg-gradient-to-r from-[#1a1a2e] to-[#6e2a34] rounded-xl px-4 py-3">
+            <div class="w-8 h-8 rounded-full bg-[#f5a896] p-[2px] ring-2 ring-white/20 overflow-hidden shrink-0">
               <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
             </div>
             <div>
@@ -1114,14 +1057,14 @@ interface RelatedAgent {
                   </div>
                   <p class="text-[13px] text-[#9ca3af]">{{ row.without }}</p>
                 </div>
-                <div class="p-4 bg-[#fdf5f7]/70 border-l-2 border-l-[#d4606f]/20">
+                <div class="p-4 bg-[#fef9f7]/70 border-l-2 border-l-[#e8573a]/20">
                   <div class="flex items-center gap-1.5 mb-2">
-                    <div class="w-[14px] h-[14px] rounded-full bg-gradient-to-br from-[#d4606f] to-[#5e1a24] flex items-center justify-center">
+                    <div class="w-[14px] h-[14px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center">
                       <svg width="6" height="6" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
                     </div>
-                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#d4606f]">With AdRadar</p>
+                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#e8573a]">With AdRadar</p>
                   </div>
-                  <p class="text-[13px] text-[#5e1a24] font-semibold">{{ row.withBlocking }}</p>
+                  <p class="text-[13px] text-[#1a1a2e] font-semibold">{{ row.withBlocking }}</p>
                 </div>
               </div>
             </div>
@@ -1131,17 +1074,17 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 6: RESULTS — Dark immersive
+         SECTION 6: RESULTS
          ═══════════════════════════════════════════ -->
     <section class="relative py-16 lg:py-22 overflow-hidden">
-      <!-- Dark background -->
-      <div class="absolute inset-0 bg-gradient-to-br from-[#3a1520] via-[#5e1a24] to-[#3a1520] pointer-events-none -z-10"></div>
+      <!-- Light background -->
+      <div class="absolute inset-0 bg-[#fef6f3] pointer-events-none -z-10"></div>
       <!-- Ambient glows -->
-      <div class="absolute top-[-20%] left-[-10%] w-[50%] h-[70%] bg-radial-[closest-side] from-[#d4606f]/15 to-transparent blur-[100px] pointer-events-none -z-10"></div>
-      <div class="absolute bottom-[-20%] right-[-10%] w-[50%] h-[70%] bg-radial-[closest-side] from-[#ee95a0]/10 to-transparent blur-[100px] pointer-events-none -z-10"></div>
-      <div class="absolute top-[40%] left-[50%] -translate-x-1/2 w-[60%] h-[40%] bg-radial-[closest-side] from-[#ee95a0]/6 to-transparent blur-[120px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[-20%] left-[-10%] w-[50%] h-[70%] bg-radial-[closest-side] from-[#e8573a]/8 to-transparent blur-[100px] pointer-events-none -z-10"></div>
+      <div class="absolute bottom-[-20%] right-[-10%] w-[50%] h-[70%] bg-radial-[closest-side] from-[#f5a896]/6 to-transparent blur-[100px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[40%] left-[50%] -translate-x-1/2 w-[60%] h-[40%] bg-radial-[closest-side] from-[#f5a896]/4 to-transparent blur-[120px] pointer-events-none -z-10"></div>
       <!-- Dot pattern -->
-      <div class="absolute inset-0 opacity-[0.04] pointer-events-none -z-10" style="background-image: radial-gradient(circle, #ee95a0 1px, transparent 1px); background-size: 28px 28px;"></div>
+      <div class="absolute inset-0 opacity-[0.04] pointer-events-none -z-10" style="background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px); background-size: 28px 28px;"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
 
@@ -1149,19 +1092,19 @@ interface RelatedAgent {
         <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10 lg:mb-14">
           <div class="max-w-[600px]">
             <div class="flex items-center gap-2.5 mb-4">
-              <div class="w-8 h-8 rounded-full bg-[#ee95a0] p-[2px] overflow-hidden">
+              <div class="w-8 h-8 rounded-full bg-[#f5a896] p-[2px] overflow-hidden">
                 <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
               </div>
-              <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#ee95a0]">
+              <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a]">
                 Proven Results
               </span>
             </div>
-            <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-white">
+            <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
               First 30 days. Same budget.<br class="hidden lg:block" />
-              <span class="cta-gradient-text">Precise persona delivery.</span>
+              <span class="section-gradient-text">Precise persona delivery.</span>
             </h2>
           </div>
-          <p class="text-[15px] text-[#ee95a0]/70 leading-[1.65] max-w-[340px] lg:text-right">
+          <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
             Measured across teams who activated Title Blocking on existing campaigns — no additional spend required.
           </p>
         </div>
@@ -1171,39 +1114,37 @@ interface RelatedAgent {
 
           <!-- ══ Card 1: 35% MQL Quality Uplift ══ -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
-            <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#d4606f]/30 via-[#ee95a0]/10 to-[#d4606f]/30 opacity-50 group-hover:opacity-100 blur-[2px] transition-opacity duration-500"></div>
-            <div class="relative bg-[#ffffff]/[0.06] backdrop-blur-md rounded-2xl border border-white/[0.08] p-6 lg:p-7 h-full group-hover:bg-[#ffffff]/[0.09] transition-colors duration-500">
-              <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10 rounded-2xl"></div>
+            <div class="relative bg-white rounded-2xl border border-[#e5e7eb] p-6 lg:p-7 h-full shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] group-hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.12)] transition-all duration-500">
 
               <!-- Before -> After badge -->
               <div class="flex items-center gap-2 mb-6">
-                <span class="text-[12px] font-medium text-[#fca5a5] bg-[#ef4444]/20 px-2.5 py-1 rounded-full">Diluted</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#ee95a0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                <span class="text-[12px] font-semibold text-[#f9a8b0] bg-[#ee95a0]/25 px-2.5 py-1 rounded-full">+35%</span>
+                <span class="text-[12px] font-medium text-[#ef4444] bg-[#ef4444]/10 px-2.5 py-1 rounded-full">Diluted</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#e8573a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span class="text-[12px] font-semibold text-[#e8573a] bg-[#ff6b35]/15 px-2.5 py-1 rounded-full">+35%</span>
               </div>
 
               <!-- Donut chart -->
               <div class="relative w-[140px] h-[140px] mx-auto mb-6">
                 <svg class="w-full h-full -rotate-90" viewBox="0 0 120 120">
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="12" />
-                  <circle cx="60" cy="60" r="50" fill="none" stroke="#ef4444" stroke-opacity="0.35" stroke-width="12"
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="#e5e7eb" stroke-width="12" />
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="#ef4444" stroke-opacity="0.5" stroke-width="12"
                     stroke-dasharray="157 157" stroke-linecap="round" />
                   <circle cx="60" cy="60" r="50" fill="none" stroke="url(#resultGradTB1)" stroke-width="12"
                     stroke-dasharray="110 204" stroke-linecap="round" />
                   <defs>
                     <linearGradient id="resultGradTB1" x1="0" y1="0" x2="1" y2="1">
-                      <stop offset="0%" stop-color="#f4c4ca" />
-                      <stop offset="100%" stop-color="#ee95a0" />
+                      <stop offset="0%" stop-color="#e8573a" />
+                      <stop offset="100%" stop-color="#ff6b35" />
                     </linearGradient>
                   </defs>
                 </svg>
                 <div class="absolute inset-0 flex items-center justify-center">
-                  <span class="text-[36px] font-bold text-white tracking-[-0.03em]">35%</span>
+                  <span class="text-[36px] font-bold text-[#111827] tracking-[-0.03em]">35%</span>
                 </div>
               </div>
 
-              <h3 class="text-[18px] font-bold text-white mb-1.5 text-center">MQL quality uplift</h3>
-              <p class="text-[13px] text-[#ee95a0]/80 text-center leading-[1.5]">
+              <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">MQL quality uplift</h3>
+              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
                 Average improvement when off-persona titles are systematically blocked from day one
               </p>
             </div>
@@ -1211,46 +1152,44 @@ interface RelatedAgent {
 
           <!-- ══ Card 2: 55% LinkedIn Title Accuracy ══ -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
-            <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#ee95a0]/35 via-[#f4c4ca]/15 to-[#ee95a0]/35 opacity-50 group-hover:opacity-100 blur-[2px] transition-opacity duration-500"></div>
-            <div class="relative bg-[#ffffff]/[0.08] backdrop-blur-md rounded-2xl border border-white/[0.10] p-6 lg:p-7 h-full group-hover:bg-[#ffffff]/[0.12] transition-colors duration-500">
-              <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10 rounded-2xl"></div>
+            <div class="relative bg-white rounded-2xl border border-[#e5e7eb] p-6 lg:p-7 h-full shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] group-hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.12)] transition-all duration-500">
 
               <!-- Before -> After badge -->
               <div class="flex items-center gap-2 mb-6">
-                <span class="text-[12px] font-medium text-[#fca5a5] bg-[#ef4444]/20 px-2.5 py-1 rounded-full">55% accurate</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#ee95a0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                <span class="text-[12px] font-semibold text-[#f9a8b0] bg-[#ee95a0]/25 px-2.5 py-1 rounded-full">Auto-corrected</span>
+                <span class="text-[12px] font-medium text-[#ef4444] bg-[#ef4444]/10 px-2.5 py-1 rounded-full">55% accurate</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#e8573a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span class="text-[12px] font-semibold text-[#e8573a] bg-[#ff6b35]/15 px-2.5 py-1 rounded-full">Auto-corrected</span>
               </div>
 
               <!-- Bar chart -->
               <div class="flex items-end gap-3 justify-center h-[140px] mb-6 px-2">
                 <!-- Incorrect bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
-                  <div class="w-full max-w-[48px] rounded-lg h-[63px] relative overflow-hidden bg-[#ef4444]/25 border border-[#ef4444]/30">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444]/40 to-[#ef4444]/15"></div>
+                  <div class="w-full max-w-[48px] rounded-lg h-[63px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-white/50 font-medium">45%<br/>wrong</span>
+                  <span class="text-[10px] text-[#6b7280] font-medium">45%<br/>wrong</span>
                 </div>
                 <!-- Correct bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
-                  <div class="w-full max-w-[48px] rounded-lg h-[77px] relative overflow-hidden bg-[#d4606f]/30 border border-[#ee95a0]/30">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#5e1a24] via-[#d4606f]/80 to-[#ee95a0]/60"></div>
+                  <div class="w-full max-w-[48px] rounded-lg h-[77px] relative overflow-hidden bg-[#e8573a] border border-[#d14a30]">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#e8573a] to-[#ff6b35]"></div>
                   </div>
-                  <span class="text-[10px] text-[#ee95a0] font-semibold">55%<br/>right</span>
+                  <span class="text-[10px] text-[#e8573a] font-semibold">55%<br/>right</span>
                 </div>
                 <!-- Dept & Seniority correction -->
                 <div class="flex flex-col items-center gap-2 flex-1">
-                  <div class="w-full max-w-[48px] rounded-lg h-[120px] relative overflow-hidden bg-[#d4606f]/20 border border-[#ee95a0]/25">
-                    <div class="absolute inset-0 bg-gradient-to-t from-[#5e1a24]/80 via-[#d4606f]/60 to-[#ee95a0]/40"></div>
+                  <div class="w-full max-w-[48px] rounded-lg h-[120px] relative overflow-hidden bg-[#ff6b35] border border-[#d14a30]">
+                    <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#e8573a] to-[#ff6b35]"></div>
                   </div>
-                  <span class="text-[10px] text-[#f4c4ca] font-medium">Corrected</span>
+                  <span class="text-[10px] text-[#e8573a] font-medium">Corrected</span>
                 </div>
               </div>
 
               <div class="text-center">
-                <p class="text-[48px] font-bold text-white tracking-[-0.04em] leading-none mb-1.5">55%</p>
-                <h3 class="text-[18px] font-bold text-white mb-1.5">LinkedIn title accuracy</h3>
-                <p class="text-[13px] text-[#ee95a0]/80 leading-[1.5]">
+                <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">55%</p>
+                <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">LinkedIn title accuracy</h3>
+                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
                   Meaning nearly half of title targeting is imprecise — Department & Seniority mode corrects for this automatically
                 </p>
               </div>
@@ -1259,15 +1198,13 @@ interface RelatedAgent {
 
           <!-- ══ Card 3: 0 hrs Exclusion List Maintenance ══ -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
-            <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#d4606f]/30 via-[#ee95a0]/10 to-[#d4606f]/30 opacity-50 group-hover:opacity-100 blur-[2px] transition-opacity duration-500"></div>
-            <div class="relative bg-[#ffffff]/[0.06] backdrop-blur-md rounded-2xl border border-white/[0.08] p-6 lg:p-7 h-full group-hover:bg-[#ffffff]/[0.09] transition-colors duration-500">
-              <div class="shimmer-sweep absolute inset-0 pointer-events-none z-10 rounded-2xl"></div>
+            <div class="relative bg-white rounded-2xl border border-[#e5e7eb] p-6 lg:p-7 h-full shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] group-hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.12)] transition-all duration-500">
 
               <!-- Before -> After badge -->
               <div class="flex items-center gap-2 mb-6">
-                <span class="text-[12px] font-medium text-[#fca5a5] bg-[#ef4444]/20 px-2.5 py-1 rounded-full">Manual</span>
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#ee95a0" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                <span class="text-[12px] font-semibold text-[#4ade80] bg-[#22c55e]/25 px-2.5 py-1 rounded-full">Automated</span>
+                <span class="text-[12px] font-medium text-[#ef4444] bg-[#ef4444]/10 px-2.5 py-1 rounded-full">Manual</span>
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#e8573a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span class="text-[12px] font-semibold text-[#16a34a] bg-[#dcfce7] px-2.5 py-1 rounded-full">Automated</span>
               </div>
 
               <!-- Budget flow visualization -->
@@ -1275,34 +1212,34 @@ interface RelatedAgent {
                 <!-- Manual exclusion work -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-white/70 font-medium uppercase tracking-[0.04em]">Manual exclusion work</span>
+                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Manual exclusion work</span>
                     <span class="text-[12px] text-[#ef4444]/80 font-semibold line-through">4-6 hrs/week</span>
                   </div>
-                  <div class="h-[12px] bg-white/[0.08] rounded-full overflow-hidden border border-white/[0.10]">
-                    <div class="h-full w-[75%] bg-gradient-to-r from-[#ef4444]/60 to-[#ef4444]/30 rounded-full"></div>
+                  <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
+                    <div class="h-full w-[75%] bg-gradient-to-r from-[#ef4444] to-[#f87171] rounded-full"></div>
                   </div>
                 </div>
                 <!-- With AdRadar -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#4ade80] font-semibold uppercase tracking-[0.04em]">With AdRadar</span>
-                    <span class="text-[12px] text-[#4ade80] font-bold">0 hrs</span>
+                    <span class="text-[11px] text-[#16a34a] font-semibold uppercase tracking-[0.04em]">With AdRadar</span>
+                    <span class="text-[12px] text-[#16a34a] font-bold">0 hrs</span>
                   </div>
-                  <div class="h-[12px] bg-white/[0.08] rounded-full overflow-hidden border border-[#22c55e]/25">
-                    <div class="h-full w-[2%] bg-gradient-to-r from-[#22c55e] to-[#4ade80] rounded-full"></div>
+                  <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#22c55e]/40">
+                    <div class="h-full w-[2%] bg-gradient-to-r from-[#22c55e] to-[#16a34a] rounded-full"></div>
                   </div>
                 </div>
                 <!-- Arrow showing automation -->
-                <div class="flex items-center gap-2 mt-4 bg-[#22c55e]/10 border border-[#22c55e]/15 rounded-lg px-3 py-2.5">
-                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 8h8M9.5 5.5L12 8l-2.5 2.5" stroke="#4ade80" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                  <span class="text-[11px] text-[#4ade80] font-medium">Rule-based enforcement requires zero curation</span>
+                <div class="flex items-center gap-2 mt-4 bg-[#dcfce7] border border-[#86efac] rounded-lg px-3 py-2.5">
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 8h8M9.5 5.5L12 8l-2.5 2.5" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  <span class="text-[11px] text-[#16a34a] font-medium">Rule-based enforcement requires zero curation</span>
                 </div>
               </div>
 
               <div class="text-center">
-                <p class="text-[48px] font-bold text-white tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
-                <h3 class="text-[18px] font-bold text-white mb-1.5">Exclusion list maintenance</h3>
-                <p class="text-[13px] text-[#ee95a0]/60 leading-[1.5]">
+                <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
+                <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Exclusion list maintenance</h3>
+                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
                   Rule-based enforcement requires no ongoing manual curation across campaigns
                 </p>
               </div>
@@ -1313,11 +1250,11 @@ interface RelatedAgent {
 
         <!-- Bottom trust line -->
         <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#ee95a0]/30"></div>
-          <p class="text-[13px] text-[#ee95a0]/40 text-center">
+          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
+          <p class="text-[13px] text-[#9ca3af] text-center">
             Results measured across active campaigns within 30 days of enabling Title Blocking Agent
           </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#ee95a0]/30"></div>
+          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
         </div>
       </div>
     </section>
@@ -1327,12 +1264,12 @@ interface RelatedAgent {
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-[#fef9fa] via-[#fefafb] to-white pointer-events-none -z-10"></div>
-      <div class="absolute top-[40%] left-[50%] -translate-x-1/2 w-[60%] h-[50%] bg-radial-[closest-side] from-[#ee95a0]/8 to-transparent blur-[100px] pointer-events-none -z-10"></div>
+      <div class="absolute top-[40%] left-[50%] -translate-x-1/2 w-[60%] h-[50%] bg-radial-[closest-side] from-[#f5a896]/8 to-transparent blur-[100px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1100px] mx-auto px-6">
         <!-- Heading -->
         <div class="text-left md:text-center mb-10">
-          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#d4606f] mb-4 block">
+          <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">
             Connected Intelligence
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
@@ -1409,11 +1346,11 @@ interface RelatedAgent {
                   [style.borderColor]="agent.accentColor + '20'">
                   <!-- Connection to Title Blocking badge -->
                   <div class="flex items-center gap-1.5">
-                    <div class="w-4 h-4 rounded-full bg-[#ee95a0] overflow-hidden shrink-0">
+                    <div class="w-4 h-4 rounded-full bg-[#f5a896] overflow-hidden shrink-0">
                       <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover" />
                     </div>
                     <div class="w-5 h-[1.5px] rounded-full"
-                      [style.background]="'linear-gradient(90deg, #ee95a0, ' + agent.accentColor + ')'">
+                      [style.background]="'linear-gradient(90deg, #f5a896, ' + agent.accentColor + ')'">
                     </div>
                     <div class="w-4 h-4 rounded-full overflow-hidden shrink-0"
                       [style.backgroundColor]="agent.avatarBg">
@@ -1442,74 +1379,105 @@ interface RelatedAgent {
     <!-- ═══════════════════════════════════════════
          SECTION 8: FINAL CTA
          ═══════════════════════════════════════════ -->
-    <section class="relative py-14 lg:py-20 overflow-hidden">
-      <!-- Full-bleed ambient background image -->
+    <section class="relative py-12 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 pointer-events-none">
-        <img
-          src="/images/cta-bg-2.png"
-          alt=""
-          class="object-cover scale-125 absolute inset-0 w-full h-full"
-          aria-hidden="true"
-        />
+        <img src="/images/cta-bg-2.png" alt="" class="object-cover scale-125 absolute inset-0 w-full h-full" aria-hidden="true" />
       </div>
 
-      <div class="relative max-w-[960px] mx-auto px-6">
-        <div class="relative rounded-[28px] lg:rounded-[32px] overflow-clip">
-          <!-- CTA Background -->
-          <div class="absolute inset-0 bg-gradient-to-br from-[#5e1a24] via-[#6e2a34] to-[#5e1a24]"></div>
-          <!-- Ambient glow effects -->
-          <div class="absolute top-[-20%] right-[-10%] w-[50%] h-[60%] bg-radial-[closest-side] from-[#d4606f]/30 to-transparent blur-[60px] pointer-events-none"></div>
-          <div class="absolute bottom-[-20%] left-[-10%] w-[50%] h-[60%] bg-radial-[closest-side] from-[#ee95a0]/20 to-transparent blur-[60px] pointer-events-none"></div>
-          <!-- Dot pattern -->
-          <div class="absolute inset-0 opacity-[0.04] pointer-events-none" style="background-image: radial-gradient(circle, white 1px, transparent 1px); background-size: 24px 24px;"></div>
-
-          <div class="relative px-8 md:px-12 lg:px-16 py-16 lg:py-20 text-center">
-            <!-- Agent avatar with glow -->
-            <div class="relative w-20 h-20 mx-auto mb-8">
-              <div class="absolute -inset-3 rounded-full bg-[#d4606f]/20 blur-[12px] animate-[pulse-ring_3s_ease-in-out_infinite]"></div>
-              <div class="relative w-full h-full rounded-full bg-gradient-to-br from-[#f4c4ca] to-[#ee95a0] p-[2px] shadow-[0_8px_30px_-6px_rgba(238,149,160,0.5)]">
-                <div class="w-full h-full rounded-full overflow-hidden bg-[#ee95a0]">
-                  <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full object-cover" />
-                </div>
-              </div>
-            </div>
-
-            <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-white mb-4">
+      <div class="relative max-w-[1200px] mx-auto px-6">
+        <div class="relative rounded-[28px] lg:rounded-[32px] bg-white overflow-clip shadow-[0_0_24px_4px_rgba(0,0,0,0.12)] pt-12 lg:pt-16 pb-[120px] lg:pb-[160px] px-8 md:px-12 lg:px-16">
+          <div class="relative z-10 text-left md:text-center max-w-[700px] mx-auto">
+            <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-3">
               Stop budget flowing to wrong personas.
               <br class="hidden md:block" />
-              <span class="cta-gradient-text">Enforce your persona rules.</span>
+              <span
+                class="italic font-bold bg-clip-text text-transparent"
+                [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'"
+              >
+                Enforce your persona rules.
+              </span>
             </h2>
-            <p class="text-[17px] text-[#ee95a0] leading-[1.65] max-w-[520px] mx-auto mb-10">
+            <p class="text-[15px] md:text-[17px] text-[#4b5563] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
               Connect your LinkedIn Ads account in 2 minutes. The Title Blocking Agent
               starts enforcing immediately. No credit card required.
             </p>
+            <a href="#" class="inline-flex items-center gap-3.5 bg-[#ff6500] hover:bg-[#e85a00] text-white rounded-full pl-9 pr-1 py-1 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(255,101,0,0.4)] hover:scale-[1.03]">
+              <span class="text-[15px] lg:text-[17px] font-medium">Start free trial</span>
+              <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M5 3l4 4-4 4" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </a>
+          </div>
 
-            <!-- CTAs -->
-            <div class="flex items-center justify-center gap-4 flex-wrap">
-              <a
-                href="#"
-                class="group inline-flex items-center gap-3 bg-white hover:bg-[#fdf5f7] text-[#5e1a24] rounded-full pl-6 pr-1.5 py-1.5 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(255,255,255,0.3)] hover:scale-[1.03]"
-              >
-                <span class="text-[15px] font-semibold">Start free trial</span>
-                <div class="w-9 h-9 bg-[#5e1a24] rounded-full flex items-center justify-center transition-transform duration-300 group-hover:rotate-[-15deg]">
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M5 3l4 4-4 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                  </svg>
+          <div class="absolute bottom-6 left-1/2 -translate-x-1/2 w-[110%] max-w-[1310px] h-[200px] hidden md:block">
+            <svg class="absolute inset-0 w-full h-full" viewBox="0 0 1310 200" fill="none" preserveAspectRatio="xMidYMid meet">
+              <path d="M 30 55 Q 200 95 400 135 Q 550 165 655 175 Q 760 165 910 135 Q 1110 95 1280 55" stroke="#f5a896" stroke-width="2" fill="none" opacity="0.4"/>
+            </svg>
+
+            <div class="absolute" style="left: 2%; bottom: 110px">
+              <div class="relative">
+                <div class="w-[52px] h-[52px] rounded-full bg-[#acdfa4] p-[2px] shadow-md">
+                  <img src="/agents/Analyse competitors LinkedIn Ads.png" alt="" class="w-full h-full rounded-full object-cover bg-[#acdfa4]"/>
                 </div>
-              </a>
-              <a
-                href="#"
-                class="h-12 px-8 flex items-center justify-center border border-white/30 rounded-full text-[15px] font-medium text-white hover:bg-white/10 hover:border-white/50 transition-all duration-300"
-              >
-                Book a Demo
-              </a>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
             </div>
 
-            <!-- Trust text -->
-            <div class="flex items-center justify-center gap-2 text-[13px] font-medium text-[#ee95a0]/80 mt-6">
-              <span>No credit card required</span>
-              <span class="text-white/20 font-bold px-1">&bull;</span>
-              <span>Setup in under 2 minutes</span>
+            <div class="absolute" style="left: 15%; bottom: 80px">
+              <div class="relative">
+                <div class="w-[60px] h-[60px] rounded-full bg-[#fbf5df] p-[2px] shadow-md">
+                  <img src="/agents/Campaign Scheduling Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#fbf5df]"/>
+                </div>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
+            </div>
+
+            <div class="absolute" style="left: 30%; bottom: 45px">
+              <div class="relative">
+                <div class="w-[68px] h-[68px] rounded-full bg-[#a8d1dc] p-[2px] shadow-md">
+                  <img src="/agents/Impression Capping Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#a8d1dc]"/>
+                </div>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
+            </div>
+
+            <!-- CENTER: Title Blocking -->
+            <div class="absolute" style="left: 46%; bottom: 15px">
+              <div class="relative">
+                <div class="w-[84px] h-[84px] rounded-full bg-[#ee95a0] p-[2px] shadow-lg ring-4 ring-[#ee95a0]/30">
+                  <img src="/agents/Title Blocking Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#ee95a0]"/>
+                </div>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
+            </div>
+
+            <div class="absolute" style="left: 62%; bottom: 45px">
+              <div class="relative">
+                <div class="w-[68px] h-[68px] rounded-full bg-[#acdfa4] p-[2px] shadow-md">
+                  <img src="/agents/Bidding Optimization Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#acdfa4]"/>
+                </div>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
+            </div>
+
+            <div class="absolute" style="left: 77%; bottom: 80px">
+              <div class="relative">
+                <div class="w-[60px] h-[60px] rounded-full bg-[#d9e1fb] p-[2px] shadow-md">
+                  <img src="/agents/Ad Rotation Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#d9e1fb]"/>
+                </div>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
+            </div>
+
+            <div class="absolute" style="left: 90%; bottom: 110px">
+              <div class="relative">
+                <div class="w-[52px] h-[52px] rounded-full bg-[#b8dff0] p-[2px] shadow-md">
+                  <img src="/agents/Company Blocking Agent.png" alt="" class="w-full h-full rounded-full object-cover bg-[#b8dff0]"/>
+                </div>
+                <div class="absolute -bottom-1.5 left-1/2 -translate-x-1/2 bg-[#22c55e] text-white text-[7px] font-bold px-1.5 py-0.5 rounded-full whitespace-nowrap shadow-sm">Available</div>
+              </div>
             </div>
           </div>
         </div>
@@ -1521,7 +1489,7 @@ interface RelatedAgent {
 
     /* ═══ Hero gradient text ═══ */
     .hero-gradient-text {
-      background: linear-gradient(135deg, #5e1a24 0%, #d4606f 50%, #5e1a24 100%);
+      background: linear-gradient(135deg, #e8573a, #ff6b35);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -1529,7 +1497,7 @@ interface RelatedAgent {
 
     /* ═══ Section gradient text ═══ */
     .section-gradient-text {
-      background: linear-gradient(135deg, #5e1a24 0%, #d4606f 60%, #ee95a0 100%);
+      background: linear-gradient(135deg, #e8573a, #ff6b35);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -1537,7 +1505,7 @@ interface RelatedAgent {
 
     /* ═══ CTA gradient text ═══ */
     .cta-gradient-text {
-      background: linear-gradient(58deg, #ee95a0 0%, #f4c4ca 50%, #ffffff 100%);
+      background: linear-gradient(58deg, #f5a896 0%, #f4c4ca 50%, #ffffff 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -1601,7 +1569,7 @@ interface RelatedAgent {
         90deg,
         transparent,
         rgba(255, 255, 255, 0.08),
-        rgba(238, 149, 160, 0.06),
+        rgba(245, 168, 150, 0.06),
         transparent
       );
       transform: rotate(15deg) scaleY(1.5) translateX(-100%);
@@ -1710,6 +1678,17 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       this.activeStep.set(newStep);
       this.cdr.detectChanges();
     }
+  }
+
+  scrollToStep(index: number): void {
+    const el = this.howItWorksRef?.nativeElement;
+    if (!el) return;
+    const sectionTop = el.offsetTop;
+    const sectionHeight = el.offsetHeight;
+    const viewportHeight = window.innerHeight;
+    const scrollableDistance = sectionHeight - viewportHeight;
+    const targetScroll = sectionTop + (index / this.steps.length) * scrollableDistance;
+    window.scrollTo({ top: targetScroll, behavior: 'smooth' });
   }
 
   isStepActive(index: number): boolean {
@@ -1821,7 +1800,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       description:
         'Blocks non-ICP companies entirely — title blocking controls persona fit, company blocking removes irrelevant accounts from the auction.',
       accentColor: '#4a9cc5',
-      route: '/agents/title-blocking',
+      route: '/agents/company-blocking',
     },
     {
       name: 'Impression Capping Agent',
@@ -1848,7 +1827,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       description:
         'Detects fatigue before CTR drops. Persona-matched impressions get fresh creative — every blocked title frees budget for better placements.',
       accentColor: '#6b5ea0',
-      route: '/agents/title-blocking',
+      route: '/agents/ad-rotation',
     },
     {
       name: 'Campaign Scheduling Agent',
@@ -1857,7 +1836,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       description:
         'Pauses campaigns during low-conversion windows — title blocking ensures budget isn\'t wasted on off-persona titles during active hours.',
       accentColor: '#c5a030',
-      route: '/agents/title-blocking',
+      route: '/agents/campaign-scheduling',
     },
     {
       name: 'Analyse Competitors',
@@ -1866,7 +1845,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       description:
         'Tracks competitor ad presence across your target personas — title blocking ensures your persona-matched impressions aren\'t diluted.',
       accentColor: '#4a9a42',
-      route: '/agents/title-blocking',
+      route: '/agents/analyse-competitors',
     },
   ];
 }

@@ -108,8 +108,7 @@ interface NavAgent {
           </div>
 
           <a
-            routerLink="/"
-            fragment="pricing"
+            routerLink="/pricing"
             class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors"
           >
             Pricing
@@ -118,8 +117,7 @@ interface NavAgent {
 
         <!-- CTA -->
         <a
-          routerLink="/"
-          fragment="pricing"
+          routerLink="/pricing"
           class="group flex items-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-5 pr-1 py-1 transition-colors"
         >
           <span class="text-[15px] font-medium ml-1">Start free trial</span>
@@ -158,7 +156,7 @@ export class NavbarComponent {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       accentColor: '#4a9cc5',
-      route: '/agents/impression-capping',
+      route: '/agents/company-blocking',
     },
     {
       name: 'Impression Capping Agent',
@@ -186,14 +184,14 @@ export class NavbarComponent {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       accentColor: '#c5a030',
-      route: '/agents/impression-capping',
+      route: '/agents/campaign-scheduling',
     },
     {
       name: 'Ad Rotation Agent',
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       accentColor: '#6b5ea0',
-      route: '/agents/impression-capping',
+      route: '/agents/ad-rotation',
     },
     {
       name: 'Analyse Competitors',

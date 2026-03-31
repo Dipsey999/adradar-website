@@ -1,4 +1,4 @@
-import { Component, ChangeDetectorRef, ElementRef, OnDestroy, OnInit, ViewChild, signal, inject } from '@angular/core';
+import { Component, ChangeDetectorRef, ElementRef, OnDestroy, OnInit, ViewChild, signal, inject, computed } from '@angular/core';
 import { NgClass } from '@angular/common';
 
 interface Step {
@@ -18,116 +18,122 @@ interface Step {
       #sectionRef
       id="how-it-works"
       class="relative bg-section-bg"
-      style="height: 280vh"
+      [style.height]="sectionHeight()"
     >
       <!-- Sticky container — offset for 70px navbar -->
-      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden flex items-center">
-        <div class="w-full py-4 lg:py-6">
-          <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-20 w-full">
-            <div class="flex gap-8 lg:gap-16 items-stretch">
-              <!-- Left side: Badge + Heading + Steps timeline -->
-              <div class="flex-1 min-w-0">
-                <!-- Badge + Heading -->
-                <div class="mb-4 lg:mb-8">
-                  <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#ff4829]">
-                    HOW IT WORKS
-                  </span>
-                  <h2 class="text-[24px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
-                    Connect once. On the radar instantly.
-                  </h2>
-                </div>
+      <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
+        <div class="h-full flex flex-col justify-center">
+          <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full">
 
-                <!-- Timeline -->
-                <div class="relative">
-                  @for (step of steps; track step.number; let i = $index) {
-                    <div class="flex gap-4 lg:gap-7">
-                      <!-- Timeline column -->
-                      <div class="flex flex-col items-center shrink-0 self-stretch">
-                        <!-- Number circle -->
-                        <div
-                          class="w-9 h-9 lg:w-[46px] lg:h-[46px] rounded-full flex items-center justify-center shrink-0 transition-all duration-500"
-                          [ngClass]="isActive(i)
-                            ? 'bg-gradient-to-br from-[#ff4829] to-[#ff8f6b] shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]'
-                            : 'bg-[#f2c391]'"
-                        >
-                          <span
-                            class="text-xs lg:text-sm font-bold transition-colors duration-500"
-                            [ngClass]="isActive(i) ? 'text-white' : 'text-[#5a4a3a]'"
-                          >
+            <!-- Header -->
+            <div class="mb-8 lg:mb-10">
+              <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#ff4829]">
+                HOW IT WORKS
+              </span>
+              <h2 class="text-[28px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
+                Connect once. On the radar
+                <span class="italic bg-clip-text text-transparent" style="background-image: linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)">instantly.</span>
+              </h2>
+            </div>
+
+            <!-- Progress bar -->
+            <div class="hidden md:flex items-center gap-3 mb-8 lg:mb-10">
+              @for (step of steps; track step.number; let i = $index) {
+                <button
+                  class="group flex items-center gap-2 cursor-pointer"
+                  (click)="scrollToStep(i)"
+                >
+                  <div
+                    class="w-8 h-8 rounded-full flex items-center justify-center transition-all duration-500 text-[12px] font-bold"
+                    [ngClass]="isActive(i)
+                      ? 'bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]'
+                      : 'bg-[#e5e7eb] text-[#9ca3af] group-hover:bg-[#d1d5db]'"
+                  >
+                    {{ step.number }}
+                  </div>
+                  <span
+                    class="text-[12px] font-semibold uppercase tracking-[0.04em] transition-all duration-500 hidden lg:block"
+                    [ngClass]="isActive(i) ? 'text-[#ff4829]' : 'text-[#9ca3af]'"
+                  >
+                    {{ step.label }}
+                  </span>
+                </button>
+                @if (i < steps.length - 1) {
+                  <div class="flex-1 h-[2px] rounded-full overflow-hidden bg-[#e5e7eb]">
+                    <div
+                      class="h-full bg-gradient-to-r from-[#ff4829] to-[#e8573a] rounded-full transition-all duration-700 ease-out"
+                      [style.width]="isActive(i) ? '100%' : '0%'"
+                    ></div>
+                  </div>
+                }
+              }
+            </div>
+
+            <!-- Horizontal scrolling cards container -->
+            <div class="relative overflow-hidden">
+              <div
+                class="flex transition-transform duration-700 ease-[cubic-bezier(0.25,0.1,0.25,1)]"
+                [style.transform]="'translateX(-' + (activeStep() * 100) + '%)'"
+              >
+                @for (step of steps; track step.number; let i = $index) {
+                  <div class="w-full shrink-0 pr-0">
+                    <div class="flex flex-col md:flex-row gap-6 lg:gap-10 items-stretch">
+
+                      <!-- Left: Text content -->
+                      <div class="flex-1 flex flex-col justify-center min-w-0">
+                        <!-- Step label mobile -->
+                        <div class="flex items-center gap-3 mb-4 md:hidden">
+                          <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white flex items-center justify-center text-[12px] font-bold shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]">
                             {{ step.number }}
+                          </div>
+                          <span class="text-[12px] font-semibold uppercase tracking-[0.06em] text-[#ff4829]">
+                            {{ step.label }}
                           </span>
                         </div>
 
-                        <!-- Vertical line -->
-                        @if (!isLast(i)) {
-                          <div
-                            class="w-[2.5px] flex-1 transition-colors duration-500"
-                            [ngClass]="isActive(i) ? 'bg-[#ff4829]' : 'bg-[#f2c391]'"
-                          ></div>
-                        }
-                      </div>
-
-                      <!-- Content column -->
-                      <div
-                        class="flex-1 pt-1.5 lg:pt-2 transition-all duration-500"
-                        [ngClass]="isLast(i) ? 'pb-0' : 'pb-2 lg:pb-4'"
-                      >
-                        <!-- Step label -->
-                        <span
-                          class="inline-block text-[11px] lg:text-[12px] font-semibold tracking-[0.06em] uppercase transition-opacity duration-500 mb-0.5 text-[#ff4829]"
-                          [ngClass]="isActive(i) ? 'opacity-100' : 'opacity-40'"
-                        >
-                          {{ step.label }}
-                        </span>
-
-                        <!-- Step title -->
-                        <h3
-                          class="text-[15px] lg:text-[18px] font-semibold tracking-[-0.01em] leading-snug transition-all duration-500 text-[#111827]"
-                          [ngClass]="isActive(i) ? 'opacity-100' : 'opacity-40'"
-                        >
+                        <h3 class="text-[22px] md:text-[28px] lg:text-[32px] font-bold text-[#111827] leading-[1.15] tracking-[-0.02em] mb-3 lg:mb-4">
                           {{ step.title }}
                         </h3>
+                        <p class="text-[15px] md:text-[16px] text-[#4b5563] leading-[1.65] max-w-[520px]">
+                          {{ step.description }}
+                        </p>
 
-                        <!-- Step description - animated expand/collapse -->
-                        <div
-                          class="overflow-hidden transition-all duration-500 ease-in-out"
-                          [style.maxHeight]="isCurrent(i) ? '160px' : '0px'"
-                          [style.opacity]="isCurrent(i) ? 1 : 0"
-                          [style.marginTop]="isCurrent(i) ? '3px' : '0px'"
-                        >
-                          <p class="text-[13px] lg:text-[15px] text-[#4b5563] leading-[1.6] lg:leading-[1.65]">
-                            {{ step.description }}
-                          </p>
+                        <!-- Step counter -->
+                        <div class="mt-6 lg:mt-8 flex items-center gap-2">
+                          <span class="text-[13px] font-medium text-[#9ca3af]">Step {{ step.number }} of 0{{ steps.length }}</span>
                         </div>
                       </div>
-                    </div>
-                  }
-                </div>
-              </div>
 
-              <!-- Right side: Image - matches left column height, centered -->
-              <div class="hidden md:flex md:w-[320px] lg:w-[420px] xl:w-[500px] shrink-0 items-center justify-center">
-                <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden relative w-full h-full">
-                  @for (step of steps; track step.number; let i = $index) {
-                    <div
-                      class="absolute inset-0 transition-all duration-700 ease-in-out"
-                      [style.opacity]="activeStep() === i ? 1 : 0"
-                      [style.transform]="activeStep() === i
-                        ? 'scale(1) translateY(0)'
-                        : activeStep() > i
-                          ? 'scale(0.95) translateY(-20px)'
-                          : 'scale(0.95) translateY(20px)'"
-                    >
-                      <img
-                        [src]="step.image"
-                        [alt]="step.title"
-                        class="object-contain absolute inset-0 w-full h-full"
-                      />
+                      <!-- Right: Image -->
+                      <div class="md:w-[340px] lg:w-[440px] xl:w-[520px] shrink-0">
+                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden aspect-[4/3] md:aspect-auto md:h-full relative">
+                          <img
+                            [src]="step.image"
+                            [alt]="step.title"
+                            class="object-contain absolute inset-0 w-full h-full"
+                          />
+                        </div>
+                      </div>
+
                     </div>
-                  }
-                </div>
+                  </div>
+                }
               </div>
             </div>
+
+            <!-- Mobile dots / swipe indicator -->
+            <div class="flex md:hidden items-center justify-center gap-2 mt-6">
+              @for (step of steps; track step.number; let i = $index) {
+                <button
+                  class="transition-all duration-300 rounded-full cursor-pointer"
+                  [ngClass]="activeStep() === i
+                    ? 'w-6 h-2 bg-[#ff4829]'
+                    : 'w-2 h-2 bg-[#d1d5db]'"
+                  (click)="scrollToStep(i)"
+                ></button>
+              }
+            </div>
+
           </div>
         </div>
       </div>
@@ -140,6 +146,9 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
   private cdr = inject(ChangeDetectorRef);
 
   activeStep = signal(0);
+
+  // Dynamic section height: enough scroll space for all steps
+  sectionHeight = computed(() => (this.steps.length * 100) + 'vh');
 
   steps: Step[] = [
     {
@@ -187,6 +196,17 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
     window.removeEventListener('scroll', this.scrollHandler);
   }
 
+  scrollToStep(index: number): void {
+    const el = this.sectionRef.nativeElement;
+    if (!el) return;
+    const sectionTop = el.offsetTop;
+    const sectionHeight = el.offsetHeight;
+    const viewportHeight = window.innerHeight;
+    const scrollableDistance = sectionHeight - viewportHeight;
+    const targetScroll = sectionTop + (index / this.steps.length) * scrollableDistance;
+    window.scrollTo({ top: targetScroll, behavior: 'smooth' });
+  }
+
   private onScroll(): void {
     const el = this.sectionRef.nativeElement;
     if (!el) return;
@@ -199,8 +219,8 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
     const scrolled = -rect.top;
     const progress = Math.max(0, Math.min(1, scrolled / scrollableDistance));
 
-    // Distribute 4 steps evenly across scroll, with last step holding longer
-    const newStep = Math.min(3, Math.floor(progress * 4));
+    const total = this.steps.length;
+    const newStep = Math.min(total - 1, Math.floor(progress * total));
     if (newStep !== this.activeStep()) {
       this.activeStep.set(newStep);
       this.cdr.detectChanges();
@@ -208,7 +228,7 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
   }
 
   isActive(index: number): boolean {
-    return index === this.activeStep() || index < this.activeStep();
+    return index <= this.activeStep();
   }
 
   isCurrent(index: number): boolean {
