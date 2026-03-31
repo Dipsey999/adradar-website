@@ -9,10 +9,12 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [RouterOutlet, NavbarComponent, FooterComponent],
   template: `
     <app-navbar />
-    <main class="pt-[70px]">
-      <router-outlet />
-    </main>
-    <app-footer />
+    <div class="flex-1 overflow-y-auto overflow-x-clip">
+      <main>
+        <router-outlet />
+      </main>
+      <app-footer />
+    </div>
   `,
   styles: [],
 })

@@ -43,6 +43,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+}
+
+app-navbar {
+  display: block;
+  flex-shrink: 0;
+  z-index: 50;
+}
+
 /*
  * ── Typography Tokens ──
  *
