@@ -137,7 +137,7 @@ interface NavAgent {
     </header>
   `,
   styles: [`
-    :host { display: block; position: sticky; top: 0; z-index: 50; }
+    :host { display: block; position: fixed; top: 0; left: 0; width: 100%; z-index: 50; }
 
     .nav-dropdown {
       transform: translateY(4px);
