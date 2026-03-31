@@ -106,7 +106,7 @@ interface Step {
 
                       <!-- Right: Image -->
                       <div class="md:w-[340px] lg:w-[440px] xl:w-[520px] shrink-0">
-                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden relative min-h-[300px] md:min-h-[400px] lg:min-h-[460px]">
+                        <div class="bg-[#f2efea] rounded-2xl lg:rounded-3xl overflow-hidden relative min-h-[320px] md:min-h-[440px] lg:min-h-[520px]">
                           <img
                             [src]="step.image"
                             [alt]="step.title"
