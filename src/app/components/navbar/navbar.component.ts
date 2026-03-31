@@ -14,7 +14,7 @@ interface NavAgent {
   standalone: true,
   imports: [RouterLink],
   template: `
-    <header class="sticky top-0 z-50 bg-white border-b border-border">
+    <header class="bg-white border-b border-border">
       <div class="max-w-[1480px] mx-auto px-6 flex items-center justify-between h-[70px]">
         <!-- Logo -->
         <a routerLink="/" class="flex items-center">
@@ -137,7 +137,7 @@ interface NavAgent {
     </header>
   `,
   styles: [`
-    :host { display: block; }
+    :host { display: block; position: sticky; top: 0; z-index: 50; }
 
     .nav-dropdown {
       transform: translateY(4px);

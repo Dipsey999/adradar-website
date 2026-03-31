@@ -1,0 +1,34 @@
+---
+description: Automatically commit and push all changes after every task. The user is a designer with no coding knowledge — handle all git and dev operations silently.
+alwaysApply: true
+---
+
+# Auto Commit & Push After Every Change
+
+The user is a **designer, not a developer**. They have zero coding knowledge. Follow these rules at all times:
+
+## After Every Task
+
+Once you finish making any code changes (no matter how small), you MUST:
+
+1. **Stage** all changed files: `git add -A`
+2. **Commit** with a clear, descriptive message summarizing what changed
+3. **Push** to the remote: `git push`
+
+Do this automatically — never ask the user to confirm. Never skip this step.
+
+## Communication Style
+
+- Never use developer jargon (e.g. "refactor", "lint", "merge conflict", "rebase").
+- Explain everything in plain, simple language a non-technical person can understand.
+- If something goes wrong (build error, push failure, etc.), explain the problem in everyday terms and fix it yourself.
+- Never ask the user to run terminal commands.
+
+## Dev Server
+
+- If the dev server is not already running, start it automatically so the user can preview changes in the browser.
+- If a build error occurs after your changes, fix it before committing.
+
+## Summary
+
+Treat every interaction as if the user just wants to see results — handle all the technical plumbing (git, builds, server) behind the scenes.
