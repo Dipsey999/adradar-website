@@ -576,14 +576,14 @@ interface RelatedAgent {
                   <div
                     class="w-8 h-8 rounded-full flex items-center justify-center transition-all duration-500 text-[12px] font-bold"
                     [ngClass]="isStepActive(i)
-                      ? 'bg-gradient-to-br from-[#6b5ea0] to-[#1a1a2e] text-white shadow-[0_4px_14px_0_rgba(107,94,160,0.25)]'
+                      ? 'bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]'
                       : 'bg-[#e5e7eb] text-[#9ca3af] group-hover:bg-[#d1d5db]'"
                   >
                     {{ step.number }}
                   </div>
                   <span
                     class="text-[12px] font-semibold uppercase tracking-[0.04em] transition-all duration-500 hidden lg:block"
-                    [ngClass]="isStepActive(i) ? 'text-[#6b5ea0]' : 'text-[#9ca3af]'"
+                    [ngClass]="isStepActive(i) ? 'text-[#ff4829]' : 'text-[#9ca3af]'"
                   >
                     {{ step.label }}
                   </span>
@@ -591,7 +591,7 @@ interface RelatedAgent {
                 @if (i < steps.length - 1) {
                   <div class="flex-1 h-[2px] rounded-full overflow-hidden bg-[#e5e7eb]">
                     <div
-                      class="h-full bg-gradient-to-r from-[#6b5ea0] to-[#8b7fc4] rounded-full transition-all duration-700 ease-out"
+                      class="h-full bg-gradient-to-r from-[#ff4829] to-[#e8573a] rounded-full transition-all duration-700 ease-out"
                       [style.width]="isStepActive(i) ? '100%' : '0%'"
                     ></div>
                   </div>
@@ -613,10 +613,10 @@ interface RelatedAgent {
                       <div class="flex-1 flex flex-col justify-center min-w-0">
                         <!-- Mobile step badge -->
                         <div class="flex items-center gap-3 mb-4 md:hidden">
-                          <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#6b5ea0] to-[#1a1a2e] text-white flex items-center justify-center text-[12px] font-bold shadow-[0_4px_14px_0_rgba(107,94,160,0.25)]">
+                          <div class="w-8 h-8 rounded-full bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white flex items-center justify-center text-[12px] font-bold shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]">
                             {{ step.number }}
                           </div>
-                          <span class="text-[12px] font-semibold uppercase tracking-[0.06em] text-[#6b5ea0]">
+                          <span class="text-[12px] font-semibold uppercase tracking-[0.06em] text-[#ff4829]">
                             {{ step.label }}
                           </span>
                         </div>
@@ -892,7 +892,7 @@ interface RelatedAgent {
               @for (step of steps; track step.number; let i = $index) {
                 <button
                   class="transition-all duration-300 rounded-full cursor-pointer"
-                  [ngClass]="activeStep() === i ? 'w-6 h-2 bg-[#6b5ea0]' : 'w-2 h-2 bg-[#d1d5db]'"
+                  [ngClass]="activeStep() === i ? 'w-6 h-2 bg-[#ff4829]' : 'w-2 h-2 bg-[#d1d5db]'"
                   (click)="scrollToStep(i)"
                 ></button>
               }
