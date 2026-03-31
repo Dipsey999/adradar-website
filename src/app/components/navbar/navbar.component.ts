@@ -13,11 +13,8 @@ interface NavAgent {
   selector: 'app-navbar',
   standalone: true,
   imports: [RouterLink],
-  host: {
-    style: 'display:block;position:fixed;top:0;left:0;width:100%;z-index:9999;',
-  },
   template: `
-    <header class="bg-white border-b border-border">
+    <header class="fixed top-0 left-0 w-full z-50 bg-white border-b border-border">
       <div class="max-w-[1480px] mx-auto px-6 flex items-center justify-between h-[70px]">
         <!-- Logo -->
         <a routerLink="/" class="flex items-center">
@@ -47,7 +44,7 @@ interface NavAgent {
               fragment="copilots"
               class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors inline-flex items-center gap-1"
             >
-              Copilots
+              AI Agents
               <svg class="w-3.5 h-3.5 transition-transform duration-300 group-hover/nav:rotate-180" viewBox="0 0 12 12" fill="none">
                 <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
@@ -140,6 +137,8 @@ interface NavAgent {
     </header>
   `,
   styles: [`
+    :host { display: block; }
+
     .nav-dropdown {
       transform: translateY(4px);
       transition: transform 0.3s ease-out, opacity 0.3s ease-out;

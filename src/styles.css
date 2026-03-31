@@ -219,6 +219,9 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
   .relative {
     position: relative;
   }
@@ -3557,6 +3560,9 @@
   }
   .pt-32 {
     padding-top: calc(var(--spacing) * 32);
+  }
+  .pt-\[70px\] {
+    padding-top: 70px;
   }
   .pr-0 {
     padding-right: calc(var(--spacing) * 0);
