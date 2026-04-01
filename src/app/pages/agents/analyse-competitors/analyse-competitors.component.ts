@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Monitor rival campaigns in real time. Track creative changes, new ad launches, messaging pivots, positioning shifts, respond before their strategy reaches your buyers.
+              Monitor rival campaigns in real time, track creative changes, new ad launches, messaging pivots, positioning shifts, respond before their strategy reaches your buyers.
             </p>
 
             <!-- CTAs -->
@@ -211,7 +211,7 @@ interface RelatedAgent {
         <div class="text-left md:text-center mb-10">
           <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">The Problem</span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            Your competitors are shaping your buyers' perceptions.
+            Your competitors are shaping your buyers' perceptions , 
             <br class="hidden md:block" />
             <span class="section-gradient-text">and you're the last to know.</span>
           </h2>
@@ -344,7 +344,7 @@ interface RelatedAgent {
                 </div>
                 <div class="flex items-center justify-between mt-1.5">
                   <span class="text-[10px] text-[#ef4444]/60 font-medium">Manual checks</span>
-                  <span class="text-[10px] text-[#9ca3af]">Missed launches</span>
+                  <span class="text-[10px] text-[#6b7280]">Missed launches</span>
                 </div>
               </div>
 
@@ -422,7 +422,7 @@ interface RelatedAgent {
                     </div>
                     <div>
                       <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn Ad Library + Manual review</h3>
-                      <p class="text-[11px] text-[#9ca3af] mt-0.5">Manual, reactive</p>
+                      <p class="text-[11px] text-[#6b7280] mt-0.5">Manual, reactive</p>
                     </div>
                   </div>
                   <span class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#ef4444]/70 bg-[#fef2f2] rounded-full px-2.5 py-0.5">Limited</span>
@@ -435,7 +435,7 @@ interface RelatedAgent {
                           <path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
                         </svg>
                       </div>
-                      <span class="text-[13px] text-[#9ca3af] leading-[1.5]">{{ item }}</span>
+                      <span class="text-[13px] text-[#6b7280] leading-[1.5]">{{ item }}</span>
                     </li>
                   }
                 </ul>
@@ -560,11 +560,11 @@ interface RelatedAgent {
               @for (step of steps; track step.number; let i = $index) {
                 <button class="group flex items-center gap-2 cursor-pointer" (click)="scrollToStep(i)">
                   <div class="w-8 h-8 rounded-full flex items-center justify-center transition-all duration-500 text-[12px] font-bold"
-                    [ngClass]="isStepActive(i) ? 'bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]' : 'bg-[#e5e7eb] text-[#9ca3af] group-hover:bg-[#d1d5db]'">
+                    [ngClass]="isStepActive(i) ? 'bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]' : 'bg-[#e5e7eb] text-[#6b7280] group-hover:bg-[#d1d5db]'">
                     {{ step.number }}
                   </div>
                   <span class="text-[12px] font-semibold uppercase tracking-[0.04em] transition-all duration-500 hidden lg:block"
-                    [ngClass]="isStepActive(i) ? 'text-[#ff4829]' : 'text-[#9ca3af]'">{{ step.label }}</span>
+                    [ngClass]="isStepActive(i) ? 'text-[#ff4829]' : 'text-[#6b7280]'">{{ step.label }}</span>
                 </button>
                 @if (i < steps.length - 1) {
                   <div class="flex-1 h-[2px] rounded-full overflow-hidden bg-[#e5e7eb]">
@@ -590,7 +590,7 @@ interface RelatedAgent {
                         <h3 class="text-[22px] md:text-[26px] lg:text-[30px] font-bold text-[#111827] leading-[1.15] tracking-[-0.02em] mb-3 lg:mb-4">{{ step.title }}</h3>
                         <p class="text-[15px] md:text-[16px] text-[#4b5563] leading-[1.65] max-w-[520px]">{{ step.description }}</p>
                         <div class="mt-6 flex items-center gap-2">
-                          <span class="text-[13px] font-medium text-[#9ca3af]">Step {{ step.number }} of 05</span>
+                          <span class="text-[13px] font-medium text-[#6b7280]">Step {{ step.number }} of 05</span>
                         </div>
                       </div>
                       <div class="md:w-[340px] lg:w-[440px] xl:w-[500px] shrink-0">
@@ -782,7 +782,7 @@ interface RelatedAgent {
                                         <svg width="6" height="6" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
                                       </div>
                                       <div>
-                                        <p class="text-[10px] font-semibold text-[#9ca3af] uppercase tracking-[0.03em]">Previous</p>
+                                        <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.03em]">Previous</p>
                                         <p class="text-[11px] text-[#4b5563]">"Enterprise-grade platform for large teams"</p>
                                       </div>
                                     </div>
@@ -964,7 +964,7 @@ interface RelatedAgent {
                   <div class="w-[18px] h-[18px] rounded-full bg-[#fef2f2] flex items-center justify-center shrink-0">
                     <svg width="7" height="7" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
+                  <span class="text-[14px] text-[#6b7280]">{{ row.without }}</span>
                 </div>
 
                 <!-- With adRadar value -->
@@ -1004,9 +1004,9 @@ interface RelatedAgent {
                     <div class="w-[14px] h-[14px] rounded-full bg-[#fef2f2] flex items-center justify-center">
                       <svg width="6" height="6" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
                     </div>
-                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#9ca3af]">Without</p>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.06em] text-[#111827]">Without</p>
                   </div>
-                  <p class="text-[13px] text-[#9ca3af]">{{ row.without }}</p>
+                  <p class="text-[13px] text-[#6b7280]">{{ row.without }}</p>
                 </div>
                 <div class="p-4 bg-[#fef6f3]/70 border-l-2 border-l-[#e8573a]/20">
                   <div class="flex items-center gap-1.5 mb-2">
@@ -1305,7 +1305,7 @@ interface RelatedAgent {
                       [style.backgroundColor]="agent.avatarBg">
                       <img [src]="agent.image" alt="" class="w-full h-full object-cover" />
                     </div>
-                    <span class="text-[10px] text-[#9ca3af] font-medium ml-0.5">Synced</span>
+                    <span class="text-[10px] text-[#6b7280] font-medium ml-0.5">Synced</span>
                   </div>
 
                   <!-- Arrow -->

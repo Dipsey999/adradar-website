@@ -331,7 +331,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without blocking</span>
+                  <span class="text-[12px] font-bold text-[#111827] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
                 <!-- Bar visualization: concentrated on wrong titles -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -348,7 +348,7 @@ interface RelatedAgent {
                 </div>
                 <div class="flex items-center justify-between mt-1.5">
                   <span class="text-[10px] text-[#ef4444]/60 font-medium">Off-persona titles</span>
-                  <span class="text-[10px] text-[#9ca3af]">Target personas</span>
+                  <span class="text-[10px] text-[#6b7280]">Target personas</span>
                 </div>
               </div>
 
@@ -427,7 +427,7 @@ interface RelatedAgent {
                     </div>
                     <div>
                       <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual title exclusions</h3>
-                      <p class="text-[11px] text-[#9ca3af] mt-0.5">LinkedIn Campaign Manager</p>
+                      <p class="text-[11px] text-[#6b7280] mt-0.5">LinkedIn Campaign Manager</p>
                     </div>
                   </div>
                   <span class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#ef4444]/70 bg-[#fef2f2] rounded-full px-2.5 py-0.5">Limited</span>
@@ -440,7 +440,7 @@ interface RelatedAgent {
                           <path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/>
                         </svg>
                       </div>
-                      <span class="text-[13px] text-[#9ca3af] leading-[1.5]">{{ item }}</span>
+                      <span class="text-[13px] text-[#6b7280] leading-[1.5]">{{ item }}</span>
                     </li>
                   }
                 </ul>
@@ -565,11 +565,11 @@ interface RelatedAgent {
               @for (step of steps; track step.number; let i = $index) {
                 <button class="group flex items-center gap-2 cursor-pointer" (click)="scrollToStep(i)">
                   <div class="w-8 h-8 rounded-full flex items-center justify-center transition-all duration-500 text-[12px] font-bold"
-                    [ngClass]="isStepActive(i) ? 'bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]' : 'bg-[#e5e7eb] text-[#9ca3af] group-hover:bg-[#d1d5db]'">
+                    [ngClass]="isStepActive(i) ? 'bg-gradient-to-br from-[#ff4829] to-[#e8573a] text-white shadow-[0_4px_14px_0_rgba(255,72,41,0.25)]' : 'bg-[#e5e7eb] text-[#6b7280] group-hover:bg-[#d1d5db]'">
                     {{ step.number }}
                   </div>
                   <span class="text-[12px] font-semibold uppercase tracking-[0.04em] transition-all duration-500 hidden lg:block"
-                    [ngClass]="isStepActive(i) ? 'text-[#ff4829]' : 'text-[#9ca3af]'">
+                    [ngClass]="isStepActive(i) ? 'text-[#ff4829]' : 'text-[#6b7280]'">
                     {{ step.label }}
                   </span>
                 </button>
@@ -598,7 +598,7 @@ interface RelatedAgent {
                         <h3 class="text-[22px] md:text-[26px] lg:text-[30px] font-bold text-[#111827] leading-[1.15] tracking-[-0.02em] mb-3 lg:mb-4">{{ step.title }}</h3>
                         <p class="text-[15px] md:text-[16px] text-[#4b5563] leading-[1.65] max-w-[520px]">{{ step.description }}</p>
                         <div class="mt-6 flex items-center gap-2">
-                          <span class="text-[13px] font-medium text-[#9ca3af]">Step {{ step.number }} of 05</span>
+                          <span class="text-[13px] font-medium text-[#6b7280]">Step {{ step.number }} of 05</span>
                         </div>
                       </div>
                       <!-- Right: Visualization -->
@@ -962,7 +962,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without blocking</span>
+                  <span class="text-[13px] font-bold text-[#111827] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
               </div>
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#6e2a34] p-5 border-b border-[#1a1a2e]">
@@ -1015,7 +1015,7 @@ interface RelatedAgent {
                   <div class="w-[18px] h-[18px] rounded-full bg-[#fef2f2] flex items-center justify-center shrink-0">
                     <svg width="7" height="7" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
+                  <span class="text-[14px] text-[#6b7280]">{{ row.without }}</span>
                 </div>
 
                 <!-- With adRadar value -->
@@ -1054,9 +1054,9 @@ interface RelatedAgent {
                     <div class="w-[14px] h-[14px] rounded-full bg-[#fef2f2] flex items-center justify-center">
                       <svg width="6" height="6" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.5" stroke-linecap="round"/></svg>
                     </div>
-                    <p class="text-[10px] font-semibold uppercase tracking-[0.06em] text-[#9ca3af]">Without</p>
+                    <p class="text-[10px] font-bold uppercase tracking-[0.06em] text-[#111827]">Without</p>
                   </div>
-                  <p class="text-[13px] text-[#9ca3af]">{{ row.without }}</p>
+                  <p class="text-[13px] text-[#6b7280]">{{ row.without }}</p>
                 </div>
                 <div class="p-4 bg-[#fef9f7]/70 border-l-2 border-l-[#e8573a]/20">
                   <div class="flex items-center gap-1.5 mb-2">
@@ -1350,7 +1350,7 @@ interface RelatedAgent {
                       [style.backgroundColor]="agent.avatarBg">
                       <img [src]="agent.image" alt="" class="w-full h-full object-cover" />
                     </div>
-                    <span class="text-[10px] text-[#9ca3af] font-medium ml-0.5">Synced</span>
+                    <span class="text-[10px] text-[#6b7280] font-medium ml-0.5">Synced</span>
                   </div>
 
                   <!-- Arrow -->
