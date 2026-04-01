@@ -73,7 +73,7 @@ import { Component } from '@angular/core';
             href="#how-it-works"
             class="h-12 px-8 flex items-center justify-center border border-gray-200 rounded-full text-[15px] font-medium text-foreground hover:bg-gray-50 transition-colors"
           >
-            See how it works
+            Talk to Sales
           </a>
         </div>
 
