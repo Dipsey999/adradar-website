@@ -58,8 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Monitor rival campaigns in real time, track creative changes, new ad launches, messaging pivots,
-              positioning shifts, respond before their strategy reaches your buyers.
+              Monitor rival campaigns in real time. Track creative changes, new ad launches, messaging pivots, positioning shifts, respond before their strategy reaches your buyers.
             </p>
 
             <!-- CTAs -->

@@ -1016,7 +1016,7 @@ interface RelatedAgent {
               <img src="/agents/Ad Rotation Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
             </div>
             <div>
-              <span class="text-[13px] font-semibold text-white block leading-tight">adRadar Ad Rotation</span>
+              <span class="text-[13px] font-semibold text-white block leading-tight">AdRadar Ad Rotation Agent</span>
               <span class="text-[10px] text-white/50 block leading-tight">See the difference the agent makes</span>
             </div>
           </div>
