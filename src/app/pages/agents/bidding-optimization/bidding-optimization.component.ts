@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Continuously adjusts bids across campaigns to maximise delivery efficiency — keeps you competitive in LinkedIn auction without burning budget on overpriced impressions.
+              Continuously adjusts bids across campaigns to maximise delivery efficiency, keeps you competitive in LinkedIn auction without burning budget on overpriced impressions.
             </p>
 
             <!-- CTAs -->
@@ -201,7 +201,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 2: PROBLEM STATS — 3 dark cards with green accents
+         SECTION 2: PROBLEM STATS, 3 dark cards with green accents
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-white via-[#fef9f7] to-[#fef6f3] pointer-events-none -z-10"></div>
@@ -216,7 +216,7 @@ interface RelatedAgent {
             <span class="section-gradient-text">The gap costs you every day.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            Most teams set their LinkedIn bids once — at campaign launch — and leave them. Maybe they revisit during a quarterly review. Maybe they adjust when CPL spikes enough to trigger alarm. But the LinkedIn auction doesn't wait for quarterly reviews. Competition for your target audience fluctuates continuously, and a static bid navigates a dynamic market with a fixed compass.
+            Most teams set their LinkedIn bids once, at campaign launch, and leave them. Maybe they revisit during a quarterly review. Maybe they adjust when CPL spikes enough to trigger alarm. But the LinkedIn auction doesn't wait for quarterly reviews. Competition for your target audience fluctuates continuously, and a static bid navigates a dynamic market with a fixed compass.
           </p>
         </div>
 
@@ -239,7 +239,7 @@ interface RelatedAgent {
                 Avg monthly budget recovered when bid strategy is actively optimised vs. static
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Budget not recovered from overbidding is gone — it doesn't carry forward
+                Budget not recovered from overbidding is gone, it doesn't carry forward
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to optimise bids dynamically across multiple campaigns simultaneously
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Manual bid review is the only option — where optimisation is always reactive and always late
+                Manual bid review is the only option, where optimisation is always reactive and always late
               </p>
             </div>
           </div>
@@ -317,7 +317,7 @@ interface RelatedAgent {
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
               Manual bid management on LinkedIn requires the operator to interpret auction signals,
-              diagnose whether the issue is bid-level or structural, and make adjustments across multiple campaigns — all from lagging data that reflects what happened, not what is happening.
+              diagnose whether the issue is bid-level or structural, and make adjustments across multiple campaigns, all from lagging data that reflects what happened, not what is happening.
             </p>
 
             <!-- Before / After transformation card -->
@@ -410,7 +410,7 @@ interface RelatedAgent {
           <!-- ══ RIGHT COLUMN (40%): Stacked comparison cards ══ -->
           <div class="lg:w-[42%] flex flex-col">
 
-            <!-- LinkedIn Card — subdued, "old way" feel -->
+            <!-- LinkedIn Card, subdued, "old way" feel -->
             <div class="bg-white rounded-2xl border border-[#e5e7eb] p-5 lg:p-6 relative">
               <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#f9fafb]/50 rounded-2xl pointer-events-none"></div>
               <div class="relative">
@@ -423,7 +423,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual bidding — LinkedIn Campaign Manager</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual bidding, LinkedIn Campaign Manager</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Manual, static bids</p>
                     </div>
                   </div>
@@ -455,7 +455,7 @@ interface RelatedAgent {
               </div>
             </div>
 
-            <!-- adRadar Card — premium, elevated, "new way" feel -->
+            <!-- adRadar Card, premium, elevated, "new way" feel -->
             <div class="group relative rounded-2xl flex-1 transition-all duration-300">
               <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#e8573a]/25 via-[#f5a896]/15 to-[#e8573a]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
               <div class="relative bg-gradient-to-br from-[#fef4f0] via-[#fde9e2] to-[#fcddd3] rounded-2xl border-2 border-[#f5a896] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(232,87,58,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(232,87,58,0.22)] flex flex-col h-full">
@@ -555,7 +555,7 @@ interface RelatedAgent {
                 How It Works
               </span>
               <h2 class="text-[24px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
-                Monitor. Detect. Adjust. Repeat —<br class="hidden lg:block" />
+                Monitor. Detect. Adjust. Repeat.<br class="hidden lg:block" />
                 <span class="section-gradient-text">without manual intervention.</span>
               </h2>
             </div>
@@ -920,7 +920,7 @@ interface RelatedAgent {
         <div class="hidden md:block">
           <div class="bg-white rounded-2xl border border-[#f5a896]/30 overflow-hidden shadow-[0_4px_24px_-4px_rgba(232,87,58,0.1)]">
 
-            <!-- Table Header — two distinct zones -->
+            <!-- Table Header, two distinct zones -->
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#faf8f8] p-5 border-b border-[#e5e7eb]/60">
@@ -935,7 +935,7 @@ interface RelatedAgent {
                   <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without optimization</span>
                 </div>
               </div>
-              <!-- With adRadar header — branded, highlighted -->
+              <!-- With adRadar header, branded, highlighted -->
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#252542] p-5 border-b border-[#1a1a2e]">
                 <div class="flex items-center gap-3">
                   <!-- Agent avatar with adRadar ring -->
@@ -991,7 +991,7 @@ interface RelatedAgent {
                   <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
                 </div>
 
-                <!-- With adRadar value — highlighted column -->
+                <!-- With adRadar value, highlighted column -->
                 <div class="p-5 flex items-center gap-2.5 bg-[#fef4f0]/70 group-hover:bg-[#fde9e2]/60 transition-colors border-l-2 border-l-[#e8573a]/20">
                   <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(26,26,46,0.3)]">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1012,7 +1012,7 @@ interface RelatedAgent {
               <img src="/agents/Bidding Optimization Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
             </div>
             <div>
-              <span class="text-[13px] font-semibold text-white block leading-tight">adRadar Bid Optimization</span>
+              <span class="text-[13px] font-semibold text-white block leading-tight">AdRadar Bidding Optimization Agent</span>
               <span class="text-[10px] text-white/50 block leading-tight">See the difference the agent makes</span>
             </div>
           </div>
@@ -1049,7 +1049,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 6: RESULTS — Light showcase
+         SECTION 6: RESULTS, Light showcase
          ═══════════════════════════════════════════ -->
     <section class="relative py-16 lg:py-22 overflow-hidden">
       <!-- Light background -->
@@ -1084,10 +1084,10 @@ interface RelatedAgent {
           </p>
         </div>
 
-        <!-- Results cards — staggered grid -->
+        <!-- Results cards, staggered grid -->
         <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
 
-          <!-- ══ Card 1: 20% Avg Spend Recovered — Donut chart ══ -->
+          <!-- ══ Card 1: 20% Avg Spend Recovered, Donut chart ══ -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
             <div class="relative bg-white rounded-2xl border border-[#e5e7eb] shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-6 lg:p-7 h-full group-hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.12)] transition-all duration-500">
 
@@ -1129,7 +1129,7 @@ interface RelatedAgent {
             </div>
           </div>
 
-          <!-- ══ Card 2: Real-time Bid Monitoring — Bar chart before/after ══ -->
+          <!-- ══ Card 2: Real-time Bid Monitoring, Bar chart before/after ══ -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
             <div class="relative bg-white rounded-2xl border border-[#e5e7eb] shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-6 lg:p-7 h-full group-hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.12)] transition-all duration-500">
 
@@ -1140,7 +1140,7 @@ interface RelatedAgent {
                 <span class="text-[12px] font-semibold text-[#16a34a] bg-[#dcfce7] px-2.5 py-1 rounded-full">Real-time</span>
               </div>
 
-              <!-- Bar chart visualization — before vs after -->
+              <!-- Bar chart visualization, before vs after -->
               <div class="flex items-end gap-3 justify-center h-[140px] mb-6 px-2">
                 <!-- Before bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1149,7 +1149,7 @@ interface RelatedAgent {
                   </div>
                   <span class="text-[10px] text-[#4b5563] font-medium">Weekly</span>
                 </div>
-                <!-- After bars — bright bars showing continuous monitoring -->
+                <!-- After bars, bright bars showing continuous monitoring -->
                 <div class="flex flex-col items-center gap-2 flex-1">
                   <div class="w-full max-w-[48px] rounded-lg h-[120px] relative overflow-hidden bg-[#e8573a] border border-[#d14a30]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#e8573a] to-[#ff6b35]"></div>
@@ -1176,7 +1176,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">Real-time</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Bid monitoring</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  vs. weekly manual review — auction patterns detected and surfaced as they emerge
+                  vs. weekly manual review, auction patterns detected and surfaced as they emerge
                 </p>
               </div>
             </div>
@@ -1226,7 +1226,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual bid management</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Agent handles continuous monitoring across all campaigns — no weekly review overhead
+                  Agent handles continuous monitoring across all campaigns, no weekly review overhead
                 </p>
               </div>
             </div>
@@ -1238,7 +1238,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 7: RELATED AGENTS — 6 agents, themed cards
+         SECTION 7: RELATED AGENTS, 6 agents, themed cards
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-[#fef9f7] via-[#faf8f8] to-white pointer-events-none -z-10"></div>
@@ -1256,11 +1256,11 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Bidding Optimization Agent coordinates with every other agent — ensuring that bid efficiency improvements translate directly into better reach, smarter distribution, and more effective scheduling.
+            The Bidding Optimization Agent coordinates with every other agent, ensuring that bid efficiency improvements translate directly into better reach, smarter distribution, and more effective scheduling.
           </p>
         </div>
 
-        <!-- Agent Cards — 3-column grid -->
+        <!-- Agent Cards, 3-column grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           @for (agent of relatedAgents; track agent.name; let i = $index) {
             <a
@@ -1583,10 +1583,10 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
 
   linkedinLimitations = [
     'Static bids set at launch, reviewed infrequently',
-    'Generic suggested ranges — not campaign-specific',
+    'Generic suggested ranges, not campaign-specific',
     'No detection of overbidding or underdelivery patterns',
     'Bid strategy selection left to operator judgement',
-    'Optimisation is weekly at best — reactive',
+    'Optimisation is weekly at best, reactive',
     'No cross-campaign bid coordination or prioritisation',
   ];
 
@@ -1595,7 +1595,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
     'Campaign-specific optimisation based on delivery history',
     'Overbid and underdelivery patterns detected automatically',
     'Bid strategy recommendations backed by performance data',
-    'Real-time adjustments — no manual reviews',
+    'Real-time adjustments, no manual reviews',
     'Cross-campaign budget coordination for maximum efficiency',
   ];
 
@@ -1605,28 +1605,28 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       label: 'Link',
       title: 'Agent monitors auction performance across all linked campaigns',
       description:
-        'From the moment campaigns are linked, the agent tracks CPM trends, win rate patterns, delivery pacing, cost-per-click trajectory, and bid competitiveness against the auction clearing price — across every active campaign simultaneously.',
+        'From the moment campaigns are linked, the agent tracks CPM trends, win rate patterns, delivery pacing, cost-per-click trajectory, and bid competitiveness against the auction clearing price, across every active campaign simultaneously.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Overbidding and underdelivery patterns are detected in real time',
       description:
-        'The agent identifies when bids are consistently above the auction clearing price — paying a premium for impressions that didn\'t require it — and when bids are too low to compete effectively, causing underdelivery against available audience.',
+        'The agent identifies when bids are consistently above the auction clearing price, paying a premium for impressions that didn\'t require it, and when bids are too low to compete effectively, causing underdelivery against available audience.',
     },
     {
       number: '03',
       label: 'Recommend',
       title: 'Bid adjustments are executed with context',
       description:
-        'When there is a bid optimization opportunity, the agent surfaces precise recommendations: which campaign, which bid lever, what adjustment direction, avg impact on CPM and delivery. Every recommendation explained — and executed.',
+        'When there is a bid optimization opportunity, the agent surfaces precise recommendations: which campaign, which bid lever, what adjustment direction, avg impact on CPM and delivery. Every recommendation explained, and executed.',
     },
     {
       number: '04',
       label: 'Track',
       title: 'Budget efficiency is tracked across the full campaign portfolio',
       description:
-        'Track bid efficiency at portfolio level — identify where budget is working hardest and where it\'s absorbed by auction overhead. Cross-campaign reallocation opportunities are surfaced when better-performing campaigns are budget-constrained.',
+        'Track bid efficiency at portfolio level, identify where budget is working hardest and where it\'s absorbed by auction overhead. Cross-campaign reallocation opportunities are surfaced when better-performing campaigns are budget-constrained.',
     },
     {
       number: '05',
@@ -1640,7 +1640,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
   comparisonRows: ComparisonRow[] = [
     {
       capability: 'Bid review frequency',
-      without: 'Weekly at best — reactive',
+      without: 'Weekly at best, reactive',
       withOptimization: 'Continuous, real-time monitoring',
     },
     {
@@ -1685,7 +1685,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'As budget redistributes to under-served accounts when caps are reached, the Bidding Agent optimises CPM for newly eligible companies — maximising reach efficiency as impression distribution broadens.',
+        'As budget redistributes to under-served accounts when caps are reached, the Bidding Agent optimises CPM for newly eligible companies, maximising reach efficiency as impression distribution broadens.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1712,7 +1712,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Bid optimization runs inside active schedule windows — bids are tuned for peak-hour auction competitiveness, not averaged across hours when buyers aren\'t active and auction dynamics differ.',
+        'Bid optimization runs inside active schedule windows, bids are tuned for peak-hour auction competitiveness, not averaged across hours when buyers aren\'t active and auction dynamics differ.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },

@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Automatically run your campaigns only during the days and hours you choose — pausing
+              Automatically run your campaigns only during the days and hours you choose, pausing
               outside those windows so every impression lands when it actually counts.
             </p>
 
@@ -218,7 +218,7 @@ interface RelatedAgent {
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
             LinkedIn Campaign Manager has no native time-of-day delivery control. Your campaigns run
-            continuously from the moment you launch them to the moment you pause them manually. That means Friday night, Saturday morning, and Sunday afternoon — windows when your buying committees are not on LinkedIn — with exactly the same daily budget as Tuesday at 10am.
+            continuously from the moment you launch them to the moment you pause them manually. That means Friday night, Saturday morning, and Sunday afternoon, windows when your buying committees are not on LinkedIn, with exactly the same daily budget as Tuesday at 10am.
           </p>
         </div>
 
@@ -241,7 +241,7 @@ interface RelatedAgent {
                 of the week is outside standard business hours
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                168 hours per week — only 40 are Mon–Fri 9–5. Budget running 24/7 wastes the rest.
+                168 hours per week, only 40 are Mon–Fri 9–5. Budget running 24/7 wastes the rest.
               </p>
             </div>
           </div>
@@ -316,7 +316,7 @@ interface RelatedAgent {
               <span class="section-gradient-text">And it breaks.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              Every team that's tried to manage LinkedIn ad delivery manually knows the same story — it works until it doesn't, and when it breaks you find out on Monday morning when the weekend budget is already gone.
+              Every team that's tried to manage LinkedIn ad delivery manually knows the same story, it works until it doesn't, and when it breaks you find out on Monday morning when the weekend budget is already gone.
             </p>
 
             <!-- Before / After weekly schedule visualization -->
@@ -330,7 +330,7 @@ interface RelatedAgent {
                   </div>
                   <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Before: 24/7 delivery</span>
                 </div>
-                <!-- Weekly bars — all days red -->
+                <!-- Weekly bars, all days red -->
                 <div class="grid grid-cols-7 gap-[3px]">
                   <div class="text-center">
                     <span class="text-[9px] text-[#9ca3af] font-medium block mb-1">Mon</span>
@@ -384,7 +384,7 @@ interface RelatedAgent {
                   </div>
                   <span class="text-[12px] font-semibold text-[#1a1a2e] uppercase tracking-[0.04em]">After: Scheduled Mon-Fri 9am-5pm</span>
                 </div>
-                <!-- Weekly bars — Mon-Fri with gradient, weekends empty -->
+                <!-- Weekly bars, Mon-Fri with gradient, weekends empty -->
                 <div class="grid grid-cols-7 gap-[3px]">
                   <div class="text-center">
                     <span class="text-[9px] text-[#c5a030] font-medium block mb-1">Mon</span>
@@ -1050,7 +1050,7 @@ interface RelatedAgent {
               <img src="/agents/Campaign Scheduling Agent.png" alt="" class="w-full h-full object-cover rounded-full" />
             </div>
             <div>
-              <span class="text-[13px] font-semibold text-white block leading-tight">adRadar Campaign Scheduling</span>
+              <span class="text-[13px] font-semibold text-white block leading-tight">AdRadar Campaign Scheduling Agent</span>
               <span class="text-[10px] text-white/50 block leading-tight">See the difference the agent makes</span>
             </div>
           </div>
@@ -1113,8 +1113,8 @@ interface RelatedAgent {
               </span>
             </div>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
-              Same budget. Better timing.<br class="hidden lg:block" />
-              <span class="section-gradient-text">Measurably better results.</span>
+              What teams see when delivery is<br class="hidden lg:block" />
+              <span class="section-gradient-text">intentional.</span>
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
@@ -1125,7 +1125,7 @@ interface RelatedAgent {
         <!-- Results cards -->
         <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
 
-          <!-- Card 1: 76% Protected hours — donut chart -->
+          <!-- Card 1: 76% Protected hours, donut chart -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
             <div class="relative bg-white rounded-2xl border border-[#e5e7eb] shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-6 lg:p-7 h-full group-hover:shadow-[0_8px_30px_-6px_rgba(197,160,48,0.12)] transition-shadow duration-500">
 
@@ -1158,12 +1158,12 @@ interface RelatedAgent {
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Of the week protected</h3>
               <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
-                Mon-Fri 9-5 blocks 128 of 168 weekly hours from off-hours delivery
+                Mon–Fri 9–5 blocks 128 of 168 weekly hours from off-hours delivery
               </p>
             </div>
           </div>
 
-          <!-- Card 2: 28% Engagement rate uplift — bar chart before/after -->
+          <!-- Card 2: 28% Engagement rate uplift, bar chart before/after -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
             <div class="relative bg-white rounded-2xl border border-[#e5e7eb] shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-6 lg:p-7 h-full group-hover:shadow-[0_8px_30px_-6px_rgba(197,160,48,0.12)] transition-shadow duration-500">
 
@@ -1174,7 +1174,7 @@ interface RelatedAgent {
                 <span class="text-[12px] font-semibold text-[#c5a030] bg-[#f0d48a]/25 px-2.5 py-1 rounded-full">Peak hours</span>
               </div>
 
-              <!-- Bar chart visualization — before vs after -->
+              <!-- Bar chart visualization, before vs after -->
               <div class="flex items-end gap-6 justify-center h-[140px] mb-6 px-4">
                 <!-- Before bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1202,7 +1202,7 @@ interface RelatedAgent {
             </div>
           </div>
 
-          <!-- Card 3: 0 hrs Manual overhead — automation viz -->
+          <!-- Card 3: 0 hrs Manual overhead, automation viz -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
             <div class="relative bg-white rounded-2xl border border-[#e5e7eb] shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-6 lg:p-7 h-full group-hover:shadow-[0_8px_30px_-6px_rgba(197,160,48,0.12)] transition-shadow duration-500">
 
@@ -1271,14 +1271,14 @@ interface RelatedAgent {
             Connected Intelligence
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            Campaign scheduling is one layer.
+            Scheduling is one layer.
             <br class="hidden md:block" />
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Campaign Scheduling Agent shares context and memory with every other adRadar agent —
-            so scheduling decisions inform impression capping, bid optimization, creative rotation, and
-            competitor intelligence simultaneously.
+            The Campaign Scheduling Agent coordinates with every other agent in the AdRadar suite.
+            ensuring that when campaigns are active, every other layer of optimisation is firing in the
+            same window.
           </p>
         </div>
 
@@ -1596,7 +1596,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
   adradarAdvantages = [
     'Configure day, time, and timezone once',
     'Agent handles all pausing and resuming automatically',
-    'Full timezone control — set per campaign or globally',
+    'Full timezone control, set per campaign or globally',
     'Campaigns active in configured windows',
     'Run reliably weekly, no human intervention',
     'Delivery timeline report shows scheduled vs off-hours',
@@ -1608,7 +1608,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       label: 'Configure',
       title: 'Select campaigns and set your schedule',
       description:
-        'Choose which campaigns to apply the agent to. Set your timezone, then define one or more day and time windows — for example, Monday to Friday, 8am to 6pm. Multiple schedule blocks are supported for teams with non-standard active hours.',
+        'Choose which campaigns to apply the agent to. Set your timezone, then define one or more day and time windows, for example, Monday to Friday, 8am to 6pm. Multiple schedule blocks are supported for teams with non-standard active hours.',
     },
     {
       number: '02',
@@ -1622,34 +1622,34 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       label: 'Pause',
       title: 'Campaigns are automatically paused outside the schedule',
       description:
-        'The moment your configured window closes, the agent pauses all linked campaigns. Friday at 6pm — paused. Saturday and Sunday — paused. Resumed automatically at the start of the next window.',
+        'The moment your configured window closes, the agent pauses all linked campaigns. Friday at 6pm, paused. Saturday and Sunday, paused. Resumed automatically at the start of the next window.',
     },
     {
       number: '04',
       label: 'Multi-Zone',
       title: 'Multiple schedule blocks for complex time zones',
       description:
-        'If your buyers are in multiple regions, configure separate schedule blocks for each timezone. The agent enforces each block independently — ensuring delivery is concentrated in peak engagement windows regardless of geography.',
+        'If your buyers are in multiple regions, configure separate schedule blocks for each timezone. The agent enforces each block independently, ensuring delivery is concentrated in peak engagement windows regardless of geography.',
     },
     {
       number: '05',
       label: 'Report',
       title: 'Delivery timeline report shows exactly what ran and when',
       description:
-        'The agent\'s report surfaces a day-by-day delivery timeline — impressions delivered during active windows, days where campaigns were paused outside schedule, and your configured schedule at a glance. Full visibility into every hour.',
+        'The agent\'s report surfaces a day-by-day delivery timeline, impressions delivered during active windows, days where campaigns were paused outside schedule, and your configured schedule at a glance. Full visibility into every hour.',
     },
   ];
 
   comparisonRows: ComparisonRow[] = [
     {
       capability: 'Delivery hours',
-      without: '24/7 — all 168 hours of the week',
-      withScheduling: 'Configured windows only — e.g. 40 hrs/week',
+      without: '24/7, all 168 hours of the week',
+      withScheduling: 'Configured windows only, e.g. 40 hrs/week',
     },
     {
       capability: 'Weekend spend',
       without: 'Budget consumed Saturday & Sunday',
-      withScheduling: 'Fully blocked — zero off-schedule delivery',
+      withScheduling: 'Fully blocked, zero off-schedule delivery',
     },
     {
       capability: 'Time-of-day control',
@@ -1664,7 +1664,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
     {
       capability: 'Operational overhead',
       without: 'Manual pause/resume every week',
-      withScheduling: 'Zero — fully automated by the agent',
+      withScheduling: 'Zero, fully automated by the agent',
     },
     {
       capability: 'Delivery accountability',
@@ -1697,7 +1697,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Fatigue tracking is measured against scheduled delivery periods, ensuring rotation recommendations are based on active impression frequency.',
+        'Fatigue tracking is measured against scheduled delivery periods, ensuring rotation recommendations are based on active impression frequency, not calendar elapsed time.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },
@@ -1706,7 +1706,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Company blocking rules stay enforced throughout scheduled windows, no off-hours impressions slip through to blocked companies.',
+        'Company blocking rules stay enforced throughout scheduled windows, no off-hours impressions slip through to blocked companies while campaigns are paused and then resume incorrectly.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },

@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Automatically exclude every account outside your target company criteria — so every impression,
+              Automatically exclude every account outside your target company criteria, so every impression,
               every click, and every dollar stays within your ICP.
             </p>
 
@@ -212,13 +212,13 @@ interface RelatedAgent {
         <div class="text-left md:text-center mb-10">
           <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">The Problem</span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            LinkedIn campaigns drift beyond your intended account criteria —
+            LinkedIn campaigns drift beyond your intended account criteria.
             <br class="hidden md:block" />
             <span class="section-gradient-text">silently, continuously, and at your expense.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
             You defined your ICP carefully. You set your targeting to match. But LinkedIn's delivery algorithm
-            doesn't optimise for your account criteria — it optimises for engagement. The result is budget flowing to companies that look nothing like your buyers.
+            doesn't optimise for your account criteria, it optimises for engagement. The result is budget flowing to companies that look nothing like your buyers.
           </p>
         </div>
 
@@ -286,7 +286,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to automatically block off-ICP companies as delivery drifts
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                LinkedIn Campaign Manager reports company delivery — no automatic account enforcement
+                LinkedIn Campaign Manager reports company delivery, no automatic account enforcement
               </p>
             </div>
           </div>
@@ -317,7 +317,7 @@ interface RelatedAgent {
               <span class="section-gradient-text">already spent on wrong companies.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              Manual company exclusions are a reactive tool. They stop future spend on identified off-ICP accounts — but by the time a company appears in your delivery report with significant spend, it has already consumed budget that could have reached qualified accounts.
+              Manual company exclusions are a reactive tool. They stop future spend on identified off-ICP accounts, but by the time a company appears in your delivery report with significant spend, it has already consumed budget that could have reached qualified accounts.
             </p>
 
             <!-- Before / After transformation card -->
@@ -423,7 +423,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual exclusions — LinkedIn Campaign Manager</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual exclusions, LinkedIn Campaign Manager</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Reactive exclusion only</p>
                     </div>
                   </div>
@@ -1166,7 +1166,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">85%+</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">ICP match rate</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  After agent activation — vs 60–70% without active company blocking enforcement
+                  After agent activation, vs 60–70% without active company blocking enforcement
                 </p>
               </div>
             </div>
@@ -1247,7 +1247,7 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Company Blocking Agent works alongside every other agent in the AdRadar suite —
+            The Company Blocking Agent works alongside every other agent in the AdRadar suite.
             ensuring that account-level precision amplifies the impact of impression distribution,
             title enforcement, and creative strategy.
           </p>
@@ -1581,11 +1581,11 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
 
   adradarAdvantages = [
     'Blocking rules enforced from the first impression',
-    'Continuous monitoring — off-ICP companies blocked as they appear',
-    'Rule-based enforcement — no exclusion lists to maintain',
+    'Continuous monitoring, off-ICP companies blocked as they appear',
+    'Rule-based enforcement, no exclusion lists to maintain',
     'Criteria updates propagate instantly across all linked campaigns',
     'Estimated saved spend reported per blocked company',
-    'Budget protected from day one — not after the fact',
+    'Budget protected from day one, not after the fact',
   ];
 
   steps = [
@@ -1594,35 +1594,35 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       label: 'Configure',
       title: 'Select your target company criteria',
       description:
-        'Define the account properties that characterise your ICP — industry, company size, revenue range, geography, or a combination. Companies matching the criteria are treated as targets. All others are blocked automatically.',
+        'Define the account properties that characterise your ICP, industry, company size, revenue range, geography, or a combination. Companies matching the criteria are treated as targets. All others are blocked automatically.',
     },
     {
       number: '02',
       label: 'Monitor',
       title: 'Agent links to your campaigns and begins monitoring immediately',
       description:
-        'From the moment the agent is configured, every impression is evaluated against your company criteria. Off-ICP companies are blocked before delivery completes — not flagged in a weekly report after budget has already been spent.',
+        'From the moment the agent is configured, every impression is evaluated against your company criteria. Off-ICP companies are blocked before delivery completes, not flagged in a weekly report after budget has already been spent.',
     },
     {
       number: '03',
       label: 'Block',
       title: 'Off-ICP companies are blocked and logged automatically',
       description:
-        'When a company outside your criteria receives an impression attempt, the agent blocks it and records the event — including when the block was applied and the estimated spend saved. Report shows which companies were blocked and why.',
+        'When a company outside your criteria receives an impression attempt, the agent blocks it and records the event, including when the block was applied and the estimated spend saved. Report shows which companies were blocked and why.',
     },
     {
       number: '04',
       label: 'Propagate',
       title: 'Criteria updates propagate instantly across all linked campaigns',
       description:
-        'If your ICP definition changes — new market segment, revised size threshold, expanded geography — update the criteria once and it takes effect immediately across every campaign the agent is linked to. No manual exclusion list updates',
+        'If your ICP definition changes, new market segment, revised size threshold, expanded geography, update the criteria once and it takes effect immediately across every campaign the agent is linked to. No manual exclusion list updates',
     },
     {
       number: '05',
       label: 'Control',
       title: 'You define the criteria. The agent enforces it. Always.',
       description:
-        'Agent operates within whatever criteria you configure. Every blocking action is logged, explained, reversible. Stay in full control of who your campaigns reach — Ensure the rule is enforced consistently, at every impression, across every campaign.',
+        'Agent operates within whatever criteria you configure. Every blocking action is logged, explained, reversible. Stay in full control of who your campaigns reach, Ensure the rule is enforced consistently, at every impression, across every campaign.',
     },
   ];
 
@@ -1630,17 +1630,17 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Off-ICP detection',
       without: 'Manual review of company delivery reports',
-      withBlocking: 'Automatic — blocked before delivery',
+      withBlocking: 'Automatic, blocked before delivery',
     },
     {
       capability: 'ICP enforcement speed',
-      without: 'Reactive — days or weeks after drift starts',
-      withBlocking: 'Immediate — enforced from first impression',
+      without: 'Reactive, days or weeks after drift starts',
+      withBlocking: 'Immediate, enforced from first impression',
     },
     {
       capability: 'Criteria maintenance',
       without: 'Manual exclusion lists per campaign',
-      withBlocking: 'Rule-based — single criteria update propagates everywhere',
+      withBlocking: 'Rule-based, single criteria update propagates everywhere',
     },
     {
       capability: 'Estimated spend visibility',
@@ -1674,7 +1674,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Company blocking ensures accounts entering impression capping pool are ICP-qualified. Capping controls how evenly impressions are distributed — maximising reach without waste.',
+        'Company blocking ensures accounts entering impression capping pool are ICP-qualified. Capping controls how evenly impressions are distributed, maximising reach without waste.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1683,7 +1683,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'Company delivery data feeds into Strategy Copilot audience and funnel recommendations — so structural campaign decisions are based on which ICP accounts are actually being reached, not just ones targeted at launch.',
+        'Company delivery data feeds into Strategy Copilot audience and funnel recommendations, so structural campaign decisions are based on which ICP accounts are actually being reached, not just ones targeted at launch.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },
@@ -1692,7 +1692,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'When company delivery is clean, creative performance data becomes more reliable. Engagement signals from ICP accounts are not diluted by off-ICP clicks — giving Creative Copilot cleaner, more actionable pattern data.',
+        'When company delivery is clean, creative performance data becomes more reliable. Engagement signals from ICP accounts are not diluted by off-ICP clicks, giving Creative Copilot cleaner, more actionable pattern data.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },

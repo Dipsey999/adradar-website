@@ -1098,7 +1098,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 6: RESULTS — Light showcase
+         SECTION 6: RESULTS, Light showcase
          ═══════════════════════════════════════════ -->
     <section class="relative py-16 lg:py-22 overflow-hidden">
       <!-- Light background -->

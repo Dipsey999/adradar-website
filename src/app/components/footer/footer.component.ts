@@ -74,7 +74,7 @@ interface SocialLink {
         <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-6">
           <!-- Left: Social icons + Copyright -->
           <div class="flex flex-col sm:flex-row items-start sm:items-center gap-5">
-            <!-- Social icons — liquid glass style -->
+            <!-- Social icons, liquid glass style -->
             <div class="flex items-center gap-3">
               @for (social of socialLinks; track social.label) {
                 <a
@@ -118,7 +118,7 @@ interface SocialLink {
         </div>
       </div>
 
-      <!-- Giant "adRadar" — glass tube filled with orange liquid -->
+      <!-- Giant "adRadar", glass tube filled with orange liquid -->
       <div class="relative w-full overflow-hidden">
         <!-- Very subtle warm ambient glow behind text -->
         <div class="absolute bottom-[10%] left-1/2 -translate-x-1/2 w-[50%] h-[60%] bg-gradient-to-t from-[#ff6830]/[0.04] via-[#ff6830]/[0.02] to-transparent blur-[100px] pointer-events-none"></div>
@@ -176,13 +176,13 @@ interface SocialLink {
       -webkit-text-stroke: 0;
       background: linear-gradient(
         to top,
-        /* Deep liquid at bottom — dark amber, blends into bg */
+        /* Deep liquid at bottom, dark amber, blends into bg */
         rgba(180, 60, 10, 0.50) 0%,
         rgba(200, 72, 20, 0.42) 15%,
         /* Rich amber body */
         rgba(220, 90, 30, 0.34) 30%,
         rgba(240, 105, 40, 0.26) 45%,
-        /* Liquid surface — lighter where light hits */
+        /* Liquid surface, lighter where light hits */
         rgba(255, 130, 60, 0.22) 55%,
         /* Meniscus glow at liquid surface */
         rgba(255, 160, 80, 0.18) 62%,
@@ -206,7 +206,7 @@ interface SocialLink {
       pointer-events: none;
     }
 
-    /* Top edge highlight — light catching glass rim */
+    /* Top edge highlight, light catching glass rim */
     .glass-tube-highlight::before {
       content: 'adRadar';
       position: absolute;

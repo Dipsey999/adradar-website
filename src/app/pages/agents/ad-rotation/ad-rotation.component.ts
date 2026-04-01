@@ -400,7 +400,7 @@ interface RelatedAgent {
                 </div>
                 <div class="text-center">
                   <p class="text-[24px] font-bold text-[#1a1a2e] tracking-[-0.03em] leading-none">40%+</p>
-                  <p class="text-[11px] font-medium text-[#374151] mt-1">Longer lifespan</p>
+                  <p class="text-[11px] font-medium text-[#374151] mt-1">Long creative lifespan</p>
                 </div>
                 <div class="text-right">
                   <p class="text-[24px] font-bold text-[#1a1a2e] tracking-[-0.03em] leading-none">&infin;</p>
@@ -507,7 +507,7 @@ interface RelatedAgent {
                     </div>
                     <div class="text-center border-l border-r border-[#c8b4e0]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">40%+</p>
-                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Longer<br/>lifespan</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Long creative<br/>lifespan</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">&infin;</p>
@@ -918,7 +918,7 @@ interface RelatedAgent {
             The Difference
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827]">
-            What changes when creative rotation is <span class="section-gradient-text">intelligent.</span>
+            What changes when fatigue is <span class="section-gradient-text">detected early.</span>
           </h2>
         </div>
 
@@ -1079,8 +1079,8 @@ interface RelatedAgent {
               </span>
             </div>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
-              Same budget. Same audience.<br class="hidden lg:block" />
-              <span class="section-gradient-text">Completely different creative performance.</span>
+              What teams see when creative rotation is<br class="hidden lg:block" />
+              <span class="section-gradient-text">proactive.</span>
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
@@ -1178,9 +1178,9 @@ interface RelatedAgent {
               <!-- Big number -->
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">40%+</p>
-                <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Longer creative lifespan</h3>
+                <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Long creative lifespan</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Creatives rotated at right times outperform those run to exhaustion
+                  Creatives rotated at right times improve performance than those run to exhaustion
                 </p>
               </div>
             </div>
@@ -1271,14 +1271,14 @@ interface RelatedAgent {
             Connected Intelligence
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            Ad rotation is one layer.
+            Creative rotation is one layer.
             <br class="hidden md:block" />
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Ad Rotation Agent shares context and memory with every other adRadar agent --
-            so creative fatigue data informs impression capping, competitor intelligence, scheduling,
-            and strategy decisions simultaneously.
+            The Ad Rotation Agent shares creative intelligence with every other agent in the AdRadar suite --
+            so fatigue signals inform impression distribution, scheduling,
+            and competitive response simultaneously.
           </p>
         </div>
 
@@ -1631,21 +1631,21 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       label: 'Recommend',
       title: 'Rotation recommendations are surfaced with context',
       description:
-        'When a creative approaches fatigue, the agent surfaces a rotation recommendation -- which creative is showing decay signals, which audience segments are most affected.',
+        'When a creative approaches fatigue, the agent surfaces a rotation recommendation -- which creative is showing decay signals, which audience segments are most affected, the estimated remaining efficient lifespan, and suggested rotation timing.',
     },
     {
       number: '04',
       label: 'Learn',
       title: 'Creative pattern history is preserved across campaigns',
       description:
-        'What worked last quarter doesn\'t disappear when a campaign ends. The agent builds a creative intelligence record.',
+        'What worked last quarter doesn\'t disappear when a campaign ends. The agent builds a creative intelligence record -- which hooks converted for which ICP segments, which formats had longer fatigue curves, which CTAs drove the strongest engagement at each funnel stage.',
     },
     {
       number: '05',
       label: 'Control',
       title: 'You approve the rotation. Always.',
       description:
-        'The agent recommends. You decide. Every rotation suggestion is explained, logged, and actionable -- but no creative is changed without your approval.',
+        'The agent recommends. You decide. Every rotation suggestion is explained, logged, and actionable -- but no creative is changed without your approval. Human-in-the-loop by design, with full context behind every recommendation.',
     },
   ];
 
@@ -1693,11 +1693,11 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       route: '/agents/impression-capping',
     },
     {
-      name: 'Analyse Competitors',
+      name: 'Competitor Ads Copilot',
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'When a competitor launches new creative, the Rotation Agent surfaces this as a signal to evaluate whether your current creative cycle needs to accelerate.',
+        'When a competitor launches new creative, the Rotation Agent surfaces this as a signal to evaluate whether your current creative cycle needs to accelerate -- not just whether your own metrics indicate fatigue.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },
@@ -1711,11 +1711,11 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       route: '/agents/campaign-scheduling',
     },
     {
-      name: 'Bidding Optimization Agent',
+      name: 'Strategy Copilot',
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Creative performance data informs bid optimization. When fresh creative launches, the Bidding Agent adjusts spend pacing to capitalise on the initial engagement lift.',
+        'Creative pattern data feeds into the Strategy Copilot\'s funnel recommendations -- so campaign structure decisions are informed by what formats and messaging angles are actually working at each stage.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },

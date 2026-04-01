@@ -20,7 +20,7 @@ interface Step {
       class="relative bg-section-bg"
       [style.height]="sectionHeight()"
     >
-      <!-- Sticky container — offset for 70px navbar -->
+      <!-- Sticky container, offset for 70px navbar -->
       <div class="sticky top-[70px] h-[calc(100vh-70px)] overflow-hidden">
         <div class="h-full flex flex-col">
           <div class="max-w-[1300px] mx-auto px-6 md:px-10 lg:px-16 w-full flex-1 flex flex-col pt-8 lg:pt-10">

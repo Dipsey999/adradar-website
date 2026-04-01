@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Monitor rival campaigns in real time — track creative changes, new ad launches, messaging pivots,
+              Monitor rival campaigns in real time, track creative changes, new ad launches, messaging pivots,
               positioning shifts, respond before their strategy reaches your buyers.
             </p>
 
@@ -212,7 +212,7 @@ interface RelatedAgent {
         <div class="text-left md:text-center mb-10">
           <span class="text-[13px] font-semibold tracking-[0.06em] uppercase text-[#e8573a] mb-4 block">The Problem</span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            Your competitors are shaping your buyers' perceptions —
+            Your competitors are shaping your buyers' perceptions.
             <br class="hidden md:block" />
             <span class="section-gradient-text">and you're the last to know.</span>
           </h2>
@@ -262,7 +262,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to monitor what competitors are running
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                LinkedIn Ad Library shows ads — not intelligence, timing, or context
+                LinkedIn Ad Library shows ads, not intelligence, timing, or context
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ interface RelatedAgent {
                 of top-performing B2B companies regularly review competitor ads
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Most do it manually and inconsistently — missing the signal entirely
+                Most do it manually and inconsistently, missing the signal entirely
               </p>
             </div>
           </div>
@@ -1026,7 +1026,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 6: RESULTS — Light showcase
+         SECTION 6: RESULTS, Light showcase
          ═══════════════════════════════════════════ -->
     <section class="relative py-16 lg:py-22 overflow-hidden">
       <!-- Light background -->
@@ -1052,12 +1052,12 @@ interface RelatedAgent {
               </span>
             </div>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
-              First 30 days. Same budget.<br class="hidden lg:block" />
-              <span class="section-gradient-text">Competitive advantage.</span>
+              What teams see when competitive monitoring<br class="hidden lg:block" />
+              <span class="section-gradient-text">is continuous.</span>
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated Competitor Intelligence on existing campaigns, no additional spend required.
+            Measured across teams who activated Competitor Intelligence on existing campaigns. No additional spend required.
           </p>
         </div>
 
@@ -1070,7 +1070,7 @@ interface RelatedAgent {
 
               <!-- Before/After badge -->
               <div class="flex items-center gap-2 mb-6">
-                <span class="text-[12px] font-medium text-[#ef4444] bg-[#ef4444]/10 px-2.5 py-1 rounded-full">2-3 wks</span>
+                <span class="text-[12px] font-medium text-[#ef4444] bg-[#ef4444]/10 px-2.5 py-1 rounded-full">2–3 wks</span>
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M8 4l3 3-3 3" stroke="#e8573a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 <span class="text-[12px] font-semibold text-[#16a34a] bg-[#dcfce7] px-2.5 py-1 rounded-full">48 hrs</span>
               </div>
@@ -1097,7 +1097,7 @@ interface RelatedAgent {
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Average detection time</h3>
               <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
-                vs. 2-3 weeks with manual monitoring
+                vs. 2–3 weeks with manual monitoring
               </p>
             </div>
           </div>
@@ -1224,14 +1224,12 @@ interface RelatedAgent {
             Connected Intelligence
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            Competitive intelligence is one layer.
+            Competitor intelligence feeds
             <br class="hidden md:block" />
-            Six agents <span class="section-gradient-text">work together.</span>
+            <span class="section-gradient-text">every other agent.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Competitor Ads Copilot shares context and memory with every other adRadar agent —
-            so competitive signals inform budget allocation, creative rotation, audience targeting, and
-            campaign scheduling simultaneously.
+            The Competitor Ads Copilot doesn't operate in isolation. What it learns about competitor messaging informs creative decisions, audience strategy, and spend allocation across the full AdRadar suite.
           </p>
         </div>
 
@@ -1558,16 +1556,16 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
     'No launch date or creative history',
     'No messaging pattern analysis',
     'No counter-positioning recommendations',
-    'Requires manual check-in — weekly at best',
+    'Requires manual check-in, weekly at best',
     'No alerts when competitors launch new campaigns',
   ];
 
   adradarAdvantages = [
-    'Continuous monitoring — new launches detected fast',
+    'Continuous monitoring, new launches detected fast',
     'Creative refresh cadence tracked over time',
     'Messaging angle and positioning analysis',
     'Specific counter-messaging recommendations surfaced',
-    'Automated — no manual check-in required',
+    'Automated, no manual check-in required',
     'Alerts when a competitor launches or pivots',
   ];
 
@@ -1577,14 +1575,14 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       label: 'Select',
       title: 'Select competitors to monitor',
       description:
-        'Add the LinkedIn company pages of competitors you want to track. The Copilot begins monitoring their ad activity immediately — no manual setup beyond a list of company names.',
+        'Add the LinkedIn company pages of competitors you want to track. The Copilot begins monitoring their ad activity immediately, no manual setup beyond a list of company names.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Copilot detects new ad launches in real time',
       description:
-        'The moment a competitor publishes a new LinkedIn ad, the Copilot captures it — including the creative, copy, format, and timing. No waiting for a weekly manual check.',
+        'The moment a competitor publishes a new LinkedIn ad, the Copilot captures it, including the creative, copy, format, and timing. No waiting for a weekly manual check.',
     },
     {
       number: '03',
@@ -1598,21 +1596,21 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       label: 'Flag',
       title: 'Messaging pivots are flagged automatically',
       description:
-        'When a competitor changes their core messaging, a new value prop, a new ICP target, a new objection they\'re handling in their ads, the Copilot surfaces it as a competitive signal.',
+        'When a competitor changes their core messaging, a new value prop, a new ICP target, a new objection they\'re handling in their ads, the Copilot surfaces it as a competitive signal, not a footnote in a report.',
     },
     {
       number: '05',
       label: 'Respond',
       title: 'Counter-positioning angles are recommended',
       description:
-        'The Copilot doesn\'t just show you what competitors are doing. It recommends specific counter-messaging angles, based on your positioning, their creative patterns, and gaps in their narrative.',
+        'The Copilot doesn\'t just show you what competitors are doing. It recommends specific counter-messaging angles, based on your positioning, their creative patterns, and gaps in their narrative, so you can respond with precision.',
     },
   ];
 
   comparisonRows: ComparisonRow[] = [
     {
       capability: 'New campaign detection',
-      without: 'Noticed 2-3 weeks after launch',
+      without: 'Noticed 2–3 weeks after launch',
       withAgent: 'Detected within 48 hours',
     },
     {
@@ -1657,7 +1655,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Controls account-level impression frequency. When competitors pivot, capping ensures your counter-messaging reaches the right accounts.',
+        'When competitive pressure increases in a segment, the capping agent can deprioritise low-value accounts and concentrate budget on accounts where you need to win the impression share battle.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1684,7 +1682,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Detects creative fatigue and rotates ads. Competitive signals trigger fresh creative to counter rival messaging.',
+        'When a competitor launches new creative, the rotation agent surfaces fresh counter-messaging angles and flags when your current creative cycle needs to accelerate in response.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },

@@ -45,7 +45,7 @@ interface FaqItem {
          SECTION 1: HERO + PRICING CARDS
          ═══════════════════════════════════════════ -->
     <section class="relative pt-28 lg:pt-36 pb-16 lg:pb-24 overflow-hidden">
-      <!-- Light warm gradient background — matches landing page -->
+      <!-- Light warm gradient background, matches landing page -->
       <div class="absolute inset-0 bg-gradient-to-b from-white via-white to-[#fff0e6] pointer-events-none -z-20"></div>
 
       <!-- Decorative warm glows -->
@@ -54,7 +54,7 @@ interface FaqItem {
       <div class="absolute top-[10%] left-[-5%] w-[350px] h-[350px] bg-radial-[closest-side] from-[#f09030]/[0.06] to-transparent blur-[60px] pointer-events-none -z-10"></div>
 
       <div class="max-w-[1200px] mx-auto px-6">
-        <!-- Badge pill — same style as landing hero -->
+        <!-- Badge pill, same style as landing hero -->
         <div class="text-left md:text-center mb-8">
           <div class="inline-flex items-center gap-2.5 bg-primary/10 rounded-full px-4 py-1.5">
             <span class="w-2 h-2 rounded-full bg-primary"></span>
@@ -347,7 +347,7 @@ interface FaqItem {
           Every adRadar plan comes with the same foundation, full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
         </p>
 
-        <!-- Features Grid — accordion style matching landing page -->
+        <!-- Features Grid, accordion style matching landing page -->
         <div class="grid md:grid-cols-2 gap-4 items-start">
           @for (item of everyPlanFeatures; track item.title; let i = $index) {
             <button

@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Enforce account-level impression limits across your entire target list — automatically
+              Enforce account-level impression limits across your entire target list, automatically
               redistributing budget to under-served accounts the moment any company hits its cap.
             </p>
 
@@ -196,7 +196,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 2: PROBLEM STATS — Minimal
+         SECTION 2: PROBLEM STATS, Minimal
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-white via-[#fef9f7] to-[#fef3ef] pointer-events-none -z-10"></div>
@@ -279,7 +279,7 @@ interface RelatedAgent {
                 of monthly budget consumed by a single large enterprise account
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Because they have more employees on LinkedIn — not because they're a priority
+                Because they have more employees on LinkedIn, not because they're a priority
               </p>
             </div>
           </div>
@@ -311,8 +311,8 @@ interface RelatedAgent {
               ABM needs <span class="section-gradient-text">Account-level.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              Lead Generation, Conversion, and Website Visit campaigns — the ones consuming most of your
-              budget — are excluded entirely. And even where it applies, capping individuals doesn't prevent one enterprise company
+              Lead Generation, Conversion, and Website Visit campaigns, the ones consuming most of your
+              budget, are excluded entirely. And even where it applies, capping individuals doesn't prevent one enterprise company
               with 12,000 employees from consuming 40% of your monthly budget.
             </p>
 
@@ -406,7 +406,7 @@ interface RelatedAgent {
           <!-- ══ RIGHT COLUMN (40%): Stacked comparison cards ══ -->
           <div class="lg:w-[42%] flex flex-col">
 
-            <!-- LinkedIn Card — subdued, "old way" feel -->
+            <!-- LinkedIn Card, subdued, "old way" feel -->
             <div class="bg-white rounded-2xl border border-[#e5e7eb] p-5 lg:p-6 relative">
               <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#f9fafb]/50 rounded-2xl pointer-events-none"></div>
               <div class="relative">
@@ -451,7 +451,7 @@ interface RelatedAgent {
               </div>
             </div>
 
-            <!-- adRadar Card — premium, elevated, "new way" feel -->
+            <!-- adRadar Card, premium, elevated, "new way" feel -->
             <div class="group relative rounded-2xl flex-1 transition-all duration-300">
               <div class="absolute -inset-[1px] rounded-2xl bg-gradient-to-br from-[#e8573a]/25 via-[#f5a896]/15 to-[#e8573a]/25 opacity-60 group-hover:opacity-100 blur-[3px] transition-opacity duration-500"></div>
               <div class="relative bg-gradient-to-br from-[#fef9f7] via-[#fdeee9] to-[#fde3da] rounded-2xl border-2 border-[#f5a896] p-5 lg:p-6 shadow-[0_8px_30px_-8px_rgba(232,87,58,0.15)] group-hover:shadow-[0_16px_50px_-12px_rgba(232,87,58,0.22)] flex flex-col h-full">
@@ -838,7 +838,7 @@ interface RelatedAgent {
         <div class="hidden md:block">
           <div class="bg-white rounded-2xl border border-[#f5a896]/30 overflow-hidden shadow-[0_4px_24px_-4px_rgba(232,87,58,0.1)]">
 
-            <!-- Table Header — two distinct zones -->
+            <!-- Table Header, two distinct zones -->
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#fef8f6] p-5 border-b border-[#e5e7eb]/60">
@@ -853,7 +853,7 @@ interface RelatedAgent {
                   <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without capping</span>
                 </div>
               </div>
-              <!-- With adRadar header — branded, highlighted -->
+              <!-- With adRadar header, branded, highlighted -->
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#1e1e36] p-5 border-b border-[#1a1a2e]">
                 <div class="flex items-center gap-3">
                   <!-- Agent avatar with adRadar ring -->
@@ -909,7 +909,7 @@ interface RelatedAgent {
                   <span class="text-[14px] text-[#9ca3af]">{{ row.without }}</span>
                 </div>
 
-                <!-- With adRadar value — highlighted column -->
+                <!-- With adRadar value, highlighted column -->
                 <div class="p-5 flex items-center gap-2.5 bg-[#fef9f7]/70 group-hover:bg-[#fdeee9]/60 transition-colors border-l-2 border-l-[#e8573a]/20">
                   <div class="w-[18px] h-[18px] rounded-full bg-gradient-to-br from-[#e8573a] to-[#1a1a2e] flex items-center justify-center shrink-0 shadow-[0_1px_4px_-1px_rgba(26,26,46,0.3)]">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4.5" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -967,7 +967,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 6: RESULTS — Light showcase
+         SECTION 6: RESULTS, Light showcase
          ═══════════════════════════════════════════ -->
     <section class="relative py-16 lg:py-22 overflow-hidden">
       <!-- Light background -->
@@ -1001,7 +1001,7 @@ interface RelatedAgent {
           </p>
         </div>
 
-        <!-- Results cards — staggered grid -->
+        <!-- Results cards, staggered grid -->
         <div class="grid md:grid-cols-3 gap-5 lg:gap-6">
 
           <!-- ══ Card 1: 84% Account Penetration ══ -->
@@ -1041,12 +1041,12 @@ interface RelatedAgent {
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Account penetration</h3>
               <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
-                vs. 10% without capping — same budget, same list
+                vs. 10% without capping, same budget, same list
               </p>
             </div>
           </div>
 
-          <!-- ══ Card 2: 3-4x More Accounts — taller card with offset ══ -->
+          <!-- ══ Card 2: 3-4x More Accounts, taller card with offset ══ -->
           <div class="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-1">
             <div class="relative bg-white rounded-2xl border border-[#e5e7eb] shadow-[0_2px_12px_-3px_rgba(0,0,0,0.08)] p-6 lg:p-7 h-full group-hover:shadow-[0_8px_30px_-6px_rgba(232,87,58,0.12)] transition-shadow duration-500">
 
@@ -1057,7 +1057,7 @@ interface RelatedAgent {
                 <span class="text-[12px] font-semibold text-[#e8573a] bg-[#ff6b35]/15 px-2.5 py-1 rounded-full">3-4x reach</span>
               </div>
 
-              <!-- Bar chart visualization — before vs after -->
+              <!-- Bar chart visualization, before vs after -->
               <div class="flex items-end gap-3 justify-center h-[140px] mb-6 px-2">
                 <!-- Before bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1066,7 +1066,7 @@ interface RelatedAgent {
                   </div>
                   <span class="text-[10px] text-[#4b5563] font-medium">Before</span>
                 </div>
-                <!-- After bars — bright bars showing multiple accounts reached -->
+                <!-- After bars, bright bars showing multiple accounts reached -->
                 <div class="flex flex-col items-center gap-2 flex-1">
                   <div class="w-full max-w-[48px] rounded-lg h-[120px] relative overflow-hidden bg-[#e8573a] border border-[#d14a30]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#1a1a2e] via-[#e8573a] to-[#ff6b35]"></div>
@@ -1156,7 +1156,7 @@ interface RelatedAgent {
     </section>
 
     <!-- ═══════════════════════════════════════════
-         SECTION 7: RELATED AGENTS — 6 agents, themed cards
+         SECTION 7: RELATED AGENTS, 6 agents, themed cards
          ═══════════════════════════════════════════ -->
     <section class="relative py-14 lg:py-20 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-b from-[#fef9f7] via-[#fef8f6] to-white pointer-events-none -z-10"></div>
@@ -1174,13 +1174,13 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">work together. Explore Now.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Impression Capping Agent shares context and memory with every other adRadar agent —
+            The Impression Capping Agent shares context and memory with every other adRadar agent.
             so capping decisions inform audience quality, creative rotation, spend pacing, and competitor
             intelligence simultaneously.
           </p>
         </div>
 
-        <!-- Agent Cards — 3-column grid -->
+        <!-- Agent Cards, 3-column grid -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           @for (agent of relatedAgents; track agent.name; let i = $index) {
             <a
@@ -1520,7 +1520,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       label: 'Configure',
       title: 'Set your account-level caps',
       description:
-        'Define maximum impressions per company per month. Set different caps by firmographic tier — enterprise accounts (5,000+ employees) get a higher ceiling than SMB accounts because their buying committees are larger.',
+        'Define maximum impressions per company per month. Set different caps by firmographic tier, enterprise accounts (5,000+ employees) get a higher ceiling than SMB accounts because their buying committees are larger.',
     },
     {
       number: '02',
@@ -1534,21 +1534,21 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       label: 'Enforce',
       title: 'Accounts that hit their cap are automatically excluded',
       description:
-        'The moment an account reaches its impression limit, the agent removes it from the active auction. Budget stops flowing to that company immediately — not at the next manual review.',
+        'The moment an account reaches its impression limit, the agent removes it from the active auction. Budget stops flowing to that company immediately, not at the next manual review.',
     },
     {
       number: '04',
       label: 'Redistribute',
       title: 'Budget redistributes to under-served accounts',
       description:
-        'The freed budget flows automatically to accounts that haven\'t hit their caps yet. Accounts that haven\'t been reached get impressions. Your target list gets even coverage — not algorithmic concentration.',
+        'The freed budget flows automatically to accounts that haven\'t hit their caps yet. Accounts that haven\'t been reached get impressions. Your target list gets even coverage, not algorithmic concentration.',
     },
     {
       number: '05',
       label: 'Control',
       title: 'You approve the rules. The agent executes.',
       description:
-        'Human-in-the-loop by design. You set the cap thresholds and firmographic logic. The agent operates within those parameters — every action is logged, explained, and reversible. You\'re always in control.',
+        'Human-in-the-loop by design. You set the cap thresholds and firmographic logic. The agent operates within those parameters, every action is logged, explained, and reversible. You\'re always in control.',
     },
   ];
 
@@ -1576,7 +1576,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
     {
       capability: 'Manual monitoring required',
       without: 'Weekly audit needed to catch waste',
-      withCapping: 'Continuous — fully automated',
+      withCapping: 'Continuous, fully automated',
     },
     {
       capability: 'Budget reallocation',
@@ -1591,7 +1591,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Blocks companies outside your ICP entirely. Capping controls how many impressions ICP accounts receive — blocking removes non-ICP accounts from the auction.',
+        'Blocks companies outside your ICP entirely. Capping controls how many impressions ICP accounts receive, blocking removes non-ICP accounts from the auction.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1600,7 +1600,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Detects fatigue signals before CTR drops. When accounts near their cap, the rotation agent surfaces fresh creative — ensuring each impression counts.',
+        'Detects fatigue signals before CTR drops. When accounts near their cap, the rotation agent surfaces fresh creative, ensuring each impression counts.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },

@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   template: `
     <section class="relative py-12 lg:py-20 overflow-hidden">
-      <!-- Full-bleed ambient background — clipped within section -->
+      <!-- Full-bleed ambient background, clipped within section -->
       <div class="absolute inset-0 pointer-events-none">
         <img
           src="/images/cta-bg-2.png"
@@ -16,9 +16,9 @@ import { Component, Input } from '@angular/core';
       </div>
 
       <div class="relative max-w-[1200px] mx-auto px-6">
-        <!-- Card — overflow-clip, absolute avatar group -->
+        <!-- Card, overflow-clip, absolute avatar group -->
         <div class="relative rounded-[28px] lg:rounded-[32px] bg-white overflow-clip shadow-[0_0_24px_4px_rgba(0,0,0,0.12)] pt-12 lg:pt-16 pb-[160px] lg:pb-[200px] px-8 md:px-12 lg:px-16">
-          <!-- Text content — centered -->
+          <!-- Text content, centered -->
           <div class="relative z-10 text-center max-w-[700px] mx-auto">
             <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-3">
               {{ headingStart }}
@@ -57,7 +57,7 @@ import { Component, Input } from '@angular/core';
             </a>
           </div>
 
-          <!-- Avatar group — absolutely positioned, ignores card flow -->
+          <!-- Avatar group, absolutely positioned, ignores card flow -->
           <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[110%] max-w-[1310px]">
             <img
               src="/images/cta-avatar.svg"
