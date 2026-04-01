@@ -1622,14 +1622,14 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       label: 'Pause',
       title: 'Campaigns are automatically paused outside the schedule',
       description:
-        'The moment your configured window closes, the agent pauses all linked campaigns. Friday at 6pm, paused. Saturday and Sunday, paused. Resumed automatically at the start of the next window.',
+        'The moment your configured window closes, the agent pauses all linked campaigns. Friday at 6pm — paused. Saturday and Sunday — paused. Resumed automatically at the start of the next window.',
     },
     {
       number: '04',
       label: 'Multi-Zone',
       title: 'Multiple schedule blocks for complex time zones',
       description:
-        'If your buyers are in multiple regions, configure separate schedule blocks for each timezone. The agent enforces each block independently, ensuring delivery is concentrated in peak engagement windows regardless of geography.',
+        'If your buyers are in multiple regions, configure separate schedule blocks for each timezone. The agent enforces each block independently — ensuring delivery is concentrated in peak engagement windows regardless of geography.',
     },
     {
       number: '05',

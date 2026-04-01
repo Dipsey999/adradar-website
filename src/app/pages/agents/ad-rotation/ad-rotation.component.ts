@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Detect fatigue signals before performance falls -- automatically flag to rotate creatives so every account on your list sees fresh, high-performing messages with right frequency.
+              Detect fatigue signals before performance falls, automatically flag to rotate creatives so every account on your list sees fresh, high-performing messages with right frequency.
             </p>
 
             <!-- CTAs -->
@@ -283,7 +283,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to predict creative fatigue before performance falls
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                LinkedIn Campaign Manager reports what happened -- not what is about to happen.
+                LinkedIn Campaign Manager reports what happened, not what is about to happen.
               </p>
             </div>
           </div>
@@ -314,7 +314,7 @@ interface RelatedAgent {
               <span class="section-gradient-text">checking tyre pressure.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              LinkedIn Campaign Manager gives you frequency data. It does not tell you when that frequency has crossed the threshold into fatigue. That interpretation, and the decision to rotate, is left entirely to the human reviewing the numbers -- usually too late.
+              LinkedIn Campaign Manager gives you frequency data. It does not tell you when that frequency has crossed the threshold into fatigue. That interpretation, and the decision to rotate, is left entirely to the human reviewing the numbers, usually too late.
             </p>
 
             <!-- Before / After transformation card -->
@@ -426,7 +426,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Reactive rotation -- LinkedIn Campaign Manager</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Reactive rotation, LinkedIn Campaign Manager</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Reactive only</p>
                     </div>
                   </div>
@@ -798,7 +798,7 @@ interface RelatedAgent {
                                       <span class="text-[8px] font-bold text-[#6b5ea0]">Q4</span>
                                     </div>
                                     <div>
-                                      <p class="text-[11px] font-medium text-[#374151]">"ROI calculator" angle -- 42 day lifespan</p>
+                                      <p class="text-[11px] font-medium text-[#374151]">"ROI calculator" angle, 42 day lifespan</p>
                                       <p class="text-[10px] text-[#4b5563]">Best with Mid-Market segment, peaked at 0.72% CTR</p>
                                     </div>
                                   </div>
@@ -807,7 +807,7 @@ interface RelatedAgent {
                                       <span class="text-[8px] font-bold text-[#6b5ea0]">Q3</span>
                                     </div>
                                     <div>
-                                      <p class="text-[11px] font-medium text-[#374151]">"Competitor gap" angle -- 38 day lifespan</p>
+                                      <p class="text-[11px] font-medium text-[#374151]">"Competitor gap" angle, 38 day lifespan</p>
                                       <p class="text-[10px] text-[#4b5563]">Strong with Enterprise, fatigued faster with SMB</p>
                                     </div>
                                   </div>
@@ -816,7 +816,7 @@ interface RelatedAgent {
                                       <span class="text-[8px] font-bold text-[#6b5ea0]">Q2</span>
                                     </div>
                                     <div>
-                                      <p class="text-[11px] font-medium text-[#374151]">"Case study" angle -- 55 day lifespan</p>
+                                      <p class="text-[11px] font-medium text-[#374151]">"Case study" angle, 55 day lifespan</p>
                                       <p class="text-[10px] text-[#4b5563]">Longest lived creative type across all segments</p>
                                     </div>
                                   </div>
@@ -844,7 +844,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Rotated Creative A out for Enterprise</p>
-                                      <p class="text-[10px] text-[#4b5563]">5 min ago -- Approved by you</p>
+                                      <p class="text-[10px] text-[#4b5563]">5 min ago, Approved by you</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#f7f3f8] rounded-lg p-2.5">
@@ -853,7 +853,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Creative D activated as replacement</p>
-                                      <p class="text-[10px] text-[#4b5563]">5 min ago -- Pattern-matched from Q3 learnings</p>
+                                      <p class="text-[10px] text-[#4b5563]">5 min ago, Pattern-matched from Q3 learnings</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fffbeb] border border-[#fde68a]/40 rounded-lg p-2.5">
@@ -1084,7 +1084,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated the Ad Rotation Agent on existing campaigns -- no additional spend required.
+            Measured across teams who activated the Ad Rotation Agent on existing campaigns, no additional spend required.
           </p>
         </div>
 
@@ -1129,7 +1129,7 @@ interface RelatedAgent {
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">2-3 wks earlier detection</h3>
               <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
-                Fatigue signals surfaced before CTR drop -- not after it's already visible in reporting
+                Fatigue signals surfaced before CTR drop, not after it's already visible in reporting
               </p>
             </div>
           </div>
@@ -1245,7 +1245,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">&infin;</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Compounding intelligence</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Creative learnings carry forward across every campaign -- never starting from zero again
+                  Creative learnings carry forward across every campaign, never starting from zero again
                 </p>
               </div>
             </div>
@@ -1595,7 +1595,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
 
   linkedinLimitations = [
     'Fatigue detected after CTR has already dropped',
-    'Frequency data shown -- interpretation left to the user',
+    'Frequency data shown, interpretation left to the user',
     'No segment-level fatigue differentiation',
     'No creative pattern history or rotation intelligence',
     'Rotation timing is guesswork based on lagging metrics',
@@ -1607,7 +1607,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
     'Engagement decay patterns interpreted automatically',
     'Segment-level fatigue tracked per audience group',
     'Creative pattern history compounds over time',
-    'Rotation recommended at the optimal moment -- not after',
+    'Rotation recommended at the optimal moment, not after',
     'Creative intelligence carries forward across campaigns',
   ];
 
@@ -1617,35 +1617,35 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       label: 'Monitor',
       title: 'Agent monitors engagement patterns across all active creatives',
       description:
-        'From the moment a campaign is linked, the agent tracks impression frequency, CTR trends, engagement decay curves, and frequency-per-account patterns for each creative variant. Not just at the campaign level -- at the creative and segment level.',
+        'From the moment a campaign is linked, the agent tracks impression frequency, CTR trends, engagement decay curves, and frequency-per-account patterns for each creative variant. Not just at the campaign level, at the creative and segment level.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Fatigue signals are detected before CTR drops',
       description:
-        'The agent identifies early indicators of fatigue -- declining engagement rate at stable impression frequency, increasing frequency with flat CTR, shrinking engaged audience percentage -- before these patterns compound into a visible performance drop.',
+        'The agent identifies early indicators of fatigue, declining engagement rate at stable impression frequency, increasing frequency with flat CTR, shrinking engaged audience percentage, before these patterns compound into a visible performance drop.',
     },
     {
       number: '03',
       label: 'Recommend',
       title: 'Rotation recommendations are surfaced with context',
       description:
-        'When a creative approaches fatigue, the agent surfaces a rotation recommendation -- which creative is showing decay signals, which audience segments are most affected, the estimated remaining efficient lifespan, and suggested rotation timing.',
+        'When a creative approaches fatigue, the agent surfaces a rotation recommendation, which creative is showing decay signals, which audience segments are most affected, the estimated remaining efficient lifespan, and suggested rotation timing.',
     },
     {
       number: '04',
       label: 'Learn',
       title: 'Creative pattern history is preserved across campaigns',
       description:
-        'What worked last quarter doesn\'t disappear when a campaign ends. The agent builds a creative intelligence record -- which hooks converted for which ICP segments, which formats had longer fatigue curves, which CTAs drove the strongest engagement at each funnel stage.',
+        'What worked last quarter doesn\'t disappear when a campaign ends. The agent builds a creative intelligence record, which hooks converted for which ICP segments, which formats had longer fatigue curves, which CTAs drove the strongest engagement at each funnel stage.',
     },
     {
       number: '05',
       label: 'Control',
       title: 'You approve the rotation. Always.',
       description:
-        'The agent recommends. You decide. Every rotation suggestion is explained, logged, and actionable -- but no creative is changed without your approval. Human-in-the-loop by design, with full context behind every recommendation.',
+        'The agent recommends. You decide. Every rotation suggestion is explained, logged, and actionable, but no creative is changed without your approval. Human-in-the-loop by design, with full context behind every recommendation.',
     },
   ];
 
@@ -1653,11 +1653,11 @@ export class AdRotationComponent implements OnInit, OnDestroy {
     {
       capability: 'Fatigue detection timing',
       without: 'After CTR has already dropped',
-      withRotation: 'Before CTR declines -- early signal',
+      withRotation: 'Before CTR declines, early signal',
     },
     {
       capability: 'Rotation trigger',
-      without: 'Manual -- reactive to lagging metrics',
+      without: 'Manual, reactive to lagging metrics',
       withRotation: 'Agent recommendation at optimal moment',
     },
     {
@@ -1673,12 +1673,12 @@ export class AdRotationComponent implements OnInit, OnDestroy {
     {
       capability: 'Rotation recommendation quality',
       without: 'Gut feel or general timing rules',
-      withRotation: 'Pattern-informed -- history-backed angles',
+      withRotation: 'Pattern-informed, history-backed angles',
     },
     {
       capability: 'Brand perception protection',
-      without: 'Reactive -- damage already done',
-      withRotation: 'Proactive -- rotated before over-exposure',
+      without: 'Reactive, damage already done',
+      withRotation: 'Proactive, rotated before over-exposure',
     },
   ];
 
@@ -1688,7 +1688,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'When accounts near their impression cap, the Rotation Agent prioritises fresh creative for those accounts -- ensuring the final impressions in a cap cycle are delivered with new messaging, not fatigued creative.',
+        'When accounts near their impression cap, the Rotation Agent prioritises fresh creative for those accounts, ensuring the final impressions in a cap cycle are delivered with new messaging, not fatigued creative.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1697,7 +1697,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'When a competitor launches new creative, the Rotation Agent surfaces this as a signal to evaluate whether your current creative cycle needs to accelerate -- not just whether your own metrics indicate fatigue.',
+        'When a competitor launches new creative, the Rotation Agent surfaces this as a signal to evaluate whether your current creative cycle needs to accelerate, not just whether your own metrics indicate fatigue.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },
@@ -1706,7 +1706,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Fatigue tracking is measured against active delivery windows -- so rotation recommendations reflect impressions served during scheduled hours, not elapsed calendar time.',
+        'Fatigue tracking is measured against active delivery windows, so rotation recommendations reflect impressions served during scheduled hours, not elapsed calendar time.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },
@@ -1715,7 +1715,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Creative pattern data feeds into the Strategy Copilot\'s funnel recommendations -- so campaign structure decisions are informed by what formats and messaging angles are actually working at each stage.',
+        'Creative pattern data feeds into the Strategy Copilot\'s funnel recommendations, so campaign structure decisions are informed by what formats and messaging angles are actually working at each stage.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },
@@ -1724,7 +1724,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'With off-ICP companies blocked, creative engagement data is cleaner -- fatigue signals are based on relevant audience behavior, not noise from wrong accounts.',
+        'With off-ICP companies blocked, creative engagement data is cleaner, fatigue signals are based on relevant audience behavior, not noise from wrong accounts.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1733,7 +1733,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Title Blocking Agent.png',
       avatarBg: '#ee95a0',
       description:
-        'With off-persona titles removed, creative performance reflects your actual buying committee\'s response -- not diluted by irrelevant viewers.',
+        'With off-persona titles removed, creative performance reflects your actual buying committee\'s response, not diluted by irrelevant viewers.',
       accentColor: '#d4606f',
       route: '/agents/title-blocking',
     },
