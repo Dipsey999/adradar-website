@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal, inject, ChangeDetectorRef } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 interface NavAgent {
@@ -17,7 +17,7 @@ interface NavAgent {
     <header class="fixed top-0 left-0 w-full z-50 bg-white border-b border-border">
       <div class="max-w-[1480px] mx-auto px-6 flex items-center justify-between h-[70px]">
         <!-- Logo -->
-        <a routerLink="/" class="flex items-center">
+        <a routerLink="/" class="flex items-center" (click)="closeMobile()">
           <img
             src="/logo/adradar-logo.svg"
             alt="adRadar"
@@ -27,7 +27,7 @@ interface NavAgent {
           />
         </a>
 
-        <!-- Nav Links -->
+        <!-- Desktop Nav Links -->
         <nav class="hidden md:flex items-center gap-1">
           <a
             routerLink="/"
@@ -113,10 +113,10 @@ interface NavAgent {
           </a>
         </nav>
 
-        <!-- CTA -->
+        <!-- Desktop CTA -->
         <a
           routerLink="/pricing"
-          class="group flex items-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-5 pr-1 py-1 transition-colors"
+          class="hidden md:flex group items-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-5 pr-1 py-1 transition-colors"
         >
           <span class="text-[15px] font-medium ml-1">Start free trial</span>
           <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center">
@@ -131,7 +131,106 @@ interface NavAgent {
             </svg>
           </div>
         </a>
+
+        <!-- Mobile Hamburger -->
+        <button
+          class="md:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-gray-100 transition-colors"
+          (click)="toggleMobile()"
+          [attr.aria-expanded]="mobileOpen()"
+          aria-label="Toggle menu"
+        >
+          @if (!mobileOpen()) {
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111827" stroke-width="2" stroke-linecap="round">
+              <line x1="3" y1="6" x2="21" y2="6"/>
+              <line x1="3" y1="12" x2="21" y2="12"/>
+              <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          } @else {
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#111827" stroke-width="2" stroke-linecap="round">
+              <line x1="6" y1="6" x2="18" y2="18"/>
+              <line x1="6" y1="18" x2="18" y2="6"/>
+            </svg>
+          }
+        </button>
       </div>
+
+      <!-- Mobile Menu -->
+      @if (mobileOpen()) {
+        <div class="md:hidden border-t border-border bg-white max-h-[calc(100dvh-70px)] overflow-y-auto">
+          <nav class="px-6 py-4 flex flex-col gap-1">
+            <a
+              routerLink="/"
+              class="px-3 py-3 text-[15px] font-medium text-foreground/80 hover:text-foreground hover:bg-gray-50 rounded-xl transition-colors"
+              (click)="closeMobile()"
+            >
+              How it works
+            </a>
+
+            <!-- AI Agents expandable -->
+            <div>
+              <button
+                class="w-full flex items-center justify-between px-3 py-3 text-[15px] font-medium text-foreground/80 hover:text-foreground hover:bg-gray-50 rounded-xl transition-colors"
+                (click)="toggleAgents()"
+              >
+                AI Agents
+                <svg
+                  class="w-4 h-4 transition-transform duration-300"
+                  [class.rotate-180]="agentsOpen()"
+                  viewBox="0 0 12 12" fill="none"
+                >
+                  <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+
+              @if (agentsOpen()) {
+                <div class="ml-2 mt-1 flex flex-col gap-0.5">
+                  @for (agent of agents; track agent.name) {
+                    <a
+                      [routerLink]="agent.route"
+                      class="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-gray-50 transition-colors"
+                      (click)="closeMobile()"
+                    >
+                      <div
+                        class="w-8 h-8 shrink-0 rounded-full overflow-hidden"
+                        [style.backgroundColor]="agent.avatarBg"
+                      >
+                        <img
+                          [src]="agent.image"
+                          [alt]="agent.name"
+                          class="w-full h-full object-cover"
+                        />
+                      </div>
+                      <span class="text-[14px] font-medium text-[#374151]">{{ agent.name }}</span>
+                    </a>
+                  }
+                </div>
+              }
+            </div>
+
+            <a
+              routerLink="/pricing"
+              class="px-3 py-3 text-[15px] font-medium text-foreground/80 hover:text-foreground hover:bg-gray-50 rounded-xl transition-colors"
+              (click)="closeMobile()"
+            >
+              Pricing
+            </a>
+
+            <!-- Mobile CTA -->
+            <div class="mt-3 pt-3 border-t border-border">
+              <a
+                routerLink="/pricing"
+                class="flex items-center justify-center gap-2 bg-primary hover:bg-primary-dark text-white rounded-full py-3 px-6 transition-colors"
+                (click)="closeMobile()"
+              >
+                <span class="text-[15px] font-medium">Start free trial</span>
+                <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
+                  <path d="M5 3l4 4-4 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </div>
+      }
     </header>
   `,
   styles: [`
@@ -148,6 +247,29 @@ interface NavAgent {
   `],
 })
 export class NavbarComponent {
+  private cdr = inject(ChangeDetectorRef);
+  mobileOpen = signal(false);
+  agentsOpen = signal(false);
+
+  toggleMobile() {
+    this.mobileOpen.update(v => !v);
+    if (!this.mobileOpen()) {
+      this.agentsOpen.set(false);
+    }
+    this.cdr.detectChanges();
+  }
+
+  closeMobile() {
+    this.mobileOpen.set(false);
+    this.agentsOpen.set(false);
+    this.cdr.detectChanges();
+  }
+
+  toggleAgents() {
+    this.agentsOpen.update(v => !v);
+    this.cdr.detectChanges();
+  }
+
   agents: NavAgent[] = [
     {
       name: 'Company Blocking Agent',
