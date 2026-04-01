@@ -253,22 +253,22 @@ interface FaqItem {
             <!-- Header -->
             <thead>
               <tr class="bg-[#1a1a2e]">
-                <th class="text-left py-4 px-5 text-[13px] font-semibold text-white w-[30%]">Feature</th>
-                <th class="text-center py-4 px-3 text-[13px] font-semibold text-white w-[17.5%]">
-                  <span class="text-[#ff6b35]">Starter</span>
-                  <span class="block text-[11px] font-normal text-white/75 mt-0.5">$29/mo</span>
+                <th class="text-left py-5 px-5 text-[13px] font-semibold text-white/60 w-[30%]">Feature</th>
+                <th class="text-center py-5 px-3 w-[17.5%]">
+                  <span class="block text-[17px] font-bold text-[#ff6b35]">Starter</span>
+                  <span class="block text-[12px] font-medium text-white/50 mt-1">$29/mo</span>
                 </th>
-                <th class="text-center py-4 px-3 text-[13px] font-semibold text-white w-[17.5%]">
-                  Growth
-                  <span class="block text-[11px] font-normal text-white/75 mt-0.5">$59/mo</span>
+                <th class="text-center py-5 px-3 w-[17.5%]">
+                  <span class="block text-[17px] font-bold text-white">Growth</span>
+                  <span class="block text-[12px] font-medium text-white/50 mt-1">$59/mo</span>
                 </th>
-                <th class="text-center py-4 px-3 text-[13px] font-semibold text-white w-[17.5%]">
-                  Pro
-                  <span class="block text-[11px] font-normal text-white/75 mt-0.5">$99/mo</span>
+                <th class="text-center py-5 px-3 w-[17.5%]">
+                  <span class="block text-[17px] font-bold text-white">Pro</span>
+                  <span class="block text-[12px] font-medium text-white/50 mt-1">$99/mo</span>
                 </th>
-                <th class="text-center py-4 px-3 text-[13px] font-semibold text-white w-[17.5%]">
-                  Agency
-                  <span class="block text-[11px] font-normal text-white/75 mt-0.5">$149/mo</span>
+                <th class="text-center py-5 px-3 w-[17.5%]">
+                  <span class="block text-[17px] font-bold text-white">Agency</span>
+                  <span class="block text-[12px] font-medium text-white/50 mt-1">$149/mo</span>
                 </th>
               </tr>
             </thead>
