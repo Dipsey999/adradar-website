@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Monitor rival campaigns in real time. Track creative changes, new ad launches, messaging pivots,
+              Monitor rival campaigns in real time — track creative changes, new ad launches, messaging pivots,
               positioning shifts, respond before their strategy reaches your buyers.
             </p>
 
@@ -217,8 +217,8 @@ interface RelatedAgent {
             <span class="section-gradient-text">and you're the last to know.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            You run great LinkedIn Ads. Your targeting is tight, creative fresh, budget well allocated.
-            Then a competitor launches a new campaign, repositioning against your core value prop.
+            You run great LinkedIn Ads. Your targeting is tight, creative fresh, budget is well allocated.
+            Then a competitor launches a new campaign, repositioning against your core value prop, targeting the same accounts, using messaging that undercuts yours.
           </p>
         </div>
 
@@ -262,7 +262,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to monitor what competitors are running
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                LinkedIn Ad Library shows ads, not intelligence, timing, or context
+                LinkedIn Ad Library shows ads — not intelligence, timing, or context
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ interface RelatedAgent {
                 of top-performing B2B companies regularly review competitor ads
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Most do it manually and inconsistently, missing the signal entirely
+                Most do it manually and inconsistently — missing the signal entirely
               </p>
             </div>
           </div>
@@ -422,7 +422,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn Ad Library</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn Ad Library + Manual review</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Manual, reactive</p>
                     </div>
                   </div>
@@ -469,7 +469,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Competitor Intelligence</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Competitor Ads Intelligence Copilot</h3>
                       <p class="text-[11px] text-[#e8573a] mt-0.5">Automated monitoring</p>
                     </div>
                   </div>
@@ -1558,16 +1558,16 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
     'No launch date or creative history',
     'No messaging pattern analysis',
     'No counter-positioning recommendations',
-    'Requires manual check-in, weekly at best',
+    'Requires manual check-in — weekly at best',
     'No alerts when competitors launch new campaigns',
   ];
 
   adradarAdvantages = [
-    'Continuous monitoring, new launches detected fast',
+    'Continuous monitoring — new launches detected fast',
     'Creative refresh cadence tracked over time',
     'Messaging angle and positioning analysis',
     'Specific counter-messaging recommendations surfaced',
-    'Automated, no manual check-in required',
+    'Automated — no manual check-in required',
     'Alerts when a competitor launches or pivots',
   ];
 
@@ -1577,14 +1577,14 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       label: 'Select',
       title: 'Select competitors to monitor',
       description:
-        'Add the LinkedIn company pages of competitors you want to track. The Copilot begins monitoring their ad activity immediately, no manual setup beyond a list of company names.',
+        'Add the LinkedIn company pages of competitors you want to track. The Copilot begins monitoring their ad activity immediately — no manual setup beyond a list of company names.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Copilot detects new ad launches in real time',
       description:
-        'The moment a competitor publishes a new LinkedIn ad, the Copilot captures it, including the creative, copy, format, and timing. No waiting for a weekly manual check.',
+        'The moment a competitor publishes a new LinkedIn ad, the Copilot captures it — including the creative, copy, format, and timing. No waiting for a weekly manual check.',
     },
     {
       number: '03',

@@ -53,12 +53,12 @@ interface RelatedAgent {
             <!-- Heading -->
             <h1 class="text-[36px] md:text-[48px] lg:text-[56px] font-bold leading-[1.05] tracking-[-0.025em] text-[#111827] mb-6">
               Your ads shouldn't reach personas that don't matter;
-              <span class="hero-gradient-text">while actual buyers scroll past.</span>
+              <span class="hero-gradient-text">while actual buyers scroll past</span>
             </h1>
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Automatically prevent delivery to any job title outside your configured persona, keeping every
+              Automatically prevent delivery to any job title outside your configured persona — keep every
               impression locked to seniority, department, and titles that actually move pipeline.
             </p>
 
@@ -217,8 +217,8 @@ interface RelatedAgent {
             <span class="section-gradient-text">It drifts silently from there.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            Campaigns drift to irrelevant job titles over time, not because of a mistake, but because
-            LinkedIn's delivery algorithm optimises for engagement signals, not persona fit.
+            Campaigns drift to irrelevant job titles over time, not because of a mistakes, but because
+            LinkedIn's delivery algorithm optimises for engagement signals, not persona fit. By the time CPL spikes enough to investigate, weeks of budget have already reached the wrong people.
           </p>
         </div>
 
@@ -240,7 +240,7 @@ interface RelatedAgent {
                 </div>
               </div>
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
-                LinkedIn job title data accuracy - nearly half of title targeting is based on incorrect information
+                LinkedIn job title data accuracy — nearly half title targeting is based on incorrect information
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 The persona you set at launch is not the audience you're actually reaching.
@@ -287,7 +287,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to detect and automatically block off-persona title drift as it happens
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                LinkedIn Campaign Manager reports title delivery, but it doesn't block drift automatically.
+                LinkedIn Campaign Manager reports title delivery — it doesn't block drift automatically
               </p>
             </div>
           </div>
@@ -315,11 +315,11 @@ interface RelatedAgent {
             </span>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827] mb-5">
               Checking title delivery reports weekly doesn't stop
-              <span class="section-gradient-text">budget flowing to wrong personas.</span>
+              <span class="section-gradient-text">budget flowing to wrong personas in the meantime.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
               LinkedIn's title delivery data is available, but interpreting it, identifying off-persona titles,
-              manually excluding them is a reactive process.
+              manually excluding them is a reactive process that runs behind the budget it's trying to protect.
             </p>
 
             <!-- Before / After transformation card -->
@@ -426,8 +426,8 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn title targeting</h3>
-                      <p class="text-[11px] text-[#9ca3af] mt-0.5">Manual exclusion only</p>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual title exclusions</h3>
+                      <p class="text-[11px] text-[#9ca3af] mt-0.5">LinkedIn Campaign Manager</p>
                     </div>
                   </div>
                   <span class="text-[10px] font-bold tracking-[0.06em] uppercase text-[#ef4444]/70 bg-[#fef2f2] rounded-full px-2.5 py-0.5">Limited</span>
@@ -473,7 +473,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Title Blocking</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Title Blocking Agent</h3>
                       <p class="text-[11px] text-[#e8573a] mt-0.5">Persona-level control</p>
                     </div>
                   </div>
@@ -944,7 +944,7 @@ interface RelatedAgent {
             The Difference
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827]">
-            What changes when title delivery is <span class="section-gradient-text">enforced intelligently.</span>
+            What changes when title delivery is <span class="section-gradient-text">enforced.</span>
           </h2>
         </div>
 
@@ -1101,8 +1101,8 @@ interface RelatedAgent {
               </span>
             </div>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
-              First 30 days. Same budget.<br class="hidden lg:block" />
-              <span class="section-gradient-text">Precise persona delivery.</span>
+              What teams see when title delivery is<br class="hidden lg:block" />
+              <span class="section-gradient-text">enforced from day one.</span>
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
@@ -1191,7 +1191,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">55%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">LinkedIn title accuracy</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Meaning nearly half of title targeting is imprecise. Department & Seniority mode corrects for this automatically
+                  Meaning nearly half of title targeting is imprecise — Department & Seniority mode corrects for this automatically
                 </p>
               </div>
             </div>
@@ -1267,14 +1267,14 @@ interface RelatedAgent {
             Connected Intelligence
           </span>
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
-            Title blocking is one layer.
+            Title enforcement is one layer.
             <br class="hidden md:block" />
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Title Blocking Agent shares context and memory with every other adRadar agent —
-            so persona enforcement decisions inform impression distribution, creative rotation, spend pacing,
-            and competitor intelligence simultaneously.
+            Title Blocking Agent coordinates with the full AdRadar suite —
+            ensuring persona enforcement at title level amplifies precision of audience blocking, impression distribution,
+            strategy decisions.
           </p>
         </div>
 
@@ -1606,11 +1606,11 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
 
   adradarAdvantages = [
     'Blocking rules enforced from the moment the agent is configured',
-    'Department & seniority mode catches all title variations automatically',
-    'Continuous monitoring, with new off-persona titles blocked as they appear',
+    'Department & Seniority mode catches all title variations automatically',
+    'Continuous monitoring — new off-persona titles blocked as they appear',
     'Department-level enforcement prevents category-wide drift',
-    'No exclusion list to maintain, rules update automatically',
-    'Budget protected from the first impression, not after the fact',
+    'No exclusion list to maintain — rules update automatically',
+    'Budget protected from the first impression — not after the fact',
   ];
 
   steps = [
@@ -1626,28 +1626,28 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       label: 'Enforce',
       title: 'Agent enforces the rule across all linked campaigns',
       description:
-        'From the moment the agent is configured, every impression is evaluated against your persona rule. Titles that don\'t match are blocked before delivery, not flagged after.',
+        'From the moment the agent is configured, every impression is evaluated against your persona rule. Titles that don\'t match are blocked before delivery — not flagged after. No manual review cycle required.',
     },
     {
       number: '03',
       label: 'Block',
       title: 'Off-persona titles are blocked and logged automatically',
       description:
-        'When a title outside your rule receives an impression attempt, the agent blocks it and logs the event. The report shows exactly which titles were blocked, when, and the estimated spend saved.',
+        'When a title outside your rule receives an impression attempt, the agent blocks it and logs the event. The report shows exactly which titles were blocked, when, and the estimated spend saved by preventing that delivery.',
     },
     {
       number: '04',
       label: 'Categorise',
       title: 'Department & Seniority mode handles title variation automatically',
       description:
-        'Rather than maintain an exhaustive list of individual titles, Department & Seniority mode allows delivery by function (Engineering, Marketing, Finance) and level (Director, VP, C-Suite). Any other combination is blocked.',
+        'Rather than maintain an exhaustive list of individual titles, Department & Seniority mode allows delivery by function (Engineering, Marketing, Finance) and level (Director, VP, C-Suite). Any other combination is blocked',
     },
     {
       number: '05',
       label: 'Control',
       title: 'You stay in control of the rule. Always.',
       description:
-        'The agent enforces whatever rule you set. Switching between modes, updating the department or seniority selection, or modifying the explicit title list takes effect immediately across all linked campaigns.',
+        'The agent enforces whatever rule you set. Switching between modes, updating the department or seniority selection, or modifying the explicit title list takes effect immediately across all linked campaigns. Every change is logged.',
     },
   ];
 
@@ -1655,7 +1655,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Off-persona title detection',
       without: 'Manual review of delivery reports',
-      withBlocking: 'Automatic - blocked before delivery',
+      withBlocking: 'Automatic — blocked before delivery',
     },
     {
       capability: 'Title variation coverage',
@@ -1665,7 +1665,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Drift correction speed',
       without: 'Days to weeks after it starts',
-      withBlocking: 'Immediate - rule enforced from day one',
+      withBlocking: 'Immediate — rule enforced from day one',
     },
     {
       capability: 'MQL quality impact',
@@ -1690,7 +1690,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Blocks non-ICP companies entirely. Title blocking controls persona fit, company blocking removes irrelevant accounts from the auction.',
+        'Company blocking removes off-ICP accounts entirely. Title blocking removes off-persona individuals within ICP accounts. Together they enforce both the account and the buyer simultaneously — a complete targeting precision layer.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1699,7 +1699,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Controls account-level impression limits. Combined with title blocking, ensures the right people at the right companies see your ads.',
+        'Impression caps control how many times a company sees your ads. Title blocking ensures the impressions that are served go to the right people within that company — not the highest-engagement titles regardless of seniority.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },

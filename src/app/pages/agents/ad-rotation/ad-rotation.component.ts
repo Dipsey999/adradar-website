@@ -216,7 +216,7 @@ interface RelatedAgent {
             and you only find out <span class="section-gradient-text">when it's too late.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            When CTR drops to trigger a manual review, your creative has been fatigued for weeks. Impressions were served, budget was spent, opportunity to rotate before performance fell is gone.
+            When CTR drops to trigger a manual review, your creative has been fatigued for weeks. Impressions were served, budget was spent, opportunity to rotate before performance fell is gone. Creative fatigue is avoidable but there's no early warning system.
           </p>
         </div>
 
@@ -310,11 +310,11 @@ interface RelatedAgent {
               The Gap
             </span>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827] mb-5">
-              Monitor. Detect. Recommend.
-              <span class="section-gradient-text">Rotate. Repeat.</span>
+              Waiting for CTR to drop before rotating is like waiting for a puncture before
+              <span class="section-gradient-text">checking tyre pressure.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              The Ad Rotation Agent runs continuously -- tracking engagement patterns across every active creative, surfacing fatigue signals early, and recommending rotation at the moment performance is still worth protecting.
+              LinkedIn Campaign Manager gives you frequency data. It does not tell you when that frequency has crossed the threshold into fatigue. That interpretation, and the decision to rotate, is left entirely to the human reviewing the numbers -- usually too late.
             </p>
 
             <!-- Before / After transformation card -->
@@ -426,7 +426,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn creative tools</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Reactive rotation -- LinkedIn Campaign Manager</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Reactive only</p>
                     </div>
                   </div>
@@ -473,7 +473,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Ad Rotation</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Ad Rotation Agent</h3>
                       <p class="text-[11px] text-[#6b5ea0] mt-0.5">Predictive creative intelligence</p>
                     </div>
                   </div>
@@ -562,8 +562,8 @@ interface RelatedAgent {
                 How It Works
               </span>
               <h2 class="text-[24px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
-                Connect once. Detect fatigue.<br class="hidden lg:block" />
-                <span class="section-gradient-text">Rotate intelligently.</span>
+                Monitor. Detect. Recommend.<br class="hidden lg:block" />
+                <span class="section-gradient-text">Rotate. Repeat.</span>
               </h2>
             </div>
 
@@ -1607,7 +1607,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
     'Engagement decay patterns interpreted automatically',
     'Segment-level fatigue tracked per audience group',
     'Creative pattern history compounds over time',
-    'Rotation recommended at the optimal moment',
+    'Rotation recommended at the optimal moment -- not after',
     'Creative intelligence carries forward across campaigns',
   ];
 
@@ -1617,14 +1617,14 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       label: 'Monitor',
       title: 'Agent monitors engagement patterns across all active creatives',
       description:
-        'From the moment a campaign is linked, the agent tracks impression frequency, CTR trends, engagement decay curves, and frequency-per-account patterns for each creative variant.',
+        'From the moment a campaign is linked, the agent tracks impression frequency, CTR trends, engagement decay curves, and frequency-per-account patterns for each creative variant. Not just at the campaign level -- at the creative and segment level.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Fatigue signals are detected before CTR drops',
       description:
-        'The agent identifies early indicators of fatigue -- declining engagement rate at stable impression frequency, increasing frequency with flat CTR, shrinking engaged audience percentage.',
+        'The agent identifies early indicators of fatigue -- declining engagement rate at stable impression frequency, increasing frequency with flat CTR, shrinking engaged audience percentage -- before these patterns compound into a visible performance drop.',
     },
     {
       number: '03',

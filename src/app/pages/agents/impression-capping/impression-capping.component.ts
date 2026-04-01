@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Enforce account-level impression limits across your entire target list, automatically
+              Enforce account-level impression limits across your entire target list — automatically
               redistributing budget to under-served accounts the moment any company hits its cap.
             </p>
 
@@ -236,8 +236,8 @@ interface RelatedAgent {
                 of impressions go to just 10% of your target accounts
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Documented across hundreds of ABM campaigns analysed.
-              </p>
+                Documented across hundreds of ABM campaigns analysed
+</p>
             </div>
           </div>
 
@@ -257,8 +257,8 @@ interface RelatedAgent {
                 of target accounts receive fewer than 3 impressions per day
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Strategic accounts get zero buying signal from your ad spends.
-              </p>
+                Strategic accounts get zero buying signal from your ad spends
+</p>
             </div>
           </div>
 
@@ -279,7 +279,7 @@ interface RelatedAgent {
                 of monthly budget consumed by a single large enterprise account
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Because they have more employees on LinkedIn, not because they're a priority.
+                Because they have more employees on LinkedIn — not because they're a priority
               </p>
             </div>
           </div>
@@ -311,8 +311,8 @@ interface RelatedAgent {
               ABM needs <span class="section-gradient-text">Account-level.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              Lead Generation, Conversion, and Website Visit campaigns, the ones consuming most of your
-              budget, are excluded entirely. Capping individuals doesn't prevent one enterprise company
+              Lead Generation, Conversion, and Website Visit campaigns — the ones consuming most of your
+              budget — are excluded entirely. And even where it applies, capping individuals doesn't prevent one enterprise company
               with 12,000 employees from consuming 40% of your monthly budget.
             </p>
 
@@ -419,7 +419,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn frequency cap</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn native frequency cap</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Individual-level only</p>
                     </div>
                   </div>
@@ -466,7 +466,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Impression Capping</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Impression Capping Agent</h3>
                       <p class="text-[11px] text-[#e8573a] mt-0.5">Account-level control</p>
                     </div>
                   </div>
@@ -993,8 +993,7 @@ interface RelatedAgent {
               </span>
             </div>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
-              First 30 days. Same budget.<br class="hidden lg:block" />
-              <span class="section-gradient-text">Completely different outcomes.</span>
+              What teams see when distribution is <span class="section-gradient-text">controlled.</span>
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
@@ -1042,7 +1041,7 @@ interface RelatedAgent {
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Account penetration</h3>
               <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
-                Same budget, same list, 8x more accounts reached
+                vs. 10% without capping — same budget, same list
               </p>
             </div>
           </div>
@@ -1094,7 +1093,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">3-4x</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">More accounts reached</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Budget flows to previously untouched accounts
+                  Budget redistributes to previously untouched accounts
                 </p>
               </div>
             </div>
@@ -1142,7 +1141,7 @@ interface RelatedAgent {
 
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">22%</p>
-                <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Budget recovered</h3>
+                <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Average budget recovered</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   From overexposed accounts in first 30-day audit
                 </p>
@@ -1172,7 +1171,7 @@ interface RelatedAgent {
           <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-4">
             Impression capping is one layer.
             <br class="hidden md:block" />
-            Six agents <span class="section-gradient-text">work together.</span>
+            Six agents <span class="section-gradient-text">work together. Explore Now.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
             The Impression Capping Agent shares context and memory with every other adRadar agent —
@@ -1521,7 +1520,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       label: 'Configure',
       title: 'Set your account-level caps',
       description:
-        'Define maximum impressions per company per month. Set different caps by firmographic tier, enterprise accounts (5,000+ employees) get a higher ceiling than SMB accounts because their buying committees are larger.',
+        'Define maximum impressions per company per month. Set different caps by firmographic tier — enterprise accounts (5,000+ employees) get a higher ceiling than SMB accounts because their buying committees are larger.',
     },
     {
       number: '02',
@@ -1535,21 +1534,21 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       label: 'Enforce',
       title: 'Accounts that hit their cap are automatically excluded',
       description:
-        'The moment an account reaches its impression limit, the agent removes it from the active auction. Budget stops flowing to that company immediately, not at the next manual review.',
+        'The moment an account reaches its impression limit, the agent removes it from the active auction. Budget stops flowing to that company immediately — not at the next manual review.',
     },
     {
       number: '04',
       label: 'Redistribute',
       title: 'Budget redistributes to under-served accounts',
       description:
-        'The freed budget flows automatically to accounts that haven\'t hit their caps yet. Accounts that haven\'t been reached get impressions. Your target list gets even coverage, not algorithmic concentration.',
+        'The freed budget flows automatically to accounts that haven\'t hit their caps yet. Accounts that haven\'t been reached get impressions. Your target list gets even coverage — not algorithmic concentration.',
     },
     {
       number: '05',
       label: 'Control',
       title: 'You approve the rules. The agent executes.',
       description:
-        'Human-in-the-loop by design. You set the cap thresholds and firmographic logic. The agent operates within those parameters. Every action is logged, explained, and reversible. You\'re always in control.',
+        'Human-in-the-loop by design. You set the cap thresholds and firmographic logic. The agent operates within those parameters — every action is logged, explained, and reversible. You\'re always in control.',
     },
   ];
 
@@ -1577,7 +1576,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
     {
       capability: 'Manual monitoring required',
       without: 'Weekly audit needed to catch waste',
-      withCapping: 'Continuous, fully automated',
+      withCapping: 'Continuous — fully automated',
     },
     {
       capability: 'Budget reallocation',
@@ -1592,7 +1591,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Blocks non-ICP companies entirely. Capping controls frequency, blocking removes irrelevant accounts from the auction.',
+        'Blocks companies outside your ICP entirely. Capping controls how many impressions ICP accounts receive — blocking removes non-ICP accounts from the auction.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1601,7 +1600,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Detects fatigue before CTR drops. Near-cap accounts get fresh creative. Every impression counts.',
+        'Detects fatigue signals before CTR drops. When accounts near their cap, the rotation agent surfaces fresh creative — ensuring each impression counts.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },
@@ -1610,7 +1609,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Optimises CPM as budget redistributes, maximising reach efficiency across newly eligible companies.',
+        'As budget redistributes to under-served accounts, the bidding agent optimises CPM to maximise reach efficiency across newly eligible companies.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },
@@ -1619,7 +1618,7 @@ export class ImpressionCappingComponent implements OnInit, OnDestroy {
       image: '/agents/Title Blocking Agent.png',
       avatarBg: '#ee95a0',
       description:
-        'Removes irrelevant job titles from impressions. The right people at the right companies see your ads.',
+        'Removes irrelevant job titles from receiving impressions. Working with account-level caps, this ensures the right people at the right companies see your ads.',
       accentColor: '#d4606f',
       route: '/agents/title-blocking',
     },

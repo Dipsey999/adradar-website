@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Continuously adjusts bids across campaigns to maximise delivery efficiency, keeps you competitive in LinkedIn auction without burning budget on overpriced impressions.
+              Continuously adjusts bids across campaigns to maximise delivery efficiency — keeps you competitive in LinkedIn auction without burning budget on overpriced impressions.
             </p>
 
             <!-- CTAs -->
@@ -216,7 +216,7 @@ interface RelatedAgent {
             <span class="section-gradient-text">The gap costs you every day.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            Most teams set their LinkedIn bids once, at campaign launch, and leave them. Maybe they revisit during a quarterly review.
+            Most teams set their LinkedIn bids once — at campaign launch — and leave them. Maybe they revisit during a quarterly review. Maybe they adjust when CPL spikes enough to trigger alarm. But the LinkedIn auction doesn't wait for quarterly reviews. Competition for your target audience fluctuates continuously, and a static bid navigates a dynamic market with a fixed compass.
           </p>
         </div>
 
@@ -239,7 +239,7 @@ interface RelatedAgent {
                 Avg monthly budget recovered when bid strategy is actively optimised vs. static
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Budget not recovered from overbidding is gone. It doesn't carry forward
+                Budget not recovered from overbidding is gone — it doesn't carry forward
               </p>
             </div>
           </div>
@@ -259,7 +259,7 @@ interface RelatedAgent {
                 </div>
               </div>
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
-                LinkedIn bidding strategies in Campaign Manager have no dynamic guidance on what to optimize
+                LinkedIn bidding in Campaign Manager have no dynamic guidance on what to optimize
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Target cost, max cost, enhanced CPC, decision quality depends on operator
@@ -284,7 +284,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to optimise bids dynamically across multiple campaigns simultaneously
               </p>
               <p class="text-[13px] text-[#4b5563] leading-[1.55]">
-                Manual bid review is the only option, where optimisation is always reactive and always late
+                Manual bid review is the only option — where optimisation is always reactive and always late
               </p>
             </div>
           </div>
@@ -317,7 +317,7 @@ interface RelatedAgent {
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
               Manual bid management on LinkedIn requires the operator to interpret auction signals,
-              diagnose whether the issue is bid-level or structural, and make adjustments across multiple campaigns.
+              diagnose whether the issue is bid-level or structural, and make adjustments across multiple campaigns — all from lagging data that reflects what happened, not what is happening.
             </p>
 
             <!-- Before / After transformation card -->
@@ -423,7 +423,7 @@ interface RelatedAgent {
                       </svg>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">LinkedIn bid management</h3>
+                      <h3 class="text-[14px] font-semibold text-[#374151] leading-tight">Manual bidding — LinkedIn Campaign Manager</h3>
                       <p class="text-[11px] text-[#9ca3af] mt-0.5">Manual, static bids</p>
                     </div>
                   </div>
@@ -470,7 +470,7 @@ interface RelatedAgent {
                       </div>
                     </div>
                     <div>
-                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">adRadar Bid Optimization</h3>
+                      <h3 class="text-[14px] font-bold text-[#1a1a2e] leading-tight">AdRadar Bidding Optimization Agent</h3>
                       <p class="text-[11px] text-[#e8573a] mt-0.5">Dynamic bid control</p>
                     </div>
                   </div>
@@ -555,8 +555,8 @@ interface RelatedAgent {
                 How It Works
               </span>
               <h2 class="text-[24px] md:text-[36px] lg:text-[48px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mt-1.5 lg:mt-2">
-                Monitor. Detect. Adjust. Repeat<br class="hidden lg:block" />
-                <span class="section-gradient-text">Without manual intervention.</span>
+                Monitor. Detect. Adjust. Repeat —<br class="hidden lg:block" />
+                <span class="section-gradient-text">without manual intervention.</span>
               </h2>
             </div>
 
@@ -1075,8 +1075,8 @@ interface RelatedAgent {
               </span>
             </div>
             <h2 class="text-[28px] md:text-[36px] lg:text-[44px] font-bold leading-[1.08] tracking-[-0.025em] text-[#111827]">
-              First 30 days. Same budget.<br class="hidden lg:block" />
-              <span class="section-gradient-text">Optimised outcomes.</span>
+              What teams see when bids is optimized.<br class="hidden lg:block" />
+              <span class="section-gradient-text">Automatically</span>
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
@@ -1176,7 +1176,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">Real-time</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Bid monitoring</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  vs. weekly manual review, auction patterns detected and surfaced as they emerge
+                  vs. weekly manual review — auction patterns detected and surfaced as they emerge
                 </p>
               </div>
             </div>
@@ -1226,7 +1226,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual bid management</h3>
                 <p class="text-[13px] text-[#4b5563] leading-[1.5]">
-                  Agent handles continuous monitoring across all campaigns, no weekly review overhead
+                  Agent handles continuous monitoring across all campaigns — no weekly review overhead
                 </p>
               </div>
             </div>
@@ -1256,9 +1256,7 @@ interface RelatedAgent {
             Six agents <span class="section-gradient-text">work together.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Bidding Optimization Agent shares context and memory with every other adRadar agent —
-            so bid decisions inform impression distribution, creative rotation, spend pacing, and competitor
-            intelligence simultaneously.
+            The Bidding Optimization Agent coordinates with every other agent — ensuring that bid efficiency improvements translate directly into better reach, smarter distribution, and more effective scheduling.
           </p>
         </div>
 
@@ -1585,11 +1583,11 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
 
   linkedinLimitations = [
     'Static bids set at launch, reviewed infrequently',
-    'Generic suggested ranges, not campaign-specific',
+    'Generic suggested ranges — not campaign-specific',
     'No detection of overbidding or underdelivery patterns',
     'Bid strategy selection left to operator judgement',
-    'Optimisation is weekly at best, reactive',
-    'No cross-campaign bid coordination',
+    'Optimisation is weekly at best — reactive',
+    'No cross-campaign bid coordination or prioritisation',
   ];
 
   adradarAdvantages = [
@@ -1597,7 +1595,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
     'Campaign-specific optimisation based on delivery history',
     'Overbid and underdelivery patterns detected automatically',
     'Bid strategy recommendations backed by performance data',
-    'Real-time adjustments, no manual reviews',
+    'Real-time adjustments — no manual reviews',
     'Cross-campaign budget coordination for maximum efficiency',
   ];
 
@@ -1607,42 +1605,42 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       label: 'Link',
       title: 'Agent monitors auction performance across all linked campaigns',
       description:
-        'From the moment campaigns are linked, the agent tracks CPM trends, win rate patterns, delivery pacing, cost-per-click trajectory, and bid competitiveness against the auction clearing price.',
+        'From the moment campaigns are linked, the agent tracks CPM trends, win rate patterns, delivery pacing, cost-per-click trajectory, and bid competitiveness against the auction clearing price — across every active campaign simultaneously.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Overbidding and underdelivery patterns are detected in real time',
       description:
-        'The agent identifies when bids are consistently above the auction clearing price, paying a premium for impressions that didn\'t require it, and when bids are too low to compete effectively.',
+        'The agent identifies when bids are consistently above the auction clearing price — paying a premium for impressions that didn\'t require it — and when bids are too low to compete effectively, causing underdelivery against available audience.',
     },
     {
       number: '03',
       label: 'Recommend',
-      title: 'Bid adjustment recommendations are surfaced with context',
+      title: 'Bid adjustments are executed with context',
       description:
-        'When there is a bid optimization opportunity, the agent surfaces precise recommendations: which campaign, which bid lever, what adjustment direction, avg impact on CPM and delivery.',
+        'When there is a bid optimization opportunity, the agent surfaces precise recommendations: which campaign, which bid lever, what adjustment direction, avg impact on CPM and delivery. Every recommendation explained — and executed.',
     },
     {
       number: '04',
       label: 'Track',
       title: 'Budget efficiency is tracked across the full campaign portfolio',
       description:
-        'Track bid efficiency at portfolio level. Identify where budget is working hardest and where it\'s absorbed by auction overhead. Cross-campaign reallocation opportunities are surfaced.',
+        'Track bid efficiency at portfolio level — identify where budget is working hardest and where it\'s absorbed by auction overhead. Cross-campaign reallocation opportunities are surfaced when better-performing campaigns are budget-constrained.',
     },
     {
       number: '05',
       label: 'Approve',
-      title: 'You approve every adjustment. Always.',
+      title: 'Our recommendations are guaranteed to improve bids.',
       description:
-        'The agent recommends. It never adjusts bids without your approval. Every suggestion includes the rationale and expected outcome. Human-in-the-loop by design.',
+        'Every suggestion includes the rationale, the expected outcome, and the campaign context. This makes it easy to execute sooner without any human intervention.',
     },
   ];
 
   comparisonRows: ComparisonRow[] = [
     {
       capability: 'Bid review frequency',
-      without: 'Weekly at best, reactive',
+      without: 'Weekly at best — reactive',
       withOptimization: 'Continuous, real-time monitoring',
     },
     {
@@ -1687,7 +1685,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Controls account-level impression frequency. Optimised bids deliver more value when impressions are evenly distributed.',
+        'As budget redistributes to under-served accounts when caps are reached, the Bidding Agent optimises CPM for newly eligible companies — maximising reach efficiency as impression distribution broadens.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1714,7 +1712,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Pauses campaigns during low-conversion windows. Bid savings compound when delivery is timed to peak engagement.',
+        'Bid optimization runs inside active schedule windows — bids are tuned for peak-hour auction competitiveness, not averaged across hours when buyers aren\'t active and auction dynamics differ.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },
