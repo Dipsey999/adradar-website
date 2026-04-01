@@ -49,14 +49,14 @@ import { Component } from '@angular/core';
         </p>
 
         <!-- CTAs -->
-        <div class="flex items-center justify-start md:justify-center gap-4 mb-6">
+        <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-start md:justify-center gap-3 sm:gap-4 mb-6">
           <a
             href="/pricing"
-            class="group flex items-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-6 pr-1.5 py-1.5 transition-colors"
+            class="group inline-flex items-center justify-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-6 pr-1.5 py-1.5 transition-colors whitespace-nowrap"
           >
             <span class="text-[15px] font-medium ml-2">Start free trial</span>
             <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center"
+              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shrink-0"
             >
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path
@@ -71,7 +71,7 @@ import { Component } from '@angular/core';
           </a>
           <a
             href="#how-it-works"
-            class="h-12 px-8 flex items-center justify-center border border-gray-200 rounded-full text-[15px] font-medium text-foreground hover:bg-gray-50 transition-colors"
+            class="h-12 px-8 flex items-center justify-center border border-gray-200 rounded-full text-[15px] font-medium text-foreground hover:bg-gray-50 transition-colors whitespace-nowrap"
           >
             Talk to Sales
           </a>
@@ -79,11 +79,11 @@ import { Component } from '@angular/core';
 
         <!-- Trust text -->
         <div
-          class="flex items-center justify-start md:justify-center flex-wrap gap-2 text-[14px] font-medium text-gray-600 mb-14"
+          class="flex items-center justify-start md:justify-center gap-2 text-[14px] font-medium text-gray-600 mb-14"
         >
-          <span>No credit card required</span>
-          <span class="text-gray-300 font-bold px-1">&bull;</span>
-          <span>Setup in under 2 minutes</span>
+          <span class="whitespace-nowrap">No credit card required</span>
+          <span class="text-gray-300 font-bold">&middot;</span>
+          <span class="whitespace-nowrap">Setup in under 2 minutes</span>
         </div>
 
         <!-- Trusted by -->

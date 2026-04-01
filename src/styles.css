@@ -5096,6 +5096,11 @@
       align-items: center;
     }
   }
+  .sm\:gap-4 {
+    @media (width >= 40rem) {
+      gap: calc(var(--spacing) * 4);
+    }
+  }
   .sm\:text-\[120px\] {
     @media (width >= 40rem) {
       font-size: 120px;
