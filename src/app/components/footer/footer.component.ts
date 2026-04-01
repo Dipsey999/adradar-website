@@ -118,7 +118,7 @@ interface SocialLink {
         </div>
       </div>
 
-      <!-- Giant "adradar" — glass tube filled with orange liquid -->
+      <!-- Giant "adRadar" — glass tube filled with orange liquid -->
       <div class="relative w-full overflow-hidden">
         <!-- Very subtle warm ambient glow behind text -->
         <div class="absolute bottom-[10%] left-1/2 -translate-x-1/2 w-[50%] h-[60%] bg-gradient-to-t from-[#ff6830]/[0.04] via-[#ff6830]/[0.02] to-transparent blur-[100px] pointer-events-none"></div>
@@ -130,20 +130,20 @@ interface SocialLink {
               class="glass-tube-outline text-[56px] sm:text-[120px] md:text-[160px] lg:text-[200px] xl:text-[242px] font-normal leading-[0.85] tracking-[-0.04em]"
               style="font-family: Helvetica, Arial, sans-serif;"
               aria-hidden="true"
-            >adradar</div>
+            >adRadar</div>
 
             <!-- Orange liquid fill layer -->
             <div
               class="glass-tube-liquid text-[56px] sm:text-[120px] md:text-[160px] lg:text-[200px] xl:text-[242px] font-normal leading-[0.85] tracking-[-0.04em]"
               style="font-family: Helvetica, Arial, sans-serif;"
               aria-hidden="true"
-            >adradar</div>
+            >adRadar</div>
 
             <!-- Glass highlight / reflection layer -->
             <div
               class="glass-tube-highlight text-[56px] sm:text-[120px] md:text-[160px] lg:text-[200px] xl:text-[242px] font-normal leading-[0.85] tracking-[-0.04em]"
               style="font-family: Helvetica, Arial, sans-serif;"
-            >adradar</div>
+            >adRadar</div>
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@ interface SocialLink {
 
     /* Top edge highlight — light catching glass rim */
     .glass-tube-highlight::before {
-      content: 'adradar';
+      content: 'adRadar';
       position: absolute;
       inset: 0;
       background: linear-gradient(
@@ -227,7 +227,7 @@ interface SocialLink {
 
     /* Diagonal specular reflection on glass surface */
     .glass-tube-highlight::after {
-      content: 'adradar';
+      content: 'adRadar';
       position: absolute;
       inset: 0;
       background: linear-gradient(
