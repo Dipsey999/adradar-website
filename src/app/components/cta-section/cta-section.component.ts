@@ -31,13 +31,13 @@ import { Component, Input } from '@angular/core';
               </span>
             </h2>
 
-            <p class="text-[15px] md:text-[17px] text-[#4b5563] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
+            <p class="text-[15px] md:text-[17px] text-[#374151] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
               {{ description }}
             </p>
 
             <!-- CTA Button -->
             <a
-              href="#pricing"
+              href="/pricing"
               class="inline-flex items-center gap-3.5 bg-[#ff6500] hover:bg-[#e85a00] text-white rounded-full pl-9 pr-1 py-1 transition-all duration-300 hover:shadow-[0_8px_30px_-6px_rgba(255,101,0,0.4)] hover:scale-[1.03]"
             >
               <span class="text-[15px] lg:text-[17px] font-medium">

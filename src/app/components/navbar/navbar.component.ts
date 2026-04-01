@@ -31,7 +31,6 @@ interface NavAgent {
         <nav class="hidden md:flex items-center gap-1">
           <a
             routerLink="/"
-            fragment="how-it-works"
             class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors"
           >
             How it works
@@ -41,7 +40,6 @@ interface NavAgent {
           <div class="relative group/nav">
             <a
               routerLink="/"
-              fragment="copilots"
               class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors inline-flex items-center gap-1"
             >
               AI Agents
@@ -60,9 +58,9 @@ interface NavAgent {
                 <div class="flex items-center justify-between mb-4 px-1">
                   <div>
                     <h3 class="text-[15px] font-semibold text-[#111827]">AI Agents</h3>
-                    <p class="text-[12px] text-[#9ca3af] mt-0.5">Seven specialized copilots for your LinkedIn Ads</p>
+                    <p class="text-[13px] text-[#6b7280] mt-0.5">Seven specialized copilots for your LinkedIn Ads</p>
                   </div>
-                  <a routerLink="/" fragment="copilots" class="text-[12px] font-medium text-primary hover:text-primary-dark transition-colors">
+                  <a routerLink="/" class="text-[12px] font-medium text-primary hover:text-primary-dark transition-colors">
                     View all &rarr;
                   </a>
                 </div>

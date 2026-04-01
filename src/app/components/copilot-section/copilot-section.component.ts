@@ -5,7 +5,7 @@ interface Agent {
   name: string;
   image: string;
   description: string;
-  benefit: string;
+  route: string;
   cardBg: string;
   cardBorder: string;
   avatarBg: string;
@@ -20,7 +20,7 @@ const agents: Agent[] = [
     image: '/agents/Company Blocking Agent.png',
     description:
       'Your LinkedIn ads shouldn\'t be funding companies that will never buy from you. It automatically excludes any account outside your target criteria, so every impression, and every dollar, stays within your ICP.',
-    benefit: 'Higher ICP signal, lower wasted CPM',
+    route: '/agents/company-blocking',
     cardBg: 'bg-[#e3f3fa]',
     cardBorder: 'border-[#9dcce7]',
     avatarBg: '#b8dff0',
@@ -33,7 +33,7 @@ const agents: Agent[] = [
     image: '/agents/Impression Capping Agent.png',
     description:
       'Stop letting LinkedIn\'s algorithm decide who sees your ads. Automatically cap impressions per account and redistribute budget evenly across your entire target list. No manual audits required.',
-    benefit: 'Clear, scalable campaign design',
+    route: '/agents/impression-capping',
     cardBg: 'bg-[#e5f7fa]',
     cardBorder: 'border-[#a8d1dc]',
     avatarBg: '#a8d1dc',
@@ -46,7 +46,7 @@ const agents: Agent[] = [
     image: '/agents/Title Blocking Agent.png',
     description:
       'Your ads shouldn\'t be reaching interns and irrelevant departments while your actual buyers scroll past. Exclude job titles outside your configured persona, map every impression to seniority, department, and titles that actually move the pipeline.',
-    benefit: 'Systematic creative learning',
+    route: '/agents/title-blocking',
     cardBg: 'bg-[#fbf2f5]',
     cardBorder: 'border-[#f4e0e9]',
     avatarBg: '#ee95a0',
@@ -59,7 +59,7 @@ const agents: Agent[] = [
     image: '/agents/Bidding Optimization Agent.png',
     description:
       'Overbidding inflates CPM. Underbidding kills reach. Continuously adjust bids across campaigns to maximise delivery efficiency, keeping you competitive in the auction without burning budget on overpriced impressions.',
-    benefit: 'Controlled spend, measurable ROI',
+    route: '/agents/bidding-optimization',
     cardBg: 'bg-[rgba(38,216,98,0.12)]',
     cardBorder: 'border-[#acdfa4]',
     avatarBg: '#acdfa4',
@@ -72,7 +72,7 @@ const agents: Agent[] = [
     image: '/agents/Campaign Scheduling Agent.png',
     description:
       'Your LinkedIn ads shouldn\'t be spending budget at 2 am on a Sunday when your buyers aren\'t online. Automatically runs your campaigns only during the days and hours you choose, pausing outside those windows so every impression lands when it actually counts.',
-    benefit: 'Sustained performance, no sudden drops',
+    route: '/agents/campaign-scheduling',
     cardBg: 'bg-[#fffbe3]',
     cardBorder: 'border-[#fdecc8]',
     avatarBg: '#fbf5df',
@@ -85,7 +85,7 @@ const agents: Agent[] = [
     image: '/agents/Ad Rotation Agent.png',
     description:
       'Running the same ads until CTR drops is expensive to discover your optimal creative. Detect fatigue before performance falls, automatically recommend to rotate creatives so every account sees new messages at the right frequency.',
-    benefit: 'Proactive competitive advantage',
+    route: '/agents/ad-rotation',
     cardBg: 'bg-[#f7f3f8]',
     cardBorder: 'border-[#e8deee]',
     avatarBg: '#d9e1fb',
@@ -98,20 +98,16 @@ const agents: Agent[] = [
     image: '/agents/Analyse competitors LinkedIn Ads.png',
     description:
       'Your competitors are running LinkedIn Ads, you have no idea what they\'re saying to your buyers. Monitor rival campaigns in real time, track creative changes, messaging shifts, and new launches to respond proactively.',
-    benefit: 'Proactive competitive advantage',
-    cardBg: 'bg-[#edf3ec]',
-    cardBorder: 'border-[#dbeddb]',
-    avatarBg: '#acdfa4',
-    accentColor: '#82c97a',
-    btnBg: '#82c97a',
-    btnText: '#1a4a18',
+    route: '/agents/analyse-competitors',
+    cardBg: 'bg-[#e8f5ee]',
+    cardBorder: 'border-[#b5dcc5]',
+    avatarBg: '#a0d4b4',
+    accentColor: '#5aab7a',
+    btnBg: '#5aab7a',
+    btnText: '#1a4a2e',
   },
 ];
 
-/* Column layout: col1=[1,4], col2=[0,3,6], col3=[2,5] */
-const col1 = [agents[1], agents[4]];
-const col2 = [agents[0], agents[3], agents[6]];
-const col3 = [agents[2], agents[5]];
 
 @Component({
   selector: 'app-copilot-section',
@@ -133,52 +129,21 @@ const col3 = [agents[2], agents[5]];
         </h2>
 
         <!-- Subheading -->
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-20">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-20">
           Each Copilot owns a distinct layer of your LinkedIn Ads performance.
           Individually powerful. Together, they share context and memory,
           compounding intelligence with every campaign.
         </p>
 
-        <!-- Desktop: 3-column layout -->
-        <div class="hidden md:flex items-start gap-5 max-w-[1100px] mx-auto">
-          <!-- Column 1: 2 cards -->
-          <div class="flex-1 flex flex-col gap-5">
-            @for (agent of col1; track agent.name; let i = $index) {
+        <!-- Grid layout: equal-height cards per row, last item centered -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[1100px] mx-auto">
+          @for (agent of agents; track agent.name; let i = $index; let last = $last) {
+            <div [class]="last ? 'lg:col-start-2 h-full' : 'h-full'">
               <ng-container
                 [ngTemplateOutlet]="agentCard"
                 [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
               ></ng-container>
-            }
-          </div>
-
-          <!-- Column 2: 3 cards -->
-          <div class="flex-1 flex flex-col gap-5">
-            @for (agent of col2; track agent.name; let i = $index) {
-              <ng-container
-                [ngTemplateOutlet]="agentCard"
-                [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
-              ></ng-container>
-            }
-          </div>
-
-          <!-- Column 3: 2 cards -->
-          <div class="flex-1 flex flex-col gap-5">
-            @for (agent of col3; track agent.name; let i = $index) {
-              <ng-container
-                [ngTemplateOutlet]="agentCard"
-                [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
-              ></ng-container>
-            }
-          </div>
-        </div>
-
-        <!-- Mobile: Simple stack -->
-        <div class="md:hidden space-y-5">
-          @for (agent of agents; track agent.name; let i = $index) {
-            <ng-container
-              [ngTemplateOutlet]="agentCard"
-              [ngTemplateOutletContext]="{ $implicit: agent, index: i }"
-            ></ng-container>
+            </div>
           }
         </div>
       </div>
@@ -187,7 +152,7 @@ const col3 = [agents[2], agents[5]];
     <!-- Agent Card Template -->
     <ng-template #agentCard let-agent let-i="index">
       <a
-        href="#"
+        [href]="agent.route"
         class="copilot-card group relative rounded-2xl transition-all duration-500 hover:-translate-y-1.5 block"
       >
         <!-- Outer glow on hover -->
@@ -237,32 +202,21 @@ const col3 = [agents[2], agents[5]];
           </h3>
 
           <!-- Description -->
-          <p class="text-[13px] text-[#6b7280] leading-[1.6] mb-5 flex-1">
+          <p class="text-[14px] text-[#4b5563] leading-[1.6] mb-5 flex-1">
             {{ agent.description }}
           </p>
 
-          <!-- Bottom: Benefit + Arrow -->
-          <div class="flex items-center justify-between pt-3 border-t"
-            [style.borderColor]="agent.accentColor + '20'">
-            <div class="flex items-center gap-2">
-              <svg width="13" height="13" viewBox="0 0 14 14" fill="none">
-                <path d="M1 7h12M8 2l5 5-5 5" [attr.stroke]="agent.accentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-              </svg>
-              <span class="text-[12px] font-semibold"
-                [style.color]="agent.accentColor">
-                {{ agent.benefit }}
-              </span>
-            </div>
-
-            <!-- Arrow -->
-            <div
-              class="w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-[-4px] group-hover:translate-x-0"
-              [style.backgroundColor]="agent.accentColor + '20'"
+          <!-- Bottom: Learn More button -->
+          <div class="pt-3">
+            <span
+              class="inline-flex items-center gap-2 text-[13px] font-semibold transition-all duration-300 group-hover:gap-3"
+              [style.color]="agent.btnText"
             >
-              <svg width="12" height="12" viewBox="0 0 14 14" fill="none">
-                <path d="M5 3l4 4-4 4" [attr.stroke]="agent.accentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              Learn More
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" class="transition-transform duration-300 group-hover:translate-x-0.5">
+                <path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
-            </div>
+            </span>
           </div>
         </div>
       </a>
@@ -300,7 +254,4 @@ const col3 = [agents[2], agents[5]];
 })
 export class CopilotSectionComponent {
   agents = agents;
-  col1 = col1;
-  col2 = col2;
-  col3 = col3;
 }

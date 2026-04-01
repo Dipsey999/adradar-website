@@ -62,7 +62,7 @@ interface Testimonial {
           </div>
 
           <!-- Quote text -->
-          <p class="text-[14px] leading-[1.65] text-[#4b5563] flex-1 mb-6 transition-colors duration-500 group-hover:text-[#374151]">
+          <p class="text-[15px] leading-[1.65] text-[#374151] flex-1 mb-6 transition-colors duration-500 group-hover:text-[#1f2937]">
             {{ testimonial.quote }}
           </p>
 
@@ -72,7 +72,7 @@ interface Testimonial {
               <p class="font-semibold text-[15px] text-[#111827]">
                 {{ testimonial.name }}
               </p>
-              <p class="text-[12px] text-[#6b7280] font-medium mt-0.5">
+              <p class="text-[13px] text-[#4b5563] font-medium mt-0.5">
                 {{ testimonial.role }}
               </p>
             </div>
@@ -143,7 +143,7 @@ export class TestimonialCardComponent {
         </h2>
 
         <!-- Subheading -->
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] max-w-none md:max-w-[620px] mx-0 md:mx-auto leading-[1.65]">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] max-w-none md:max-w-[620px] mx-0 md:mx-auto leading-[1.65]">
           Teams using adRadar see results from day one. Here&apos;s what early
           users are saying.
         </p>

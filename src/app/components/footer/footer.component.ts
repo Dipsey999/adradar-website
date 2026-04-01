@@ -95,7 +95,7 @@ interface SocialLink {
                 </a>
               }
             </div>
-            <p class="text-[13px] text-[#5a5a5a]">
+            <p class="text-[13px] text-[#8a8a8a]">
               Copyright &copy; 2026 adRadar. All Rights Reserved.
             </p>
           </div>
@@ -104,13 +104,13 @@ interface SocialLink {
           <div class="flex items-center gap-4 md:gap-6">
             <a
               href="#"
-              class="text-[13px] text-[#6a6a6a] hover:text-white transition-colors duration-300"
+              class="text-[13px] text-[#8a8a8a] hover:text-white transition-colors duration-300"
             >
               Terms of Service
             </a>
             <a
               href="#"
-              class="text-[13px] text-[#6a6a6a] hover:text-white transition-colors duration-300"
+              class="text-[13px] text-[#8a8a8a] hover:text-white transition-colors duration-300"
             >
               Privacy Policy
             </a>

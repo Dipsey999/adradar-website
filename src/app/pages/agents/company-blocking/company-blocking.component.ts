@@ -79,12 +79,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#9dcce7] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#e3f3fa]/50 hover:border-[#4a9cc5]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -241,7 +241,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Avg budget delivered to non-ICP companies in a standard LinkedIn campaign
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Budget that generated no pipeline and no learning value.
               </p>
             </div>
@@ -263,7 +263,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 ICP miss rate on LinkedIn campaigns without active account-level blocking
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Nearly a third of impressions reach a company outside your ICP definition.
               </p>
             </div>
@@ -285,7 +285,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native LinkedIn tools to automatically block off-ICP companies as delivery drifts
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 LinkedIn Campaign Manager reports company delivery, with no automatic account enforcement.
               </p>
             </div>
@@ -330,7 +330,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without blocking</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
                 <!-- Bar visualization: mixed ICP and off-ICP companies -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -501,15 +501,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">22%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Budget<br/>recovered</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Budget<br/>recovered</p>
                     </div>
                     <div class="text-center border-l border-r border-[#9dcce7]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">85%+</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">ICP match<br/>rate</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">ICP match<br/>rate</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">28%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">CPL<br/>reduction</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">CPL<br/>reduction</p>
                     </div>
                   </div>
                 </div>
@@ -654,7 +654,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#1a1a2e]">Industry</p>
-                                        <p class="text-[10px] text-[#6b7280]">SaaS, FinTech, MarTech</p>
+                                        <p class="text-[10px] text-[#4b5563]">SaaS, FinTech, MarTech</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold text-[#1a5a78] bg-[#e3f3fa] px-2 py-0.5 rounded-full">SET</span>
@@ -666,7 +666,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#1a1a2e]">Company Size</p>
-                                        <p class="text-[10px] text-[#6b7280]">50-5,000 employees</p>
+                                        <p class="text-[10px] text-[#4b5563]">50-5,000 employees</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold text-[#1a5a78] bg-[#e3f3fa] px-2 py-0.5 rounded-full">SET</span>
@@ -678,7 +678,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#1a1a2e]">Revenue</p>
-                                        <p class="text-[10px] text-[#6b7280]">$5M-$500M ARR</p>
+                                        <p class="text-[10px] text-[#4b5563]">$5M-$500M ARR</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold text-[#1a5a78] bg-[#e3f3fa] px-2 py-0.5 rounded-full">SET</span>
@@ -686,7 +686,7 @@ interface RelatedAgent {
                                 </div>
                                 <!-- Geography tags -->
                                 <div>
-                                  <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Geography</p>
+                                  <p class="text-[10px] font-semibold text-[#4b5563] uppercase tracking-[0.04em] mb-2">Geography</p>
                                   <div class="flex flex-wrap gap-1.5">
                                     <span class="text-[10px] font-medium text-[#1a5a78] bg-[#e3f3fa] px-2 py-1 rounded-full">North America</span>
                                     <span class="text-[10px] font-medium text-[#1a5a78] bg-[#e3f3fa] px-2 py-1 rounded-full">EMEA</span>
@@ -703,7 +703,7 @@ interface RelatedAgent {
                                     <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
                                     <span class="text-[13px] font-semibold text-[#111827]">Live Monitoring</span>
                                   </div>
-                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Active</span>
+                                  <span class="text-[10px] text-[#4b5563] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Active</span>
                                 </div>
                                 <!-- Company evaluation rows -->
                                 <div class="space-y-2.5">
@@ -739,7 +739,7 @@ interface RelatedAgent {
                                   </div>
                                 </div>
                                 <div class="mt-3 pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
-                                  <span class="text-[10px] text-[#6b7280]">12 companies evaluated today</span>
+                                  <span class="text-[10px] text-[#4b5563]">12 companies evaluated today</span>
                                   <span class="text-[10px] text-[#4a9cc5] font-medium">3 blocked</span>
                                 </div>
                               </div>
@@ -761,7 +761,7 @@ interface RelatedAgent {
                                       <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Consulting / 50k employees</span>
+                                      <span class="text-[10px] text-[#4b5563]">Consulting / 50k employees</span>
                                       <span class="text-[10px] text-[#22c55e] font-medium">$128 saved</span>
                                     </div>
                                   </div>
@@ -771,7 +771,7 @@ interface RelatedAgent {
                                       <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Retail / 120k employees</span>
+                                      <span class="text-[10px] text-[#4b5563]">Retail / 120k employees</span>
                                       <span class="text-[10px] text-[#22c55e] font-medium">$245 saved</span>
                                     </div>
                                   </div>
@@ -781,7 +781,7 @@ interface RelatedAgent {
                                       <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Services / 15 employees</span>
+                                      <span class="text-[10px] text-[#4b5563]">Services / 15 employees</span>
                                       <span class="text-[10px] text-[#22c55e] font-medium">$67 saved</span>
                                     </div>
                                   </div>
@@ -862,7 +862,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Unblocked "HealthTech Ltd" manually</p>
-                                      <p class="text-[10px] text-[#6b7280]">1 hr ago - Override logged</p>
+                                      <p class="text-[10px] text-[#4b5563]">1 hr ago - Override logged</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#f0fafb] rounded-lg p-2.5">
@@ -871,7 +871,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Expanded size range to 10k employees</p>
-                                      <p class="text-[10px] text-[#6b7280]">Yesterday - Applied to all campaigns</p>
+                                      <p class="text-[10px] text-[#4b5563]">Yesterday - Applied to all campaigns</p>
                                     </div>
                                   </div>
                                 </div>
@@ -938,14 +938,14 @@ interface RelatedAgent {
             <!-- Table Header -->
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <div class="bg-[#f8fafb] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <div class="bg-[#f8fafb] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
                 <div class="flex items-center gap-2">
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without blocking</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
               </div>
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#1a5a78] p-5 border-b border-[#1a1a2e]">
@@ -1128,7 +1128,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Avg budget recovered</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Recaptured from off-ICP company delivery; redeployed to target accounts in first audit
               </p>
             </div>
@@ -1152,7 +1152,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[77px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">60-70%<br/>before</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">60-70%<br/>before</span>
                 </div>
                 <!-- After bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1166,7 +1166,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">85%+</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">ICP match rate</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   After agent activation, vs 60-70% without active company blocking enforcement
                 </p>
               </div>
@@ -1189,7 +1189,7 @@ interface RelatedAgent {
                 <!-- Before CPL -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Before: Off-ICP spend included</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">Before: Off-ICP spend included</span>
                     <span class="text-[12px] text-[#ef4444] font-semibold line-through">$142 CPL</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1216,7 +1216,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">28%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">CPL reduction</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Average drop in cost per lead when off-ICP company spend is eliminated and budget concentrates on target accounts
                 </p>
               </div>
@@ -1226,13 +1226,6 @@ interface RelatedAgent {
         </div>
 
         <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#4a9cc5]/20"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns within 30 days of enabling Company Blocking Agent
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#4a9cc5]/20"></div>
-        </div>
       </div>
     </section>
 
@@ -1314,7 +1307,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

@@ -41,7 +41,7 @@ import { Component } from '@angular/core';
 
         <!-- Subheading -->
         <p
-          class="max-w-[640px] mx-auto text-[17px] text-[#6b7280] leading-[1.65] mb-10"
+          class="max-w-[640px] mx-auto text-[17px] text-[#4b5563] leading-[1.65] mb-10"
         >
           adRadar is the AI Copilot for B2B teams running LinkedIn Ads.
           Specialized agents watch your campaigns 24/7, flagging waste,
@@ -51,7 +51,7 @@ import { Component } from '@angular/core';
         <!-- CTAs -->
         <div class="flex items-center justify-start md:justify-center gap-4 mb-6">
           <a
-            href="#pricing"
+            href="/pricing"
             class="group flex items-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-6 pr-1.5 py-1.5 transition-colors"
           >
             <span class="text-[15px] font-medium ml-2">Start free trial</span>
@@ -79,7 +79,7 @@ import { Component } from '@angular/core';
 
         <!-- Trust text -->
         <div
-          class="flex items-center justify-start md:justify-center flex-wrap gap-2 text-[13px] font-medium text-gray-500 mb-14"
+          class="flex items-center justify-start md:justify-center flex-wrap gap-2 text-[14px] font-medium text-gray-600 mb-14"
         >
           <span>No credit card required</span>
           <span class="text-gray-300 font-bold px-1">&bull;</span>
@@ -89,7 +89,7 @@ import { Component } from '@angular/core';
         <!-- Trusted by -->
         <div class="flex items-center justify-start md:justify-center gap-3 mb-10">
           <div class="w-8 h-[1px] bg-primary/40"></div>
-          <p class="text-[13px] text-gray-500 font-medium">
+          <p class="text-[14px] text-gray-600 font-medium">
             Trusted by
             <span class="font-semibold text-gray-900">50+</span> Growth and
             Revenue Teams

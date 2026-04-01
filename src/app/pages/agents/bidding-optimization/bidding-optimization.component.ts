@@ -78,12 +78,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#f5a896] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fef6f3]/50 hover:border-[#e8573a]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -238,7 +238,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Avg monthly budget recovered when bid strategy is actively optimised vs. static
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Budget not recovered from overbidding is gone. It doesn't carry forward
               </p>
             </div>
@@ -261,7 +261,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 LinkedIn bidding strategies in Campaign Manager have no dynamic guidance on what to optimize
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Target cost, max cost, enhanced CPC, decision quality depends on operator
               </p>
             </div>
@@ -283,7 +283,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native LinkedIn tools to optimise bids dynamically across multiple campaigns simultaneously
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Manual bid review is the only option, where optimisation is always reactive and always late
               </p>
             </div>
@@ -329,7 +329,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Static bids - bid waste</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Static bids - bid waste</span>
                 </div>
                 <!-- Bar visualization: overbidding on some, underbidding on others -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -500,15 +500,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">20%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Budget<br/>recovered</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Budget<br/>recovered</p>
                     </div>
                     <div class="text-center border-l border-r border-[#f5a896]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">3x</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Bid<br/>efficiency</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Bid<br/>efficiency</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">0 hrs</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Manual<br/>reviews</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Manual<br/>reviews</p>
                     </div>
                   </div>
                 </div>
@@ -639,7 +639,7 @@ interface RelatedAgent {
                                 </div>
                                 <!-- Performance table -->
                                 <div class="space-y-0">
-                                  <div class="grid grid-cols-4 gap-2 text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] pb-2 border-b border-[#f3f4f6]">
+                                  <div class="grid grid-cols-4 gap-2 text-[10px] font-semibold text-[#4b5563] uppercase tracking-[0.04em] pb-2 border-b border-[#f3f4f6]">
                                     <span>Campaign</span>
                                     <span class="text-center">CPM</span>
                                     <span class="text-center">Win Rate</span>
@@ -678,7 +678,7 @@ interface RelatedAgent {
                                     <div class="w-2 h-2 rounded-full bg-[#ef4444] animate-pulse"></div>
                                     <span class="text-[13px] font-semibold text-[#111827]">Pattern Detection</span>
                                   </div>
-                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">2 alerts</span>
+                                  <span class="text-[10px] text-[#4b5563] bg-[#f3f4f6] px-2 py-0.5 rounded-full">2 alerts</span>
                                 </div>
                                 <!-- Overbid alert -->
                                 <div class="bg-[#fef2f2]/60 border border-[#fecaca] rounded-lg p-3 mb-3">
@@ -689,7 +689,7 @@ interface RelatedAgent {
                                     <span class="text-[11px] font-semibold text-[#ef4444]">Overbid Detected</span>
                                   </div>
                                   <p class="text-[11px] text-[#374151] font-medium">Enterprise ABM - bid $48.20, clearing price $31.40</p>
-                                  <p class="text-[10px] text-[#6b7280] mt-1">Paying 54% premium on every impression</p>
+                                  <p class="text-[10px] text-[#4b5563] mt-1">Paying 54% premium on every impression</p>
                                 </div>
                                 <!-- Underbid warning -->
                                 <div class="bg-[#fffbeb]/60 border border-[#fde68a]/40 rounded-lg p-3 mb-3">
@@ -700,7 +700,7 @@ interface RelatedAgent {
                                     <span class="text-[11px] font-semibold text-[#f59e0b]">Underbid Warning</span>
                                   </div>
                                   <p class="text-[11px] text-[#374151] font-medium">SMB Retarget - win rate dropped to 28%</p>
-                                  <p class="text-[10px] text-[#6b7280] mt-1">Bid too low to compete, losing 72% of auctions</p>
+                                  <p class="text-[10px] text-[#4b5563] mt-1">Bid too low to compete, losing 72% of auctions</p>
                                 </div>
                                 <!-- Healthy campaign -->
                                 <div class="bg-[#f0fdf4] border border-[#bbf7d0]/40 rounded-lg p-3">
@@ -710,7 +710,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <span class="text-[11px] font-semibold text-[#22c55e]">Mid-Market</span>
-                                      <span class="text-[10px] text-[#6b7280] ml-2">Bid competitive, no action needed</span>
+                                      <span class="text-[10px] text-[#4b5563] ml-2">Bid competitive, no action needed</span>
                                     </div>
                                   </div>
                                 </div>
@@ -733,31 +733,31 @@ interface RelatedAgent {
                                   </div>
                                   <div class="flex items-center gap-3 mb-2.5">
                                     <div class="text-center">
-                                      <p class="text-[10px] text-[#6b7280] mb-0.5">Current</p>
+                                      <p class="text-[10px] text-[#4b5563] mb-0.5">Current</p>
                                       <p class="text-[16px] font-bold text-[#ef4444] line-through">$48.20</p>
                                     </div>
                                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 8h8M9.5 5.5L12 8l-2.5 2.5" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                                     <div class="text-center">
-                                      <p class="text-[10px] text-[#6b7280] mb-0.5">Suggested</p>
+                                      <p class="text-[10px] text-[#4b5563] mb-0.5">Suggested</p>
                                       <p class="text-[16px] font-bold text-[#e8573a]">$34.80</p>
                                     </div>
                                   </div>
                                   <div class="bg-white/80 rounded-lg p-2.5 space-y-1.5">
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Expected CPM reduction</span>
+                                      <span class="text-[10px] text-[#4b5563]">Expected CPM reduction</span>
                                       <span class="text-[10px] font-semibold text-[#e8573a]">-28%</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Estimated win rate</span>
+                                      <span class="text-[10px] text-[#4b5563]">Estimated win rate</span>
                                       <span class="text-[10px] font-semibold text-[#e8573a]">68% (from 72%)</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Monthly savings</span>
+                                      <span class="text-[10px] text-[#4b5563]">Monthly savings</span>
                                       <span class="text-[10px] font-bold text-[#1a1a2e]">$2,140</span>
                                     </div>
                                   </div>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] flex items-center gap-1">
+                                <p class="text-[10px] text-[#4b5563] flex items-center gap-1">
                                   <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#6b7280" stroke-width="1.2"/><path d="M8 5v3l2 1" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/></svg>
                                   Based on 14-day auction clearing price analysis
                                 </p>
@@ -841,7 +841,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Reduced Enterprise ABM bid: $48.20 → $34.80</p>
-                                      <p class="text-[10px] text-[#6b7280]">3 min ago · Approved by you</p>
+                                      <p class="text-[10px] text-[#4b5563]">3 min ago · Approved by you</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fef4f0] rounded-lg p-2.5">
@@ -850,7 +850,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Increased SMB Retarget bid: $18.50 → $24.20</p>
-                                      <p class="text-[10px] text-[#6b7280]">3 min ago · Approved by you</p>
+                                      <p class="text-[10px] text-[#4b5563]">3 min ago · Approved by you</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fffbeb] border border-[#fde68a]/40 rounded-lg p-2.5">
@@ -859,7 +859,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Switch Brand Awareness to Target Cost strategy</p>
-                                      <p class="text-[10px] text-[#6b7280]">Awaiting your approval</p>
+                                      <p class="text-[10px] text-[#4b5563]">Awaiting your approval</p>
                                     </div>
                                   </div>
                                 </div>
@@ -924,7 +924,7 @@ interface RelatedAgent {
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#faf8f8] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <!-- Without optimization header -->
               <div class="bg-[#faf8f8] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
@@ -932,7 +932,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without optimization</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without optimization</span>
                 </div>
               </div>
               <!-- With adRadar header — branded, highlighted -->
@@ -1123,7 +1123,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Avg spend recovered</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Monthly budget recaptured from overbidding, redeployed to optimized campaigns
               </p>
             </div>
@@ -1147,7 +1147,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[35px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">Weekly</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">Weekly</span>
                 </div>
                 <!-- After bars — bright bars showing continuous monitoring -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1175,7 +1175,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">Real-time</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Bid monitoring</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   vs. weekly manual review, auction patterns detected and surfaced as they emerge
                 </p>
               </div>
@@ -1198,7 +1198,7 @@ interface RelatedAgent {
                 <!-- Total budget bar -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Total campaigns monitored</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">Total campaigns monitored</span>
                     <span class="text-[12px] text-[#374151] font-semibold">All</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1225,7 +1225,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual bid management</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Agent handles continuous monitoring across all campaigns, no weekly review overhead
                 </p>
               </div>
@@ -1234,14 +1234,6 @@ interface RelatedAgent {
 
         </div>
 
-        <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#d1d5db]"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns within 30 days of enabling Bidding Optimization Agent
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#d1d5db]"></div>
-        </div>
       </div>
     </section>
 
@@ -1325,7 +1317,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

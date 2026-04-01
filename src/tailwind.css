@@ -34,6 +34,10 @@
   --font-brand: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+html {
+  scroll-padding-top: 70px;
+}
+
 body {
   background: var(--color-background);
   color: var(--color-foreground);

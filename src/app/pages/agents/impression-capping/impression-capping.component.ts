@@ -79,12 +79,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#f5a896] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fef6f3]/50 hover:border-[#e8573a]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -235,7 +235,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 of impressions go to just 10% of your target accounts
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Documented across hundreds of ABM campaigns analysed.
               </p>
             </div>
@@ -256,7 +256,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 of target accounts receive fewer than 3 impressions per day
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Strategic accounts get zero buying signal from your ad spends.
               </p>
             </div>
@@ -278,7 +278,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 of monthly budget consumed by a single large enterprise account
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Because they have more employees on LinkedIn, not because they're a priority.
               </p>
             </div>
@@ -325,7 +325,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without capping</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without capping</span>
                 </div>
                 <!-- Bar visualization: concentrated spend on few accounts -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -496,15 +496,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">84%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Account<br/>penetration</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Account<br/>penetration</p>
                     </div>
                     <div class="text-center border-l border-r border-[#f5a896]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">3-4x</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">More accounts<br/>reached</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">More accounts<br/>reached</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">22%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Budget<br/>recovered</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Budget<br/>recovered</p>
                     </div>
                   </div>
                 </div>
@@ -644,7 +644,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#fef9f7] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#1a1a2e]">Enterprise (5,000+)</p>
-                                      <p class="text-[10px] text-[#6b7280]">Large buying committees</p>
+                                      <p class="text-[10px] text-[#4b5563]">Large buying committees</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[80px] h-[6px] bg-[#fef6f3] rounded-full overflow-hidden"><div class="h-full w-[85%] bg-gradient-to-r from-[#e8573a] to-[#1a1a2e] rounded-full"></div></div>
@@ -654,7 +654,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#fef8f6] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#374151]">Mid-Market (500-5K)</p>
-                                      <p class="text-[10px] text-[#6b7280]">Standard committees</p>
+                                      <p class="text-[10px] text-[#4b5563]">Standard committees</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[80px] h-[6px] bg-[#fef6f3] rounded-full overflow-hidden"><div class="h-full w-[55%] bg-gradient-to-r from-[#ff6b35] to-[#e8573a] rounded-full"></div></div>
@@ -664,7 +664,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#fef8f6] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#374151]">SMB (&lt;500)</p>
-                                      <p class="text-[10px] text-[#6b7280]">Smaller teams</p>
+                                      <p class="text-[10px] text-[#4b5563]">Smaller teams</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[80px] h-[6px] bg-[#fef6f3] rounded-full overflow-hidden"><div class="h-full w-[30%] bg-gradient-to-r from-[#f5a896] to-[#ff6b35] rounded-full"></div></div>
@@ -686,7 +686,7 @@ interface RelatedAgent {
                                     <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
                                     <span class="text-[13px] font-semibold text-[#111827]">Live Monitoring</span>
                                   </div>
-                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Real-time</span>
+                                  <span class="text-[10px] text-[#4b5563] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Real-time</span>
                                 </div>
                                 <div class="space-y-2.5">
                                   <div>
@@ -707,7 +707,7 @@ interface RelatedAgent {
                                   </div>
                                 </div>
                                 <div class="mt-3 pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
-                                  <span class="text-[10px] text-[#6b7280]">247 accounts tracked</span>
+                                  <span class="text-[10px] text-[#4b5563]">247 accounts tracked</span>
                                   <span class="text-[10px] text-[#e8573a] font-medium">Updated 2s ago</span>
                                 </div>
                               </div>
@@ -749,7 +749,7 @@ interface RelatedAgent {
                                   <span class="text-[13px] font-semibold text-[#111827]">Budget Redistribution</span>
                                 </div>
                                 <div class="bg-[#f9fafb] rounded-lg p-3 mb-2">
-                                  <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Freed budget</p>
+                                  <p class="text-[10px] font-semibold text-[#4b5563] uppercase tracking-[0.04em] mb-2">Freed budget</p>
                                   <div class="flex items-center gap-2"><div class="w-6 h-6 rounded-full bg-[#fee2e2] flex items-center justify-center"><span class="text-[9px] font-bold text-[#ef4444]">AC</span></div><div class="flex-1 h-[6px] bg-[#e5e7eb] rounded-full overflow-hidden"><div class="h-full w-full bg-gradient-to-r from-[#ef4444]/20 to-[#e8573a]/40 rounded-full"></div></div><span class="text-[12px] font-bold text-[#1a1a2e]">$2,340</span></div>
                                 </div>
                                 <div class="flex justify-center py-1"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M5 10l3 3 3-3" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
@@ -771,15 +771,15 @@ interface RelatedAgent {
                                 <div class="space-y-2 mb-4">
                                   <div class="flex items-start gap-2 bg-[#fef9f7] rounded-lg p-2.5">
                                     <div class="w-5 h-5 rounded-full bg-[#ffe8df] flex items-center justify-center shrink-0 mt-0.5"><svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M3 6.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round"/></svg></div>
-                                    <div><p class="text-[11px] font-medium text-[#374151]">Excluded Acme Corp (850/850)</p><p class="text-[10px] text-[#6b7280]">2 min ago &bull; Logged &amp; reversible</p></div>
+                                    <div><p class="text-[11px] font-medium text-[#374151]">Excluded Acme Corp (850/850)</p><p class="text-[10px] text-[#4b5563]">2 min ago &bull; Logged &amp; reversible</p></div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fef9f7] rounded-lg p-2.5">
                                     <div class="w-5 h-5 rounded-full bg-[#ffe8df] flex items-center justify-center shrink-0 mt-0.5"><svg width="10" height="10" viewBox="0 0 12 12" fill="none"><path d="M3 6.5l2 2 4-4.5" stroke="#1a1a2e" stroke-width="1.3" stroke-linecap="round"/></svg></div>
-                                    <div><p class="text-[11px] font-medium text-[#374151]">Redistributed $2,340 to 3 accounts</p><p class="text-[10px] text-[#6b7280]">2 min ago &bull; Auto-approved by rules</p></div>
+                                    <div><p class="text-[11px] font-medium text-[#374151]">Redistributed $2,340 to 3 accounts</p><p class="text-[10px] text-[#4b5563]">2 min ago &bull; Auto-approved by rules</p></div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fffbeb] border border-[#fde68a]/40 rounded-lg p-2.5">
                                     <div class="w-5 h-5 rounded-full bg-[#fef3c7] flex items-center justify-center shrink-0 mt-0.5"><svg width="10" height="10" viewBox="0 0 12 12" fill="none"><circle cx="6" cy="8.5" r="0.5" fill="#f59e0b"/><path d="M6 3v4" stroke="#f59e0b" stroke-width="1.3" stroke-linecap="round"/></svg></div>
-                                    <div><p class="text-[11px] font-medium text-[#374151]">New tier suggested: Mid-Market &rarr; 500</p><p class="text-[10px] text-[#6b7280]">Awaiting your approval</p></div>
+                                    <div><p class="text-[11px] font-medium text-[#374151]">New tier suggested: Mid-Market &rarr; 500</p><p class="text-[10px] text-[#4b5563]">Awaiting your approval</p></div>
                                   </div>
                                 </div>
                                 <div class="flex gap-2">
@@ -842,7 +842,7 @@ interface RelatedAgent {
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#fef8f6] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <!-- Without capping header -->
               <div class="bg-[#fef8f6] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
@@ -850,7 +850,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without capping</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without capping</span>
                 </div>
               </div>
               <!-- With adRadar header — branded, highlighted -->
@@ -1041,7 +1041,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Account penetration</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Same budget, same list, 8x more accounts reached
               </p>
             </div>
@@ -1065,7 +1065,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[35px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">Before</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">Before</span>
                 </div>
                 <!-- After bars — bright bars showing multiple accounts reached -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1093,7 +1093,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">3-4x</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">More accounts reached</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Budget flows to previously untouched accounts
                 </p>
               </div>
@@ -1116,7 +1116,7 @@ interface RelatedAgent {
                 <!-- Total budget bar -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Total monthly budget</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">Total monthly budget</span>
                     <span class="text-[12px] text-[#374151] font-semibold">$50,000</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1143,7 +1143,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">22%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Budget recovered</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   From overexposed accounts in first 30-day audit
                 </p>
               </div>
@@ -1153,13 +1153,6 @@ interface RelatedAgent {
         </div>
 
         <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns within 30 days of enabling Impression Capping Agent
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
-        </div>
       </div>
     </section>
 
@@ -1243,7 +1236,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

@@ -78,12 +78,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#c8b4e0] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#f7f3f8]/50 hover:border-[#6b5ea0]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -238,7 +238,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Lag between creative fatigue onset and team noticing CTR drop
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Budget continues spending at full pace throughout the fatigue period.
               </p>
             </div>
@@ -260,7 +260,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Times an account sees same ad before rotation is triggered manually
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Accounts seeing same ads 40+ times actively develop negative brand sentiment.
               </p>
             </div>
@@ -282,7 +282,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native LinkedIn tools to predict creative fatigue before performance falls
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 LinkedIn Campaign Manager reports what happened -- not what is about to happen.
               </p>
             </div>
@@ -326,7 +326,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without rotation</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without rotation</span>
                 </div>
                 <!-- Single ad with declining CTR curve -->
                 <div class="relative h-[54px] rounded-lg bg-[#fef2f2]/60 border border-[#fecaca]/40 overflow-hidden px-3">
@@ -503,15 +503,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">2-3w</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Earlier<br/>detection</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Earlier<br/>detection</p>
                     </div>
                     <div class="text-center border-l border-r border-[#c8b4e0]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">40%+</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Longer<br/>lifespan</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Longer<br/>lifespan</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">&infin;</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Compounding<br/>intelligence</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Compounding<br/>intelligence</p>
                     </div>
                   </div>
                 </div>
@@ -652,7 +652,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#f7f3f8] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#1a1a2e]">Creative A - "Transform your pipeline"</p>
-                                      <p class="text-[10px] text-[#6b7280]">Running 18 days</p>
+                                      <p class="text-[10px] text-[#4b5563]">Running 18 days</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[60px] h-[6px] bg-[#f3f4f6] rounded-full overflow-hidden">
@@ -664,7 +664,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#faf8fc] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#374151]">Creative B - "See what competitors miss"</p>
-                                      <p class="text-[10px] text-[#6b7280]">Running 12 days</p>
+                                      <p class="text-[10px] text-[#4b5563]">Running 12 days</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[60px] h-[6px] bg-[#f3f4f6] rounded-full overflow-hidden">
@@ -676,7 +676,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#faf8fc] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#374151]">Creative C - "Your ICP, automated"</p>
-                                      <p class="text-[10px] text-[#6b7280]">Running 6 days</p>
+                                      <p class="text-[10px] text-[#4b5563]">Running 6 days</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[60px] h-[6px] bg-[#f3f4f6] rounded-full overflow-hidden">
@@ -718,7 +718,7 @@ interface RelatedAgent {
                                     </div>
                                     <span class="text-[9px] font-bold tracking-[0.04em] uppercase text-[#f59e0b] bg-[#fef3c7] px-2 py-0.5 rounded-full">Warning</span>
                                   </div>
-                                  <div class="space-y-1.5 text-[11px] text-[#6b7280]">
+                                  <div class="space-y-1.5 text-[11px] text-[#4b5563]">
                                     <div class="flex items-center justify-between">
                                       <span>Engagement decay rate</span>
                                       <span class="font-semibold text-[#f59e0b]">-12% / week</span>
@@ -733,7 +733,7 @@ interface RelatedAgent {
                                     </div>
                                   </div>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] flex items-center gap-1">
+                                <p class="text-[10px] text-[#4b5563] flex items-center gap-1">
                                   <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#6b7280" stroke-width="1.2"/><path d="M8 5v3l2 1" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/></svg>
                                   Detected 2 weeks before CTR would visibly drop
                                 </p>
@@ -756,15 +756,15 @@ interface RelatedAgent {
                                   </div>
                                   <p class="text-[12px] text-[#374151] font-medium mb-2">Rotate Creative A out for Enterprise segment</p>
                                   <div class="space-y-1.5">
-                                    <div class="flex items-center gap-1.5 text-[10px] text-[#6b7280]">
+                                    <div class="flex items-center gap-1.5 text-[10px] text-[#4b5563]">
                                       <div class="w-1 h-1 rounded-full bg-[#ef4444]"></div>
                                       Fatiguing creative: "Transform your pipeline"
                                     </div>
-                                    <div class="flex items-center gap-1.5 text-[10px] text-[#6b7280]">
+                                    <div class="flex items-center gap-1.5 text-[10px] text-[#4b5563]">
                                       <div class="w-1 h-1 rounded-full bg-[#6b5ea0]"></div>
                                       Most affected: Enterprise accounts (34x avg frequency)
                                     </div>
-                                    <div class="flex items-center gap-1.5 text-[10px] text-[#6b7280]">
+                                    <div class="flex items-center gap-1.5 text-[10px] text-[#4b5563]">
                                       <div class="w-1 h-1 rounded-full bg-[#22c55e]"></div>
                                       Suggested replacement: Fresh creative from library
                                     </div>
@@ -772,7 +772,7 @@ interface RelatedAgent {
                                 </div>
                                 <!-- Confidence -->
                                 <div class="flex items-center justify-between text-[11px]">
-                                  <span class="text-[#6b7280]">Confidence level</span>
+                                  <span class="text-[#4b5563]">Confidence level</span>
                                   <div class="flex items-center gap-1.5">
                                     <div class="w-[60px] h-[5px] bg-[#f3f4f6] rounded-full overflow-hidden">
                                       <div class="h-full w-[88%] bg-gradient-to-r from-[#6b5ea0] to-[#22c55e] rounded-full"></div>
@@ -799,7 +799,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">"ROI calculator" angle -- 42 day lifespan</p>
-                                      <p class="text-[10px] text-[#6b7280]">Best with Mid-Market segment, peaked at 0.72% CTR</p>
+                                      <p class="text-[10px] text-[#4b5563]">Best with Mid-Market segment, peaked at 0.72% CTR</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#f7f3f8] rounded-lg p-2.5">
@@ -808,7 +808,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">"Competitor gap" angle -- 38 day lifespan</p>
-                                      <p class="text-[10px] text-[#6b7280]">Strong with Enterprise, fatigued faster with SMB</p>
+                                      <p class="text-[10px] text-[#4b5563]">Strong with Enterprise, fatigued faster with SMB</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#faf8fc] rounded-lg p-2.5">
@@ -817,12 +817,12 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">"Case study" angle -- 55 day lifespan</p>
-                                      <p class="text-[10px] text-[#6b7280]">Longest lived creative type across all segments</p>
+                                      <p class="text-[10px] text-[#4b5563]">Longest lived creative type across all segments</p>
                                     </div>
                                   </div>
                                 </div>
                                 <div class="mt-3 pt-3 border-t border-[#e8deee] flex items-center justify-between">
-                                  <span class="text-[10px] text-[#6b7280]">4 quarters of creative data</span>
+                                  <span class="text-[10px] text-[#4b5563]">4 quarters of creative data</span>
                                   <span class="text-[10px] text-[#6b5ea0] font-medium">Intelligence compounding</span>
                                 </div>
                               </div>
@@ -844,7 +844,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Rotated Creative A out for Enterprise</p>
-                                      <p class="text-[10px] text-[#6b7280]">5 min ago -- Approved by you</p>
+                                      <p class="text-[10px] text-[#4b5563]">5 min ago -- Approved by you</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#f7f3f8] rounded-lg p-2.5">
@@ -853,7 +853,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Creative D activated as replacement</p>
-                                      <p class="text-[10px] text-[#6b7280]">5 min ago -- Pattern-matched from Q3 learnings</p>
+                                      <p class="text-[10px] text-[#4b5563]">5 min ago -- Pattern-matched from Q3 learnings</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fffbeb] border border-[#fde68a]/40 rounded-lg p-2.5">
@@ -862,7 +862,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Creative B approaching fatigue for SMB</p>
-                                      <p class="text-[10px] text-[#6b7280]">Awaiting your review</p>
+                                      <p class="text-[10px] text-[#4b5563]">Awaiting your review</p>
                                     </div>
                                   </div>
                                 </div>
@@ -930,7 +930,7 @@ interface RelatedAgent {
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#faf8fc] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <!-- Without rotation header -->
               <div class="bg-[#faf8fc] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
@@ -938,7 +938,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without rotation</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without rotation</span>
                 </div>
               </div>
               <!-- With adRadar header -->
@@ -1128,7 +1128,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">2-3 wks earlier detection</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Fatigue signals surfaced before CTR drop -- not after it's already visible in reporting
               </p>
             </div>
@@ -1152,7 +1152,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[50px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">Before</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">Before</span>
                 </div>
                 <!-- After bars -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1179,7 +1179,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">40%+</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Longer creative lifespan</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Creatives rotated at right times outperform those run to exhaustion
                 </p>
               </div>
@@ -1244,7 +1244,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">&infin;</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Compounding intelligence</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Creative learnings carry forward across every campaign -- never starting from zero again
                 </p>
               </div>
@@ -1254,13 +1254,6 @@ interface RelatedAgent {
         </div>
 
         <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#6b5ea0]/20"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns after enabling the Ad Rotation Agent
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#6b5ea0]/20"></div>
-        </div>
       </div>
     </section>
 
@@ -1344,7 +1337,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

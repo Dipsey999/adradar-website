@@ -82,12 +82,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#fdd5c8] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fef6f3]/50 hover:border-[#e8573a]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -246,7 +246,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Campaign build time with Strategy Copilot
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Down from 3-5 hours of manual structuring
               </p>
             </div>
@@ -266,7 +266,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Budget recovered from structural waste identified in first audit
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 From structural waste identified in first audit
               </p>
             </div>
@@ -288,7 +288,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Pipeline from LinkedIn attributed with structured funnel coverage
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Attributed pipeline with structured funnel coverage
               </p>
             </div>
@@ -333,7 +333,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Structural gaps</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Structural gaps</span>
                 </div>
                 <!-- Bar visualization: uneven/problematic campaign structure -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -507,15 +507,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">6x</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Faster<br/>campaign builds</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Faster<br/>campaign builds</p>
                     </div>
                     <div class="text-center border-l border-r border-[#fdd5c8]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">22%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Budget<br/>recovered</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Budget<br/>recovered</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">34%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Pipeline<br/>attributed</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Pipeline<br/>attributed</p>
                     </div>
                   </div>
                 </div>
@@ -656,7 +656,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#fef6f3] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#1a1a2e]">ToFU - Awareness</p>
-                                      <p class="text-[10px] text-[#6b7280]">Brand awareness campaigns</p>
+                                      <p class="text-[10px] text-[#4b5563]">Brand awareness campaigns</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[80px] h-[6px] bg-[#fef6f3] rounded-full overflow-hidden">
@@ -668,7 +668,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#fef6f3] rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#374151]">MoFU - Consideration</p>
-                                      <p class="text-[10px] text-[#6b7280]">Engagement campaigns</p>
+                                      <p class="text-[10px] text-[#4b5563]">Engagement campaigns</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[80px] h-[6px] bg-[#fef2f2] rounded-full overflow-hidden">
@@ -680,7 +680,7 @@ interface RelatedAgent {
                                   <div class="flex items-center justify-between bg-[#fef2f2]/60 rounded-lg px-3 py-2.5">
                                     <div>
                                       <p class="text-[12px] font-semibold text-[#374151]">BoFU - Conversion</p>
-                                      <p class="text-[10px] text-[#6b7280]">Lead gen & conversion</p>
+                                      <p class="text-[10px] text-[#4b5563]">Lead gen & conversion</p>
                                     </div>
                                     <div class="flex items-center gap-2">
                                       <div class="w-[80px] h-[6px] bg-[#fef2f2] rounded-full overflow-hidden">
@@ -731,7 +731,7 @@ interface RelatedAgent {
                                   <div>
                                     <div class="flex items-center justify-between mb-1">
                                       <span class="text-[11px] text-[#374151] font-medium">Retargeting</span>
-                                      <span class="text-[11px] text-[#6b7280] font-semibold">5% ($2.5K)</span>
+                                      <span class="text-[11px] text-[#4b5563] font-semibold">5% ($2.5K)</span>
                                     </div>
                                     <div class="h-[8px] bg-[#f3f4f6] rounded-full overflow-hidden">
                                       <div class="h-full w-[5%] bg-[#fdd5c8] rounded-full"></div>
@@ -755,14 +755,14 @@ interface RelatedAgent {
                                   </div>
                                   <span class="text-[13px] font-semibold text-[#111827]">Benchmark Comparison</span>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] font-medium uppercase tracking-[0.04em] mb-3">ACV: $50K+ | Industry: SaaS B2B</p>
+                                <p class="text-[10px] text-[#4b5563] font-medium uppercase tracking-[0.04em] mb-3">ACV: $50K+ | Industry: SaaS B2B</p>
                                 <!-- Metrics comparison -->
                                 <div class="space-y-3">
                                   <div class="bg-[#fef6f3] rounded-lg p-3">
                                     <div class="flex items-center justify-between mb-1.5">
                                       <span class="text-[11px] font-medium text-[#374151]">CTR</span>
                                       <div class="flex items-center gap-2">
-                                        <span class="text-[10px] text-[#6b7280]">You: 0.38%</span>
+                                        <span class="text-[10px] text-[#4b5563]">You: 0.38%</span>
                                         <span class="text-[10px] text-[#22c55e] font-semibold">Top: 0.62%</span>
                                       </div>
                                     </div>
@@ -788,7 +788,7 @@ interface RelatedAgent {
                                     <div class="flex items-center justify-between mb-1.5">
                                       <span class="text-[11px] font-medium text-[#374151]">Pipeline velocity</span>
                                       <div class="flex items-center gap-2">
-                                        <span class="text-[10px] text-[#6b7280]">You: 12d</span>
+                                        <span class="text-[10px] text-[#4b5563]">You: 12d</span>
                                         <span class="text-[10px] text-[#22c55e] font-semibold">Top: 8d</span>
                                       </div>
                                     </div>
@@ -845,7 +845,7 @@ interface RelatedAgent {
                                     </div>
                                   </div>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] mt-3 flex items-center gap-1">
+                                <p class="text-[10px] text-[#4b5563] mt-3 flex items-center gap-1">
                                   <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M8 2l6 12H2L8 2z" stroke="#6b7280" stroke-width="1.2" fill="none"/></svg>
                                   Suggested: Suppress overlapping segments or merge campaigns
                                 </p>
@@ -880,7 +880,7 @@ interface RelatedAgent {
                                   </div>
                                   <div>
                                     <p class="text-[14px] font-bold text-[#1a1a2e] mb-1">Score: 72/100</p>
-                                    <p class="text-[11px] text-[#6b7280]">3 critical issues, 5 recommendations</p>
+                                    <p class="text-[11px] text-[#4b5563]">3 critical issues, 5 recommendations</p>
                                     <p class="text-[10px] text-[#e8573a] font-medium mt-1">Top quartile benchmark: 85+</p>
                                   </div>
                                 </div>
@@ -969,7 +969,7 @@ interface RelatedAgent {
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#fefaf8] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <!-- Without header -->
               <div class="bg-[#fefaf8] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
@@ -977,7 +977,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without Strategy Copilot</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without Strategy Copilot</span>
                 </div>
               </div>
               <!-- With adRadar header -->
@@ -1167,12 +1167,12 @@ interface RelatedAgent {
                 </svg>
                 <div class="absolute inset-0 flex flex-col items-center justify-center">
                   <span class="text-[28px] font-bold text-[#111827] tracking-[-0.03em] leading-none">45</span>
-                  <span class="text-[12px] text-[#6b7280]">min</span>
+                  <span class="text-[12px] text-[#4b5563]">min</span>
                 </div>
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Campaign build time</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Down from 3-5 hours of manual structuring
               </p>
             </div>
@@ -1195,7 +1195,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[120px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">Before</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">Before</span>
                 </div>
                 <div class="flex flex-col items-center gap-2 flex-1">
                   <div class="w-full max-w-[48px] rounded-lg h-[93px] relative overflow-hidden bg-[#1a1a2e] border border-[#e8573a]">
@@ -1214,7 +1214,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">22%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Budget recovered</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   From structural waste identified in first audit
                 </p>
               </div>
@@ -1236,7 +1236,7 @@ interface RelatedAgent {
               <div class="relative mb-6 px-1">
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">LinkedIn ad spend</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">LinkedIn ad spend</span>
                     <span class="text-[12px] text-[#374151] font-semibold">$50,000</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1261,7 +1261,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">34%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Pipeline from LinkedIn</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Attributed pipeline with structured funnel coverage
                 </p>
               </div>
@@ -1270,14 +1270,6 @@ interface RelatedAgent {
 
         </div>
 
-        <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#d1d5db]"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns within first audit of enabling Strategy Copilot
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#d1d5db]"></div>
-        </div>
       </div>
     </section>
 
@@ -1360,7 +1352,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

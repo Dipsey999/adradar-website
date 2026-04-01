@@ -79,12 +79,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#ffe8df] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fef6f3]/50 hover:border-[#e8573a]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -240,7 +240,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Avg lag before teams notice a competitor's new LinkedIn campaign
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 By which time it has already reached your major target accounts
               </p>
             </div>
@@ -261,7 +261,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native LinkedIn tools to monitor what competitors are running
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 LinkedIn Ad Library shows ads, not intelligence, timing, or context
               </p>
             </div>
@@ -283,7 +283,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 of top-performing B2B companies regularly review competitor ads
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Most do it manually and inconsistently, missing the signal entirely
               </p>
             </div>
@@ -328,7 +328,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Blind spots</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Blind spots</span>
                 </div>
                 <!-- Bar visualization: scattered monitoring -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -499,15 +499,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">48hr</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Detection<br/>time</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Detection<br/>time</p>
                     </div>
                     <div class="text-center border-l border-r border-[#ffe8df]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">100%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Competitor<br/>coverage</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Competitor<br/>coverage</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">35%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Faster<br/>response</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Faster<br/>response</p>
                     </div>
                   </div>
                 </div>
@@ -614,7 +614,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#1a1a2e]">CompetitorX</p>
-                                        <p class="text-[10px] text-[#6b7280]">linkedin.com/company/competitorx</p>
+                                        <p class="text-[10px] text-[#4b5563]">linkedin.com/company/competitorx</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold tracking-[0.04em] uppercase text-[#1a1a2e] bg-[#f5a896]/40 px-2 py-0.5 rounded-full">Monitoring</span>
@@ -626,7 +626,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#374151]">RivalTech</p>
-                                        <p class="text-[10px] text-[#6b7280]">linkedin.com/company/rivaltech</p>
+                                        <p class="text-[10px] text-[#4b5563]">linkedin.com/company/rivaltech</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold tracking-[0.04em] uppercase text-[#1a1a2e] bg-[#f5a896]/40 px-2 py-0.5 rounded-full">Monitoring</span>
@@ -638,7 +638,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#374151]">AltMark</p>
-                                        <p class="text-[10px] text-[#6b7280]">linkedin.com/company/altmark</p>
+                                        <p class="text-[10px] text-[#4b5563]">linkedin.com/company/altmark</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold tracking-[0.04em] uppercase text-[#1a1a2e] bg-[#f5a896]/40 px-2 py-0.5 rounded-full">Monitoring</span>
@@ -658,7 +658,7 @@ interface RelatedAgent {
                                     <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
                                     <span class="text-[13px] font-semibold text-[#111827]">New Ad Detected</span>
                                   </div>
-                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">2 hours ago</span>
+                                  <span class="text-[10px] text-[#4b5563] bg-[#f3f4f6] px-2 py-0.5 rounded-full">2 hours ago</span>
                                 </div>
                                 <div class="bg-[#fef3c7]/40 border border-[#fde68a]/50 rounded-lg p-3 mb-3">
                                   <div class="flex items-center gap-2 mb-2">
@@ -671,7 +671,7 @@ interface RelatedAgent {
                                   <div class="bg-[#f9fafb] rounded-lg p-2.5 mb-2">
                                     <p class="text-[11px] text-[#374151] font-medium leading-[1.5]">"Tired of overpaying for LinkedIn Ads? Switch to our AI-powered platform and cut your CPL by 40%."</p>
                                   </div>
-                                  <div class="flex items-center gap-3 text-[10px] text-[#6b7280]">
+                                  <div class="flex items-center gap-3 text-[10px] text-[#4b5563]">
                                     <span class="flex items-center gap-1">
                                       <svg width="10" height="10" viewBox="0 0 12 12" fill="none"><rect x="1" y="1" width="10" height="10" rx="2" stroke="currentColor" stroke-width="1"/></svg>
                                       Single Image
@@ -693,7 +693,7 @@ interface RelatedAgent {
                                     <span class="text-[9px] font-bold text-[#e8573a] bg-[#fef6f3] px-2 py-0.5 rounded-full">View</span>
                                   </div>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] mt-3 flex items-center gap-1">
+                                <p class="text-[10px] text-[#4b5563] mt-3 flex items-center gap-1">
                                   <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#6b7280" stroke-width="1.2"/><path d="M8 5v3l2 1" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/></svg>
                                   Detected within 48 hours of launch
                                 </p>
@@ -752,7 +752,7 @@ interface RelatedAgent {
                                     <span class="font-bold">Insight:</span> CompetitorX refreshes 2x faster than RivalTech, higher creative velocity
                                   </p>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] mt-3 flex items-center gap-1">
+                                <p class="text-[10px] text-[#4b5563] mt-3 flex items-center gap-1">
                                   <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="12" rx="2" stroke="#6b7280" stroke-width="1.2"/><path d="M5 8h6M8 5v6" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/></svg>
                                   Tracked over 8-week rolling window
                                 </p>
@@ -784,7 +784,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[10px] font-semibold text-[#9ca3af] uppercase tracking-[0.03em]">Previous</p>
-                                        <p class="text-[11px] text-[#6b7280]">"Enterprise-grade platform for large teams"</p>
+                                        <p class="text-[11px] text-[#4b5563]">"Enterprise-grade platform for large teams"</p>
                                       </div>
                                     </div>
                                     <div class="flex items-start gap-2">
@@ -822,7 +822,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Lead with total cost of ownership, not CPL alone</p>
-                                      <p class="text-[10px] text-[#6b7280]">Their "40% CPL reduction" ignores setup costs and hidden fees</p>
+                                      <p class="text-[10px] text-[#4b5563]">Their "40% CPL reduction" ignores setup costs and hidden fees</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fef6f3] rounded-lg p-2.5">
@@ -831,7 +831,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Emphasise human oversight vs full automation risk</p>
-                                      <p class="text-[10px] text-[#6b7280]">Their AI-only pitch creates trust gap with enterprise buyers</p>
+                                      <p class="text-[10px] text-[#4b5563]">Their AI-only pitch creates trust gap with enterprise buyers</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#fef9f7] rounded-lg p-2.5">
@@ -840,7 +840,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Highlight account-level precision they lack</p>
-                                      <p class="text-[10px] text-[#6b7280]">Their platform optimises at campaign level only</p>
+                                      <p class="text-[10px] text-[#4b5563]">Their platform optimises at campaign level only</p>
                                     </div>
                                   </div>
                                 </div>
@@ -903,7 +903,7 @@ interface RelatedAgent {
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#fef9f7] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <!-- Without agent header -->
               <div class="bg-[#fef9f7] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
@@ -911,7 +911,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Manual monitoring</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Manual monitoring</span>
                 </div>
               </div>
               <!-- With adRadar header -->
@@ -1096,7 +1096,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Average detection time</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 vs. 2-3 weeks with manual monitoring
               </p>
             </div>
@@ -1120,7 +1120,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[100px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">Before</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">Before</span>
                 </div>
                 <!-- After bars -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1147,7 +1147,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual monitoring time</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Competitor tracking runs fully automatically in the background
                 </p>
               </div>
@@ -1170,7 +1170,7 @@ interface RelatedAgent {
                 <!-- Competitor response time bar -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Manual response time</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">Manual response time</span>
                     <span class="text-[12px] text-[#374151] font-semibold">3-4 weeks</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1197,7 +1197,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">35%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Faster counter-response</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Teams with structured competitive intelligence respond faster to positioning pivots
                 </p>
               </div>
@@ -1207,13 +1207,6 @@ interface RelatedAgent {
         </div>
 
         <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns within 30 days of enabling Competitor Ads Intelligence Copilot
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
-        </div>
       </div>
     </section>
 
@@ -1296,7 +1289,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

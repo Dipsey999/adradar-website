@@ -79,12 +79,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#fdecc8] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fffbe3]/50 hover:border-[#c5a030]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -240,7 +240,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 of the week is outside standard business hours
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 168 hours per week - only 40 are Mon-Fri 9-5. Budget running 24/7 wastes the rest.
               </p>
             </div>
@@ -262,7 +262,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native controls for time-of-day or day-of-week campaigns
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 LinkedIn Campaign Manager has no dayparting or scheduling feature.
               </p>
             </div>
@@ -284,7 +284,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 average engagement rate improvement when B2B ads run during peak business hours only
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Same budget. Better timing. Measurably better results.
               </p>
             </div>
@@ -329,7 +329,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Before: 24/7 delivery</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Before: 24/7 delivery</span>
                 </div>
                 <!-- Weekly bars — all days red -->
                 <div class="grid grid-cols-7 gap-[3px]">
@@ -536,15 +536,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">76%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Off-hours<br/>protected</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Off-hours<br/>protected</p>
                     </div>
                     <div class="text-center border-l border-r border-[#fdecc8]/30">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">28%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Engagement<br/>uplift</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Engagement<br/>uplift</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">0 hrs</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Manual<br/>overhead</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Manual<br/>overhead</p>
                     </div>
                   </div>
                 </div>
@@ -683,7 +683,7 @@ interface RelatedAgent {
                                 <!-- Timezone selector -->
                                 <div class="bg-[#fffbe3] rounded-lg px-3 py-2.5 mb-3 flex items-center justify-between">
                                   <div>
-                                    <p class="text-[10px] text-[#6b7280] uppercase tracking-[0.04em]">Timezone</p>
+                                    <p class="text-[10px] text-[#4b5563] uppercase tracking-[0.04em]">Timezone</p>
                                     <p class="text-[12px] font-semibold text-[#1a1a2e]">US/Eastern (UTC-5)</p>
                                   </div>
                                   <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="#c5a030" stroke-width="1.5" stroke-linecap="round"/></svg>
@@ -719,7 +719,7 @@ interface RelatedAgent {
                                     <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
                                     <span class="text-[13px] font-semibold text-[#111827]">Campaign Activation</span>
                                   </div>
-                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Mon 8:00am ET</span>
+                                  <span class="text-[10px] text-[#4b5563] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Mon 8:00am ET</span>
                                 </div>
                                 <!-- Activated campaigns -->
                                 <div class="space-y-2.5">
@@ -752,7 +752,7 @@ interface RelatedAgent {
                                   </div>
                                 </div>
                                 <div class="mt-3 pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
-                                  <span class="text-[10px] text-[#6b7280]">3 campaigns activated</span>
+                                  <span class="text-[10px] text-[#4b5563]">3 campaigns activated</span>
                                   <span class="text-[10px] text-[#c5a030] font-medium">Schedule window open</span>
                                 </div>
                               </div>
@@ -772,7 +772,7 @@ interface RelatedAgent {
                                     <span class="text-[11px] font-semibold text-[#5e4a0e]">Friday 6:00pm ET</span>
                                     <span class="text-[9px] font-bold tracking-[0.04em] uppercase text-[#c5a030] bg-[#f0d48a]/40 px-2 py-0.5 rounded-full">Window closed</span>
                                   </div>
-                                  <p class="text-[10px] text-[#6b7280]">All 3 campaigns paused automatically</p>
+                                  <p class="text-[10px] text-[#4b5563]">All 3 campaigns paused automatically</p>
                                 </div>
                                 <!-- Paused campaigns -->
                                 <div class="space-y-2">
@@ -789,7 +789,7 @@ interface RelatedAgent {
                                     <span class="text-[9px] font-bold text-[#9ca3af] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Paused</span>
                                   </div>
                                 </div>
-                                <p class="text-[10px] text-[#6b7280] mt-3 flex items-center gap-1">
+                                <p class="text-[10px] text-[#4b5563] mt-3 flex items-center gap-1">
                                   <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="#6b7280" stroke-width="1.2"/><path d="M8 5v3l2 1" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/></svg>
                                   Resumes Monday 8:00am ET automatically
                                 </p>
@@ -815,7 +815,7 @@ interface RelatedAgent {
                                       <div class="flex-1 h-[6px] bg-[#f3f4f6] rounded-full overflow-hidden">
                                         <div class="h-full w-[42%] bg-gradient-to-r from-[#c5a030] to-[#f0d48a] rounded-full ml-[33%]"></div>
                                       </div>
-                                      <span class="text-[10px] text-[#6b7280]">8am-6pm</span>
+                                      <span class="text-[10px] text-[#4b5563]">8am-6pm</span>
                                     </div>
                                   </div>
                                   <div class="bg-[#fffbe3]/50 border border-[#fdecc8] rounded-lg p-3">
@@ -827,7 +827,7 @@ interface RelatedAgent {
                                       <div class="flex-1 h-[6px] bg-[#f3f4f6] rounded-full overflow-hidden">
                                         <div class="h-full w-[37%] bg-gradient-to-r from-[#e8573a] to-[#ff6b35] rounded-full ml-[37%]"></div>
                                       </div>
-                                      <span class="text-[10px] text-[#6b7280]">9am-5pm</span>
+                                      <span class="text-[10px] text-[#4b5563]">9am-5pm</span>
                                     </div>
                                   </div>
                                   <div class="bg-[#fffbe3]/50 border border-[#fdecc8] rounded-lg p-3">
@@ -839,7 +839,7 @@ interface RelatedAgent {
                                       <div class="flex-1 h-[6px] bg-[#f3f4f6] rounded-full overflow-hidden">
                                         <div class="h-full w-[37%] bg-gradient-to-r from-[#1a1a2e] to-[#374151] rounded-full ml-[4%]"></div>
                                       </div>
-                                      <span class="text-[10px] text-[#6b7280]">9am-6pm</span>
+                                      <span class="text-[10px] text-[#4b5563]">9am-6pm</span>
                                     </div>
                                   </div>
                                 </div>
@@ -907,7 +907,7 @@ interface RelatedAgent {
                                   </div>
                                 </div>
                                 <div class="pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
-                                  <span class="text-[10px] text-[#6b7280]">6,290 total impressions this week</span>
+                                  <span class="text-[10px] text-[#4b5563]">6,290 total impressions this week</span>
                                   <span class="text-[10px] text-[#22c55e] font-semibold">0 off-schedule</span>
                                 </div>
                               </div>
@@ -965,7 +965,7 @@ interface RelatedAgent {
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <!-- Capability header -->
               <div class="bg-[#fffdf5] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <!-- Without scheduling header -->
               <div class="bg-[#fffdf5] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
@@ -973,7 +973,7 @@ interface RelatedAgent {
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without scheduling</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without scheduling</span>
                 </div>
               </div>
               <!-- With adRadar header -->
@@ -1158,7 +1158,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">Of the week protected</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Mon-Fri 9-5 blocks 128 of 168 weekly hours from off-hours delivery
               </p>
             </div>
@@ -1182,7 +1182,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[56px] rounded-lg h-[65px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">Before</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">Before</span>
                 </div>
                 <!-- After bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1196,7 +1196,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">28%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Engagement rate uplift</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Average improvement when B2B campaigns run during peak business hours only
                 </p>
               </div>
@@ -1219,7 +1219,7 @@ interface RelatedAgent {
                 <!-- Manual process -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Manual effort per week</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">Manual effort per week</span>
                     <span class="text-[12px] text-[#ef4444] font-semibold line-through">2-3 hrs</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1246,7 +1246,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual overhead per week</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Agent handles all pausing and resuming, no human intervention required
                 </p>
               </div>
@@ -1255,14 +1255,6 @@ interface RelatedAgent {
 
         </div>
 
-        <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#c5a030]/20"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured when campaigns are restricted to configured schedule windows
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#c5a030]/20"></div>
-        </div>
       </div>
     </section>
 
@@ -1346,7 +1338,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

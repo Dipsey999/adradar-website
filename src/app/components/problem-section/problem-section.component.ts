@@ -110,7 +110,7 @@ const problems: Problem[] = [
         </h2>
 
         <!-- Subheading -->
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto mb-16">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto mb-16">
           Teams spending 5k - 250k monthly in LinkedIn are flying blind and fixing issues too late.
         </p>
 

@@ -2,12 +2,17 @@ import { Component, signal } from '@angular/core';
 import { NgClass } from '@angular/common';
 import { CtaSectionComponent } from '../../components/cta-section/cta-section.component';
 
+interface PlanFeature {
+  text: string;
+  type: 'heading' | 'feature' | 'note';
+}
+
 interface Plan {
   name: string;
   price: string;
   annualPrice: string;
   period: string;
-  features: string[];
+  features: PlanFeature[];
   cta: string;
   highlighted: boolean;
   popular: boolean;
@@ -72,13 +77,13 @@ interface FaqItem {
         </h1>
 
         <!-- Subheading -->
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-8">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-8">
           No lock-in. No sales calls needed. Connect your LinkedIn Ads account
           and get your first insights in minutes.
         </p>
 
         <!-- Trust badges -->
-        <div class="flex flex-wrap items-center justify-start md:justify-center gap-2 text-[13px] font-medium text-gray-500 mb-10">
+        <div class="flex flex-wrap items-center justify-start md:justify-center gap-2 text-[14px] font-medium text-gray-600 mb-10">
           <span>No credit card required</span>
           <span class="text-gray-300 font-bold px-1">&bull;</span>
           <span>Cancel anytime</span>
@@ -147,13 +152,23 @@ interface FaqItem {
 
                 <!-- Features -->
                 <ul class="space-y-3 mb-8 flex-1">
-                  @for (feature of plan.features; track feature) {
-                    <li class="flex items-start gap-2.5">
-                      <svg class="w-[18px] h-[18px] text-[#e8573a] flex-shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                      <span class="text-[14px] text-[#4b5563] leading-[1.5]">{{ feature }}</span>
-                    </li>
+                  @for (feature of plan.features; track feature.text) {
+                    @if (feature.type === 'heading') {
+                      <li class="pt-2 first:pt-0">
+                        <span class="text-[14px] font-bold text-[#111827] leading-[1.5]">{{ feature.text }}</span>
+                      </li>
+                    } @else if (feature.type === 'note') {
+                      <li>
+                        <span class="text-[13px] text-[#4b5563] leading-[1.5]">{{ feature.text }}</span>
+                      </li>
+                    } @else {
+                      <li class="flex items-start gap-2.5">
+                        <svg class="w-[18px] h-[18px] text-[#e8573a] flex-shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-[14px] text-[#4b5563] leading-[1.5]">{{ feature.text }}</span>
+                      </li>
+                    }
                   }
                 </ul>
 
@@ -192,7 +207,7 @@ interface FaqItem {
           <br class="hidden md:block" />
           <span class="italic bg-clip-text text-transparent" [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'">Try now for FREE</span>
         </h2>
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-12">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] leading-[1.65] max-w-none md:max-w-[580px] mx-0 md:mx-auto mb-12">
           Numbers from real teams managing LinkedIn Ads with adRadar.
         </p>
 
@@ -204,7 +219,7 @@ interface FaqItem {
               <div class="w-20 h-1 rounded-full bg-gradient-to-r from-[#e8573a] to-[#ff6b35] mx-auto mb-6"></div>
               <span class="block text-[48px] lg:text-[56px] font-bold tracking-[-0.04em] leading-none text-[#e8573a] mb-3">{{ stat.value }}</span>
               <p class="text-[15px] font-semibold text-[#111827] mb-2">{{ stat.label }}</p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">{{ stat.description }}</p>
+              <p class="text-[14px] text-[#4b5563] leading-[1.55]">{{ stat.description }}</p>
             </div>
           }
         </div>
@@ -228,7 +243,7 @@ interface FaqItem {
           Which Plan is Best for
           <span class="italic bg-clip-text text-transparent" [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'">YOU</span>
         </h2>
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto mb-12">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto mb-12">
           Start on Starter and upgrade as your campaigns scale. Every plan builds on the last, no features removed, only added.
         </p>
 
@@ -328,7 +343,7 @@ interface FaqItem {
         <h2 class="text-[32px] md:text-[44px] lg:text-[52px] font-bold text-left md:text-center leading-[1.1] tracking-[-0.025em] text-[#111827] mb-6">
           No features hidden behind a sales call.
         </h2>
-        <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-16">
+        <p class="text-left md:text-center text-[#4b5563] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-16">
           Every adRadar plan comes with the same foundation, full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
         </p>
 
@@ -443,7 +458,7 @@ interface FaqItem {
               </button>
               @if (openFaq() === i) {
                 <div class="px-5 lg:px-6 pb-5 lg:pb-6">
-                  <p class="text-[14px] text-[#6b7280] leading-[1.65]">{{ faq.answer }}</p>
+                  <p class="text-[15px] text-[#4b5563] leading-[1.65]">{{ faq.answer }}</p>
                 </div>
               }
             </div>
@@ -481,16 +496,16 @@ export class PricingPageComponent {
       annualPrice: '$23',
       period: 'per month',
       features: [
-        'Revenue Attribution',
-        'Inbound CRM Sync',
-        'Company Insights',
-        'Campaign Analytics',
-        'Ad Analytics',
-        'Custom Revenue Attribution Model',
-        'Customer Journey View',
-        'Campaign Optimization',
-        'Easy Manual Irrelevant Account Blocking',
-        'Easy Manual Irrelevant Title Blocking',
+        { text: 'Revenue Attribution', type: 'heading' },
+        { text: 'Inbound CRM Sync', type: 'feature' },
+        { text: 'Company Insights', type: 'feature' },
+        { text: 'Campaign Analytics', type: 'feature' },
+        { text: 'Ad Analytics', type: 'feature' },
+        { text: 'Custom Revenue Attribution Model', type: 'feature' },
+        { text: 'Customer Journey View', type: 'feature' },
+        { text: 'Campaign Optimization', type: 'heading' },
+        { text: 'Easy Manual Irrelevant Account Blocking', type: 'feature' },
+        { text: 'Easy Manual Irrelevant Title Blocking', type: 'feature' },
       ],
       cta: 'Start free trial',
       highlighted: false,
@@ -502,15 +517,15 @@ export class PricingPageComponent {
       annualPrice: '$47',
       period: 'per month',
       features: [
-        'Everything in Starter +',
-        'AI Agents',
-        'Impression Capping',
-        'Campaign Scheduling Agent',
-        'Campaign Bidding Optimization Agent',
-        'Auto Irrelevant Account Blocking Agent',
-        'Auto Irrelevant Title Blocking Agent',
-        'Ad Rotation Recommendation Agent',
-        'Analyse competitors LinkedIn Ads',
+        { text: 'Everything in Starter +', type: 'note' },
+        { text: 'AI Agents', type: 'heading' },
+        { text: 'Impression Capping', type: 'feature' },
+        { text: 'Campaign Scheduling Agent', type: 'feature' },
+        { text: 'Campaign Bidding Optimization Agent', type: 'feature' },
+        { text: 'Auto Irrelevant Account Blocking Agent', type: 'feature' },
+        { text: 'Auto Irrelevant Title Blocking Agent', type: 'feature' },
+        { text: 'Ad Rotation Recommendation Agent', type: 'feature' },
+        { text: 'Analyse competitors LinkedIn Ads', type: 'feature' },
       ],
       cta: 'Start free trial',
       highlighted: true,
@@ -522,11 +537,12 @@ export class PricingPageComponent {
       annualPrice: '$79',
       period: 'per month',
       features: [
-        'Everything in Growth +',
-        'ABM Analytics',
-        'Company Scoring',
-        'Journey Stage Prediction Modelling',
-        'Outbound CRM Sync (Write account score and Journey Stage Data to CRM)',
+        { text: 'Everything in Growth +', type: 'note' },
+        { text: 'Advanced Analytics', type: 'heading' },
+        { text: 'ABM Analytics', type: 'feature' },
+        { text: 'Company Scoring', type: 'feature' },
+        { text: 'Journey Stage Prediction Modelling', type: 'feature' },
+        { text: 'Outbound CRM Sync (Write account score and Journey Stage Data to CRM)', type: 'feature' },
       ],
       cta: 'Start free trial',
       highlighted: false,
@@ -538,11 +554,12 @@ export class PricingPageComponent {
       annualPrice: '$119',
       period: 'per month',
       features: [
-        'Everything in Pro +',
-        '2 accounts included',
-        'Additional accounts at $59',
-        'Unlimited users',
-        'Client views to switch between accounts',
+        { text: 'Everything in Pro +', type: 'note' },
+        { text: 'Multi-Account Management', type: 'feature' },
+        { text: '2 accounts included', type: 'feature' },
+        { text: 'Additional accounts at $59', type: 'feature' },
+        { text: 'Unlimited users', type: 'feature' },
+        { text: 'Client views to switch between accounts', type: 'feature' },
       ],
       cta: 'Talk to Sales',
       highlighted: false,

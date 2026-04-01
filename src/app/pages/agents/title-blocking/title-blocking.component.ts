@@ -79,12 +79,12 @@ interface RelatedAgent {
                 href="#"
                 class="h-12 px-8 flex items-center justify-center border border-[#ffe8df] rounded-full text-[15px] font-medium text-[#1a1a2e] hover:bg-[#fef6f3]/50 hover:border-[#e8573a]/50 transition-all duration-300"
               >
-                Book a Demo
+                Talk to Sales
               </a>
             </div>
 
             <!-- Trust indicators -->
-            <div class="flex items-center gap-4 text-[13px] text-[#6b7280] mt-6">
+            <div class="flex items-center gap-4 text-[13px] text-[#4b5563] mt-6">
               <span class="flex items-center gap-1.5">
                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M5 7l2 2 4-4" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="7" cy="7" r="6" stroke="#e8573a" stroke-width="1" opacity="0.3"/></svg>
                 No credit card required
@@ -242,7 +242,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 LinkedIn job title data accuracy - nearly half of title targeting is based on incorrect information
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 The persona you set at launch is not the audience you're actually reaching.
               </p>
             </div>
@@ -264,7 +264,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Average improvement in MQL quality when off-persona titles are systematically blocked
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 Same budget. Same targeting intent. Tighter persona enforcement.
               </p>
             </div>
@@ -286,7 +286,7 @@ interface RelatedAgent {
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
                 Native LinkedIn tools to detect and automatically block off-persona title drift as it happens
               </p>
-              <p class="text-[13px] text-[#6b7280] leading-[1.55]">
+              <p class="text-[13px] text-[#4b5563] leading-[1.55]">
                 LinkedIn Campaign Manager reports title delivery, but it doesn't block drift automatically.
               </p>
             </div>
@@ -331,7 +331,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without blocking</span>
+                  <span class="text-[12px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
                 <!-- Bar visualization: concentrated on wrong titles -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -503,15 +503,15 @@ interface RelatedAgent {
                   <div class="grid grid-cols-3 gap-2">
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">3x</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Persona<br/>accuracy</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Persona<br/>accuracy</p>
                     </div>
                     <div class="text-center border-l border-r border-[#ffe8df]/20">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">100%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">Title<br/>coverage</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">Title<br/>coverage</p>
                     </div>
                     <div class="text-center">
                       <p class="text-[20px] font-bold text-[#1a1a2e] tracking-[-0.02em] leading-none">35%</p>
-                      <p class="text-[10px] text-[#6b7280] mt-1 leading-tight">MQL<br/>uplift</p>
+                      <p class="text-[10px] text-[#4b5563] mt-1 leading-tight">MQL<br/>uplift</p>
                     </div>
                   </div>
                 </div>
@@ -623,7 +623,7 @@ interface RelatedAgent {
                                       </div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#1a1a2e]">Department & Seniority</p>
-                                        <p class="text-[10px] text-[#6b7280]">Catches all title variations</p>
+                                        <p class="text-[10px] text-[#4b5563]">Catches all title variations</p>
                                       </div>
                                     </div>
                                     <span class="text-[9px] font-bold text-[#1a1a2e] bg-[#fce4e8] px-2 py-0.5 rounded-full">SELECTED</span>
@@ -633,14 +633,14 @@ interface RelatedAgent {
                                       <div class="w-4 h-4 rounded-full border-2 border-[#d1d5db]"></div>
                                       <div>
                                         <p class="text-[12px] font-semibold text-[#374151]">Titles</p>
-                                        <p class="text-[10px] text-[#6b7280]">Explicit title list</p>
+                                        <p class="text-[10px] text-[#4b5563]">Explicit title list</p>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
                                 <!-- Selected departments -->
                                 <div class="mb-3">
-                                  <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Departments</p>
+                                  <p class="text-[10px] font-semibold text-[#4b5563] uppercase tracking-[0.04em] mb-2">Departments</p>
                                   <div class="flex flex-wrap gap-1.5">
                                     <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Marketing</span>
                                     <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Sales</span>
@@ -649,7 +649,7 @@ interface RelatedAgent {
                                 </div>
                                 <!-- Selected seniority -->
                                 <div>
-                                  <p class="text-[10px] font-semibold text-[#6b7280] uppercase tracking-[0.04em] mb-2">Seniority</p>
+                                  <p class="text-[10px] font-semibold text-[#4b5563] uppercase tracking-[0.04em] mb-2">Seniority</p>
                                   <div class="flex flex-wrap gap-1.5">
                                     <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">Director</span>
                                     <span class="text-[10px] font-medium text-[#1a1a2e] bg-[#fce4e8] px-2 py-1 rounded-full">VP</span>
@@ -666,7 +666,7 @@ interface RelatedAgent {
                                     <div class="w-2 h-2 rounded-full bg-[#22c55e] animate-pulse"></div>
                                     <span class="text-[13px] font-semibold text-[#111827]">Rule Enforcement</span>
                                   </div>
-                                  <span class="text-[10px] text-[#6b7280] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Active</span>
+                                  <span class="text-[10px] text-[#4b5563] bg-[#f3f4f6] px-2 py-0.5 rounded-full">Active</span>
                                 </div>
                                 <!-- Campaign rows -->
                                 <div class="space-y-2.5">
@@ -702,7 +702,7 @@ interface RelatedAgent {
                                   </div>
                                 </div>
                                 <div class="mt-3 pt-3 border-t border-[#f3f4f6] flex items-center justify-between">
-                                  <span class="text-[10px] text-[#6b7280]">3 campaigns protected</span>
+                                  <span class="text-[10px] text-[#4b5563]">3 campaigns protected</span>
                                   <span class="text-[10px] text-[#e8573a] font-medium">All rules active</span>
                                 </div>
                               </div>
@@ -724,7 +724,7 @@ interface RelatedAgent {
                                       <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Engineering / IC level</span>
+                                      <span class="text-[10px] text-[#4b5563]">Engineering / IC level</span>
                                       <span class="text-[10px] text-[#22c55e] font-medium">$42 saved</span>
                                     </div>
                                   </div>
@@ -734,7 +734,7 @@ interface RelatedAgent {
                                       <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Human Resources / Entry</span>
+                                      <span class="text-[10px] text-[#4b5563]">Human Resources / Entry</span>
                                       <span class="text-[10px] text-[#22c55e] font-medium">$28 saved</span>
                                     </div>
                                   </div>
@@ -744,7 +744,7 @@ interface RelatedAgent {
                                       <span class="text-[9px] font-bold text-[#ef4444] bg-[#fee2e2] px-2 py-0.5 rounded-full">Blocked</span>
                                     </div>
                                     <div class="flex items-center justify-between">
-                                      <span class="text-[10px] text-[#6b7280]">Operations / Manager</span>
+                                      <span class="text-[10px] text-[#4b5563]">Operations / Manager</span>
                                       <span class="text-[10px] text-[#22c55e] font-medium">$35 saved</span>
                                     </div>
                                   </div>
@@ -770,13 +770,13 @@ interface RelatedAgent {
                                   <div class="grid grid-cols-4 bg-[#f8fafb]">
                                     <div class="p-2 border-b border-r border-[#e5e7eb]/40"></div>
                                     <div class="p-2 border-b border-r border-[#e5e7eb]/40 text-center">
-                                      <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">VP</span>
+                                      <span class="text-[9px] font-bold text-[#4b5563] uppercase tracking-[0.04em]">VP</span>
                                     </div>
                                     <div class="p-2 border-b border-r border-[#e5e7eb]/40 text-center">
-                                      <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">Director</span>
+                                      <span class="text-[9px] font-bold text-[#4b5563] uppercase tracking-[0.04em]">Director</span>
                                     </div>
                                     <div class="p-2 border-b border-[#e5e7eb]/40 text-center">
-                                      <span class="text-[9px] font-bold text-[#6b7280] uppercase tracking-[0.04em]">C-Suite</span>
+                                      <span class="text-[9px] font-bold text-[#4b5563] uppercase tracking-[0.04em]">C-Suite</span>
                                     </div>
                                   </div>
                                   <!-- Marketing row -->
@@ -843,11 +843,11 @@ interface RelatedAgent {
                                 <div class="flex items-center gap-4 mt-3">
                                   <div class="flex items-center gap-1.5">
                                     <div class="w-3 h-3 rounded bg-[#f0fdf4] border border-[#bbf7d0]"></div>
-                                    <span class="text-[10px] text-[#6b7280]">Allowed</span>
+                                    <span class="text-[10px] text-[#4b5563]">Allowed</span>
                                   </div>
                                   <div class="flex items-center gap-1.5">
                                     <div class="w-3 h-3 rounded bg-[#fef2f2] border border-[#fecaca]"></div>
-                                    <span class="text-[10px] text-[#6b7280]">Blocked</span>
+                                    <span class="text-[10px] text-[#4b5563]">Blocked</span>
                                   </div>
                                 </div>
                               </div>
@@ -873,7 +873,7 @@ interface RelatedAgent {
                                     <div class="w-8 h-[18px] bg-[#e8573a] rounded-full relative">
                                       <div class="absolute right-[2px] top-[2px] w-[14px] h-[14px] bg-white rounded-full shadow-sm"></div>
                                     </div>
-                                    <span class="text-[10px] text-[#6b7280]">Switch to Titles mode</span>
+                                    <span class="text-[10px] text-[#4b5563]">Switch to Titles mode</span>
                                   </div>
                                 </div>
                                 <!-- Update history -->
@@ -884,7 +884,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Added "Revenue Ops" department</p>
-                                      <p class="text-[10px] text-[#6b7280]">2 hrs ago - Applied to 3 campaigns</p>
+                                      <p class="text-[10px] text-[#4b5563]">2 hrs ago - Applied to 3 campaigns</p>
                                     </div>
                                   </div>
                                   <div class="flex items-start gap-2 bg-[#f0fafb] rounded-lg p-2.5">
@@ -893,7 +893,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <p class="text-[11px] font-medium text-[#374151]">Switched from Titles to Dept & Seniority</p>
-                                      <p class="text-[10px] text-[#6b7280]">Yesterday - Immediate effect</p>
+                                      <p class="text-[10px] text-[#4b5563]">Yesterday - Immediate effect</p>
                                     </div>
                                   </div>
                                 </div>
@@ -955,14 +955,14 @@ interface RelatedAgent {
             <!-- Table Header -->
             <div class="grid grid-cols-[1fr_1fr_1.15fr]">
               <div class="bg-[#f8fafb] p-5 border-b border-[#e5e7eb]/60">
-                <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Capability</span>
+                <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Capability</span>
               </div>
               <div class="bg-[#f8fafb] p-5 border-b border-[#e5e7eb]/60 border-l border-l-[#e5e7eb]/40">
                 <div class="flex items-center gap-2">
                   <div class="w-5 h-5 rounded-full bg-[#fee2e2] flex items-center justify-center">
                     <svg width="8" height="8" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[13px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Without blocking</span>
+                  <span class="text-[13px] font-semibold text-[#4b5563] uppercase tracking-[0.04em]">Without blocking</span>
                 </div>
               </div>
               <div class="bg-gradient-to-r from-[#1a1a2e] to-[#6e2a34] p-5 border-b border-[#1a1a2e]">
@@ -1145,7 +1145,7 @@ interface RelatedAgent {
               </div>
 
               <h3 class="text-[18px] font-bold text-[#111827] mb-1.5 text-center">MQL quality uplift</h3>
-              <p class="text-[13px] text-[#6b7280] text-center leading-[1.5]">
+              <p class="text-[13px] text-[#4b5563] text-center leading-[1.5]">
                 Average improvement when off-persona titles are systematically blocked from day one
               </p>
             </div>
@@ -1169,7 +1169,7 @@ interface RelatedAgent {
                   <div class="w-full max-w-[48px] rounded-lg h-[63px] relative overflow-hidden bg-[#fee2e2] border border-[#fca5a5]">
                     <div class="absolute inset-0 bg-gradient-to-t from-[#ef4444] to-[#fca5a5]"></div>
                   </div>
-                  <span class="text-[10px] text-[#6b7280] font-medium">45%<br/>wrong</span>
+                  <span class="text-[10px] text-[#4b5563] font-medium">45%<br/>wrong</span>
                 </div>
                 <!-- Correct bar -->
                 <div class="flex flex-col items-center gap-2 flex-1">
@@ -1190,7 +1190,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">55%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">LinkedIn title accuracy</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Meaning nearly half of title targeting is imprecise. Department & Seniority mode corrects for this automatically
                 </p>
               </div>
@@ -1213,7 +1213,7 @@ interface RelatedAgent {
                 <!-- Manual exclusion work -->
                 <div class="mb-4">
                   <div class="flex items-center justify-between mb-1.5">
-                    <span class="text-[11px] text-[#6b7280] font-medium uppercase tracking-[0.04em]">Manual exclusion work</span>
+                    <span class="text-[11px] text-[#4b5563] font-medium uppercase tracking-[0.04em]">Manual exclusion work</span>
                     <span class="text-[12px] text-[#ef4444]/80 font-semibold line-through">4-6 hrs/week</span>
                   </div>
                   <div class="h-[12px] bg-[#f3f4f6] rounded-full overflow-hidden border border-[#e5e7eb]">
@@ -1240,7 +1240,7 @@ interface RelatedAgent {
               <div class="text-center">
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Exclusion list maintenance</h3>
-                <p class="text-[13px] text-[#6b7280] leading-[1.5]">
+                <p class="text-[13px] text-[#4b5563] leading-[1.5]">
                   Rule-based enforcement requires no ongoing manual curation across campaigns
                 </p>
               </div>
@@ -1250,13 +1250,6 @@ interface RelatedAgent {
         </div>
 
         <!-- Bottom trust line -->
-        <div class="flex items-center justify-center gap-3 mt-10 lg:mt-14">
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
-          <p class="text-[13px] text-[#9ca3af] text-center">
-            Results measured across active campaigns within 30 days of enabling Title Blocking Agent
-          </p>
-          <div class="w-[1px] h-4 bg-gradient-to-b from-transparent to-[#e8573a]/20"></div>
-        </div>
       </div>
     </section>
 
@@ -1338,7 +1331,7 @@ interface RelatedAgent {
                 </h3>
 
                 <!-- Description -->
-                <p class="text-[13px] text-[#6b7280] leading-[1.55] mb-4 flex-1">
+                <p class="text-[13px] text-[#4b5563] leading-[1.55] mb-4 flex-1">
                   {{ agent.description }}
                 </p>
 

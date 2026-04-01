@@ -5,7 +5,6 @@ import { ProblemSectionComponent } from '../../components/problem-section/proble
 import { CopilotSectionComponent } from '../../components/copilot-section/copilot-section.component';
 import { HowItWorksComponent } from '../../components/how-it-works/how-it-works.component';
 import { TestimonialsComponent } from '../../components/testimonials/testimonials.component';
-import { PricingComponent } from '../../components/pricing/pricing.component';
 import { CtaSectionComponent } from '../../components/cta-section/cta-section.component';
 
 @Component({
@@ -18,7 +17,6 @@ import { CtaSectionComponent } from '../../components/cta-section/cta-section.co
     CopilotSectionComponent,
     HowItWorksComponent,
     TestimonialsComponent,
-    PricingComponent,
     CtaSectionComponent,
   ],
   template: `
@@ -28,7 +26,6 @@ import { CtaSectionComponent } from '../../components/cta-section/cta-section.co
     <app-copilot-section />
     <app-how-it-works />
     <app-testimonials />
-    <app-pricing />
     <app-cta-section />
   `,
 })

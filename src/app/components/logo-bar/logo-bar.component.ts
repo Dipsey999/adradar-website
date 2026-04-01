@@ -14,7 +14,7 @@ interface Logo {
   template: `
     <section class="bg-section-bg py-12">
       <div class="max-w-[1480px] mx-auto px-6">
-        <p class="text-center text-[#6b7280] text-[15px] leading-[1.65] mb-10">
+        <p class="text-center text-[#4b5563] text-[16px] leading-[1.65] mb-10">
           Join leading brands transforming their LinkedIn campaigns.
         </p>
         <div
@@ -22,7 +22,7 @@ interface Logo {
         >
           <div
             *ngFor="let logo of logos"
-            [class]="logo.style + ' opacity-60 hover:opacity-100 transition-opacity'"
+            [class]="logo.style + ' opacity-75 hover:opacity-100 transition-opacity'"
           >
             {{ logo.prefix }}{{ logo.name }}
           </div>
