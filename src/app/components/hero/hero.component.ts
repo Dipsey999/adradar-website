@@ -13,21 +13,21 @@ import { Component } from '@angular/core';
       <div class="relative max-w-[1480px] mx-auto px-6 text-left md:text-center z-10">
         <!-- Badge -->
         <div
-          class="inline-flex items-center gap-2.5 bg-primary/10 rounded-full px-4 py-1.5 mb-8"
+          class="inline-flex items-center gap-2 sm:gap-2.5 bg-primary/10 rounded-full px-3 sm:px-4 py-1.5 mb-8 whitespace-nowrap"
         >
-          <span class="w-2 h-2 rounded-full bg-primary"></span>
+          <span class="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-primary shrink-0"></span>
           <span
-            class="text-[11px] font-bold tracking-[0.08em] text-primary uppercase"
+            class="text-[10px] sm:text-[11px] font-bold tracking-[0.08em] text-primary uppercase"
           >
             LinkedIn Ads AI Agents
           </span>
-          <span class="w-2 h-2 rounded-full bg-primary"></span>
+          <span class="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-primary shrink-0"></span>
           <span
-            class="text-[11px] font-bold tracking-[0.08em] text-primary uppercase"
+            class="text-[10px] sm:text-[11px] font-bold tracking-[0.08em] text-primary uppercase"
           >
             Now in Beta
           </span>
-          <span class="w-2 h-2 rounded-full bg-primary"></span>
+          <span class="w-1.5 sm:w-2 h-1.5 sm:h-2 rounded-full bg-primary shrink-0"></span>
         </div>
 
         <!-- Heading -->
@@ -52,11 +52,11 @@ import { Component } from '@angular/core';
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-start md:justify-center gap-3 sm:gap-4 mb-6">
           <a
             href="/pricing"
-            class="group inline-flex items-center justify-center gap-3 bg-primary hover:bg-primary-dark text-white rounded-full pl-6 pr-1.5 py-1.5 transition-colors whitespace-nowrap"
+            class="group flex items-center bg-primary hover:bg-primary-dark text-white rounded-full pl-6 pr-1.5 py-1.5 transition-colors whitespace-nowrap"
           >
-            <span class="text-[15px] font-medium ml-2">Start free trial</span>
+            <span class="text-[15px] font-medium flex-1 text-center sm:flex-none sm:text-left">Start free trial</span>
             <div
-              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shrink-0"
+              class="w-9 h-9 bg-white rounded-full flex items-center justify-center shrink-0 ml-3"
             >
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path
