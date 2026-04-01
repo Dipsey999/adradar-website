@@ -1722,7 +1722,7 @@ export class AdRotationComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Creative performance data informs bid optimization — when fresh creative launches, the Bidding Agent adjusts spend pacing to capitalise on the initial engagement lift.',
+        'Creative performance data informs bid optimization. When fresh creative launches, the Bidding Agent adjusts spend pacing to capitalise on the initial engagement lift.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },

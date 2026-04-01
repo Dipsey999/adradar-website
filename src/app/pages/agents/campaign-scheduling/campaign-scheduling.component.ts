@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Automatically run your campaigns only during the days and hours you choose — pausing
+              Automatically run your campaigns only during the days and hours you choose, pausing
               outside those windows so every impression lands when it actually counts.
             </p>
 
@@ -218,7 +218,7 @@ interface RelatedAgent {
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
             LinkedIn Campaign Manager has no native time-of-day delivery control. Your campaigns run
-            continuously from the moment you launch them — burning budget when your buyers aren't even online.
+            continuously from the moment you launch them, burning budget when your buyers aren't even online.
           </p>
         </div>
 
@@ -241,7 +241,7 @@ interface RelatedAgent {
                 of the week is outside standard business hours
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                168 hours per week — only 40 are Mon-Fri 9-5. Budget running 24/7 wastes the rest.
+                168 hours per week - only 40 are Mon-Fri 9-5. Budget running 24/7 wastes the rest.
               </p>
             </div>
           </div>
@@ -316,7 +316,7 @@ interface RelatedAgent {
               <span class="section-gradient-text">Zero Intervention.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              The Campaign Scheduling Agent runs continuously — activating your campaigns at the start
+              The Campaign Scheduling Agent runs continuously, activating your campaigns at the start
               of each configured window and pausing them the moment the window closes.
             </p>
 
@@ -1119,7 +1119,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured when campaigns are restricted to peak business hours only — no additional spend required.
+            Measured when campaigns are restricted to peak business hours only, no additional spend required.
           </p>
         </div>
 
@@ -1247,7 +1247,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual overhead per week</h3>
                 <p class="text-[13px] text-[#6b7280] leading-[1.5]">
-                  Agent handles all pausing and resuming — no human intervention required
+                  Agent handles all pausing and resuming, no human intervention required
                 </p>
               </div>
             </div>
@@ -1605,7 +1605,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
   adradarAdvantages = [
     'Configure day, time, and timezone once',
     'Agent handles all pausing and resuming automatically',
-    'Full timezone control — set per campaign or globally',
+    'Full timezone control - set per campaign or globally',
     'Campaigns active only in configured windows',
     'Runs reliably weekly, no human intervention',
     'Delivery timeline report shows scheduled vs off-hours',
@@ -1617,7 +1617,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       label: 'Configure',
       title: 'Select campaigns and set your schedule',
       description:
-        'Choose which campaigns to apply the agent to. Set your timezone, then define one or more day and time windows — for example, Monday to Friday, 8am to 6pm.',
+        'Choose which campaigns to apply the agent to. Set your timezone, then define one or more day and time windows, for example, Monday to Friday, 8am to 6pm.',
     },
     {
       number: '02',
@@ -1631,7 +1631,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       label: 'Pause',
       title: 'Campaigns are automatically paused outside the schedule',
       description:
-        'The moment your configured window closes, the agent pauses all linked campaigns. Friday at 6pm — paused. Saturday and Sunday — paused.',
+        'The moment your configured window closes, the agent pauses all linked campaigns. Friday at 6pm - paused. Saturday and Sunday - paused.',
     },
     {
       number: '04',
@@ -1645,20 +1645,20 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       label: 'Report',
       title: 'Delivery timeline report shows exactly what ran and when',
       description:
-        'The agent\'s report surfaces a day-by-day delivery timeline — impressions delivered during active windows, days where campaigns were paused.',
+        'The agent\'s report surfaces a day-by-day delivery timeline, impressions delivered during active windows, days where campaigns were paused.',
     },
   ];
 
   comparisonRows: ComparisonRow[] = [
     {
       capability: 'Delivery hours',
-      without: '24/7 — all 168 hours of the week',
-      withScheduling: 'Configured windows only — e.g. 40 hrs/week',
+      without: '24/7 - all 168 hours of the week',
+      withScheduling: 'Configured windows only - e.g. 40 hrs/week',
     },
     {
       capability: 'Weekend spend',
       without: 'Budget consumed Saturday & Sunday',
-      withScheduling: 'Fully blocked — zero off-schedule delivery',
+      withScheduling: 'Fully blocked - zero off-schedule delivery',
     },
     {
       capability: 'Time-of-day control',
@@ -1673,7 +1673,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
     {
       capability: 'Operational overhead',
       without: 'Manual pause/resume every week',
-      withScheduling: 'Zero — fully automated by the agent',
+      withScheduling: 'Zero - fully automated by the agent',
     },
     {
       capability: 'Delivery accountability',
@@ -1688,7 +1688,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Cap cycles reset in coordination with schedule windows — ensuring account-level caps are evaluated against active delivery periods, not 24/7 calendar time.',
+        'Cap cycles reset in coordination with schedule windows, ensuring account-level caps are evaluated against active delivery periods, not 24/7 calendar time.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1697,7 +1697,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Bid optimisation runs inside active windows — so bids are tuned for peak-hour competition, not averaged across hours when your buyers aren\'t there.',
+        'Bid optimisation runs inside active windows, so bids are tuned for peak-hour competition, not averaged across hours when your buyers aren\'t there.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },
@@ -1706,7 +1706,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Fatigue tracking is measured against scheduled delivery periods — ensuring rotation recommendations are based on active impression frequency.',
+        'Fatigue tracking is measured against scheduled delivery periods, ensuring rotation recommendations are based on active impression frequency.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },
@@ -1715,7 +1715,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Company blocking rules stay enforced throughout scheduled windows — no off-hours impressions slip through to blocked companies.',
+        'Company blocking rules stay enforced throughout scheduled windows, no off-hours impressions slip through to blocked companies.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1724,7 +1724,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Title Blocking Agent.png',
       avatarBg: '#ee95a0',
       description:
-        'Title blocking enforcement is synchronized with scheduling windows — ensuring persona-level precision is active during every active delivery hour.',
+        'Title blocking enforcement is synchronized with scheduling windows, ensuring persona-level precision is active during every active delivery hour.',
       accentColor: '#d4606f',
       route: '/agents/title-blocking',
     },
@@ -1733,7 +1733,7 @@ export class CampaignSchedulingComponent implements OnInit, OnDestroy {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'Competitor monitoring focuses on scheduled delivery windows — surfacing competitive pressure data that reflects when your campaigns are actually running.',
+        'Competitor monitoring focuses on scheduled delivery windows, surfacing competitive pressure data that reflects when your campaigns are actually running.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },

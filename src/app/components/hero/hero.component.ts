@@ -44,7 +44,7 @@ import { Component } from '@angular/core';
           class="max-w-[640px] mx-auto text-[17px] text-[#6b7280] leading-[1.65] mb-10"
         >
           adRadar is the AI Copilot for B2B teams running LinkedIn Ads.
-          Specialized agents watch your campaigns 24/7 — flagging waste,
+          Specialized agents watch your campaigns 24/7, flagging waste,
           predicting fatigue, and telling you exactly what to do next.
         </p>
 

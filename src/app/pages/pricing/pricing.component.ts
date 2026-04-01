@@ -229,7 +229,7 @@ interface FaqItem {
           <span class="italic bg-clip-text text-transparent" [style.backgroundImage]="'linear-gradient(58deg, #FF4829 22.76%, #F1CD98 96.62%)'">YOU</span>
         </h2>
         <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto mb-12">
-          Start on Starter and upgrade as your campaigns scale. Every plan builds on the last &mdash; no features removed, only added.
+          Start on Starter and upgrade as your campaigns scale. Every plan builds on the last, no features removed, only added.
         </p>
 
         <!-- Table -->
@@ -329,7 +329,7 @@ interface FaqItem {
           No features hidden behind a sales call.
         </h2>
         <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-16">
-          Every adRadar plan comes with the same foundation &mdash; full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
+          Every adRadar plan comes with the same foundation, full LinkedIn Ads connectivity, CRM integration, and the infrastructure your campaigns need to run with intelligence from day one.
         </p>
 
         <!-- Features Grid — accordion style matching landing page -->

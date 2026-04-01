@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Automatically exclude every account outside your target company criteria — so every impression,
+              Automatically exclude every account outside your target company criteria, so every impression,
               every click, and every dollar stays within your ICP.
             </p>
 
@@ -218,7 +218,7 @@ interface RelatedAgent {
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
             You defined your ICP carefully. You set your targeting to match. But LinkedIn's delivery algorithm
-            doesn't optimise for your account criteria — it optimises for engagement.
+            doesn't optimise for your account criteria. It optimises for engagement.
           </p>
         </div>
 
@@ -286,7 +286,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to automatically block off-ICP companies as delivery drifts
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                LinkedIn Campaign Manager reports company delivery — no automatic account enforcement.
+                LinkedIn Campaign Manager reports company delivery, with no automatic account enforcement.
               </p>
             </div>
           </div>
@@ -1089,7 +1089,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated Company Blocking on existing campaigns — no additional spend required.
+            Measured across teams who activated Company Blocking on existing campaigns, with no additional spend required.
           </p>
         </div>
 
@@ -1167,7 +1167,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">85%+</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">ICP match rate</h3>
                 <p class="text-[13px] text-[#6b7280] leading-[1.5]">
-                  After agent activation — vs 60-70% without active company blocking enforcement
+                  After agent activation, vs 60-70% without active company blocking enforcement
                 </p>
               </div>
             </div>
@@ -1589,11 +1589,11 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
 
   adradarAdvantages = [
     'Blocking rules enforced from the first impression',
-    'Continuous monitoring — off-ICP companies blocked as they appear',
-    'Rule-based enforcement — no exclusion lists to maintain',
+    'Continuous monitoring - off-ICP companies blocked as they appear',
+    'Rule-based enforcement - no exclusion lists to maintain',
     'Criteria updates propagate instantly across all linked campaigns',
     'Estimated saved spend reported per blocked company',
-    'Budget protected from day one — not after the fact',
+    'Budget protected from day one - not after the fact',
   ];
 
   steps = [
@@ -1602,7 +1602,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       label: 'Configure',
       title: 'Select your target company criteria',
       description:
-        'Define the account properties that characterise your ICP — industry, company size, revenue range, geography, or a combination.',
+        'Define the account properties that characterise your ICP - industry, company size, revenue range, geography, or a combination.',
     },
     {
       number: '02',
@@ -1616,14 +1616,14 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       label: 'Block',
       title: 'Off-ICP companies are blocked and logged automatically',
       description:
-        'When a company outside your criteria receives an impression attempt, the agent blocks it and records the event — including when the block was applied and estimated spend saved.',
+        'When a company outside your criteria receives an impression attempt, the agent blocks it and records the event, including when the block was applied and estimated spend saved.',
     },
     {
       number: '04',
       label: 'Propagate',
       title: 'Criteria updates propagate instantly across all linked campaigns',
       description:
-        'If your ICP definition changes — new market segment, revised size threshold, expanded geography — update the criteria once and it takes effect immediately.',
+        'If your ICP definition changes - new market segment, revised size threshold, expanded geography - update the criteria once and it takes effect immediately.',
     },
     {
       number: '05',
@@ -1638,17 +1638,17 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Off-ICP detection',
       without: 'Manual review of company delivery reports',
-      withBlocking: 'Automatic — blocked before delivery',
+      withBlocking: 'Automatic - blocked before delivery',
     },
     {
       capability: 'ICP enforcement speed',
-      without: 'Reactive — days or weeks after drift starts',
-      withBlocking: 'Immediate — enforced from first impression',
+      without: 'Reactive - days or weeks after drift starts',
+      withBlocking: 'Immediate - enforced from first impression',
     },
     {
       capability: 'Criteria maintenance',
       without: 'Manual exclusion lists per campaign',
-      withBlocking: 'Rule-based — single criteria update propagates everywhere',
+      withBlocking: 'Rule-based - single criteria update propagates everywhere',
     },
     {
       capability: 'Estimated spend visibility',
@@ -1682,7 +1682,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Company blocking ensures accounts entering impression capping pool are ICP-qualified. Capping controls how evenly impressions are distributed — maximising reach without waste.',
+        'Company blocking ensures accounts entering impression capping pool are ICP-qualified. Capping controls how evenly impressions are distributed, maximising reach without waste.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1691,7 +1691,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'Company delivery data feeds into competitor analysis — so you can see which ICP accounts competitors are reaching and how your blocking strategy compares.',
+        'Company delivery data feeds into competitor analysis, so you can see which ICP accounts competitors are reaching and how your blocking strategy compares.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },
@@ -1709,7 +1709,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Company blocking rules stay enforced throughout scheduled windows — no off-hours impressions slip through to blocked companies.',
+        'Company blocking rules stay enforced throughout scheduled windows, so no off-hours impressions slip through to blocked companies.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },
@@ -1718,7 +1718,7 @@ export class CompanyBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'With off-ICP companies removed from the auction, bid optimization operates on a cleaner audience — improving efficiency and reducing wasted spend.',
+        'With off-ICP companies removed from the auction, bid optimization operates on a cleaner audience, improving efficiency and reducing wasted spend.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },

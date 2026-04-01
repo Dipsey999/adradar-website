@@ -19,7 +19,7 @@ const agents: Agent[] = [
     name: 'Company Blocking Agent',
     image: '/agents/Company Blocking Agent.png',
     description:
-      'Your LinkedIn ads shouldn\'t be funding companies that will never buy from you. It automatically excludes any account outside your target criteria \u2014 so every impression, and every dollar, stays within your ICP.',
+      'Your LinkedIn ads shouldn\'t be funding companies that will never buy from you. It automatically excludes any account outside your target criteria, so every impression, and every dollar, stays within your ICP.',
     benefit: 'Higher ICP signal, lower wasted CPM',
     cardBg: 'bg-[#e3f3fa]',
     cardBorder: 'border-[#9dcce7]',
@@ -45,7 +45,7 @@ const agents: Agent[] = [
     name: 'Title Blocking Agent',
     image: '/agents/Title Blocking Agent.png',
     description:
-      'Your ads shouldn\'t be reaching interns and irrelevant departments while your actual buyers scroll past. Exclude job titles outside your configured persona \u2014 map every impression to seniority, department, and titles that actually move the pipeline.',
+      'Your ads shouldn\'t be reaching interns and irrelevant departments while your actual buyers scroll past. Exclude job titles outside your configured persona, map every impression to seniority, department, and titles that actually move the pipeline.',
     benefit: 'Systematic creative learning',
     cardBg: 'bg-[#fbf2f5]',
     cardBorder: 'border-[#f4e0e9]',
@@ -97,7 +97,7 @@ const agents: Agent[] = [
     name: 'Analyse competitors LinkedIn Ads',
     image: '/agents/Analyse competitors LinkedIn Ads.png',
     description:
-      'Your competitors are running LinkedIn Ads \u2014 you have no idea what they\'re saying to your buyers. Monitor rival campaigns in real time, track creative changes, messaging shifts, and new launches to respond proactively.',
+      'Your competitors are running LinkedIn Ads, you have no idea what they\'re saying to your buyers. Monitor rival campaigns in real time, track creative changes, messaging shifts, and new launches to respond proactively.',
     benefit: 'Proactive competitive advantage',
     cardBg: 'bg-[#edf3ec]',
     cardBorder: 'border-[#dbeddb]',
@@ -135,7 +135,7 @@ const col3 = [agents[2], agents[5]];
         <!-- Subheading -->
         <p class="text-left md:text-center text-[#6b7280] text-[17px] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto mb-20">
           Each Copilot owns a distinct layer of your LinkedIn Ads performance.
-          Individually powerful. Together, they share context and memory &mdash;
+          Individually powerful. Together, they share context and memory,
           compounding intelligence with every campaign.
         </p>
 

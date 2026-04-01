@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Automatically prevent delivery to any job title outside your configured persona — keep every
+              Automatically prevent delivery to any job title outside your configured persona, keeping every
               impression locked to seniority, department, and titles that actually move pipeline.
             </p>
 
@@ -217,7 +217,7 @@ interface RelatedAgent {
             <span class="section-gradient-text">It drifts silently from there.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            Campaigns drift to irrelevant job titles over time — not because of a mistake, but because
+            Campaigns drift to irrelevant job titles over time, not because of a mistake, but because
             LinkedIn's delivery algorithm optimises for engagement signals, not persona fit.
           </p>
         </div>
@@ -240,7 +240,7 @@ interface RelatedAgent {
                 </div>
               </div>
               <p class="text-[15px] font-semibold text-[#374151] leading-[1.4] mb-2">
-                LinkedIn job title data accuracy — nearly half of title targeting is based on incorrect information
+                LinkedIn job title data accuracy - nearly half of title targeting is based on incorrect information
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
                 The persona you set at launch is not the audience you're actually reaching.
@@ -287,7 +287,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to detect and automatically block off-persona title drift as it happens
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                LinkedIn Campaign Manager reports title delivery — it doesn't block drift automatically.
+                LinkedIn Campaign Manager reports title delivery, but it doesn't block drift automatically.
               </p>
             </div>
           </div>
@@ -318,7 +318,7 @@ interface RelatedAgent {
               <span class="section-gradient-text">budget flowing to wrong personas.</span>
             </h2>
             <p class="text-[16px] text-[#4b5563] leading-[1.7] mb-8 max-w-[540px]">
-              LinkedIn's title delivery data is available — but interpreting it, identifying off-persona titles,
+              LinkedIn's title delivery data is available, but interpreting it, identifying off-persona titles,
               manually excluding them is a reactive process.
             </p>
 
@@ -1106,7 +1106,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated Title Blocking on existing campaigns — no additional spend required.
+            Measured across teams who activated Title Blocking on existing campaigns. No additional spend required.
           </p>
         </div>
 
@@ -1191,7 +1191,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">55%</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">LinkedIn title accuracy</h3>
                 <p class="text-[13px] text-[#6b7280] leading-[1.5]">
-                  Meaning nearly half of title targeting is imprecise — Department & Seniority mode corrects for this automatically
+                  Meaning nearly half of title targeting is imprecise. Department & Seniority mode corrects for this automatically
                 </p>
               </div>
             </div>
@@ -1614,10 +1614,10 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
   adradarAdvantages = [
     'Blocking rules enforced from the moment the agent is configured',
     'Department & seniority mode catches all title variations automatically',
-    'Continuous monitoring — new off-persona titles blocked as they appear',
+    'Continuous monitoring, with new off-persona titles blocked as they appear',
     'Department-level enforcement prevents category-wide drift',
-    'No exclusion list to maintain — rules update automatically',
-    'Budget protected from the first impression — not after the fact',
+    'No exclusion list to maintain, rules update automatically',
+    'Budget protected from the first impression, not after the fact',
   ];
 
   steps = [
@@ -1633,7 +1633,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       label: 'Enforce',
       title: 'Agent enforces the rule across all linked campaigns',
       description:
-        'From the moment the agent is configured, every impression is evaluated against your persona rule. Titles that don\'t match are blocked before delivery — not flagged after.',
+        'From the moment the agent is configured, every impression is evaluated against your persona rule. Titles that don\'t match are blocked before delivery, not flagged after.',
     },
     {
       number: '03',
@@ -1662,7 +1662,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Off-persona title detection',
       without: 'Manual review of delivery reports',
-      withBlocking: 'Automatic — blocked before delivery',
+      withBlocking: 'Automatic - blocked before delivery',
     },
     {
       capability: 'Title variation coverage',
@@ -1672,7 +1672,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Drift correction speed',
       without: 'Days to weeks after it starts',
-      withBlocking: 'Immediate — rule enforced from day one',
+      withBlocking: 'Immediate - rule enforced from day one',
     },
     {
       capability: 'MQL quality impact',
@@ -1682,7 +1682,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
     {
       capability: 'Exclusion list maintenance',
       without: 'Ongoing manual curation',
-      withBlocking: 'Zero — rule-based, automated',
+      withBlocking: 'Zero - rule-based, automated',
     },
     {
       capability: 'Spend accountability',
@@ -1697,7 +1697,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Blocks non-ICP companies entirely — title blocking controls persona fit, company blocking removes irrelevant accounts from the auction.',
+        'Blocks non-ICP companies entirely. Title blocking controls persona fit, company blocking removes irrelevant accounts from the auction.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1706,7 +1706,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Controls account-level impression limits — combined with title blocking, ensures the right people at the right companies see your ads.',
+        'Controls account-level impression limits. Combined with title blocking, ensures the right people at the right companies see your ads.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1715,7 +1715,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Optimises CPM across persona-matched impressions — maximising reach efficiency for the titles that actually matter.',
+        'Optimises CPM across persona-matched impressions, maximising reach efficiency for the titles that actually matter.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },
@@ -1724,7 +1724,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Detects fatigue before CTR drops. Persona-matched impressions get fresh creative — every blocked title frees budget for better placements.',
+        'Detects fatigue before CTR drops. Persona-matched impressions get fresh creative, and every blocked title frees budget for better placements.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },
@@ -1733,7 +1733,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Pauses campaigns during low-conversion windows — title blocking ensures budget isn\'t wasted on off-persona titles during active hours.',
+        'Pauses campaigns during low-conversion windows. Title blocking ensures budget isn\'t wasted on off-persona titles during active hours.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },
@@ -1742,7 +1742,7 @@ export class TitleBlockingComponent implements OnInit, OnDestroy {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'Tracks competitor ad presence across your target personas — title blocking ensures your persona-matched impressions aren\'t diluted.',
+        'Tracks competitor ad presence across your target personas. Title blocking ensures your persona-matched impressions aren\'t diluted.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },

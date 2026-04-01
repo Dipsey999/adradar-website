@@ -101,7 +101,7 @@ interface Plan {
         <p class="text-left md:text-center text-[14px]">
           <span class="font-bold text-primary">Agency plan starts at $149/mo</span>
           <span class="text-muted">
-            {{ ' ' }}&mdash; includes 2 client workspaces, unlimited users, and cross-account insights.
+            , includes 2 client workspaces, unlimited users, and cross-account insights.
           </span>
         </p>
       </div>

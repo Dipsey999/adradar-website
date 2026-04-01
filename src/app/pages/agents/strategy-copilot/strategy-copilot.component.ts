@@ -61,8 +61,8 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Audit your LinkedIn Ads architecture against real B2B benchmarks — by ACV, industry,
-              and funnel stage — so you know what to fix before you spend another dollar.
+              Audit your LinkedIn Ads architecture against real B2B benchmarks, by ACV, industry,
+              and funnel stage, so you know what to fix before you spend another dollar.
             </p>
 
             <!-- CTAs -->
@@ -1132,7 +1132,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated Strategy Copilot on existing campaigns — no additional spend required.
+            Measured across teams who activated Strategy Copilot on existing campaigns, no additional spend required.
           </p>
         </div>
 
@@ -1300,7 +1300,7 @@ interface RelatedAgent {
             Seven agents <span class="section-gradient-text">execute the plan.</span>
           </h2>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[720px] mx-0 md:mx-auto">
-            The Strategy Copilot shares context and memory with every other adRadar agent —
+            The Strategy Copilot shares context and memory with every other adRadar agent,
             so structural insights inform impression capping, audience targeting, creative rotation,
             spend pacing, and competitor intelligence simultaneously.
           </p>

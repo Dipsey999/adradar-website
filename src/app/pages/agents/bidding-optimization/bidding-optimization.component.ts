@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Continuously adjusts bids across campaigns to maximise delivery efficiency — keeps you competitive in LinkedIn auction without burning budget on overpriced impressions.
+              Continuously adjusts bids across campaigns to maximise delivery efficiency, keeps you competitive in LinkedIn auction without burning budget on overpriced impressions.
             </p>
 
             <!-- CTAs -->
@@ -216,7 +216,7 @@ interface RelatedAgent {
             <span class="section-gradient-text">The gap costs you every day.</span>
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
-            Most teams set their LinkedIn bids once — at campaign launch — and leave them. Maybe they revisit during a quarterly review.
+            Most teams set their LinkedIn bids once, at campaign launch, and leave them. Maybe they revisit during a quarterly review.
           </p>
         </div>
 
@@ -239,7 +239,7 @@ interface RelatedAgent {
                 Avg monthly budget recovered when bid strategy is actively optimised vs. static
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                Budget not recovered from overbidding is gone — it doesn't carry forward
+                Budget not recovered from overbidding is gone. It doesn't carry forward
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to optimise bids dynamically across multiple campaigns simultaneously
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                Manual bid review is the only option — where optimisation is always reactive and always late
+                Manual bid review is the only option, where optimisation is always reactive and always late
               </p>
             </div>
           </div>
@@ -329,7 +329,7 @@ interface RelatedAgent {
                   <div class="w-6 h-6 rounded-full bg-[#fef2f2] flex items-center justify-center">
                     <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M2.5 2.5l5 5M7.5 2.5l-5 5" stroke="#ef4444" stroke-width="1.3" stroke-linecap="round"/></svg>
                   </div>
-                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Static bids — bid waste</span>
+                  <span class="text-[12px] font-semibold text-[#6b7280] uppercase tracking-[0.04em]">Static bids - bid waste</span>
                 </div>
                 <!-- Bar visualization: overbidding on some, underbidding on others -->
                 <div class="flex gap-[3px] items-end h-[44px]">
@@ -688,7 +688,7 @@ interface RelatedAgent {
                                     </div>
                                     <span class="text-[11px] font-semibold text-[#ef4444]">Overbid Detected</span>
                                   </div>
-                                  <p class="text-[11px] text-[#374151] font-medium">Enterprise ABM — bid $48.20, clearing price $31.40</p>
+                                  <p class="text-[11px] text-[#374151] font-medium">Enterprise ABM - bid $48.20, clearing price $31.40</p>
                                   <p class="text-[10px] text-[#6b7280] mt-1">Paying 54% premium on every impression</p>
                                 </div>
                                 <!-- Underbid warning -->
@@ -699,8 +699,8 @@ interface RelatedAgent {
                                     </div>
                                     <span class="text-[11px] font-semibold text-[#f59e0b]">Underbid Warning</span>
                                   </div>
-                                  <p class="text-[11px] text-[#374151] font-medium">SMB Retarget — win rate dropped to 28%</p>
-                                  <p class="text-[10px] text-[#6b7280] mt-1">Bid too low to compete — losing 72% of auctions</p>
+                                  <p class="text-[11px] text-[#374151] font-medium">SMB Retarget - win rate dropped to 28%</p>
+                                  <p class="text-[10px] text-[#6b7280] mt-1">Bid too low to compete, losing 72% of auctions</p>
                                 </div>
                                 <!-- Healthy campaign -->
                                 <div class="bg-[#f0fdf4] border border-[#bbf7d0]/40 rounded-lg p-3">
@@ -710,7 +710,7 @@ interface RelatedAgent {
                                     </div>
                                     <div>
                                       <span class="text-[11px] font-semibold text-[#22c55e]">Mid-Market</span>
-                                      <span class="text-[10px] text-[#6b7280] ml-2">Bid competitive — no action needed</span>
+                                      <span class="text-[10px] text-[#6b7280] ml-2">Bid competitive, no action needed</span>
                                     </div>
                                   </div>
                                 </div>
@@ -1080,7 +1080,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated Bidding Optimization on existing campaigns — no additional spend required.
+            Measured across teams who activated Bidding Optimization on existing campaigns, no additional spend required.
           </p>
         </div>
 
@@ -1176,7 +1176,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">Real-time</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Bid monitoring</h3>
                 <p class="text-[13px] text-[#6b7280] leading-[1.5]">
-                  vs. weekly manual review — auction patterns detected and surfaced as they emerge
+                  vs. weekly manual review, auction patterns detected and surfaced as they emerge
                 </p>
               </div>
             </div>
@@ -1226,7 +1226,7 @@ interface RelatedAgent {
                 <p class="text-[48px] font-bold text-[#111827] tracking-[-0.04em] leading-none mb-1.5">0 hrs</p>
                 <h3 class="text-[18px] font-bold text-[#111827] mb-1.5">Manual bid management</h3>
                 <p class="text-[13px] text-[#6b7280] leading-[1.5]">
-                  Agent handles continuous monitoring across all campaigns — no weekly review overhead
+                  Agent handles continuous monitoring across all campaigns, no weekly review overhead
                 </p>
               </div>
             </div>
@@ -1593,10 +1593,10 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
 
   linkedinLimitations = [
     'Static bids set at launch, reviewed infrequently',
-    'Generic suggested ranges — not campaign-specific',
+    'Generic suggested ranges, not campaign-specific',
     'No detection of overbidding or underdelivery patterns',
     'Bid strategy selection left to operator judgement',
-    'Optimisation is weekly at best — reactive',
+    'Optimisation is weekly at best, reactive',
     'No cross-campaign bid coordination',
   ];
 
@@ -1605,7 +1605,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
     'Campaign-specific optimisation based on delivery history',
     'Overbid and underdelivery patterns detected automatically',
     'Bid strategy recommendations backed by performance data',
-    'Real-time adjustments — no manual reviews',
+    'Real-time adjustments, no manual reviews',
     'Cross-campaign budget coordination for maximum efficiency',
   ];
 
@@ -1622,7 +1622,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       label: 'Detect',
       title: 'Overbidding and underdelivery patterns are detected in real time',
       description:
-        'The agent identifies when bids are consistently above the auction clearing price — paying a premium for impressions that didn\'t require it — and when bids are too low to compete effectively.',
+        'The agent identifies when bids are consistently above the auction clearing price, paying a premium for impressions that didn\'t require it, and when bids are too low to compete effectively.',
     },
     {
       number: '03',
@@ -1636,21 +1636,21 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       label: 'Track',
       title: 'Budget efficiency is tracked across the full campaign portfolio',
       description:
-        'Track bid efficiency at portfolio level — identify where budget is working hardest and where it\'s absorbed by auction overhead. Cross-campaign reallocation opportunities are surfaced.',
+        'Track bid efficiency at portfolio level. Identify where budget is working hardest and where it\'s absorbed by auction overhead. Cross-campaign reallocation opportunities are surfaced.',
     },
     {
       number: '05',
       label: 'Approve',
       title: 'You approve every adjustment. Always.',
       description:
-        'The agent recommends — it never adjusts bids without your approval. Every suggestion includes the rationale and expected outcome. Human-in-the-loop by design.',
+        'The agent recommends. It never adjusts bids without your approval. Every suggestion includes the rationale and expected outcome. Human-in-the-loop by design.',
     },
   ];
 
   comparisonRows: ComparisonRow[] = [
     {
       capability: 'Bid review frequency',
-      without: 'Weekly at best — reactive',
+      without: 'Weekly at best, reactive',
       withOptimization: 'Continuous, real-time monitoring',
     },
     {
@@ -1686,7 +1686,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Blocks non-ICP companies entirely — bid savings are amplified when irrelevant accounts are removed from the auction.',
+        'Blocks non-ICP companies entirely. Bid savings are amplified when irrelevant accounts are removed from the auction.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1695,7 +1695,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Controls account-level impression frequency — optimised bids deliver more value when impressions are evenly distributed.',
+        'Controls account-level impression frequency. Optimised bids deliver more value when impressions are evenly distributed.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1704,7 +1704,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Title Blocking Agent.png',
       avatarBg: '#ee95a0',
       description:
-        'Removes irrelevant job titles from impressions — every bid-optimised impression reaches the right decision-maker.',
+        'Removes irrelevant job titles from impressions. Every bid-optimised impression reaches the right decision-maker.',
       accentColor: '#d4606f',
       route: '/agents/title-blocking',
     },
@@ -1713,7 +1713,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Detects creative fatigue before CTR drops — optimised bids paired with fresh creative maximise every impression.',
+        'Detects creative fatigue before CTR drops. Optimised bids paired with fresh creative maximise every impression.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },
@@ -1722,7 +1722,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Pauses campaigns during low-conversion windows — bid savings compound when delivery is timed to peak engagement.',
+        'Pauses campaigns during low-conversion windows. Bid savings compound when delivery is timed to peak engagement.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },
@@ -1731,7 +1731,7 @@ export class BiddingOptimizationComponent implements OnInit, OnDestroy {
       image: '/agents/Analyse competitors LinkedIn Ads.png',
       avatarBg: '#acdfa4',
       description:
-        'Tracks competitor ad presence across your target list — bid adjustments factor in competitive auction pressure.',
+        'Tracks competitor ad presence across your target list. Bid adjustments factor in competitive auction pressure.',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
     },

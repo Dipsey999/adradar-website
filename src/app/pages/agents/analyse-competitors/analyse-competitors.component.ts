@@ -58,7 +58,7 @@ interface RelatedAgent {
 
             <!-- Subheading -->
             <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-[540px] mb-8">
-              Monitor rival campaigns in real time — track creative changes, new ad launches, messaging pivots,
+              Monitor rival campaigns in real time. Track creative changes, new ad launches, messaging pivots,
               positioning shifts, respond before their strategy reaches your buyers.
             </p>
 
@@ -218,7 +218,7 @@ interface RelatedAgent {
           </h2>
           <p class="text-[17px] text-[#4b5563] leading-[1.65] max-w-none md:max-w-[680px] mx-0 md:mx-auto">
             You run great LinkedIn Ads. Your targeting is tight, creative fresh, budget well allocated.
-            Then a competitor launches a new campaign — repositioning against your core value prop.
+            Then a competitor launches a new campaign, repositioning against your core value prop.
           </p>
         </div>
 
@@ -262,7 +262,7 @@ interface RelatedAgent {
                 Native LinkedIn tools to monitor what competitors are running
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                LinkedIn Ad Library shows ads — not intelligence, timing, or context
+                LinkedIn Ad Library shows ads, not intelligence, timing, or context
               </p>
             </div>
           </div>
@@ -284,7 +284,7 @@ interface RelatedAgent {
                 of top-performing B2B companies regularly review competitor ads
               </p>
               <p class="text-[13px] text-[#6b7280] leading-[1.55]">
-                Most do it manually and inconsistently — missing the signal entirely
+                Most do it manually and inconsistently, missing the signal entirely
               </p>
             </div>
           </div>
@@ -646,7 +646,7 @@ interface RelatedAgent {
                                 </div>
                                 <div class="mt-4 flex items-center gap-2 text-[11px] text-[#e8573a] font-medium">
                                   <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 8.5l3 3 5-6" stroke="#e8573a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                                  3 competitors tracked — add more anytime
+                                  3 competitors tracked, add more anytime
                                 </div>
                               </div>
                             }
@@ -688,7 +688,7 @@ interface RelatedAgent {
                                       <div class="w-6 h-6 rounded-full bg-[#fef6f3] flex items-center justify-center">
                                         <span class="text-[9px] font-bold text-[#1a1a2e]">RV</span>
                                       </div>
-                                      <span class="text-[11px] font-medium text-[#374151]">RivalTech — 3 new ads</span>
+                                      <span class="text-[11px] font-medium text-[#374151]">RivalTech - 3 new ads</span>
                                     </div>
                                     <span class="text-[9px] font-bold text-[#e8573a] bg-[#fef6f3] px-2 py-0.5 rounded-full">View</span>
                                   </div>
@@ -749,7 +749,7 @@ interface RelatedAgent {
                                 </div>
                                 <div class="bg-[#fef6f3] rounded-lg px-3 py-2">
                                   <p class="text-[10px] text-[#e8573a] font-medium">
-                                    <span class="font-bold">Insight:</span> CompetitorX refreshes 2x faster than RivalTech — higher creative velocity
+                                    <span class="font-bold">Insight:</span> CompetitorX refreshes 2x faster than RivalTech, higher creative velocity
                                   </p>
                                 </div>
                                 <p class="text-[10px] text-[#6b7280] mt-3 flex items-center gap-1">
@@ -1057,7 +1057,7 @@ interface RelatedAgent {
             </h2>
           </div>
           <p class="text-[15px] text-[#4b5563] leading-[1.65] max-w-[340px] lg:text-right">
-            Measured across teams who activated Competitor Intelligence on existing campaigns — no additional spend required.
+            Measured across teams who activated Competitor Intelligence on existing campaigns, no additional spend required.
           </p>
         </div>
 
@@ -1565,16 +1565,16 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
     'No launch date or creative history',
     'No messaging pattern analysis',
     'No counter-positioning recommendations',
-    'Requires manual check-in — weekly at best',
+    'Requires manual check-in, weekly at best',
     'No alerts when competitors launch new campaigns',
   ];
 
   adradarAdvantages = [
-    'Continuous monitoring — new launches detected fast',
+    'Continuous monitoring, new launches detected fast',
     'Creative refresh cadence tracked over time',
     'Messaging angle and positioning analysis',
     'Specific counter-messaging recommendations surfaced',
-    'Automated — no manual check-in required',
+    'Automated, no manual check-in required',
     'Alerts when a competitor launches or pivots',
   ];
 
@@ -1584,35 +1584,35 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       label: 'Select',
       title: 'Select competitors to monitor',
       description:
-        'Add the LinkedIn company pages of competitors you want to track. The Copilot begins monitoring their ad activity immediately — no manual setup beyond a list of company names.',
+        'Add the LinkedIn company pages of competitors you want to track. The Copilot begins monitoring their ad activity immediately, no manual setup beyond a list of company names.',
     },
     {
       number: '02',
       label: 'Detect',
       title: 'Copilot detects new ad launches in real time',
       description:
-        'The moment a competitor publishes a new LinkedIn ad, the Copilot captures it — including the creative, copy, format, and timing. No waiting for a weekly manual check.',
+        'The moment a competitor publishes a new LinkedIn ad, the Copilot captures it, including the creative, copy, format, and timing. No waiting for a weekly manual check.',
     },
     {
       number: '03',
       label: 'Track',
       title: 'Creative refresh cadence is tracked over time',
       description:
-        'The Copilot tracks how frequently each competitor refreshes their creatives, which formats they favour, and how their messaging evolves across campaigns — building a pattern map you can act on.',
+        'The Copilot tracks how frequently each competitor refreshes their creatives, which formats they favour, and how their messaging evolves across campaigns, building a pattern map you can act on.',
     },
     {
       number: '04',
       label: 'Flag',
       title: 'Messaging pivots are flagged automatically',
       description:
-        'When a competitor changes their core messaging — a new value prop, a new ICP target, a new objection they\'re handling in their ads — the Copilot surfaces it as a competitive signal.',
+        'When a competitor changes their core messaging, a new value prop, a new ICP target, a new objection they\'re handling in their ads, the Copilot surfaces it as a competitive signal.',
     },
     {
       number: '05',
       label: 'Respond',
       title: 'Counter-positioning angles are recommended',
       description:
-        'The Copilot doesn\'t just show you what competitors are doing. It recommends specific counter-messaging angles — based on your positioning, their creative patterns, and gaps in their narrative.',
+        'The Copilot doesn\'t just show you what competitors are doing. It recommends specific counter-messaging angles, based on your positioning, their creative patterns, and gaps in their narrative.',
     },
   ];
 
@@ -1640,12 +1640,12 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
     {
       capability: 'Monitoring effort',
       without: 'Hours of manual research per week',
-      withAgent: 'Zero — fully automated',
+      withAgent: 'Zero, fully automated',
     },
     {
       capability: 'Response timing',
-      without: 'Reactive — after buyers have seen it',
-      withAgent: 'Proactive — before perception shifts',
+      without: 'Reactive, after buyers have seen it',
+      withAgent: 'Proactive, before perception shifts',
     },
   ];
 
@@ -1655,7 +1655,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Company Blocking Agent.png',
       avatarBg: '#b8dff0',
       description:
-        'Blocks non-ICP companies from seeing your ads — competitive intelligence helps identify which companies to prioritise or block.',
+        'Blocks non-ICP companies from seeing your ads. Competitive intelligence helps identify which companies to prioritise or block.',
       accentColor: '#4a9cc5',
       route: '/agents/company-blocking',
     },
@@ -1664,7 +1664,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       description:
-        'Controls account-level impression frequency — when competitors pivot, capping ensures your counter-messaging reaches the right accounts.',
+        'Controls account-level impression frequency. When competitors pivot, capping ensures your counter-messaging reaches the right accounts.',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
     },
@@ -1673,7 +1673,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Title Blocking Agent.png',
       avatarBg: '#ee95a0',
       description:
-        'Removes irrelevant job titles from impressions — ensuring counter-messaging reaches decision-makers, not the entire company.',
+        'Removes irrelevant job titles from impressions, ensuring counter-messaging reaches decision-makers, not the entire company.',
       accentColor: '#d4606f',
       route: '/agents/title-blocking',
     },
@@ -1682,7 +1682,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       description:
-        'Optimises bid strategy based on competitive pressure — adjusting spend when competitor activity intensifies in your target segments.',
+        'Optimises bid strategy based on competitive pressure, adjusting spend when competitor activity intensifies in your target segments.',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
     },
@@ -1691,7 +1691,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Ad Rotation Agent.png',
       avatarBg: '#d9e1fb',
       description:
-        'Detects creative fatigue and rotates ads — competitive signals trigger fresh creative to counter rival messaging.',
+        'Detects creative fatigue and rotates ads. Competitive signals trigger fresh creative to counter rival messaging.',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
     },
@@ -1700,7 +1700,7 @@ export class AnalyseCompetitorsComponent implements OnInit, OnDestroy {
       image: '/agents/Campaign Scheduling Agent.png',
       avatarBg: '#fbf5df',
       description:
-        'Pauses campaigns during low-conversion windows — competitive intelligence informs optimal timing for counter-campaigns.',
+        'Pauses campaigns during low-conversion windows. Competitive intelligence informs optimal timing for counter-campaigns.',
       accentColor: '#c5a030',
       route: '/agents/campaign-scheduling',
     },

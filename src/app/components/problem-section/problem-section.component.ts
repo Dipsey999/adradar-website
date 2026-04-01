@@ -14,7 +14,7 @@ interface Problem {
 
 const problems: Problem[] = [
   {
-    title: 'Optimisation is reactive — always late',
+    title: 'Optimisation is reactive, always late',
     icon: '/icons/the-problem/Background.svg',
     description:
       'You catch waste weekly. It compounds daily. No early warning. By the time the altimeter drops, you\u2019ve already lost altitude.',
