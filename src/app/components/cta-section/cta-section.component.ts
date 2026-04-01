@@ -19,7 +19,7 @@ import { Component, Input } from '@angular/core';
         <!-- Card — overflow-clip, absolute avatar group -->
         <div class="relative rounded-[28px] lg:rounded-[32px] bg-white overflow-clip shadow-[0_0_24px_4px_rgba(0,0,0,0.12)] pt-12 lg:pt-16 pb-[160px] lg:pb-[200px] px-8 md:px-12 lg:px-16">
           <!-- Text content — centered -->
-          <div class="relative z-10 text-left md:text-center max-w-[700px] mx-auto">
+          <div class="relative z-10 text-center max-w-[700px] mx-auto">
             <h2 class="text-[28px] md:text-[38px] lg:text-[44px] font-bold leading-[1.1] tracking-[-0.025em] text-[#111827] mb-3">
               {{ headingStart }}
               <br class="hidden md:block" />
@@ -31,7 +31,7 @@ import { Component, Input } from '@angular/core';
               </span>
             </h2>
 
-            <p class="text-[15px] md:text-[17px] text-[#374151] max-w-none md:max-w-[520px] mx-0 md:mx-auto mb-6 leading-[1.65]">
+            <p class="text-[15px] md:text-[17px] text-[#374151] max-w-[520px] mx-auto mb-6 leading-[1.65]">
               {{ description }}
             </p>
 
