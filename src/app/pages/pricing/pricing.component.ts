@@ -146,7 +146,7 @@ interface FaqItem {
                   <span class="text-[40px] font-bold tracking-[-0.03em] leading-none text-[#111827]">{{ billingPeriod() === 'annual' ? plan.annualPrice : plan.price }}</span>
                   <span class="text-[14px] text-[#6b7280] ml-1">/ month</span>
                   @if (billingPeriod() === 'annual') {
-                    <span class="block text-[12px] text-[#22c55e] font-medium mt-1">Billed annually</span>
+                    <span class="block text-[12px] text-[#15803d] font-medium mt-1">Billed annually</span>
                   }
                 </div>
 
@@ -285,7 +285,7 @@ interface FaqItem {
                     <td class="py-3.5 px-5 text-[14px] text-[#374151]">{{ row.name }}</td>
                     <td class="text-center py-3.5 px-3">
                       @if (row.starter) {
-                        <svg class="w-5 h-5 text-[#22c55e] mx-auto" viewBox="0 0 20 20" fill="currentColor">
+                        <svg class="w-5 h-5 text-[#15803d] mx-auto" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                         </svg>
                       } @else {
@@ -294,7 +294,7 @@ interface FaqItem {
                     </td>
                     <td class="text-center py-3.5 px-3">
                       @if (row.growth) {
-                        <svg class="w-5 h-5 text-[#22c55e] mx-auto" viewBox="0 0 20 20" fill="currentColor">
+                        <svg class="w-5 h-5 text-[#15803d] mx-auto" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                         </svg>
                       } @else {
@@ -303,7 +303,7 @@ interface FaqItem {
                     </td>
                     <td class="text-center py-3.5 px-3">
                       @if (row.pro) {
-                        <svg class="w-5 h-5 text-[#22c55e] mx-auto" viewBox="0 0 20 20" fill="currentColor">
+                        <svg class="w-5 h-5 text-[#15803d] mx-auto" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                         </svg>
                       } @else {
@@ -312,7 +312,7 @@ interface FaqItem {
                     </td>
                     <td class="text-center py-3.5 px-3">
                       @if (row.agency) {
-                        <svg class="w-5 h-5 text-[#22c55e] mx-auto" viewBox="0 0 20 20" fill="currentColor">
+                        <svg class="w-5 h-5 text-[#15803d] mx-auto" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                         </svg>
                       } @else {
