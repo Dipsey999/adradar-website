@@ -31,6 +31,7 @@ interface NavAgent {
         <nav class="hidden md:flex items-center gap-1">
           <a
             routerLink="/"
+            fragment="how-it-works"
             class="px-4 py-2 text-[15px] text-foreground/80 hover:text-foreground transition-colors"
           >
             How it works
@@ -160,6 +161,7 @@ interface NavAgent {
           <nav class="px-6 py-4 flex flex-col gap-1">
             <a
               routerLink="/"
+              fragment="how-it-works"
               class="px-3 py-3 text-[15px] font-medium text-foreground/80 hover:text-foreground hover:bg-gray-50 rounded-xl transition-colors"
               (click)="closeMobile()"
             >

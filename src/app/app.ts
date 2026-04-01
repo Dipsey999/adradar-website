@@ -26,8 +26,11 @@ export class App implements OnInit {
   ngOnInit(): void {
     const sub = this.router.events
       .pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
-      .subscribe(() => {
-        this.viewportScroller.scrollToPosition([0, 0]);
+      .subscribe((e) => {
+        // Don't scroll to top if navigating to a fragment (e.g. #how-it-works)
+        if (!e.urlAfterRedirects.includes('#')) {
+          this.viewportScroller.scrollToPosition([0, 0]);
+        }
       });
 
     this.destroyRef.onDestroy(() => sub.unsubscribe());
