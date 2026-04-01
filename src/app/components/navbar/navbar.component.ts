@@ -157,7 +157,10 @@ interface NavAgent {
 
       <!-- Mobile Menu -->
       @if (mobileOpen()) {
-        <div class="md:hidden border-t border-border bg-white max-h-[calc(100dvh-70px)] overflow-y-auto">
+        <!-- Backdrop overlay -->
+        <div class="md:hidden fixed inset-0 top-[70px] bg-black/20 z-40" (click)="closeMobile()"></div>
+        <!-- Menu panel -->
+        <div class="md:hidden relative z-50 bg-white max-h-[calc(100dvh-70px)] overflow-y-auto shadow-[0_16px_48px_-8px_rgba(0,0,0,0.16)] rounded-b-2xl">
           <nav class="px-6 py-4 flex flex-col gap-1">
             <a
               routerLink="/"

@@ -475,6 +475,9 @@
   .z-20 {
     z-index: 20;
   }
+  .z-40 {
+    z-index: 40;
+  }
   .z-50 {
     z-index: 50;
   }
@@ -1535,6 +1538,10 @@
     border-top-right-radius: calc(infinity * 1px);
     border-bottom-right-radius: calc(infinity * 1px);
   }
+  .rounded-b-2xl {
+    border-bottom-right-radius: var(--radius-2xl);
+    border-bottom-left-radius: var(--radius-2xl);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -2304,6 +2311,12 @@
     background-color: color-mix(in srgb, #000 10%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
       background-color: color-mix(in oklab, var(--color-black) 10%, transparent);
+    }
+  }
+  .bg-black\/20 {
+    background-color: color-mix(in srgb, #000 20%, transparent);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--color-black) 20%, transparent);
     }
   }
   .bg-primary {
@@ -4236,6 +4249,10 @@
     --tw-shadow: 0 12px 50px -8px var(--tw-shadow-color, rgba(232,135,58,0.2));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
+  .shadow-\[0_16px_48px_-8px_rgba\(0\,0\,0\,0\.16\)\] {
+    --tw-shadow: 0 16px 48px -8px var(--tw-shadow-color, rgba(0,0,0,0.16));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
   .shadow-\[0_20px_60px_-10px_rgba\(0\,0\,0\,0\.12\)\,0_4px_20px_-2px_rgba\(0\,0\,0\,0\.06\)\] {
     --tw-shadow: 0 20px 60px -10px var(--tw-shadow-color, rgba(0,0,0,0.12)), 0 4px 20px -2px var(--tw-shadow-color, rgba(0,0,0,0.06));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -5172,11 +5189,6 @@
   .md\:w-\[340px\] {
     @media (width >= 48rem) {
       width: 340px;
-    }
-  }
-  .md\:max-w-\[520px\] {
-    @media (width >= 48rem) {
-      max-width: 520px;
     }
   }
   .md\:max-w-\[580px\] {
