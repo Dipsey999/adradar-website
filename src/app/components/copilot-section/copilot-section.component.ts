@@ -153,7 +153,7 @@ const agents: Agent[] = [
     <ng-template #agentCard let-agent let-i="index">
       <a
         [href]="agent.route"
-        class="copilot-card group relative rounded-2xl transition-all duration-500 hover:-translate-y-1.5 block"
+        class="copilot-card group relative rounded-2xl transition-all duration-500 hover:-translate-y-1.5 block h-full"
       >
         <!-- Outer glow on hover -->
         <div class="absolute -inset-[1px] rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-[3px]"
