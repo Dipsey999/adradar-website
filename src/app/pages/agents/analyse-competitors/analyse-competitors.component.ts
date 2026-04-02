@@ -48,6 +48,7 @@ interface RelatedAgent {
               <span class="text-[11px] font-bold tracking-[0.08em] text-[#1a1a2e] uppercase">
                 Competitor Ads Intelligence Copilot
               </span>
+              <span class="text-[9px] font-bold uppercase tracking-[0.06em] bg-[#fff7ed] text-[#c2410c] px-2 py-0.5 rounded-full border border-[#fed7aa]">Coming Soon</span>
             </div>
 
             <!-- Heading -->

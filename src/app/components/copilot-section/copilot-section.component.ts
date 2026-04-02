@@ -12,6 +12,7 @@ interface Agent {
   accentColor: string;
   btnBg: string;
   btnText: string;
+  comingSoon?: boolean;
 }
 
 const agents: Agent[] = [
@@ -66,6 +67,7 @@ const agents: Agent[] = [
     accentColor: '#82c97a',
     btnBg: '#82c97a',
     btnText: '#1a4a18',
+    comingSoon: true,
   },
   {
     name: 'Campaign Scheduling Agent',
@@ -92,6 +94,7 @@ const agents: Agent[] = [
     accentColor: '#c8b4e0',
     btnBg: '#c8b4e0',
     btnText: '#3e2460',
+    comingSoon: true,
   },
   {
     name: 'Analyse competitors LinkedIn Ads',
@@ -105,6 +108,7 @@ const agents: Agent[] = [
     accentColor: '#5aab7a',
     btnBg: '#5aab7a',
     btnText: '#1a4a2e',
+    comingSoon: true,
   },
 ];
 
@@ -184,16 +188,22 @@ const agents: Agent[] = [
               </div>
             </div>
 
-            <!-- Status indicator (shows on hover) -->
-            <div class="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-1 group-hover:translate-y-0">
-              <div class="w-1.5 h-1.5 rounded-full animate-pulse"
-                [style.backgroundColor]="agent.accentColor">
-              </div>
-              <span class="text-[10px] font-semibold uppercase tracking-[0.04em]"
-                [style.color]="agent.accentColor">
-                Ready
+            <!-- Status badge -->
+            @if (agent.comingSoon) {
+              <span class="text-[10px] font-semibold uppercase tracking-[0.04em] bg-[#fff7ed] text-[#c2410c] px-2 py-0.5 rounded-full border border-[#fed7aa]">
+                Coming Soon
               </span>
-            </div>
+            } @else {
+              <div class="flex items-center gap-1.5 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-1 group-hover:translate-y-0">
+                <div class="w-1.5 h-1.5 rounded-full animate-pulse"
+                  [style.backgroundColor]="agent.accentColor">
+                </div>
+                <span class="text-[10px] font-semibold uppercase tracking-[0.04em]"
+                  [style.color]="agent.accentColor">
+                  Ready
+                </span>
+              </div>
+            }
           </div>
 
           <!-- Name -->

@@ -7,6 +7,7 @@ interface NavAgent {
   avatarBg: string;
   accentColor: string;
   route: string;
+  comingSoon?: boolean;
 }
 
 @Component({
@@ -86,19 +87,28 @@ interface NavAgent {
                       </div>
 
                       <!-- Name -->
-                      <span class="text-[13.5px] font-medium text-[#374151] group-hover/item:text-[#111827] transition-colors flex-1 leading-tight">
-                        {{ agent.name }}
-                      </span>
-
-                      <!-- Arrow -->
-                      <div
-                        class="w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/item:opacity-100 transition-all duration-200 shrink-0 translate-x-[-4px] group-hover/item:translate-x-0"
-                        [style.backgroundColor]="agent.accentColor + '22'"
-                      >
-                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M4.5 2.5L8 6L4.5 9.5" [attr.stroke]="agent.accentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
+                      <div class="flex-1 leading-tight">
+                        <span class="text-[13.5px] font-medium text-[#374151] group-hover/item:text-[#111827] transition-colors">
+                          {{ agent.name }}
+                        </span>
+                        @if (agent.comingSoon) {
+                          <span class="ml-1.5 text-[9px] font-semibold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">
+                            Soon
+                          </span>
+                        }
                       </div>
+
+                      <!-- Arrow (only for ready agents) -->
+                      @if (!agent.comingSoon) {
+                        <div
+                          class="w-7 h-7 rounded-full flex items-center justify-center opacity-0 group-hover/item:opacity-100 transition-all duration-200 shrink-0 translate-x-[-4px] group-hover/item:translate-x-0"
+                          [style.backgroundColor]="agent.accentColor + '22'"
+                        >
+                          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M4.5 2.5L8 6L4.5 9.5" [attr.stroke]="agent.accentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </div>
+                      }
                     </a>
                   }
                 </div>
@@ -206,6 +216,11 @@ interface NavAgent {
                         />
                       </div>
                       <span class="text-[14px] font-medium text-[#374151]">{{ agent.name }}</span>
+                      @if (agent.comingSoon) {
+                        <span class="text-[9px] font-semibold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] ml-auto shrink-0">
+                          Soon
+                        </span>
+                      }
                     </a>
                   }
                 </div>
@@ -303,6 +318,7 @@ export class NavbarComponent {
       avatarBg: '#acdfa4',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
+      comingSoon: true,
     },
     {
       name: 'Campaign Scheduling Agent',
@@ -317,6 +333,7 @@ export class NavbarComponent {
       avatarBg: '#d9e1fb',
       accentColor: '#6b5ea0',
       route: '/agents/ad-rotation',
+      comingSoon: true,
     },
     {
       name: 'Analyse Competitors',
@@ -324,6 +341,7 @@ export class NavbarComponent {
       avatarBg: '#acdfa4',
       accentColor: '#4a9a42',
       route: '/agents/analyse-competitors',
+      comingSoon: true,
     },
   ];
 }

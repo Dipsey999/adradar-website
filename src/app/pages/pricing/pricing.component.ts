@@ -5,6 +5,7 @@ import { CtaSectionComponent } from '../../components/cta-section/cta-section.co
 interface PlanFeature {
   text: string;
   type: 'heading' | 'feature' | 'note';
+  comingSoon?: boolean;
 }
 
 interface Plan {
@@ -24,6 +25,7 @@ interface FeatureRow {
   growth: boolean;
   pro: boolean;
   agency: boolean;
+  comingSoon?: boolean;
 }
 
 interface FeatureGroup {
@@ -166,7 +168,12 @@ interface FaqItem {
                         <svg class="w-[18px] h-[18px] text-[#e8573a] flex-shrink-0 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
                           <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
                         </svg>
-                        <span class="text-[14px] text-[#4b5563] leading-[1.5]">{{ feature.text }}</span>
+                        <span class="text-[14px] text-[#4b5563] leading-[1.5]">
+                          {{ feature.text }}
+                          @if (feature.comingSoon) {
+                            <span class="ml-1 text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Soon</span>
+                          }
+                        </span>
                       </li>
                     }
                   }
@@ -282,7 +289,12 @@ interface FaqItem {
                 </tr>
                 @for (row of group.rows; track row.name; let j = $index) {
                   <tr class="border-b border-[#f0f0f0] hover:bg-[#fef6f3]/30 transition-colors">
-                    <td class="py-3.5 px-5 text-[14px] text-[#374151]">{{ row.name }}</td>
+                    <td class="py-3.5 px-5 text-[14px] text-[#374151]">
+                      {{ row.name }}
+                      @if (row.comingSoon) {
+                        <span class="ml-1 text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Soon</span>
+                      }
+                    </td>
                     <td class="text-center py-3.5 px-3">
                       @if (row.starter) {
                         <svg class="w-5 h-5 text-[#15803d] mx-auto" viewBox="0 0 20 20" fill="currentColor">
@@ -521,11 +533,11 @@ export class PricingPageComponent {
         { text: 'AI Agents', type: 'heading' },
         { text: 'Impression Capping', type: 'feature' },
         { text: 'Campaign Scheduling Agent', type: 'feature' },
-        { text: 'Campaign Bidding Optimization Agent', type: 'feature' },
+        { text: 'Campaign Bidding Optimization Agent', type: 'feature', comingSoon: true },
         { text: 'Auto Irrelevant Account Blocking Agent', type: 'feature' },
         { text: 'Auto Irrelevant Title Blocking Agent', type: 'feature' },
-        { text: 'Ad Rotation Recommendation Agent', type: 'feature' },
-        { text: 'Analyse competitors LinkedIn Ads', type: 'feature' },
+        { text: 'Ad Rotation Recommendation Agent', type: 'feature', comingSoon: true },
+        { text: 'Analyse competitors LinkedIn Ads', type: 'feature', comingSoon: true },
       ],
       cta: 'Start free trial',
       highlighted: true,
@@ -596,11 +608,11 @@ export class PricingPageComponent {
       rows: [
         { name: 'Impression Capping Agent', starter: false, growth: true, pro: true, agency: true },
         { name: 'Campaign Scheduling Agent', starter: false, growth: true, pro: true, agency: true },
-        { name: 'Bidding Optimisation Agent', starter: false, growth: true, pro: true, agency: true },
+        { name: 'Bidding Optimisation Agent', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
         { name: 'Auto Account Blocking Agent', starter: false, growth: true, pro: true, agency: true },
         { name: 'Auto Title Blocking Agent', starter: false, growth: true, pro: true, agency: true },
-        { name: 'Ad Rotation Recommendation Agent', starter: false, growth: true, pro: true, agency: true },
-        { name: 'Competitor LinkedIn Ads Analysis', starter: false, growth: true, pro: true, agency: true },
+        { name: 'Ad Rotation Recommendation Agent', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
+        { name: 'Competitor LinkedIn Ads Analysis', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
       ],
     },
     {

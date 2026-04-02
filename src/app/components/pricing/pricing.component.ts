@@ -78,7 +78,12 @@ interface Plan {
                         clip-rule="evenodd"
                       />
                     </svg>
-                    <span class="text-[14px] text-[#6b7280] leading-[1.5]">{{ feature }}</span>
+                    <span class="text-[14px] text-[#6b7280] leading-[1.5]">
+                      {{ feature.includes('(Coming Soon)') ? feature.replace(' (Coming Soon)', '') : feature }}
+                      @if (feature.includes('(Coming Soon)')) {
+                        <span class="ml-1 text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Soon</span>
+                      }
+                    </span>
                   </li>
                 }
               </ul>
@@ -139,11 +144,11 @@ export class PricingComponent {
         'AI Agents',
         'Impression Capping',
         'Campaign Scheduling Agent',
-        'Campaign Bidding Optimization Agent',
+        'Campaign Bidding Optimization Agent (Coming Soon)',
         'Auto Irrelevant Account Blocking Agent',
         'Auto Irrelevant Title Blocking Agent',
-        'Ad Rotation Recommendation Agent',
-        'Analyse competitors LinkedIn Ads',
+        'Ad Rotation Recommendation Agent (Coming Soon)',
+        'Analyse competitors LinkedIn Ads (Coming Soon)',
       ],
       cta: 'Start free trial',
       highlighted: true,
