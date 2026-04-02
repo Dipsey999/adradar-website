@@ -17,19 +17,6 @@ interface Agent {
 
 const agents: Agent[] = [
   {
-    name: 'Company Blocking Agent',
-    image: '/agents/Company Blocking Agent.png',
-    description:
-      'Your LinkedIn ads shouldn\'t be funding companies that will never buy from you. It automatically excludes any account outside your target criteria, so every impression, and every dollar, stays within your ICP.',
-    route: '/agents/company-blocking',
-    cardBg: 'bg-[#e3f3fa]',
-    cardBorder: 'border-[#9dcce7]',
-    avatarBg: '#b8dff0',
-    accentColor: '#9dcce7',
-    btnBg: '#9dcce7',
-    btnText: '#1a5a78',
-  },
-  {
     name: 'Impression Capping Agent',
     image: '/agents/Impression Capping Agent.png',
     description:
@@ -41,6 +28,19 @@ const agents: Agent[] = [
     accentColor: '#a8d1dc',
     btnBg: '#a8d1dc',
     btnText: '#1a5a6a',
+  },
+  {
+    name: 'Company Blocking Agent',
+    image: '/agents/Company Blocking Agent.png',
+    description:
+      'Your LinkedIn ads shouldn\'t be funding companies that will never buy from you. It automatically excludes any account outside your target criteria, so every impression, and every dollar, stays within your ICP.',
+    route: '/agents/company-blocking',
+    cardBg: 'bg-[#e3f3fa]',
+    cardBorder: 'border-[#9dcce7]',
+    avatarBg: '#b8dff0',
+    accentColor: '#9dcce7',
+    btnBg: '#9dcce7',
+    btnText: '#1a5a78',
   },
   {
     name: 'Title Blocking Agent',
@@ -56,6 +56,19 @@ const agents: Agent[] = [
     btnText: '#5e1a24',
   },
   {
+    name: 'Campaign Scheduling Agent',
+    image: '/agents/Campaign Scheduling Agent.png',
+    description:
+      'Your LinkedIn ads shouldn\'t be spending budget at 2 am on a Sunday when your buyers aren\'t online. Automatically runs your campaigns only during the days and hours you choose, pausing outside those windows so every impression lands when it actually counts.',
+    route: '/agents/campaign-scheduling',
+    cardBg: 'bg-[#fffbe3]',
+    cardBorder: 'border-[#fdecc8]',
+    avatarBg: '#fbf5df',
+    accentColor: '#f0d48a',
+    btnBg: '#f0d48a',
+    btnText: '#5e4a0e',
+  },
+  {
     name: 'Bidding Optimization Agent',
     image: '/agents/Bidding Optimization Agent.png',
     description:
@@ -68,19 +81,6 @@ const agents: Agent[] = [
     btnBg: '#82c97a',
     btnText: '#1a4a18',
     comingSoon: true,
-  },
-  {
-    name: 'Campaign Scheduling Agent',
-    image: '/agents/Campaign Scheduling Agent.png',
-    description:
-      'Your LinkedIn ads shouldn\'t be spending budget at 2 am on a Sunday when your buyers aren\'t online. Automatically runs your campaigns only during the days and hours you choose, pausing outside those windows so every impression lands when it actually counts.',
-    route: '/agents/campaign-scheduling',
-    cardBg: 'bg-[#fffbe3]',
-    cardBorder: 'border-[#fdecc8]',
-    avatarBg: '#fbf5df',
-    accentColor: '#f0d48a',
-    btnBg: '#f0d48a',
-    btnText: '#5e4a0e',
   },
   {
     name: 'Ad Rotation Agent',
@@ -190,7 +190,7 @@ const agents: Agent[] = [
 
             <!-- Status badge -->
             @if (agent.comingSoon) {
-              <span class="text-[10px] font-semibold uppercase tracking-[0.04em] bg-[#fff7ed] text-[#c2410c] px-2 py-0.5 rounded-full border border-[#fed7aa]">
+              <span class="whitespace-nowrap text-[10px] font-semibold uppercase tracking-[0.04em] bg-[#fff7ed] text-[#c2410c] px-2 py-0.5 rounded-full border border-[#fed7aa]">
                 Coming Soon
               </span>
             } @else {

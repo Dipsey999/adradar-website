@@ -171,7 +171,7 @@ interface FaqItem {
                         <span class="text-[14px] text-[#4b5563] leading-[1.5]">
                           {{ feature.text }}
                           @if (feature.comingSoon) {
-                            <span class="ml-1 text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Soon</span>
+                            <span class="ml-1 inline-block whitespace-nowrap text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Coming Soon</span>
                           }
                         </span>
                       </li>
@@ -292,7 +292,7 @@ interface FaqItem {
                     <td class="py-3.5 px-5 text-[14px] text-[#374151]">
                       {{ row.name }}
                       @if (row.comingSoon) {
-                        <span class="ml-1 text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Soon</span>
+                        <span class="ml-1 inline-block whitespace-nowrap text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Coming Soon</span>
                       }
                     </td>
                     <td class="text-center py-3.5 px-3">
@@ -532,10 +532,10 @@ export class PricingPageComponent {
         { text: 'Everything in Starter +', type: 'note' },
         { text: 'AI Agents', type: 'heading' },
         { text: 'Impression Capping', type: 'feature' },
-        { text: 'Campaign Scheduling Agent', type: 'feature' },
-        { text: 'Campaign Bidding Optimization Agent', type: 'feature', comingSoon: true },
         { text: 'Auto Irrelevant Account Blocking Agent', type: 'feature' },
         { text: 'Auto Irrelevant Title Blocking Agent', type: 'feature' },
+        { text: 'Campaign Scheduling Agent', type: 'feature' },
+        { text: 'Campaign Bidding Optimization Agent', type: 'feature', comingSoon: true },
         { text: 'Ad Rotation Recommendation Agent', type: 'feature', comingSoon: true },
         { text: 'Analyse competitors LinkedIn Ads', type: 'feature', comingSoon: true },
       ],
@@ -607,10 +607,10 @@ export class PricingPageComponent {
       category: 'AI Agents (all 7 included in Growth+)',
       rows: [
         { name: 'Impression Capping Agent', starter: false, growth: true, pro: true, agency: true },
-        { name: 'Campaign Scheduling Agent', starter: false, growth: true, pro: true, agency: true },
-        { name: 'Bidding Optimisation Agent', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
         { name: 'Auto Account Blocking Agent', starter: false, growth: true, pro: true, agency: true },
         { name: 'Auto Title Blocking Agent', starter: false, growth: true, pro: true, agency: true },
+        { name: 'Campaign Scheduling Agent', starter: false, growth: true, pro: true, agency: true },
+        { name: 'Bidding Optimisation Agent', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
         { name: 'Ad Rotation Recommendation Agent', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
         { name: 'Competitor LinkedIn Ads Analysis', starter: false, growth: true, pro: true, agency: true, comingSoon: true },
       ],

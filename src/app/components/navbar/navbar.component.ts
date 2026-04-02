@@ -92,8 +92,8 @@ interface NavAgent {
                           {{ agent.name }}
                         </span>
                         @if (agent.comingSoon) {
-                          <span class="ml-1.5 text-[9px] font-semibold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">
-                            Soon
+                          <span class="ml-1.5 inline-block whitespace-nowrap text-[9px] font-semibold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">
+                            Coming Soon
                           </span>
                         }
                       </div>
@@ -217,8 +217,8 @@ interface NavAgent {
                       </div>
                       <span class="text-[14px] font-medium text-[#374151]">{{ agent.name }}</span>
                       @if (agent.comingSoon) {
-                        <span class="text-[9px] font-semibold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] ml-auto shrink-0">
-                          Soon
+                        <span class="inline-block whitespace-nowrap text-[9px] font-semibold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] ml-auto shrink-0">
+                          Coming Soon
                         </span>
                       }
                     </a>
@@ -292,18 +292,18 @@ export class NavbarComponent {
 
   agents: NavAgent[] = [
     {
-      name: 'Company Blocking Agent',
-      image: '/agents/Company Blocking Agent.png',
-      avatarBg: '#b8dff0',
-      accentColor: '#4a9cc5',
-      route: '/agents/company-blocking',
-    },
-    {
       name: 'Impression Capping Agent',
       image: '/agents/Impression Capping Agent.png',
       avatarBg: '#a8d1dc',
       accentColor: '#3a97ab',
       route: '/agents/impression-capping',
+    },
+    {
+      name: 'Company Blocking Agent',
+      image: '/agents/Company Blocking Agent.png',
+      avatarBg: '#b8dff0',
+      accentColor: '#4a9cc5',
+      route: '/agents/company-blocking',
     },
     {
       name: 'Title Blocking Agent',
@@ -313,19 +313,19 @@ export class NavbarComponent {
       route: '/agents/title-blocking',
     },
     {
+      name: 'Campaign Scheduling Agent',
+      image: '/agents/Campaign Scheduling Agent.png',
+      avatarBg: '#fbf5df',
+      accentColor: '#c5a030',
+      route: '/agents/campaign-scheduling',
+    },
+    {
       name: 'Bidding Optimization Agent',
       image: '/agents/Bidding Optimization Agent.png',
       avatarBg: '#acdfa4',
       accentColor: '#4a9a42',
       route: '/agents/bidding-optimization',
       comingSoon: true,
-    },
-    {
-      name: 'Campaign Scheduling Agent',
-      image: '/agents/Campaign Scheduling Agent.png',
-      avatarBg: '#fbf5df',
-      accentColor: '#c5a030',
-      route: '/agents/campaign-scheduling',
     },
     {
       name: 'Ad Rotation Agent',

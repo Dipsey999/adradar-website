@@ -81,7 +81,7 @@ interface Plan {
                     <span class="text-[14px] text-[#6b7280] leading-[1.5]">
                       {{ feature.includes('(Coming Soon)') ? feature.replace(' (Coming Soon)', '') : feature }}
                       @if (feature.includes('(Coming Soon)')) {
-                        <span class="ml-1 text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Soon</span>
+                        <span class="ml-1 inline-block whitespace-nowrap text-[9px] font-bold uppercase tracking-[0.03em] bg-[#fff7ed] text-[#c2410c] px-1.5 py-[1px] rounded-full border border-[#fed7aa] align-middle">Coming Soon</span>
                       }
                     </span>
                   </li>
@@ -143,10 +143,10 @@ export class PricingComponent {
         'Everything in Starter +',
         'AI Agents',
         'Impression Capping',
-        'Campaign Scheduling Agent',
-        'Campaign Bidding Optimization Agent (Coming Soon)',
         'Auto Irrelevant Account Blocking Agent',
         'Auto Irrelevant Title Blocking Agent',
+        'Campaign Scheduling Agent',
+        'Campaign Bidding Optimization Agent (Coming Soon)',
         'Ad Rotation Recommendation Agent (Coming Soon)',
         'Analyse competitors LinkedIn Ads (Coming Soon)',
       ],
